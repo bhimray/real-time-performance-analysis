@@ -1,0 +1,4 @@
+MATLAB 2025b
+Native project created, closed and reopened successfully.
+Project path and scaffold checks passed.
+No controller, solver, plant or deployment validation performed.

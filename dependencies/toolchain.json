@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "matlab_release": "R2025b",
+  "acados": {
+    "tag": null,
+    "commit": null
+  },
+  "casadi_version": null,
+  "compiler": null,
+  "blasfeo_target": null,
+  "hpipm_version": null,
+  "dspace": {
+    "release": null,
+    "asm": null,
+    "modeldesk": null,
+    "veos": null,
+    "configurationdesk": null,
+    "controldesk": null,
+    "aurelion": null
+  },
+  "ecu": {
+    "model": null,
+    "processor": null,
+    "os": null
+  },
+  "compatibility_verified": false
+}

@@ -1,0 +1,7 @@
+{
+  "acados_root": "",
+  "casadi_root": "",
+  "external_build_root": "",
+  "external_results_root": "",
+  "notes": "Copy to local.json. Empty values mean unconfigured. Do not commit local.json."
+}

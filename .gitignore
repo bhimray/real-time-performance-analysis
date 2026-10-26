@@ -1,0 +1,20 @@
+# Machine-specific configuration
+/config/local.json
+# Generated artifacts and run outputs
+/build/*
+!/build/README.md
+/results/*
+!/results/README.md
+# MATLAB caches and local editor files
+*.asv
+*.autosave
+*.slxc
+slprj/
+*_ert_rtw/
+*.mexw64
+*.mexa64
+*.mexmaci64
+# OS files
+Thumbs.db
+.DS_Store
+# Preserve .prj, resources/project, .slx and .sldd source files.

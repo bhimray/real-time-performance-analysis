@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "source": "W3 (1).docx and A7-A10",
+  "status": "not_implemented",
+  "families": [
+    1,
+    4
+  ],
+  "instance": 1,
+  "closed_loop_caps": [
+    200,
+    3
+  ],
+  "sample_stride": 8,
+  "replay_modes": [
+    "inst",
+    "ref"
+  ],
+  "replay_cap": 200,
+  "replay_tolerance": 1e-8,
+  "sweep_caps": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    12,
+    15,
+    20,
+    25,
+    30,
+    40
+  ],
+  "quality_target": 0.01,
+  "warmup_solves": 200,
+  "verification_instances_per_family": 5,
+  "specification_questions": "docs/OPEN_QUESTIONS.md"
+}
