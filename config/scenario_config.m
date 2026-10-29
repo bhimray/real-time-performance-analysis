@@ -1,0 +1,79 @@
+function config = scenario_config()
+%SCENARIO_CONFIG Define the scenario constants and ranges in Sheet A6.
+%
+%   These settings describe the published experiment families. Changes should
+%   be recorded as a new experiment.
+
+%% Timing and road geometry
+
+config.schema_version = 1;
+config.instances_per_family = 300;
+config.duration_s = 8.0;
+config.controller_period_s = 0.05;
+config.plant_step_s = 0.001;
+config.number_of_control_samples = 160;
+config.lane_width_m = 3.75;
+
+%% Randomized initial conditions and traffic motion
+
+config.lateral_error_range_m = [-0.3, 0.3];
+config.heading_error_range_deg = [-2, 2];
+config.initial_speed_range_mps = [20, 30];
+config.lead_gap_range_m = [25, 45];
+config.lead_deceleration_range_mps2 = [-6, -3];
+config.lead_braking_start_s = 1.0;
+config.target_speed_offsets_mps = [-10, -3];
+
+%% Obstacle safety margins and collision geometry
+
+% Axis order is [lateral; longitudinal].
+config.safety_semi_axes_m = [1.3; 4.5];
+config.collision_semi_axes_m = [0.9; 2.5];
+config.run_off_limit_m = 6.0;
+
+%% Family-specific settings
+
+config.families(1) = struct( ...
+    'id', 1, ...
+    'name', 'F1 straight, lane change available', ...
+    'friction_coefficient', 0.9, ...
+    'road_bounds_m', [-1.75; 5.25], ...
+    'target_gap_range_m', [15, 40] ...
+);
+
+config.families(2) = struct( ...
+    'id', 2, ...
+    'name', 'F2 curved, lane change available', ...
+    'friction_coefficient', 0.9, ...
+    'road_bounds_m', [-1.75; 5.25], ...
+    'target_gap_range_m', [15, 40] ...
+);
+
+config.families(3) = struct( ...
+    'id', 3, ...
+    'name', 'F3 straight, low friction', ...
+    'friction_coefficient', 0.6, ...
+    'road_bounds_m', [-1.75; 5.25], ...
+    'target_gap_range_m', [15, 40] ...
+);
+
+config.families(4) = struct( ...
+    'id', 4, ...
+    'name', 'F4 straight, no free lane', ...
+    'friction_coefficient', 0.9, ...
+    'road_bounds_m', [-1.75; 1.75], ...
+    'target_gap_range_m', [-5, 5] ...
+);
+
+% A6 gives an unordered discrete set. This fixed order makes the mapping
+% from the final random integer to curvature reproducible and inspect-able.
+config.curvature_choices_per_m = [
+     1 / 600
+    -1 / 600
+     1 / 400
+    -1 / 400
+     1 / 300
+    -1 / 300
+];
+
+end

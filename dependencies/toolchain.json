@@ -2,11 +2,11 @@
   "schema_version": 1,
   "matlab_release": "R2025b",
   "acados": {
-    "tag": null,
-    "commit": null
+    "tag": "v0.5.4",
+    "commit": "d9d0ba2e8f127855119d38874af8a9570df1d8e5"
   },
-  "casadi_version": null,
-  "compiler": null,
+  "casadi_version": "3.7.0",
+  "compiler": "MinGW64 Compiler (C) 8.1.0",
   "blasfeo_target": null,
   "hpipm_version": null,
   "dspace": {
@@ -23,5 +23,18 @@
     "processor": null,
     "os": null
   },
-  "compatibility_verified": false
+  "compatibility_verified": false,
+  "desktop_controller_validation_passed": true,
+  "matlab_full_version": "25.2.0.3360999 (R2025b) Update 7",
+  "dspace_target_build_validated": false,
+  "compiler_policy": {
+    "family": "MinGW-w64",
+    "languages": [
+      "C",
+      "C++"
+    ],
+    "fallback_to_msvc": false,
+    "required_version": "8.1.0",
+    "reason": "R2025b baseline; native libraries and MEX must use the same recorded version"
+  }
 }

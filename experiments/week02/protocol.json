@@ -1,16 +1,14 @@
 {
   "schema_version": 1,
   "source": "Bimlendra_Tasks_1019.docx W2 and A3-A10",
-  "status": "not_implemented",
+  "status": "scenario_preparation_validated_closed_loop_pending",
   "families": [
     1,
     2,
     3,
     4
   ],
-  "instances": [
-    1
-  ],
+  "instances": 1,
   "duration_s": 8,
   "controller_period_s": 0.05,
   "plant_step_s": 0.001,

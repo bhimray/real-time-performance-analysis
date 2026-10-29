@@ -1,2 +1,2 @@
-% REPLAY Module reserved for ECU computation-performance research.
-% Implementation pending. See docs/ARCHITECTURE.md.
+% ECU.REPLAY Package functions.
+% Reserved for future offline replay implementation.

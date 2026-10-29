@@ -1,0 +1,2290 @@
+{
+  "schema_version": 1,
+  "checked_utc": "26-Oct-2026 23:10:07",
+  "entry_point_resolution_passed": true,
+  "missing_project_files": [],
+  "shortcut_targets_passed": true,
+  "file_inventory": [
+    {
+      "file": ".gitattributes",
+      "bytes": 136,
+      "owner": ".gitattributes"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 355,
+      "owner": ".gitignore"
+    },
+    {
+      "file": "ECU_RealTime_Control_Performance.prj",
+      "bytes": 107,
+      "owner": "ECU_RealTime_Control_Performance.prj"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2565,
+      "owner": "README.md"
+    },
+    {
+      "file": "build\\README.md",
+      "bytes": 675,
+      "owner": "build"
+    },
+    {
+      "file": "build\\latest_controller.json",
+      "bytes": 2829,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\prepare_horizon_before_lane_exports.m",
+      "bytes": 3918,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\lane_spacing_before_0p01m\\export_a6_lanes.m",
+      "bytes": 935,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\lane_spacing_before_0p01m\\preview_a6_lanes.m",
+      "bytes": 2878,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\README.md",
+      "bytes": 2298,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\build\\README.md",
+      "bytes": 182,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\docs\\FOLDER_GUIDE.md",
+      "bytes": 3074,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\docs\\LANE_FILES.md",
+      "bytes": 5201,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\docs\\LANE_GEOMETRY.md",
+      "bytes": 3122,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\docs\\MATLAB_CLOSED_LOOP.md",
+      "bytes": 7878,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\docs\\RUN_RECORDS.md",
+      "bytes": 873,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\docs\\STATUS.md",
+      "bytes": 4161,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\experiments\\week02\\README.md",
+      "bytes": 786,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\results\\README.md",
+      "bytes": 193,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\scripts\\scenarios\\preview_a6_lanes.m",
+      "bytes": 2880,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\scripts\\scenarios\\preview_a6_scenarios.m",
+      "bytes": 3053,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\scripts\\setup\\create_ecu_project.m",
+      "bytes": 1861,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\scripts\\validation\\validate_project_organization.m",
+      "bytes": 2885,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\src\\+ecu\\+analysis\\Contents.m",
+      "bytes": 121,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\src\\+ecu\\+control\\Contents.m",
+      "bytes": 748,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\src\\+ecu\\+control\\build_fingerprint.m",
+      "bytes": 1572,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\src\\+ecu\\+experiment\\Contents.m",
+      "bytes": 123,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\src\\+ecu\\+logging\\Contents.m",
+      "bytes": 202,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\src\\+ecu\\+logging\\capture_sources.m",
+      "bytes": 769,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\src\\+ecu\\+model\\Contents.m",
+      "bytes": 183,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\src\\+ecu\\+replay\\Contents.m",
+      "bytes": 119,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\organization_before_20261026\\src\\+ecu\\+scenario\\Contents.m",
+      "bytes": 909,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\baseline_build.txt",
+      "bytes": 74,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\controller_validation.json",
+      "bytes": 469,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\config\\controller_config.m",
+      "bytes": 681,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\config\\vehicle_parameters.m",
+      "bytes": 358,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\scripts\\build_controller.m",
+      "bytes": 2010,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\scripts\\build_controller_sfunction.m",
+      "bytes": 892,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\scripts\\setup_controller_environment.m",
+      "bytes": 2444,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\scripts\\validate_controller.m",
+      "bytes": 504,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+control\\Contents.m",
+      "bytes": 120,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+control\\build_fingerprint.m",
+      "bytes": 939,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+control\\codegen_initialization.m",
+      "bytes": 302,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+control\\collect_diagnostics.m",
+      "bytes": 1161,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+control\\constraint_bounds.m",
+      "bytes": 729,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+control\\constraint_expressions.m",
+      "bytes": 432,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+control\\controller_step.m",
+      "bytes": 2223,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+control\\feedforward.m",
+      "bytes": 412,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+control\\format_simulink_inputs.m",
+      "bytes": 943,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+control\\initial_guess.m",
+      "bytes": 386,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+control\\ocp_nmpc_setup.m",
+      "bytes": 1913,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+control\\pack_parameters.m",
+      "bytes": 704,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+control\\parameter_layout.m",
+      "bytes": 432,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+control\\shift_warm_start.m",
+      "bytes": 229,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+control\\simulink_options.m",
+      "bytes": 808,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+control\\validate_config.m",
+      "bytes": 1385,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+logging\\Contents.m",
+      "bytes": 120,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+logging\\capture_instance.m",
+      "bytes": 729,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+model\\Contents.m",
+      "bytes": 118,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+model\\vehicle_model.m",
+      "bytes": 915,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\src\\+ecu\\+model\\vehicle_rhs.m",
+      "bytes": 735,
+      "owner": "build"
+    },
+    {
+      "file": "build\\archive\\readability_backup_20261025_225503\\tests\\test_controller.m",
+      "bytes": 5410,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\ocp.json",
+      "bytes": 37617,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeCache.txt",
+      "bytes": 18959,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeLists.txt",
+      "bytes": 9932,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\Makefile",
+      "bytes": 40150,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\acados_mex_create_ecu_vehicle_nmpc_a081cee6.c",
+      "bytes": 6009,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\acados_mex_free_ecu_vehicle_nmpc_a081cee6.c",
+      "bytes": 2429,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\acados_mex_set_ecu_vehicle_nmpc_a081cee6.c",
+      "bytes": 28406,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\acados_mex_solve_ecu_vehicle_nmpc_a081cee6.c",
+      "bytes": 2042,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\acados_sim_solver_ecu_vehicle_nmpc_a081cee6.c",
+      "bytes": 13695,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\acados_sim_solver_ecu_vehicle_nmpc_a081cee6.h",
+      "bytes": 5075,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\acados_sim_solver_sfunction_ecu_vehicle_nmpc_a081cee6.c",
+      "bytes": 6457,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\acados_solver_ecu_vehicle_nmpc_a081cee6.c",
+      "bytes": 50944,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\acados_solver_ecu_vehicle_nmpc_a081cee6.h",
+      "bytes": 8833,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\acados_solver_sfunction_ecu_vehicle_nmpc_a081cee6.c",
+      "bytes": 11381,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\cmake_install.cmake",
+      "bytes": 5193,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_mex_solver.m",
+      "bytes": 8645,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\main_ecu_vehicle_nmpc_a081cee6.c",
+      "bytes": 6516,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\main_sim_ecu_vehicle_nmpc_a081cee6.c",
+      "bytes": 4722,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\make_mex_ecu_vehicle_nmpc_a081cee6.m",
+      "bytes": 5725,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\make_sfun.m",
+      "bytes": 8485,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\make_sfun_sim.m",
+      "bytes": 4899,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\CMakeConfigureLog.yaml",
+      "bytes": 413828,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\CMakeDirectoryInformation.cmake",
+      "bytes": 886,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\InstallScripts.json",
+      "bytes": 231,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\Makefile.cmake",
+      "bytes": 11579,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\Makefile2",
+      "bytes": 11524,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\TargetDirectories.txt",
+      "bytes": 1667,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\cmake.check_cache",
+      "bytes": 86,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\progress.marks",
+      "bytes": 4,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\4.2.0\\CMakeCCompiler.cmake",
+      "bytes": 4135,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\4.2.0\\CMakeCXXCompiler.cmake",
+      "bytes": 7623,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\4.2.0\\CMakeDetermineCompilerABI_C.bin",
+      "bytes": 54025,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\4.2.0\\CMakeDetermineCompilerABI_CXX.bin",
+      "bytes": 54048,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\4.2.0\\CMakeRCCompiler.cmake",
+      "bytes": 301,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\4.2.0\\CMakeSystem.cmake",
+      "bytes": 395,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\4.2.0\\CompilerIdC\\CMakeCCompilerId.c",
+      "bytes": 29602,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\4.2.0\\CompilerIdC\\a.exe",
+      "bytes": 54072,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\4.2.0\\CompilerIdCXX\\CMakeCXXCompilerId.cpp",
+      "bytes": 30429,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\4.2.0\\CompilerIdCXX\\a.exe",
+      "bytes": 54100,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\Progress\\2",
+      "bytes": 5,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\Progress\\count.txt",
+      "bytes": 4,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\acados_ocp_solver_ecu_vehicle_nmpc_a081cee6.dir\\DependInfo.cmake",
+      "bytes": 607,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\acados_ocp_solver_ecu_vehicle_nmpc_a081cee6.dir\\build.make",
+      "bytes": 11531,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\acados_ocp_solver_ecu_vehicle_nmpc_a081cee6.dir\\cmake_clean.cmake",
+      "bytes": 438,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\acados_ocp_solver_ecu_vehicle_nmpc_a081cee6.dir\\compiler_depend.make",
+      "bytes": 148,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\acados_ocp_solver_ecu_vehicle_nmpc_a081cee6.dir\\compiler_depend.ts",
+      "bytes": 152,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\acados_ocp_solver_ecu_vehicle_nmpc_a081cee6.dir\\depend.make",
+      "bytes": 129,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\acados_ocp_solver_ecu_vehicle_nmpc_a081cee6.dir\\flags.make",
+      "bytes": 417,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\acados_ocp_solver_ecu_vehicle_nmpc_a081cee6.dir\\includes_C.rsp",
+      "bytes": 318,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\acados_ocp_solver_ecu_vehicle_nmpc_a081cee6.dir\\link.txt",
+      "bytes": 836,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\acados_ocp_solver_ecu_vehicle_nmpc_a081cee6.dir\\linkLibs.rsp",
+      "bytes": 195,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\acados_ocp_solver_ecu_vehicle_nmpc_a081cee6.dir\\objects1.rsp",
+      "bytes": 1735,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\acados_ocp_solver_ecu_vehicle_nmpc_a081cee6.dir\\progress.make",
+      "bytes": 24,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\model_ecu_vehicle_nmpc_a081cee6.dir\\DependInfo.cmake",
+      "bytes": 2068,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\model_ecu_vehicle_nmpc_a081cee6.dir\\build.make",
+      "bytes": 15199,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\model_ecu_vehicle_nmpc_a081cee6.dir\\cmake_clean.cmake",
+      "bytes": 987,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\model_ecu_vehicle_nmpc_a081cee6.dir\\compiler_depend.make",
+      "bytes": 136,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\model_ecu_vehicle_nmpc_a081cee6.dir\\compiler_depend.ts",
+      "bytes": 140,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\model_ecu_vehicle_nmpc_a081cee6.dir\\depend.make",
+      "bytes": 117,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\model_ecu_vehicle_nmpc_a081cee6.dir\\flags.make",
+      "bytes": 352,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\model_ecu_vehicle_nmpc_a081cee6.dir\\includes_C.rsp",
+      "bytes": 318,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\model_ecu_vehicle_nmpc_a081cee6.dir\\progress.make",
+      "bytes": 68,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\ocp_ecu_vehicle_nmpc_a081cee6.dir\\DependInfo.cmake",
+      "bytes": 5986,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\ocp_ecu_vehicle_nmpc_a081cee6.dir\\build.make",
+      "bytes": 45207,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\ocp_ecu_vehicle_nmpc_a081cee6.dir\\cmake_clean.cmake",
+      "bytes": 3057,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\ocp_ecu_vehicle_nmpc_a081cee6.dir\\compiler_depend.make",
+      "bytes": 134,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\ocp_ecu_vehicle_nmpc_a081cee6.dir\\compiler_depend.ts",
+      "bytes": 138,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\ocp_ecu_vehicle_nmpc_a081cee6.dir\\depend.make",
+      "bytes": 115,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\ocp_ecu_vehicle_nmpc_a081cee6.dir\\flags.make",
+      "bytes": 350,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\ocp_ecu_vehicle_nmpc_a081cee6.dir\\includes_C.rsp",
+      "bytes": 318,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\CMakeFiles\\ocp_ecu_vehicle_nmpc_a081cee6.dir\\progress.make",
+      "bytes": 252,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_constraints\\ecu_vehicle_nmpc_a081cee6_constr_h_0_fun.c",
+      "bytes": 5671,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_constraints\\ecu_vehicle_nmpc_a081cee6_constr_h_0_fun_jac_uxt_zt.c",
+      "bytes": 6460,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_constraints\\ecu_vehicle_nmpc_a081cee6_constr_h_fun.c",
+      "bytes": 5633,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_constraints\\ecu_vehicle_nmpc_a081cee6_constr_h_fun_jac_uxt_zt.c",
+      "bytes": 6422,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_constraints\\ecu_vehicle_nmpc_a081cee6_constraints.h",
+      "bytes": 3657,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_cost\\ecu_vehicle_nmpc_a081cee6_cost.h",
+      "bytes": 4592,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_cost\\ecu_vehicle_nmpc_a081cee6_cost_y_0_fun.c",
+      "bytes": 6050,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_cost\\ecu_vehicle_nmpc_a081cee6_cost_y_0_fun_jac_ut_xt.c",
+      "bytes": 6875,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_cost\\ecu_vehicle_nmpc_a081cee6_cost_y_e_fun.c",
+      "bytes": 4952,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_cost\\ecu_vehicle_nmpc_a081cee6_cost_y_e_fun_jac_ut_xt.c",
+      "bytes": 5660,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_cost\\ecu_vehicle_nmpc_a081cee6_cost_y_fun.c",
+      "bytes": 6012,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_cost\\ecu_vehicle_nmpc_a081cee6_cost_y_fun_jac_ut_xt.c",
+      "bytes": 6837,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_model\\ecu_vehicle_nmpc_a081cee6_expl_ode_fun.c",
+      "bytes": 5526,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_model\\ecu_vehicle_nmpc_a081cee6_expl_vde_adj.c",
+      "bytes": 6176,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_model\\ecu_vehicle_nmpc_a081cee6_expl_vde_forw.c",
+      "bytes": 11611,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\c_generated_code\\ecu_vehicle_nmpc_a081cee6_model\\ecu_vehicle_nmpc_a081cee6_model.h",
+      "bytes": 3135,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\mex_interface\\link_libs.json",
+      "bytes": 128,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\mex_interface\\ocp_dump_qp.mexw64",
+      "bytes": 1.993216E+6,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\mex_interface\\ocp_eval_param_sens.mexw64",
+      "bytes": 1.993216E+6,
+      "owner": "build"
+    },
+    {
+      "file": "build\\desktop\\controller_0305dc00ee16_a081cee6\\mex_interface\\ocp_get.mexw64",
+      "bytes": 2.003456E+6,
+      "owner": "build"
+    },
+    {
+      "file": "build\\logs\\closed_loop_validation.log",
+      "bytes": 5595,
+      "owner": "build"
+    },
+    {
+      "file": "build\\logs\\controller_build.log",
+      "bytes": 4509,
+      "owner": "build"
+    },
+    {
+      "file": "build\\logs\\controller_build_retry.log",
+      "bytes": 5819,
+      "owner": "build"
+    },
+    {
+      "file": "build\\logs\\controller_build_shortpaths.log",
+      "bytes": 5296,
+      "owner": "build"
+    },
+    {
+      "file": "build\\logs\\foundation_creation.log",
+      "bytes": 3509,
+      "owner": "build"
+    },
+    {
+      "file": "build\\logs\\foundation_creation_retry.log",
+      "bytes": 4069,
+      "owner": "build"
+    },
+    {
+      "file": "build\\logs\\lane_file_validation.log",
+      "bytes": 3812,
+      "owner": "build"
+    },
+    {
+      "file": "build\\logs\\lane_file_validation_retry.log",
+      "bytes": 4943,
+      "owner": "build"
+    },
+    {
+      "file": "build\\logs\\lane_geometry_validation.log",
+      "bytes": 4339,
+      "owner": "build"
+    },
+    {
+      "file": "build\\logs\\lane_refinement_validation.log",
+      "bytes": 4913,
+      "owner": "build"
+    },
+    {
+      "file": "build\\logs\\readability_validation.log",
+      "bytes": 5667,
+      "owner": "build"
+    },
+    {
+      "file": "build\\logs\\scenario_preview.log",
+      "bytes": 3460,
+      "owner": "build"
+    },
+    {
+      "file": "build\\logs\\scenario_validation.log",
+      "bytes": 4154,
+      "owner": "build"
+    },
+    {
+      "file": "config\\controller_config.m",
+      "bytes": 2382,
+      "owner": "config"
+    },
+    {
+      "file": "config\\local.example.json",
+      "bytes": 196,
+      "owner": "config"
+    },
+    {
+      "file": "config\\local.json",
+      "bytes": 412,
+      "owner": "config"
+    },
+    {
+      "file": "config\\project_config.m",
+      "bytes": 484,
+      "owner": "config"
+    },
+    {
+      "file": "config\\scenario_config.asv",
+      "bytes": 2200,
+      "owner": "config"
+    },
+    {
+      "file": "config\\scenario_config.m",
+      "bytes": 2201,
+      "owner": "config"
+    },
+    {
+      "file": "config\\vehicle_parameters.m",
+      "bytes": 683,
+      "owner": "config"
+    },
+    {
+      "file": "config\\controller\\.gitkeep",
+      "bytes": 0,
+      "owner": "config"
+    },
+    {
+      "file": "config\\targets\\.gitkeep",
+      "bytes": 0,
+      "owner": "config"
+    },
+    {
+      "file": "config\\vehicle\\.gitkeep",
+      "bytes": 0,
+      "owner": "config"
+    },
+    {
+      "file": "dependencies\\toolchain.json",
+      "bytes": 739,
+      "owner": "dependencies"
+    },
+    {
+      "file": "dependencies\\acados_v054_compat\\README.md",
+      "bytes": 315,
+      "owner": "dependencies"
+    },
+    {
+      "file": "dependencies\\acados_v054_compat\\render_file.m",
+      "bytes": 1574,
+      "owner": "dependencies"
+    },
+    {
+      "file": "docs\\ARCHITECTURE.md",
+      "bytes": 1999,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\CODING_STYLE.md",
+      "bytes": 1241,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\CONTROLLER.md",
+      "bytes": 4666,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\DECISIONS.md",
+      "bytes": 884,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\FOLDER_GUIDE.md",
+      "bytes": 3074,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\INTERFACES.md",
+      "bytes": 1522,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\LANE_FILES.md",
+      "bytes": 5214,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\LANE_GEOMETRY.md",
+      "bytes": 3125,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\MATLAB_CLOSED_LOOP.md",
+      "bytes": 7984,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\OPEN_QUESTIONS.md",
+      "bytes": 1713,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\RUN_RECORDS.md",
+      "bytes": 1757,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\SCENARIOS.md",
+      "bytes": 5135,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\SIMULINK_GUIDE.md",
+      "bytes": 2761,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\STATUS.md",
+      "bytes": 4677,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\WORKFLOW.md",
+      "bytes": 1479,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\figures\\a6\\initial_scenarios.png",
+      "bytes": 144117,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\figures\\a6\\lane_geometry.png",
+      "bytes": 143391,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\references\\.gitkeep",
+      "bytes": 0,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\references\\Bimlendra_Tasks_1019.docx",
+      "bytes": 42864,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\references\\W3 (1).docx",
+      "bytes": 17341,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\validation\\.gitkeep",
+      "bytes": 0,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\validation\\closed_loop_validation.json",
+      "bytes": 8656,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\validation\\controller_validation.json",
+      "bytes": 469,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\validation\\foundation_check.txt",
+      "bytes": 177,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\validation\\foundation_environment.mat",
+      "bytes": 470,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\validation\\lane_file_validation.json",
+      "bytes": 5100,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\validation\\lane_geometry_validation.json",
+      "bytes": 3476,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\validation\\lane_refinement_validation.json",
+      "bytes": 5655,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\validation\\readability_regression.json",
+      "bytes": 890,
+      "owner": "docs"
+    },
+    {
+      "file": "docs\\validation\\scenario_validation.json",
+      "bytes": 3433,
+      "owner": "docs"
+    },
+    {
+      "file": "experiments\\week02\\README.md",
+      "bytes": 1223,
+      "owner": "experiments"
+    },
+    {
+      "file": "experiments\\week02\\protocol.json",
+      "bytes": 381,
+      "owner": "experiments"
+    },
+    {
+      "file": "experiments\\week02\\run_matlab_closed_loop.m",
+      "bytes": 1449,
+      "owner": "experiments"
+    },
+    {
+      "file": "experiments\\week03\\README.md",
+      "bytes": 837,
+      "owner": "experiments"
+    },
+    {
+      "file": "experiments\\week03\\protocol.json",
+      "bytes": 581,
+      "owner": "experiments"
+    },
+    {
+      "file": "integrations\\asm\\README.md",
+      "bytes": 468,
+      "owner": "integrations"
+    },
+    {
+      "file": "integrations\\asm\\adapters\\.gitkeep",
+      "bytes": 0,
+      "owner": "integrations"
+    },
+    {
+      "file": "integrations\\asm\\project\\.gitkeep",
+      "bytes": 0,
+      "owner": "integrations"
+    },
+    {
+      "file": "integrations\\aurelion\\README.md",
+      "bytes": 483,
+      "owner": "integrations"
+    },
+    {
+      "file": "integrations\\aurelion\\assets\\.gitkeep",
+      "bytes": 0,
+      "owner": "integrations"
+    },
+    {
+      "file": "integrations\\aurelion\\interfaces\\.gitkeep",
+      "bytes": 0,
+      "owner": "integrations"
+    },
+    {
+      "file": "integrations\\aurelion\\project\\.gitkeep",
+      "bytes": 0,
+      "owner": "integrations"
+    },
+    {
+      "file": "models\\components\\.gitkeep",
+      "bytes": 0,
+      "owner": "models"
+    },
+    {
+      "file": "models\\data\\.gitkeep",
+      "bytes": 0,
+      "owner": "models"
+    },
+    {
+      "file": "models\\harnesses\\.gitkeep",
+      "bytes": 0,
+      "owner": "models"
+    },
+    {
+      "file": "platforms\\desktop\\README.md",
+      "bytes": 220,
+      "owner": "platforms"
+    },
+    {
+      "file": "platforms\\scalexio\\README.md",
+      "bytes": 250,
+      "owner": "platforms"
+    },
+    {
+      "file": "platforms\\scalexio\\deploy\\.gitkeep",
+      "bytes": 0,
+      "owner": "platforms"
+    },
+    {
+      "file": "platforms\\scalexio\\io\\.gitkeep",
+      "bytes": 0,
+      "owner": "platforms"
+    },
+    {
+      "file": "platforms\\scalexio\\project\\.gitkeep",
+      "bytes": 0,
+      "owner": "platforms"
+    },
+    {
+      "file": "platforms\\veos\\README.md",
+      "bytes": 270,
+      "owner": "platforms"
+    },
+    {
+      "file": "platforms\\veos\\build\\.gitkeep",
+      "bytes": 0,
+      "owner": "platforms"
+    },
+    {
+      "file": "platforms\\veos\\project\\.gitkeep",
+      "bytes": 0,
+      "owner": "platforms"
+    },
+    {
+      "file": "results\\README.md",
+      "bytes": 620,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_009b34bb\\data\\F1_0001_009b34bb__controller.csv",
+      "bytes": 39855,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_009b34bb\\data\\F1_0001_009b34bb__run.mat",
+      "bytes": 8.09729E+6,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_009b34bb\\metadata\\channels.json",
+      "bytes": 2164,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_009b34bb\\metadata\\fingerprint.json",
+      "bytes": 2065,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_009b34bb\\metadata\\resolved_config.json",
+      "bytes": 2575,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_009b34bb\\metadata\\run_manifest.json",
+      "bytes": 517,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_009b34bb\\metadata\\scenario.json",
+      "bytes": 2122,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_009b34bb\\metadata\\summary.json",
+      "bytes": 809,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_2ad8d743\\data\\F1_0001_2ad8d743__controller.csv",
+      "bytes": 1267,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_2ad8d743\\data\\F1_0001_2ad8d743__run.mat",
+      "bytes": 718749,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_2ad8d743\\metadata\\channels.json",
+      "bytes": 2164,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_2ad8d743\\metadata\\fingerprint.json",
+      "bytes": 2065,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_2ad8d743\\metadata\\resolved_config.json",
+      "bytes": 2571,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_2ad8d743\\metadata\\run_manifest.json",
+      "bytes": 517,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_2ad8d743\\metadata\\scenario.json",
+      "bytes": 2122,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_2ad8d743\\metadata\\summary.json",
+      "bytes": 785,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\data\\F1_0001_34ff6e46__controller.csv",
+      "bytes": 39859,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\data\\F1_0001_34ff6e46__run.mat",
+      "bytes": 8.09729E+6,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\metadata\\channels.json",
+      "bytes": 2164,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\metadata\\fingerprint.json",
+      "bytes": 2067,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\metadata\\resolved_config.json",
+      "bytes": 2577,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\metadata\\run_manifest.json",
+      "bytes": 517,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\metadata\\scenario.json",
+      "bytes": 2122,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\metadata\\summary.json",
+      "bytes": 809,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\plots\\plot_20261026_175410_e2434a58\\F1_0001_34ff6e46__applied_inputs.fig",
+      "bytes": 90817,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\plots\\plot_20261026_175410_e2434a58\\F1_0001_34ff6e46__applied_inputs.png",
+      "bytes": 35866,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\plots\\plot_20261026_175410_e2434a58\\F1_0001_34ff6e46__plant_states.fig",
+      "bytes": 229856,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\plots\\plot_20261026_175410_e2434a58\\F1_0001_34ff6e46__plant_states.png",
+      "bytes": 75214,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\plots\\plot_20261026_175410_e2434a58\\F1_0001_34ff6e46__solver_diagnostics.fig",
+      "bytes": 21996,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\plots\\plot_20261026_175410_e2434a58\\F1_0001_34ff6e46__solver_diagnostics.png",
+      "bytes": 60730,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\plots\\plot_20261026_175410_e2434a58\\F1_0001_34ff6e46__trajectory.fig",
+      "bytes": 55725,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\plots\\plot_20261026_175410_e2434a58\\F1_0001_34ff6e46__trajectory.png",
+      "bytes": 42440,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F1_0001_34ff6e46\\plots\\plot_20261026_175410_e2434a58\\plot_manifest.json",
+      "bytes": 1833,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\data\\F2_0001_dfebcb4a__controller.csv",
+      "bytes": 1227,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\data\\F2_0001_dfebcb4a__run.mat",
+      "bytes": 726925,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\metadata\\channels.json",
+      "bytes": 2164,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\metadata\\fingerprint.json",
+      "bytes": 2067,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\metadata\\resolved_config.json",
+      "bytes": 2577,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\metadata\\run_manifest.json",
+      "bytes": 517,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\metadata\\scenario.json",
+      "bytes": 2159,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\metadata\\summary.json",
+      "bytes": 793,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\plots\\plot_20261026_175445_6aaaad58\\F2_0001_dfebcb4a__applied_inputs.fig",
+      "bytes": 17049,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\plots\\plot_20261026_175445_6aaaad58\\F2_0001_dfebcb4a__applied_inputs.png",
+      "bytes": 42585,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\plots\\plot_20261026_175445_6aaaad58\\F2_0001_dfebcb4a__plant_states.fig",
+      "bytes": 31786,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\plots\\plot_20261026_175445_6aaaad58\\F2_0001_dfebcb4a__plant_states.png",
+      "bytes": 45986,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\plots\\plot_20261026_175445_6aaaad58\\F2_0001_dfebcb4a__solver_diagnostics.fig",
+      "bytes": 20407,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\plots\\plot_20261026_175445_6aaaad58\\F2_0001_dfebcb4a__solver_diagnostics.png",
+      "bytes": 59856,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\plots\\plot_20261026_175445_6aaaad58\\F2_0001_dfebcb4a__trajectory.fig",
+      "bytes": 12838,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\plots\\plot_20261026_175445_6aaaad58\\F2_0001_dfebcb4a__trajectory.png",
+      "bytes": 35710,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F2_0001_dfebcb4a\\plots\\plot_20261026_175445_6aaaad58\\plot_manifest.json",
+      "bytes": 1833,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\data\\F3_0001_fc94f138__controller.csv",
+      "bytes": 70804,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\data\\F3_0001_fc94f138__run.mat",
+      "bytes": 1.4078728E+7,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\metadata\\channels.json",
+      "bytes": 2164,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\metadata\\fingerprint.json",
+      "bytes": 2067,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\metadata\\resolved_config.json",
+      "bytes": 2577,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\metadata\\run_manifest.json",
+      "bytes": 517,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\metadata\\scenario.json",
+      "bytes": 2111,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\metadata\\summary.json",
+      "bytes": 813,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\plots\\plot_20261026_175516_bc4a81f2\\F3_0001_fc94f138__applied_inputs.fig",
+      "bytes": 142714,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\plots\\plot_20261026_175516_bc4a81f2\\F3_0001_fc94f138__applied_inputs.png",
+      "bytes": 39100,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\plots\\plot_20261026_175516_bc4a81f2\\F3_0001_fc94f138__plant_states.fig",
+      "bytes": 379312,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\plots\\plot_20261026_175516_bc4a81f2\\F3_0001_fc94f138__plant_states.png",
+      "bytes": 73382,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\plots\\plot_20261026_175516_bc4a81f2\\F3_0001_fc94f138__solver_diagnostics.fig",
+      "bytes": 23938,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\plots\\plot_20261026_175516_bc4a81f2\\F3_0001_fc94f138__solver_diagnostics.png",
+      "bytes": 64035,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\plots\\plot_20261026_175516_bc4a81f2\\F3_0001_fc94f138__trajectory.fig",
+      "bytes": 90344,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\plots\\plot_20261026_175516_bc4a81f2\\F3_0001_fc94f138__trajectory.png",
+      "bytes": 43174,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F3_0001_fc94f138\\plots\\plot_20261026_175516_bc4a81f2\\plot_manifest.json",
+      "bytes": 1833,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\data\\F4_0001_7c488482__controller.csv",
+      "bytes": 41542,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\data\\F4_0001_7c488482__run.mat",
+      "bytes": 8.398231E+6,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\metadata\\channels.json",
+      "bytes": 2164,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\metadata\\fingerprint.json",
+      "bytes": 2067,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\metadata\\resolved_config.json",
+      "bytes": 2577,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\metadata\\run_manifest.json",
+      "bytes": 517,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\metadata\\scenario.json",
+      "bytes": 2116,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\metadata\\summary.json",
+      "bytes": 912,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\plots\\plot_20261026_175545_5e83a54d\\F4_0001_7c488482__applied_inputs.fig",
+      "bytes": 94056,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\plots\\plot_20261026_175545_5e83a54d\\F4_0001_7c488482__applied_inputs.png",
+      "bytes": 35894,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\plots\\plot_20261026_175545_5e83a54d\\F4_0001_7c488482__plant_states.fig",
+      "bytes": 238417,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\plots\\plot_20261026_175545_5e83a54d\\F4_0001_7c488482__plant_states.png",
+      "bytes": 82808,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\plots\\plot_20261026_175545_5e83a54d\\F4_0001_7c488482__solver_diagnostics.fig",
+      "bytes": 22150,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\plots\\plot_20261026_175545_5e83a54d\\F4_0001_7c488482__solver_diagnostics.png",
+      "bytes": 60005,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\plots\\plot_20261026_175545_5e83a54d\\F4_0001_7c488482__trajectory.fig",
+      "bytes": 57561,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\plots\\plot_20261026_175545_5e83a54d\\F4_0001_7c488482__trajectory.png",
+      "bytes": 41353,
+      "owner": "results"
+    },
+    {
+      "file": "results\\week02\\F4_0001_7c488482\\plots\\plot_20261026_175545_5e83a54d\\plot_manifest.json",
+      "bytes": 1833,
+      "owner": "results"
+    },
+    {
+      "file": "scenarios\\README.md",
+      "bytes": 510,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\README.md",
+      "bytes": 706,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\dataset_manifest.json",
+      "bytes": 3868,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\archive\\lanes_0p5m\\F1_0001_lanes.csv",
+      "bytes": 146981,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\archive\\lanes_0p5m\\F1_0001_lanes.mat",
+      "bytes": 31705,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\archive\\lanes_0p5m\\F2_0001_lanes.csv",
+      "bytes": 428098,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\archive\\lanes_0p5m\\F2_0001_lanes.mat",
+      "bytes": 264667,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\archive\\lanes_0p5m\\F3_0001_lanes.csv",
+      "bytes": 145980,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\archive\\lanes_0p5m\\F3_0001_lanes.mat",
+      "bytes": 31677,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\archive\\lanes_0p5m\\F4_0001_lanes.csv",
+      "bytes": 146981,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\archive\\lanes_0p5m\\F4_0001_lanes.mat",
+      "bytes": 31679,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\archive\\lanes_0p5m\\export_manifest.json",
+      "bytes": 5100,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\instances\\F1_0001.json",
+      "bytes": 2122,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\instances\\F1_0001.mat",
+      "bytes": 1251,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\instances\\F2_0001.json",
+      "bytes": 2159,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\instances\\F2_0001.mat",
+      "bytes": 1259,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\instances\\F3_0001.json",
+      "bytes": 2111,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\instances\\F3_0001.mat",
+      "bytes": 1244,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\instances\\F4_0001.json",
+      "bytes": 2116,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\instances\\F4_0001.mat",
+      "bytes": 1245,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\instances\\index.json",
+      "bytes": 1031,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\lanes_0p01m\\F1_0001_lanes.csv",
+      "bytes": 1.1735677E+7,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\lanes_0p01m\\F1_0001_lanes.mat",
+      "bytes": 2.239679E+6,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\lanes_0p01m\\F2_0001_lanes.csv",
+      "bytes": 2.1934421E+7,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\lanes_0p01m\\F2_0001_lanes.mat",
+      "bytes": 1.1665913E+7,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\lanes_0p01m\\F3_0001_lanes.csv",
+      "bytes": 1.1685676E+7,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\lanes_0p01m\\F3_0001_lanes.mat",
+      "bytes": 2.239732E+6,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\lanes_0p01m\\F4_0001_lanes.csv",
+      "bytes": 1.1735677E+7,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\lanes_0p01m\\F4_0001_lanes.mat",
+      "bytes": 2.23973E+6,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scenarios\\a6\\lanes_0p01m\\export_manifest.json",
+      "bytes": 5655,
+      "owner": "scenarios"
+    },
+    {
+      "file": "scripts\\project_startup.m",
+      "bytes": 203,
+      "owner": "scripts"
+    },
+    {
+      "file": "scripts\\show_project_status.m",
+      "bytes": 121,
+      "owner": "scripts"
+    },
+    {
+      "file": "scripts\\build\\build_controller.m",
+      "bytes": 3755,
+      "owner": "scripts"
+    },
+    {
+      "file": "scripts\\build\\build_controller_sfunction.m",
+      "bytes": 1476,
+      "owner": "scripts"
+    },
+    {
+      "file": "scripts\\plotting\\plot_matlab_run.m",
+      "bytes": 7169,
+      "owner": "scripts"
+    },
+    {
+      "file": "scripts\\scenarios\\export_a6_lanes.m",
+      "bytes": 949,
+      "owner": "scripts"
+    },
+    {
+      "file": "scripts\\scenarios\\generate_a6_scenarios.m",
+      "bytes": 3348,
+      "owner": "scripts"
+    },
+    {
+      "file": "scripts\\scenarios\\preview_a6_lanes.m",
+      "bytes": 2949,
+      "owner": "scripts"
+    },
+    {
+      "file": "scripts\\scenarios\\preview_a6_scenarios.m",
+      "bytes": 3122,
+      "owner": "scripts"
+    },
+    {
+      "file": "scripts\\setup\\check_environment.m",
+      "bytes": 948,
+      "owner": "scripts"
+    },
+    {
+      "file": "scripts\\setup\\create_ecu_project.m",
+      "bytes": 1995,
+      "owner": "scripts"
+    },
+    {
+      "file": "scripts\\setup\\setup_controller_environment.m",
+      "bytes": 3901,
+      "owner": "scripts"
+    },
+    {
+      "file": "scripts\\validation\\check_foundation.m",
+      "bytes": 972,
+      "owner": "scripts"
+    },
+    {
+      "file": "scripts\\validation\\validate_controller.m",
+      "bytes": 937,
+      "owner": "scripts"
+    },
+    {
+      "file": "scripts\\validation\\validate_project_organization.m",
+      "bytes": 2885,
+      "owner": "scripts"
+    },
+    {
+      "file": "src\\+ecu\\+analysis\\Contents.m",
+      "bytes": 52,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+analysis\\summarize_run.m",
+      "bytes": 1942,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\Contents.m",
+      "bytes": 361,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\build_fingerprint.m",
+      "bytes": 1643,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\collect_diagnostics.m",
+      "bytes": 2641,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\constraint_bounds.m",
+      "bytes": 1893,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\constraint_expressions.m",
+      "bytes": 1242,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\controller_initialization.m",
+      "bytes": 1606,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\controller_step.m",
+      "bytes": 4367,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\feedforward.m",
+      "bytes": 1417,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\format_simulink_inputs.m",
+      "bytes": 1966,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\initial_guess.m",
+      "bytes": 811,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\ocp_nmpc_setup.m",
+      "bytes": 4093,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\pack_parameters.m",
+      "bytes": 1349,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\parameter_layout.asv",
+      "bytes": 1504,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\parameter_layout.m",
+      "bytes": 1504,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\shift_warm_start.m",
+      "bytes": 690,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\simulink_options.m",
+      "bytes": 1373,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+control\\validate_config.m",
+      "bytes": 2074,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+experiment\\Contents.m",
+      "bytes": 69,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+experiment\\run_instance.m",
+      "bytes": 11445,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+experiment\\run_options.m",
+      "bytes": 1761,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+logging\\Contents.m",
+      "bytes": 210,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+logging\\capture_instance.m",
+      "bytes": 1311,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+logging\\capture_sources.m",
+      "bytes": 840,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+logging\\channel_dictionary.m",
+      "bytes": 2346,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+logging\\create_run_log.m",
+      "bytes": 1799,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+logging\\file_sha256.m",
+      "bytes": 520,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+logging\\record_control_sample.m",
+      "bytes": 3578,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+logging\\run_file_paths.m",
+      "bytes": 721,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+logging\\run_fingerprint.m",
+      "bytes": 3255,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+logging\\save_run.m",
+      "bytes": 4226,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+model\\Contents.m",
+      "bytes": 118,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+model\\create_plant_context.m",
+      "bytes": 1757,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+model\\plant_rhs.m",
+      "bytes": 1478,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+model\\plant_rk4.m",
+      "bytes": 1403,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+model\\vehicle_model.m",
+      "bytes": 1468,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+model\\vehicle_rhs.m",
+      "bytes": 2244,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+replay\\Contents.m",
+      "bytes": 85,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+scenario\\Contents.m",
+      "bytes": 213,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+scenario\\check_termination.m",
+      "bytes": 1585,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+scenario\\gen_instance.m",
+      "bytes": 4771,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+scenario\\generate_lanes.asv",
+      "bytes": 5094,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+scenario\\generate_lanes.m",
+      "bytes": 5094,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+scenario\\load_lane_data.m",
+      "bytes": 2179,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+scenario\\obstacle_states.m",
+      "bytes": 2243,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+scenario\\path_signals.m",
+      "bytes": 1543,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+scenario\\prepare_horizon.asv",
+      "bytes": 3740,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+scenario\\prepare_horizon.m",
+      "bytes": 4721,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+scenario\\sample_lane_reference.m",
+      "bytes": 1288,
+      "owner": "src"
+    },
+    {
+      "file": "src\\+ecu\\+scenario\\save_lane_data.m",
+      "bytes": 6494,
+      "owner": "src"
+    },
+    {
+      "file": "tests\\README.md",
+      "bytes": 212,
+      "owner": "tests"
+    },
+    {
+      "file": "tests\\test_controller.m",
+      "bytes": 9147,
+      "owner": "tests"
+    },
+    {
+      "file": "tests\\test_lane_files.m",
+      "bytes": 4035,
+      "owner": "tests"
+    },
+    {
+      "file": "tests\\test_lane_geometry.m",
+      "bytes": 5672,
+      "owner": "tests"
+    },
+    {
+      "file": "tests\\test_lane_resolution.m",
+      "bytes": 2489,
+      "owner": "tests"
+    },
+    {
+      "file": "tests\\test_plant.m",
+      "bytes": 3622,
+      "owner": "tests"
+    },
+    {
+      "file": "tests\\test_scenarios.m",
+      "bytes": 8103,
+      "owner": "tests"
+    }
+  ],
+  "inventory_file_count": 420,
+  "root_files": [
+    ".",
+    "..",
+    ".git",
+    ".gitattributes",
+    ".gitignore",
+    "ECU_RealTime_Control_Performance.prj",
+    "README.md",
+    "build",
+    "config",
+    "dependencies",
+    "docs",
+    "experiments",
+    "integrations",
+    "models",
+    "platforms",
+    "resources",
+    "results",
+    "scenarios",
+    "scripts",
+    "src",
+    "tests"
+  ],
+  "active_lanes": "scenarios/a6/lanes_0p01m",
+  "archived_lanes": "scenarios/a6/archive/lanes_0p5m",
+  "passed": true,
+  "raw_data_files_verified": 12,
+  "raw_data_bytes_unchanged": true,
+  "moves": [
+    {
+      "to": "scripts/scenarios/generate_a6_scenarios.m",
+      "from": "scripts/generate_a6_scenarios.m"
+    },
+    {
+      "to": "scripts/scenarios/export_a6_lanes.m",
+      "from": "scripts/export_a6_lanes.m"
+    },
+    {
+      "to": "scripts/scenarios/preview_a6_lanes.m",
+      "from": "scripts/preview_a6_lanes.m"
+    },
+    {
+      "to": "scripts/scenarios/preview_a6_scenarios.m",
+      "from": "scripts/preview_a6_scenarios.m"
+    },
+    {
+      "to": "scripts/setup/check_environment.m",
+      "from": "scripts/check_environment.m"
+    },
+    {
+      "to": "scripts/setup/setup_controller_environment.m",
+      "from": "scripts/setup_controller_environment.m"
+    },
+    {
+      "to": "scripts/setup/create_ecu_project.m",
+      "from": "scripts/create_ecu_project.m"
+    },
+    {
+      "to": "scripts/plotting/plot_matlab_run.m",
+      "from": "scripts/plot_matlab_run.m"
+    },
+    {
+      "to": "scripts/build/build_controller.m",
+      "from": "scripts/build_controller.m"
+    },
+    {
+      "to": "scripts/build/build_controller_sfunction.m",
+      "from": "scripts/build_controller_sfunction.m"
+    },
+    {
+      "to": "scripts/validation/check_foundation.m",
+      "from": "scripts/check_foundation.m"
+    },
+    {
+      "to": "scripts/validation/validate_controller.m",
+      "from": "scripts/validate_controller.m"
+    },
+    {
+      "to": "scenarios/a6/archive/lanes_0p5m",
+      "from": "scenarios/a6/lanes"
+    },
+    {
+      "to": "docs/figures/a6/lane_geometry.png",
+      "from": "scenarios/a6/lane_geometry.png"
+    },
+    {
+      "to": "docs/figures/a6/initial_scenarios.png",
+      "from": "scenarios/a6/initial_scenarios.png"
+    },
+    {
+      "to": "build/logs/closed_loop_validation.log",
+      "from": "build/closed_loop_validation.log"
+    },
+    {
+      "to": "build/logs/controller_build_retry.log",
+      "from": "build/controller_build_retry.log"
+    },
+    {
+      "to": "build/logs/controller_build_shortpaths.log",
+      "from": "build/controller_build_shortpaths.log"
+    },
+    {
+      "to": "build/logs/controller_build.log",
+      "from": "build/controller_build.log"
+    },
+    {
+      "to": "build/logs/foundation_creation_retry.log",
+      "from": "build/foundation_creation_retry.log"
+    },
+    {
+      "to": "build/logs/foundation_creation.log",
+      "from": "build/foundation_creation.log"
+    },
+    {
+      "to": "build/logs/lane_file_validation_retry.log",
+      "from": "build/lane_file_validation_retry.log"
+    },
+    {
+      "to": "build/logs/lane_file_validation.log",
+      "from": "build/lane_file_validation.log"
+    },
+    {
+      "to": "build/logs/lane_geometry_validation.log",
+      "from": "build/lane_geometry_validation.log"
+    },
+    {
+      "to": "build/logs/lane_refinement_validation.log",
+      "from": "build/lane_refinement_validation.log"
+    },
+    {
+      "to": "build/logs/readability_validation.log",
+      "from": "build/readability_validation.log"
+    },
+    {
+      "to": "build/logs/scenario_preview.log",
+      "from": "build/scenario_preview.log"
+    },
+    {
+      "to": "build/logs/scenario_validation.log",
+      "from": "build/scenario_validation.log"
+    },
+    {
+      "to": "build/archive/lane_spacing_before_0p01m",
+      "from": "build/lane_spacing_before_0p01m"
+    },
+    {
+      "to": "build/archive/readability_backup_20261025_225503",
+      "from": "build/readability_backup_20261025_225503"
+    },
+    {
+      "to": "build/archive/prepare_horizon_before_lane_exports.m",
+      "from": "build/prepare_horizon_before_lane_exports.m"
+    }
+  ],
+  "plant_checks": {
+    "zero_input_error": 1.4210854715202004E-14,
+    "constant_force_error": 1.3145040611561853E-13,
+    "constant_yaw_moment_error": 3.4694469519536142E-18,
+    "coarse_rk4_error": 2.5451418750321864E-10,
+    "refined_rk4_error": 1.609867794627462E-11,
+    "instantaneous_velocity_check_passed": true
+  },
+  "scenario_checks": {
+    "instances_checked": 1200,
+    "repeatability_passed": true,
+    "caller_rng_preserved": true,
+    "draw_order_passed": true,
+    "braking_stop_position_passed": true,
+    "horizon_preparation_passed": true,
+    "termination_rules_passed": true,
+    "curvature_counts_F2": [
+      41,
+      54,
+      51,
+      44,
+      51,
+      59
+    ],
+    "scope": "Scenario/helper validation only; no closed-loop simulation."
+  }
+}

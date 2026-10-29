@@ -1,0 +1,26 @@
+{
+  "nominal": {
+    "maximum_state_difference": 0,
+    "maximum_input_difference": 0,
+    "absolute_cost_difference": 0,
+    "status_unchanged": true,
+    "sqp_iterations_unchanged": true
+  },
+  "perturbed": {
+    "maximum_state_difference": 0,
+    "maximum_input_difference": 0,
+    "absolute_cost_difference": 0,
+    "status_unchanged": true,
+    "sqp_iterations_unchanged": true
+  },
+  "limited": {
+    "maximum_state_difference": 0,
+    "maximum_input_difference": 0,
+    "absolute_cost_difference": 0,
+    "status_unchanged": true,
+    "sqp_iterations_unchanged": true
+  },
+  "baseline_build": "C:\\Users\\rayyu\\AppData\\Local\\ECUControl\\build\\desktop\\w2_06c6bc82_da92063b",
+  "updated_build": "C:\\Users\\rayyu\\AppData\\Local\\ECUControl\\build\\desktop\\w2_077be2f8_fcd624a0",
+  "timing_comparison": "Not compared: execution time is not invariant under source refactoring."
+}

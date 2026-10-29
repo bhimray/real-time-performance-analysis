@@ -1,2 +1,3 @@
-% EXPERIMENT Module reserved for ECU computation-performance research.
-% Implementation pending. See docs/ARCHITECTURE.md.
+% ECU.EXPERIMENT Package functions.
+%   run_instance
+%   run_options

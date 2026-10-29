@@ -1,18 +1,41 @@
 # Run and build records
-Proposed run layout:
-results/<experiment>/<run-id>/
-  config.json
-  fingerprint.json
-  source.patch
-  run.mat
-  scalars.csv
-  termination.json
-  figures/
-  analysis/
 
-The runtime writer is not implemented yet. Keep variable-length statistics and full replay instances in MAT files.
-Record all A7 fields with schema version and availability reason. Do not fill unavailable values with misleading zeros.
-Separate raw online measurements from derived offline results and preserve their parent run/sample IDs.
-Fingerprint includes A9 machine/toolchain fields, build identity, clock source, target CPU and scheduling settings when applicable.
-Build folders are keyed by target, configuration and toolchain identity.
-A future batch manifest will record pending/running/completed/failed state plus output validation. A partial file is not a completed run.
+The runtime writer is implemented in `src/+ecu/+logging/save_run.m`.
+
+```text
+results/week02/<run-id>/
+  data/<run-id>__run.mat
+  data/<run-id>__controller.csv
+  metadata/run_manifest.json
+  metadata/summary.json
+  metadata/fingerprint.json
+  metadata/scenario.json
+  metadata/resolved_config.json
+  metadata/channels.json
+  plots/<plot-batch-id>/
+    <run-id>__trajectory.png / .fig
+    <run-id>__plant_states.png / .fig
+    <run-id>__applied_inputs.png / .fig
+    <run-id>__solver_diagnostics.png / .fig
+    plot_manifest.json
+```
+
+MAT retains separate plant/controller time grids, variable-length solver
+statistics, predictions, frozen instances, source snapshots and failure details.
+CSV is a named scalar subset. Channel metadata records units and array order.
+Candidate commands and applied commands are distinct. Unavailable values use
+NaN or explicit empty fields rather than misleading zeros.
+
+The simulation never plots. `plot_matlab_run(savedMatFilename)` reloads saved
+data and verifies its checksum when the manifest exists. Plot manifests record
+the parent run, source-data hash, plotting-code hash and data fields used.
+New plotting batches preserve earlier figures and the original data.
+
+Build manifests identify compiler, toolchain, source and configuration. Active
+desktop builds use the short external cache configured in local.json; the
+latest pointer stays at build/latest_controller.json. Console logs belong in
+build/logs; previous source backups belong in build/archive. Neither is a run.
+Machine and raw timing records do not certify ECU timing performance.
+
+A future batch/resume manifest is not yet implemented. A saved failed run is
+diagnostic evidence and is never marked as a completed acceptance run.

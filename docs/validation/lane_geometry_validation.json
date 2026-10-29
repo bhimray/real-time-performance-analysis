@@ -1,0 +1,94 @@
+{
+  "families_checked": 4,
+  "nonzero_curvatures_checked": 6,
+  "maximum_width_error_m": 1.3322676295501878E-15,
+  "maximum_normal_offset_error_m": 8.8817841970012523E-16,
+  "maximum_circle_radius_error_m": 5.6843418860808015E-14,
+  "maximum_origin_transform_error_m": 2.8421709430404007E-14,
+  "physical_and_controller_bounds_separate": true,
+  "scope": "MATLAB lane geometry only; no simulator road/model created.",
+  "fingerprint": {
+    "generated_utc": "2026-10-26 21:30:35 +0000",
+    "machine_name": "BIM",
+    "cpu": {
+      "Name": "AMD Ryzen 5 5625U with Radeon Graphics         ",
+      "MaxClockSpeed": 2301,
+      "NumberOfCores": 6,
+      "NumberOfLogicalProcessors": 12
+    },
+    "ram_bytes": 1.647589376E+10,
+    "operating_system": {
+      "Caption": "Microsoft Windows 11 Home",
+      "Version": "10.0.26300"
+    },
+    "windows_power_plan": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+    "matlab": "25.2.0.3360999 (R2025b) Update 7",
+    "controller_toolchain": {
+      "schema_version": 1,
+      "matlab_release": "R2025b",
+      "acados": {
+        "tag": "v0.5.4",
+        "commit": "d9d0ba2e8f127855119d38874af8a9570df1d8e5"
+      },
+      "casadi_version": "3.7.0",
+      "compiler": "MinGW64 Compiler (C) 8.1.0",
+      "blasfeo_target": [],
+      "hpipm_version": [],
+      "dspace": {
+        "release": [],
+        "asm": [],
+        "modeldesk": [],
+        "veos": [],
+        "configurationdesk": [],
+        "controldesk": [],
+        "aurelion": []
+      },
+      "ecu": {
+        "model": [],
+        "processor": [],
+        "os": []
+      },
+      "compatibility_verified": false,
+      "desktop_controller_validation_passed": true,
+      "matlab_full_version": "25.2.0.3360999 (R2025b) Update 7",
+      "dspace_target_build_validated": false
+    },
+    "compiler_optimization_flags": "Controller configuration requests -O2. No compilation or timing measurement was performed for scenario generation.",
+    "blasfeo_target": [],
+    "hpipm_version": [],
+    "cpu_affinity": "Not measured or changed; this is not a timing experiment.",
+    "simulink_solver_settings": "No Simulink simulation performed. A6 prescribes RK4 at 1 ms and controller at 50 ms.",
+    "source_files": [
+      {
+        "file": "src/+ecu/+scenario/check_termination.m",
+        "sha256": "15DBD6EC9F9E10F4CFAF8BC797BA593D341AE344DE8CF7AC5EB62F9FC5B08817"
+      },
+      {
+        "file": "src/+ecu/+scenario/Contents.m",
+        "sha256": "6686A97EB21698D5E8AB178F89078F7DCD1337B0ABF8FADADCDC0EE9D18528FD"
+      },
+      {
+        "file": "src/+ecu/+scenario/gen_instance.m",
+        "sha256": "5DCF88434CF85BD172639474BD4DD56B5B842CDEC02C3358B9A06A9FCF64F8F2"
+      },
+      {
+        "file": "src/+ecu/+scenario/obstacle_states.m",
+        "sha256": "03BC8C08367FC7EEB7107A837F8E056F07090D2444385DCC515E8A490605EC9E"
+      },
+      {
+        "file": "src/+ecu/+scenario/path_signals.m",
+        "sha256": "1E3A34B4F8A49DC1F4CA040A165BA0D047C5DA31BEFDAE8F007B4B7E35F5DDCA"
+      },
+      {
+        "file": "src/+ecu/+scenario/prepare_horizon.m",
+        "sha256": "8B08ADB119B941F0397BF2983B4E410DB303C8A0B837E025485F4C73FBE5A86D"
+      },
+      {
+        "file": "config/scenario_config.m",
+        "sha256": "33312EA5D2E31E444928C2FA647E1815B0D05CB21DED90CACB8564771A1FC52B"
+      }
+    ]
+  },
+  "lane_source_sha256": "b151a067aa9489fe6f588b0ccc8dc9db13e0a69c286e7e3a547e3c83dad5d50e",
+  "scenario_regression_instances_checked": 1200
+}

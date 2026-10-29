@@ -1,0 +1,52 @@
+{
+  "compiler": {
+    "family": "MinGW-w64",
+    "version": "8.1.0",
+    "root": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025b\\3P.instrset\\mingw_w64.instrset",
+    "target": "x86_64-w64-mingw32",
+    "c": {
+      "name": "MinGW64 Compiler (C)",
+      "version": "8.1.0",
+      "location": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025b\\3P.instrset\\mingw_w64.instrset",
+      "executable": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025b\\3P.instrset\\mingw_w64.instrset\\bin\\gcc.exe",
+      "executable_sha256": "c5f0953f7a71ddcdf0852e1e44a43cef9b8fe121beba4d4202bfe6d405de47c0",
+      "mex_options_file": "C:\\Users\\rayyu\\AppData\\Roaming\\MathWorks\\MATLAB\\R2025b\\mex_C_win64.xml",
+      "mex_options_sha256": "776c2f69d22807c9632895088fd3b0329b44922eaf0a9b599082898b8f23040a",
+      "compiler_flags": "-fexceptions -fno-omit-frame-pointer",
+      "optimization_flags": "-O2 -fwrapv -DNDEBUG",
+      "linker_flags": "-m64 -Wl,--no-undefined",
+      "linker_optimization_flags": "-s"
+    },
+    "cpp": {
+      "name": "MinGW64 Compiler (C++)",
+      "version": "8.1.0",
+      "location": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025b\\3P.instrset\\mingw_w64.instrset",
+      "executable": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025b\\3P.instrset\\mingw_w64.instrset\\bin\\g++.exe",
+      "executable_sha256": "59610c4c74a98d17fa23b53f12715f9456e7c5abbc364aa320abab33a9f6441e",
+      "mex_options_file": "C:\\Users\\rayyu\\AppData\\Roaming\\MathWorks\\MATLAB\\R2025b\\mex_C++_win64.xml",
+      "mex_options_sha256": "a53f1cc53fd127934ac89dffce0f70193311f88dffe2328e57a24b00f51d60e2",
+      "compiler_flags": "-fexceptions -fno-omit-frame-pointer",
+      "optimization_flags": "-O2 -fwrapv -DNDEBUG",
+      "linker_flags": "-m64 -Wl,--no-undefined -shared -static",
+      "linker_optimization_flags": "-s"
+    },
+    "selection_policy": "Explicit MinGW C and C++; no MSVC fallback",
+    "checked_utc": "26-Oct-2026 23:50:08"
+  },
+  "real_compiler_selection_passed": true,
+  "missing_compiler_rejected": true,
+  "wrong_version_rejected": true,
+  "c_and_cpp_mex_smoke_passed": true,
+  "smoke_output_directory": "C:\\Users\\rayyu\\OneDrive\\Desktop\\UTD\\dSPACE\\Project\\ECU_RealTime_Control_Performance\\build\\validation\\compiler_356caac1",
+  "metadata_parser_and_mismatch_checks_passed": true,
+  "compiler_flags_change_build_fingerprint": true,
+  "probe_timestamp_excluded_from_build_fingerprint": true,
+  "actual_installation_compatible": false,
+  "actual_installation_error_id": "ecu:AcadosCompilerMismatch",
+  "actual_installation_error": "Selected MinGW GCC 8.1.0, but existing acados CMake metadata records GCC 14.2.0. Use an acados installation built with the selected compiler and update config/local.json. No library was rebuilt or replaced.",
+  "created_utc": "26-Oct-2026 23:50:22",
+  "policy_checks_passed": true,
+  "acados_rebuilt": false,
+  "controller_rebuilt": false,
+  "sfunction_generated": false
+}

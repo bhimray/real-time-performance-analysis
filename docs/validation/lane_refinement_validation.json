@@ -1,0 +1,153 @@
+{
+  "file_checks": {
+    "families_exported_and_loaded": 4,
+    "maximum_relative_csv_difference": 0,
+    "maximum_horizon_parameter_difference": 0,
+    "out_of_range_lookup_rejected": true,
+    "scenario_mismatch_rejected": true,
+    "scope": "Lane file round-trip and parameter preparation; no simulation."
+  },
+  "resolution_checks": {
+    "families_checked": 4,
+    "station_spacing_m": 0.01,
+    "points_per_family": 50001,
+    "station_start_m": 0,
+    "station_end_m": 500,
+    "maximum_spacing_error_m": 4.7748263676261615E-14,
+    "sampled_fine_interpolation_error_m": 2.0833335616708304E-8,
+    "sampled_coarse_interpolation_error_m": 2.062499961485246E-6,
+    "scope": "Reference sampling and interpolation only; no simulation."
+  },
+  "geometry_checks": {
+    "families_checked": 4,
+    "nonzero_curvatures_checked": 6,
+    "maximum_width_error_m": 1.3322676295501878E-15,
+    "maximum_normal_offset_error_m": 8.8817841970012523E-16,
+    "maximum_circle_radius_error_m": 5.6843418860808015E-14,
+    "maximum_origin_transform_error_m": 2.8421709430404007E-14,
+    "physical_and_controller_bounds_separate": true,
+    "scope": "MATLAB lane geometry only; no simulator road/model created."
+  },
+  "fingerprint": {
+    "generated_utc": "2026-10-26 22:09:30 +0000",
+    "machine_name": "BIM",
+    "cpu": {
+      "Name": "AMD Ryzen 5 5625U with Radeon Graphics         ",
+      "MaxClockSpeed": 2301,
+      "NumberOfCores": 6,
+      "NumberOfLogicalProcessors": 12
+    },
+    "ram_bytes": 1.647589376E+10,
+    "operating_system": {
+      "Caption": "Microsoft Windows 11 Home",
+      "Version": "10.0.26300"
+    },
+    "windows_power_plan": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+    "matlab": "25.2.0.3360999 (R2025b) Update 7",
+    "controller_toolchain": {
+      "schema_version": 1,
+      "matlab_release": "R2025b",
+      "acados": {
+        "tag": "v0.5.4",
+        "commit": "d9d0ba2e8f127855119d38874af8a9570df1d8e5"
+      },
+      "casadi_version": "3.7.0",
+      "compiler": "MinGW64 Compiler (C) 8.1.0",
+      "blasfeo_target": [],
+      "hpipm_version": [],
+      "dspace": {
+        "release": [],
+        "asm": [],
+        "modeldesk": [],
+        "veos": [],
+        "configurationdesk": [],
+        "controldesk": [],
+        "aurelion": []
+      },
+      "ecu": {
+        "model": [],
+        "processor": [],
+        "os": []
+      },
+      "compatibility_verified": false,
+      "desktop_controller_validation_passed": true,
+      "matlab_full_version": "25.2.0.3360999 (R2025b) Update 7",
+      "dspace_target_build_validated": false
+    },
+    "compiler_optimization_flags": "Controller configuration requests -O2. No compilation or timing measurement was performed for scenario generation.",
+    "blasfeo_target": [],
+    "hpipm_version": [],
+    "cpu_affinity": "Not measured or changed; this is not a timing experiment.",
+    "simulink_solver_settings": "No Simulink simulation performed. A6 prescribes RK4 at 1 ms and controller at 50 ms.",
+    "source_files": [
+      {
+        "file": "src/+ecu/+scenario/check_termination.m",
+        "sha256": "15DBD6EC9F9E10F4CFAF8BC797BA593D341AE344DE8CF7AC5EB62F9FC5B08817"
+      },
+      {
+        "file": "src/+ecu/+scenario/Contents.m",
+        "sha256": "6686A97EB21698D5E8AB178F89078F7DCD1337B0ABF8FADADCDC0EE9D18528FD"
+      },
+      {
+        "file": "src/+ecu/+scenario/gen_instance.m",
+        "sha256": "5DCF88434CF85BD172639474BD4DD56B5B842CDEC02C3358B9A06A9FCF64F8F2"
+      },
+      {
+        "file": "src/+ecu/+scenario/obstacle_states.m",
+        "sha256": "03BC8C08367FC7EEB7107A837F8E056F07090D2444385DCC515E8A490605EC9E"
+      },
+      {
+        "file": "src/+ecu/+scenario/path_signals.m",
+        "sha256": "1E3A34B4F8A49DC1F4CA040A165BA0D047C5DA31BEFDAE8F007B4B7E35F5DDCA"
+      },
+      {
+        "file": "src/+ecu/+scenario/prepare_horizon.m",
+        "sha256": "8B08ADB119B941F0397BF2983B4E410DB303C8A0B837E025485F4C73FBE5A86D"
+      },
+      {
+        "file": "config/scenario_config.m",
+        "sha256": "33312EA5D2E31E444928C2FA647E1815B0D05CB21DED90CACB8564771A1FC52B"
+      }
+    ]
+  },
+  "changed_source_files": [
+    {
+      "file": "scripts/export_a6_lanes.m",
+      "sha256": "2d53c18302e09d19fe1d66e799622203b5c1545cfc3a97e801b901abb3b7ac1b"
+    },
+    {
+      "file": "scripts/preview_a6_lanes.m",
+      "sha256": "1702e38992b1dfd3b4028f4c8c2cfe6bc75e84748bfbba7a08b2f57bea1e4a58"
+    },
+    {
+      "file": "tests/test_lane_resolution.m",
+      "sha256": "f58cc9c01f963be7234ef7003e591b26ab31d983410387d210f536b7da53d945"
+    }
+  ],
+  "files": [
+    {
+      "mat_file": "F1_0001_lanes.mat",
+      "csv_file": "F1_0001_lanes.csv",
+      "mat_sha256": "9b8df30e6e53f5dcf2c6f74078995e3d51379af7da49cc89577a1dd0ea701035",
+      "csv_sha256": "135f5766ee61c0e4c2c38168892001c4d7ca298548c2422585853a5c544af449"
+    },
+    {
+      "mat_file": "F2_0001_lanes.mat",
+      "csv_file": "F2_0001_lanes.csv",
+      "mat_sha256": "1e12d179767b266857fc77af24c12e560b121686357bb169600cc6e4c2a98cc7",
+      "csv_sha256": "b38adbccee18254a28d3c814bd1292e6c2fe58adf8af178c14f8d4da665c99eb"
+    },
+    {
+      "mat_file": "F3_0001_lanes.mat",
+      "csv_file": "F3_0001_lanes.csv",
+      "mat_sha256": "8b3f1ee89b236e567db0f2095f9978099a3b8609208850dabeee1cec70f75967",
+      "csv_sha256": "4217f6d9679e5ac869758f38e524b971653a9e801afb517b74e2f9fef65c30de"
+    },
+    {
+      "mat_file": "F4_0001_lanes.mat",
+      "csv_file": "F4_0001_lanes.csv",
+      "mat_sha256": "2f4b7f70809d96c80be70a2c8a8d935934cd07322dc0bdfdb9d353e7ab2051e8",
+      "csv_sha256": "4e3a51ec4a65b1c5f93805ea9aa23d6d195f8602b8a689d6caec8435205cff68"
+    }
+  ]
+}
