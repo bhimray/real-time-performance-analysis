@@ -1,0 +1,12 @@
+{
+  "acados_root": "C:\\Users\\bxr240009\\Documents\\ChatGPT\\dSPACE\\dependencies\\acados-v054",
+  "casadi_root": "C:\\Users\\bxr240009\\Documents\\ChatGPT\\dSPACE\\dependencies\\casadi-3.7.0",
+  "external_build_root": "C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\build\\desktop",
+  "external_results_root": "",
+  "notes": "Validated R2026b / MinGW 14.2.0 / acados 0.5.4 / CasADi 3.7.0 on 2026-10-29. Restart MATLAB after Java configuration.",
+  "mingw_root": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2026b\\3P.instrset\\mingw_w64.instrset",
+  "tool_paths": [
+    "C:\\Users\\bxr240009\\AppData\\Local\\Programs\\Git\\cmd",
+    "C:\\Users\\bxr240009\\Documents\\ChatGPT\\dSPACE\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin"
+  ]
+}
