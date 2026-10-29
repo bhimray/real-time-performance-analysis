@@ -1,6 +1,6 @@
 function [run, bundle] = run_matlab_closed_loop( ...
     familyId, instanceId, bundle, options)
-%RUN_MATLAB_CLOSED_LOOP Load an A6 reference and execute its MATLAB closed loop.
+%RUN_MATLAB_CLOSED_LOOP Load an A6 reference and ecute its MATLAB closed loop.
 %
 %   [RUN, BUNDLE] = RUN_MATLAB_CLOSED_LOOP(1,1) builds once and runs F1/1.
 %   RUN = RUN_MATLAB_CLOSED_LOOP(2,1,BUNDLE) reuses the compiled controller.
