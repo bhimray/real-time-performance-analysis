@@ -14,6 +14,10 @@ manifest.schema_version = 2;
 manifest.run_id = id;
 manifest.settings_sha256 = identity.sha256;
 manifest.backend = 'simulink';
+manifest.experiment_stage = "";
+if isfield(plan.options,'ExperimentStage')
+    manifest.experiment_stage = plan.options.ExperimentStage;
+end
 manifest.created_utc = stamp;
 manifest.family_id = plan.instance.family_id;
 manifest.instance_id = plan.instance.instance_id;
