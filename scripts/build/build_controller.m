@@ -1,4 +1,4 @@
-function bundle = build_controller(config, initial)
+function bundle = build_controller(config, initial, stableSimulinkName)
 %BUILD_CONTROLLER Generate and compile a MATLAB acados controller.
 %
 %   BUNDLE = BUILD_CONTROLLER() uses the baseline configuration and a
@@ -9,12 +9,14 @@ function bundle = build_controller(config, initial)
 %
 %   Returned bundle fields include:
 %     solver       : AcadosOcpSolver handle.
-%     config       : Configuration, including the unique generated name.
+%     config       : Configuration, including the fixed generated name.
 %     build_dir    : Location of generated source, binaries and manifests.
 %     fingerprint  : Hash identifying the source/configuration/toolchain.
 %
 
 %% Select defaults and verify prerequisites
+
+if nargin < 3, stableSimulinkName = false; end
 
 if nargin < 1
     config = controller_config();
@@ -34,10 +36,7 @@ environment = setup_controller_environment();
 fingerprint = ecu.control.build_fingerprint( ...
     config, projectRoot, environment);
 
-uniqueToken = char(java.util.UUID.randomUUID());
-uniqueToken = strrep(uniqueToken, '-', '');
-
-buildId = ['w2_', fingerprint(1:8), '_', uniqueToken(1:8)];
+buildId = 'controller';
 
 %% Select a generated-output directory
 
@@ -58,12 +57,12 @@ else
     cacheRoot = fullfile(projectRoot, 'build');
 end
 
-buildDirectory = fullfile(cacheRoot, 'desktop', buildId);
+buildDirectory = fullfile(cacheRoot, buildId);
 mkdir(buildDirectory);
 
-%% Assign a unique MEX name and protect the caller's current directory
+%% Use a fixed solver name and protect the caller's current directory
 
-config.model_name = ['veh_', uniqueToken(1:8)];
+config.model_name = 'ecu_vehicle_nmpc';
 
 originalDirectory = pwd;
 directoryCleanup = onCleanup(@() cd(originalDirectory)); %#ok<NASGU>
@@ -86,6 +85,24 @@ creationOptions = struct( ...
     'output_dir', fullfile(buildDirectory, 'mex_interface') ...
 );
 
+ocp.simulink_opts.generate_simulink_block = 0;
+
+% Reuse compiled files when source, toolchain and initialization match.
+manifestFile = fullfile(buildDirectory, 'build_manifest.json');
+reuse = false;
+if isfile(manifestFile) && isfile(fullfile(buildDirectory, 'ocp.json'))
+    previous = jsondecode(fileread(manifestFile));
+    reuse = strcmp(previous.fingerprint, fingerprint) ...
+        && isfield(previous, 'initial') && isequaln(previous.initial, initial) ...
+        && isfile(fullfile(generatedDirectory, [config.model_name, '_mex_solver.m']));
+end
+if reuse
+    creationOptions.generate = false;
+    creationOptions.build = false;
+    creationOptions.compile_mex_wrapper = false;
+    creationOptions.compile_interface = false;
+    addpath(generatedDirectory, creationOptions.output_dir);
+end
 solver = AcadosOcpSolver(ocp, creationOptions);
 
 %% Return the live solver and its metadata
@@ -112,11 +129,16 @@ save( ...
 %% Write portable metadata without the live solver handle
 
 manifest = rmfield(bundle, 'solver');
+manifest.initial = initial;
 
 write_json(fullfile(buildDirectory, 'build_manifest.json'), manifest);
 write_json(fullfile(projectRoot, 'build', 'latest_controller.json'), manifest);
 
-fprintf('Built MATLAB controller: %s\n', buildDirectory);
+if reuse
+    fprintf('Reused MATLAB controller: %s\n', buildDirectory);
+else
+    fprintf('Built MATLAB controller: %s\n', buildDirectory);
+end
 
 end
 
@@ -132,3 +154,6 @@ fileCleanup = onCleanup(@() fclose(fileId)); %#ok<NASGU>
 fprintf(fileId, '%s\n', jsonencode(data, PrettyPrint=true));
 
 end
+
+
+

@@ -6,10 +6,12 @@ arguments
     options.IterationCap (1,1) double = 200
     options.StopTime (1,1) double = 8
     options.LoggingProfile (1,1) string = "research"
+    options.ExperimentStage (1,1) string {mustBeMember(options.ExperimentStage,["w2","w3"])} = "w2"
     options.BuildDirectory (1,1) string = ""
 end
 plan = ecu.simulation.prepare_vehicle( ...
     FamilyId=options.FamilyId,InstanceId=options.InstanceId, ...
     IterationCap=options.IterationCap,StopTime=options.StopTime, ...
-    LoggingProfile=options.LoggingProfile,BuildDirectory=options.BuildDirectory);
+    LoggingProfile=options.LoggingProfile,BuildDirectory=options.BuildDirectory, ...
+    ExperimentStage=options.ExperimentStage);
 end

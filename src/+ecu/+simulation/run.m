@@ -1,21 +1,23 @@
 function result = run(plan)
-%RUN Execute one resolved plan and preserve failures without overwriting runs.
+%RUN Execute one resolved plan; identical settings replace previous outputs.
 % Raw output is saved before extraction. Plotting never runs here.
 arguments
     plan (1,1) struct
 end
-token = char(java.util.UUID.randomUUID());
+identity = ecu.simulation.run_identity(plan);
+id = identity.id;
+[directory, lockCleanup] = ecu.simulation.prepare_run_directory( ...
+    plan.results_root,identity); %#ok<NASGU>
 stamp = char(datetime('now',TimeZone='UTC',Format="yyyyMMdd'T'HHmmssSSS'Z'"));
-id = sprintf('%s_F%d_%04d_cap%d_%s',stamp,plan.instance.family_id, ...
-    plan.instance.instance_id,plan.options.IterationCap,token(1:8));
-directory = fullfile(plan.results_root,id);
-assert(~isfolder(directory),'Run directory already exists.');
-mkdir(fullfile(directory,'data'));
-mkdir(fullfile(directory,'metadata'));
 
 manifest.schema_version = 2;
 manifest.run_id = id;
+manifest.settings_sha256 = identity.sha256;
 manifest.backend = 'simulink';
+manifest.experiment_stage = "";
+if isfield(plan.options,'ExperimentStage')
+    manifest.experiment_stage = plan.options.ExperimentStage;
+end
 manifest.created_utc = stamp;
 manifest.family_id = plan.instance.family_id;
 manifest.instance_id = plan.instance.instance_id;
@@ -56,8 +58,12 @@ try
             'Save model %s before running a traceable experiment.',models{modelIndex});
     end
     input = ecu.simulation.make_input(plan);
+    %-------
+    %% simulation run
+    %-------
     output = sim(input);
     save(fullfile(directory,'data','raw.mat'),'output','-v7.3');
+    
     manifest.raw_sha256 = ecu.simulation.file_hash( ...
         fullfile(directory,'data','raw.mat'));
     if strlength(string(output.ErrorMessage)) > 0
@@ -120,6 +126,8 @@ try
     end
     ecu.simulation.export_csv(run,fullfile(directory,'data','controller.csv'));
     manifest.csv_sha256 = ecu.simulation.file_hash(fullfile(directory,'data','controller.csv'));
+    manifest.grouped_exports = ecu.simulation.export_groups(run, ...
+        fullfile(directory,'data','groups'));
 catch exception
     manifest.status = 'failed';
     manifest.error_report = getReport(exception,'extended','hyperlinks','off');

@@ -1,0 +1,448 @@
+[
+  {
+    "family": 1,
+    "run_id": "F1_I0001_mu0p9_cap200_T8",
+    "created_utc": "20261030T172458297Z",
+    "raw_sha256": "898372a631b3d4408ce258953b66f677ebd4629fdc390c3e45825900156545ab",
+    "mat_sha256": "c73a997a59c55dc3631c374bacbca814205acb349a1f67b716015e8f9287d5f9",
+    "mat_checksum_verified": true,
+    "raw_checksum_verified": true,
+    "duration_s": 8,
+    "plant_samples": 8001,
+    "controller_samples": 160,
+    "mu": 0.9,
+    "curvature_per_m": 0,
+    "initial_speed_mps": 21.960600631511515,
+    "final_speed_mps": 21.958549142374753,
+    "lateral_rmse_m": 0.5214478030331422,
+    "max_abs_lateral_error_m": 1.2978795795844893,
+    "successful_solves": 159,
+    "sqp_min": 1,
+    "sqp_median": 2,
+    "sqp_max": 200,
+    "nonzero_status_times": 2.3000000000000003,
+    "nonzero_status_codes": 2,
+    "solver_median_ms": 1.41775,
+    "solver_max_ms": 154.3328,
+    "max_slack": 5.241142504216507E-07,
+    "minimum_collision_index": 2.0787260946825565,
+    "collision_samples": 0,
+    "run_off_samples": 0,
+    "final_lead_gap_m": -79.45980414654213,
+    "logging_status": "logging_invalid",
+    "build_directory": "",
+    "available_signals": 32,
+    "expected_signals": 45,
+    "state_violation_samples": 29,
+    "state_near_samples": 1,
+    "constraint_summary": [
+      {
+        "constraint": "Fx",
+        "samples": 160,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.49918536489821147
+      },
+      {
+        "constraint": "Fy",
+        "samples": 160,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.37398074183167024
+      },
+      {
+        "constraint": "Mz",
+        "samples": 160,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.9309633726534985
+      },
+      {
+        "constraint": "vy",
+        "samples": 8001,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 3.257817492714439
+      },
+      {
+        "constraint": "gamma",
+        "samples": 8001,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.5901284265517203
+      },
+      {
+        "constraint": "road_e",
+        "samples": 8001,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 1.5604060937131565
+      },
+      {
+        "constraint": "obstacle_1",
+        "samples": 8001,
+        "near_boundary_samples": 1,
+        "violation_samples": 29,
+        "minimum_scaled_margin": -0.003715227497612772
+      },
+      {
+        "constraint": "obstacle_2",
+        "samples": 8001,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 6.815585807970825
+      }
+    ],
+    "input_kind": "candidate commands",
+    "controller_period_s": 0.05,
+    "plant_step_s": 0.001,
+    "cap": 200,
+    "matlab": "26.2.0.3386108 (R2026b)",
+    "initial_target_gap_m": 23.82013221171814,
+    "final_target_gap_m": -45.220993756398485,
+    "target_speed_mps": 13.33107403709942,
+    "initial_lead_gap_m": 33.610429531340955
+  },
+  {
+    "family": 2,
+    "run_id": "F2_I0001_mu0p9_cap200_T8",
+    "created_utc": "20261030T172514164Z",
+    "raw_sha256": "a8220547e43905bc7891e215ffaec52d7fcd5d9b266d84c164be8216082918d0",
+    "mat_sha256": "25b3889866eb9415cf305d1f56dfb5025f9072d5251c23ebd45122e566f0a2de",
+    "mat_checksum_verified": true,
+    "raw_checksum_verified": true,
+    "duration_s": 8,
+    "plant_samples": 8001,
+    "controller_samples": 160,
+    "mu": 0.9,
+    "curvature_per_m": -0.0016666666666666668,
+    "initial_speed_mps": 29.60225740021849,
+    "final_speed_mps": 29.575274662972088,
+    "lateral_rmse_m": 0.5430068966664978,
+    "max_abs_lateral_error_m": 1.3011826712760926,
+    "successful_solves": 150,
+    "sqp_min": 2,
+    "sqp_median": 2,
+    "sqp_max": 200,
+    "nonzero_status_times": [
+      0,
+      0.05,
+      0.1,
+      0.15000000000000002,
+      0.2,
+      0.25,
+      5.4,
+      5.65,
+      5.7,
+      5.75
+    ],
+    "nonzero_status_codes": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "solver_median_ms": 1.5413000000000001,
+    "solver_max_ms": 166.03480000000002,
+    "max_slack": 6.238265602380936E-10,
+    "minimum_collision_index": 2.084437226783489,
+    "collision_samples": 0,
+    "run_off_samples": 0,
+    "final_lead_gap_m": -57.69845076967994,
+    "logging_status": "logging_invalid",
+    "build_directory": "",
+    "available_signals": 32,
+    "expected_signals": 45,
+    "state_violation_samples": 16,
+    "state_near_samples": 2,
+    "constraint_summary": [
+      {
+        "constraint": "Fx",
+        "samples": 160,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.4900881600529959
+      },
+      {
+        "constraint": "Fy",
+        "samples": 160,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.47970624757812635
+      },
+      {
+        "constraint": "Mz",
+        "samples": 160,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.9472965407028484
+      },
+      {
+        "constraint": "vy",
+        "samples": 8001,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 4.76045312702736
+      },
+      {
+        "constraint": "gamma",
+        "samples": 8001,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.3624775432054219
+      },
+      {
+        "constraint": "road_e",
+        "samples": 8001,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.44881732872390745
+      },
+      {
+        "constraint": "obstacle_1",
+        "samples": 8001,
+        "near_boundary_samples": 2,
+        "violation_samples": 16,
+        "minimum_scaled_margin": -0.0011131200902422256
+      },
+      {
+        "constraint": "obstacle_2",
+        "samples": 8001,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 8.201209844385005
+      }
+    ],
+    "input_kind": "candidate commands",
+    "controller_period_s": 0.05,
+    "plant_step_s": 0.001,
+    "cap": 200,
+    "matlab": "26.2.0.3386108 (R2026b)",
+    "initial_target_gap_m": 32.24453224518787,
+    "final_target_gap_m": -24.022339003347412,
+    "target_speed_mps": 22.581471172900088,
+    "initial_lead_gap_m": 43.769004883052446
+  },
+  {
+    "family": 3,
+    "run_id": "F3_I0001_mu0p6_cap200_T8",
+    "created_utc": "20261030T172525764Z",
+    "raw_sha256": "1baa1d58dca1a18029ab7c88fbeb04b242c150c4e8256f91b06f2138ee018e23",
+    "mat_sha256": "80a52093724de049b8b607caff8c3f184612307931b6a73ef3c842bec7b66503",
+    "mat_checksum_verified": true,
+    "raw_checksum_verified": true,
+    "duration_s": 8,
+    "plant_samples": 8001,
+    "controller_samples": 160,
+    "mu": 0.6,
+    "curvature_per_m": 0,
+    "initial_speed_mps": 29.62121761317696,
+    "final_speed_mps": 29.607808765507485,
+    "lateral_rmse_m": 0.5372453588629625,
+    "max_abs_lateral_error_m": 1.2993134891741054,
+    "successful_solves": 157,
+    "sqp_min": 2,
+    "sqp_median": 2,
+    "sqp_max": 200,
+    "nonzero_status_times": [
+      4.15,
+      4.55,
+      4.75
+    ],
+    "nonzero_status_codes": [
+      2,
+      2,
+      2
+    ],
+    "solver_median_ms": 1.3259999999999998,
+    "solver_max_ms": 190.0491,
+    "max_slack": 9.5214664267647E-10,
+    "minimum_collision_index": 2.0762611110915925,
+    "collision_samples": 0,
+    "run_off_samples": 0,
+    "final_lead_gap_m": -50.644477551634964,
+    "logging_status": "logging_invalid",
+    "build_directory": "",
+    "available_signals": 32,
+    "expected_signals": 45,
+    "state_violation_samples": 47,
+    "state_near_samples": 2,
+    "constraint_summary": [
+      {
+        "constraint": "Fx",
+        "samples": 160,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.4992494747864924
+      },
+      {
+        "constraint": "Fy",
+        "samples": 160,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.3829296677415718
+      },
+      {
+        "constraint": "Mz",
+        "samples": 160,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.8573981572864807
+      },
+      {
+        "constraint": "vy",
+        "samples": 8001,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 3.0551348019883457
+      },
+      {
+        "constraint": "gamma",
+        "samples": 8001,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.2134716234530984
+      },
+      {
+        "constraint": "road_e",
+        "samples": 8001,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.4506865108258946
+      },
+      {
+        "constraint": "obstacle_1",
+        "samples": 8001,
+        "near_boundary_samples": 2,
+        "violation_samples": 47,
+        "minimum_scaled_margin": -0.005237630430453666
+      },
+      {
+        "constraint": "obstacle_2",
+        "samples": 8001,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 7.2564408103863
+      }
+    ],
+    "input_kind": "candidate commands",
+    "controller_period_s": 0.05,
+    "plant_step_s": 0.001,
+    "cap": 200,
+    "matlab": "26.2.0.3386108 (R2026b)",
+    "initial_target_gap_m": 31.400423885955405,
+    "final_target_gap_m": -48.29094813171011,
+    "target_speed_mps": 19.662530179831936,
+    "initial_lead_gap_m": 34.00494883388369
+  },
+  {
+    "family": 4,
+    "run_id": "F4_I0001_mu0p9_cap200_T8",
+    "created_utc": "20261030T172544445Z",
+    "raw_sha256": "6bc4060fe99099f759b34ecc4abde082f7bc3ed82f3cfd33d15b017adf9bc20c",
+    "mat_sha256": "5d5ba4ee7cbee79061b4c1d7783e5af5b3f05a3bbff178dfb3ba6669103f7891",
+    "mat_checksum_verified": true,
+    "raw_checksum_verified": true,
+    "duration_s": 8,
+    "plant_samples": 8001,
+    "controller_samples": 160,
+    "mu": 0.9,
+    "curvature_per_m": 0,
+    "initial_speed_mps": 29.97750652422299,
+    "final_speed_mps": 29.9707464015538,
+    "lateral_rmse_m": 0.5216014664833624,
+    "max_abs_lateral_error_m": 1.30102229254878,
+    "successful_solves": 159,
+    "sqp_min": 1,
+    "sqp_median": 2,
+    "sqp_max": 200,
+    "nonzero_status_times": 2.4000000000000004,
+    "nonzero_status_codes": 2,
+    "solver_median_ms": 0.9709,
+    "solver_max_ms": 138.77519999999998,
+    "max_slack": 1.1466941434927963E-07,
+    "minimum_collision_index": 2.0866096792202597,
+    "collision_samples": 0,
+    "run_off_samples": 0,
+    "final_lead_gap_m": -88.75907561958036,
+    "logging_status": "logging_invalid",
+    "build_directory": "",
+    "available_signals": 32,
+    "expected_signals": 45,
+    "state_violation_samples": 0,
+    "state_near_samples": 6,
+    "constraint_summary": [
+      {
+        "constraint": "Fx",
+        "samples": 160,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.49921764710579775
+      },
+      {
+        "constraint": "Fy",
+        "samples": 160,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.3765492453326111
+      },
+      {
+        "constraint": "Mz",
+        "samples": 160,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.9136429506428194
+      },
+      {
+        "constraint": "vy",
+        "samples": 8001,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 4.858918798878141
+      },
+      {
+        "constraint": "gamma",
+        "samples": 8001,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.40542223937035665
+      },
+      {
+        "constraint": "road_e",
+        "samples": 8001,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 0.44897770745122
+      },
+      {
+        "constraint": "obstacle_1",
+        "samples": 8001,
+        "near_boundary_samples": 6,
+        "violation_samples": 0,
+        "minimum_scaled_margin": -1.834673849054891E-05
+      },
+      {
+        "constraint": "obstacle_2",
+        "samples": 8001,
+        "near_boundary_samples": 0,
+        "violation_samples": 0,
+        "minimum_scaled_margin": 7.474982421369829
+      }
+    ],
+    "input_kind": "candidate commands",
+    "controller_period_s": 0.05,
+    "plant_step_s": 0.001,
+    "cap": 200,
+    "matlab": "26.2.0.3386108 (R2026b)",
+    "initial_target_gap_m": -1.2404657665167305,
+    "final_target_gap_m": -42.64303281037266,
+    "target_speed_mps": 24.803339895499885,
+    "initial_lead_gap_m": 30.416325714224527
+  }
+]

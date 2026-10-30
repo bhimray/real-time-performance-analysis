@@ -4,10 +4,10 @@
   "perturbed_sqp_iter": 3,
   "limited_status": 2,
   "limited_sqp_iter": 1,
-  "cost_relative_error": 1.912717444347452E-16,
+  "cost_relative_error": 1.912717444347453E-16,
   "jacobian_error": 1.1177248016025487E-10,
   "input_repeat_error": 0,
   "captured_replay_error": 0,
-  "build_dir": "C:\\Users\\rayyu\\AppData\\Local\\ECUControl\\build\\desktop\\w2_077be2f8_fcd624a0",
+  "build_dir": "C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\build\\desktop\\desktop\\w2_50da1634_9fcb0480",
   "scope": "Controller-only MATLAB validation; no Simulink model or ECU timing validation."
 }

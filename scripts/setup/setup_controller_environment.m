@@ -16,6 +16,12 @@ assert(isfile(localConfigFile), ...
     'Configure config/local.json first.');
 
 localConfig = jsondecode(fileread(localConfigFile));
+if isfield(localConfig, 'tool_paths')
+    toolPaths = cellstr(string(localConfig.tool_paths));
+    assert(all(cellfun(@isfolder, toolPaths)), ...
+        'ecu:LocalTools', 'A configured tool_paths directory is missing.');
+    setenv('PATH', strjoin([toolPaths(:).', {getenv('PATH')}], pathsep));
+end
 config = controller_config();
 
 acadosRoot = char(localConfig.acados_root);
@@ -130,3 +136,4 @@ environment.created_utc = char(datetime('now', 'TimeZone', 'UTC'));
 environment.renderer = which('render_file');
 
 end
+

@@ -40,9 +40,24 @@ sfunctionFile = fullfile( ...
 assert(isfile(sfunctionFile), ...
     'S-function binary was not produced.');
 
+% Publish the fixed-name Simulink build to a project-managed location.
+% Other MATLAB controller builds keep their isolated names and folders.
+if strcmp(solverName, 'ecu_vehicle_nmpc')
+    root = char(currentProject().RootFolder);
+    target = fullfile(root, 'build', 'simulink');
+    if ~isfolder(target), mkdir(target); end
+    destination = fullfile(target, ['acados_solver_sfunction_', solverName, '.', mexext]);
+    [ok, message] = copyfile(sfunctionFile, destination, 'f');
+    assert(ok, 'ecu:SfunctionPublish', ...
+        'Cannot publish S-function. Close models using it and retry: %s', message);
+    copyfile(ocpFile, fullfile(target, 'ocp.json'), 'f');
+    addpath(target, '-begin');
+    sfunctionFile = destination;
+end
 fprintf([ ...
     'S-function built. Create and connect the model yourself using ' ...
     'docs/SIMULINK_GUIDE.md.\n' ...
 ]);
 
 end
+

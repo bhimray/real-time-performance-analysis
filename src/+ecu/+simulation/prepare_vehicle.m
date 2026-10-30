@@ -8,6 +8,7 @@ arguments
     options.IterationCap (1,1) double {mustBeInteger,mustBePositive} = 200
     options.StopTime (1,1) double {mustBePositive} = 8
     options.LoggingProfile (1,1) string {mustBeMember(options.LoggingProfile,["debug","research","timing"])} = "research"
+    options.ExperimentStage (1,1) string {mustBeMember(options.ExperimentStage,["w2", "w2_2run","w3"])} = "w2"
     options.BuildDirectory (1,1) string = ""
     options.ResultsRoot (1,1) string = ""
 end
@@ -40,9 +41,12 @@ plan.options = options;
 plan.config = config;
 plan.instance = instance;
 plan.scenario_file = referenceFile;
-plan.variables = struct('controllerConfig',config,'instance',instance, ...
+modelConfig = ecu.simulation.numeric_parameters(config);
+modelInstance = ecu.simulation.numeric_parameters(instance);
+modelLaneData = ecu.simulation.numeric_parameters(laneData);
+plan.variables = struct('controllerConfig',modelConfig,'instance',modelInstance, ...
     'mu',instance.friction_coefficient, ...
-    'laneData',laneData,'plantContext',plantContext, ...
+    'laneData',modelLaneData,'plantContext',plantContext, ...
     'plantInitialState',initialState,'initialXguess',warmStart.x, ...
     'initialUguess',warmStart.u,'executionCap',uint32(options.IterationCap), ...
     'executionEnable',true,'executionReset',false);
@@ -60,6 +64,9 @@ plan.results_root = options.ResultsRoot;
 if strlength(plan.results_root) == 0
     plan.results_root = fullfile(options.Root,'results','simulink');
 end
+% ResultsRoot is the base folder; stage separates Week 2 and Week 3 runs.
+plan.results_root = fullfile(plan.results_root,options.ExperimentStage);
 plan.provenance_files = referenceFile;
 plan.replay_policy = "Primal snapshots only; retained dual/slack/QP memory not certified.";
 end
+

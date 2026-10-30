@@ -1,0 +1,17 @@
+{
+  "settings_match": true,
+  "provenance_match": true,
+  "build_identified": false,
+  "numerical_pass": true,
+  "coverage_complete": false,
+  "tolerance": 0,
+  "directories": [
+    "C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\results\\simulink\\w2\\F1_I0001_mu0p9_cap200_T8",
+    "C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\results\\simulink\\w2_2run\\F1_I0001_mu0p9_cap200_T8"
+  ],
+  "source_sha256": [
+    "c73a997a59c55dc3631c374bacbca814205acb349a1f67b716015e8f9287d5f9",
+    "c957ee4aba6654355cb797938b9e559d060879f636c2a30a7ccf35e6b2cdf493"
+  ],
+  "status": "INCOMPLETE"
+}

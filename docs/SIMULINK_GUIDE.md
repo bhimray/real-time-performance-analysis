@@ -47,3 +47,23 @@ Scenario/path preparation -> controller wrapper -> kinodynamic plant -> measurem
 Keep initialization and logging outside the solver core.
 Later ASM integration uses separate state-projection and actuator-allocation adapters.
 No ASM, AURELION, VEOS or SCALEXIO mapping is assumed in this controller.
+
+## Persistent Simulink S-function (2026-10-29)
+Run bundle_n_build_s_fun explicitly when rebuilding the Simulink controller.
+It requests the fixed solver name ecu_vehicle_nmpc and publishes the binary
+acados_solver_sfunction_ecu_vehicle_nmpc to build/simulink. Project startup
+restores that folder on the MATLAB path without rebuilding. Ordinary
+build_controller and validate_controller calls retain isolated solver names
+and do not replace the published Simulink binary.
+
+In the existing S-Function block, set Function name once to
+acados_solver_sfunction_ecu_vehicle_nmpc (no file extension). Save the model
+that owns that block. For a referenced subsystem, save the subsystem file
+as well as the parent model. Keep the referenced subsystem file on the
+project path. Do not replace its blocks every time the controller is built.
+
+Rebuild with simulations stopped and models using the binary closed. If
+Windows reports the MEX file is locked, restart MATLAB before rebuilding.
+Changing horizon, dimensions, or enabled ports still requires an intentional
+interface/wiring review. Bus definitions must be persisted separately in a
+data dictionary or initialization script. The build helper does not edit SLX.
