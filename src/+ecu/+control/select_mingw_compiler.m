@@ -137,3 +137,4 @@ record.optimization_flags = compiler.Details.OptimizationFlags;
 record.linker_flags = compiler.Details.LinkerFlags;
 record.linker_optimization_flags = compiler.Details.LinkerOptimizationFlags;
 end
+

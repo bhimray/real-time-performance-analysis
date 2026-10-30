@@ -16,6 +16,8 @@ assert(isfield(loaded, 'laneData'), ...
     'MAT file must contain a laneData structure.');
 
 laneData = loaded.laneData;
+% Normalize legacy labels without rewriting the saved scenario file.
+laneData.instance = ecu.scenario.normalize_obstacle_names(laneData.instance);
 
 requiredGroups = {
     'schema_version', 'instance', 'vehicle', ...
@@ -68,3 +70,4 @@ assert(all(laneData.reference.emin < laneData.reference.emax), ...
     'Saved controller bounds are inconsistent.');
 
 end
+

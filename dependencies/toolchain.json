@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "matlab_release": "R2025b",
+  "matlab_release": "R2026b",
   "acados": {
     "tag": "v0.5.4",
     "commit": "d9d0ba2e8f127855119d38874af8a9570df1d8e5"
   },
   "casadi_version": "3.7.0",
-  "compiler": "MinGW64 Compiler (C) 8.1.0",
+  "compiler": "MinGW64 Compiler (C) 14.2.0",
   "blasfeo_target": null,
   "hpipm_version": null,
   "dspace": {
@@ -25,7 +25,7 @@
   },
   "compatibility_verified": false,
   "desktop_controller_validation_passed": true,
-  "matlab_full_version": "25.2.0.3360999 (R2025b) Update 7",
+  "matlab_full_version": "26.2.0.3386108 (R2026b)",
   "dspace_target_build_validated": false,
   "compiler_policy": {
     "family": "MinGW-w64",
@@ -34,7 +34,7 @@
       "C++"
     ],
     "fallback_to_msvc": false,
-    "required_version": "8.1.0",
-    "reason": "R2025b baseline; native libraries and MEX must use the same recorded version"
+    "required_version": "14.2.0",
+    "reason": "R2026b: native acados libraries and MEX use MinGW 14.2.0"
   }
 }

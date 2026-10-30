@@ -18,7 +18,7 @@ for index = 1:numel(run.signals)
     if signal.rate == "controller"
         expectedStep = plan.controller_period_s;
     end
-    if isempty(t) || any(diff(t) <= 0)
+    if isempty(t) || any(~isfinite(t)) || any(diff(t) <= 0)
         issues(end+1) = "Invalid timestamps: " + signal.id; %#ok<AGROW>
     elseif abs(t(1)) > 1e-8 || any(abs(diff(t)-expectedStep) > 1e-8)
         issues(end+1) = "Unexpected start/rate: " + signal.id; %#ok<AGROW>
@@ -70,11 +70,23 @@ catch exception
     issues(end+1) = string(exception.message);
 end
 for id = ["controller.measurement.x","controller.measurement.vx", ...
-        "controller.measurement.s","command.applied.Fx","command.applied.Fy","command.applied.Mz"]
+        "controller.measurement.s","command.applied.Fx","command.applied.Fy","command.applied.Mz", ...
+        "command.candidate.Fx","command.candidate.Fy","command.candidate.Mz", ...
+        "controller.solver.status","controller.solver.cost", ...
+        "controller.solver.residuals","controller.solver.slacks", ...
+        "controller.solver.total_time","controller.solver.qp_time", ...
+        "controller.solver.linearization_time","controller.step_time"]
     try
         signal = ecu.analysis.get_signal(run,id);
         if any(~isfinite(signal.values),'all')
             issues(end+1) = "Nonfinite values: " + id; %#ok<AGROW>
+        end
+        if endsWith(id,"_time") && any(signal.values < 0,'all')
+            issues(end+1) = "Negative execution time: " + id; %#ok<AGROW>
+        end
+        if id == "controller.solver.status" && ...
+                any(signal.values ~= floor(signal.values),'all')
+            issues(end+1) = "Noninteger solver status.";
         end
     catch
         % Missing required signals are already reported above.
@@ -83,7 +95,7 @@ end
 try
     lengthSignal = ecu.analysis.get_signal(run,"controller.solver.history_length");
     n = lengthSignal.values;
-    if any(n < 1 | n > plan.config.max_iter+1 | n ~= floor(n))
+    if any(~isfinite(n) | n < 1 | n > plan.config.max_iter+1 | n ~= floor(n))
         issues(end+1) = "Invalid solver history length.";
     end
 catch

@@ -27,7 +27,16 @@ validateattributes(measuredStation, {'double'}, ...
 validateattributes(measuredLongitudinalSpeed, {'double'}, ...
     {'scalar', 'positive', 'real', 'finite'});
 
-numberOfIntervals = controllerConfig.N;
+% Simulink parameters are tunable: dimensions must not depend on their values.
+if coder.target('MATLAB')
+    numberOfIntervals = controllerConfig.N;
+    numberOfParameters = controllerConfig.np;
+else
+    numberOfIntervals = 40;
+    numberOfParameters = 19;
+    assert(controllerConfig.N == 40 && controllerConfig.np == 19, ...
+        'Generated horizon requires N=40 and np=19.');
+end
 sampleTime = controllerConfig.Ts;
 
 assert(sampleTime == instance.timing.controller_period_s, ...
@@ -78,7 +87,7 @@ safetyAxes = instance.obstacle_geometry.safety_semi_axes_m;
 
 %% Assemble the stage parameters using their shared named contract
 
-parameters = zeros(controllerConfig.np, numberOfIntervals + 1);
+parameters = zeros(numberOfParameters, numberOfIntervals + 1);
 
 for column = 1:(numberOfIntervals + 1)
     predictionTime = (column - 1) * sampleTime;
@@ -126,3 +135,4 @@ for column = 1:(numberOfIntervals + 1)
 end
 
 end
+

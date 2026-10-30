@@ -5,7 +5,7 @@ laneDirectory = fullfile( ...
 
 station = (0:0.01:500).';
 
-for familyId = 3:4
+for familyId = 1:4
     for instanceId = 1:100
         instance = ecu.scenario.gen_instance(familyId, instanceId);
 

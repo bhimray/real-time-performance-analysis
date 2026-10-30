@@ -138,6 +138,8 @@ instance.obstacles(2) = struct( ...
     'braking_start_s', 0 ...
 );
 
+instance = ecu.scenario.normalize_obstacle_names(instance);
+
 instance.obstacle_geometry.safety_semi_axes_m = config.safety_semi_axes_m;
 instance.obstacle_geometry.collision_semi_axes_m = config.collision_semi_axes_m;
 instance.termination.run_off_limit_m = config.run_off_limit_m;
@@ -151,3 +153,4 @@ function value = interpolate_range(bounds, uniformDraw)
 value = bounds(1) + (bounds(2) - bounds(1)) * uniformDraw;
 
 end
+
