@@ -9,7 +9,7 @@ id = identity.id;
 [directory, lockCleanup] = ecu.simulation.prepare_run_directory( ...
     plan.results_root,identity); %#ok<NASGU>
 stamp = char(datetime('now',TimeZone='UTC',Format="yyyyMMdd'T'HHmmssSSS'Z'"));
-
+i go
 manifest.schema_version = 2;
 manifest.run_id = id;
 manifest.settings_sha256 = identity.sha256;
