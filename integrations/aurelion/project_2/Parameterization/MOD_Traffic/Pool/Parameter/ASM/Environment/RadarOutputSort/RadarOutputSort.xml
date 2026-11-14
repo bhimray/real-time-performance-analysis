@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>RadarOutputSort</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADAR_OUTPUT_SORT.Sw_Sort_Attribute</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADAR_OUTPUT_SORT.Sw_Sort_Direction</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADAR_OUTPUT_SORT.Sw_Sort_Enable</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

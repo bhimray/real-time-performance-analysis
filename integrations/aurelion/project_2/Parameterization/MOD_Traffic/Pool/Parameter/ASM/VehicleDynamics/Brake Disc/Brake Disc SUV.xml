@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>VehicleDynamics</MainComponent>
+	  <RecordType>Brake Disc</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.BRAKE_DISC.Const_A_FL</ParameterAddress>
+			      <ValueV>0.0055</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.BRAKE_DISC.Const_A_FR</ParameterAddress>
+			      <ValueV>0.0055</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.BRAKE_DISC.Const_A_RL</ParameterAddress>
+			      <ValueV>0.0035</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.BRAKE_DISC.Const_A_RR</ParameterAddress>
+			      <ValueV>0.0035</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.BRAKE_DISC.Const_Fric_Coef_FL</ParameterAddress>
+			      <ValueV>0.35</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.BRAKE_DISC.Const_Fric_Coef_FR</ParameterAddress>
+			      <ValueV>0.35</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.BRAKE_DISC.Const_Fric_Coef_RL</ParameterAddress>
+			      <ValueV>0.35</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.BRAKE_DISC.Const_Fric_Coef_RR</ParameterAddress>
+			      <ValueV>0.35</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.BRAKE_DISC.Const_r_FL</ParameterAddress>
+			      <ValueV>0.12</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.BRAKE_DISC.Const_r_FR</ParameterAddress>
+			      <ValueV>0.12</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.BRAKE_DISC.Const_r_RL</ParameterAddress>
+			      <ValueV>0.1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.BRAKE_DISC.Const_r_RR</ParameterAddress>
+			      <ValueV>0.1</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

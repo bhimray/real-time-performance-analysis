@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>GearShifter</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Const_a_Tractive_Res_UpLim</ParameterAddress>
+			      <ValueV>0.45</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Const_a_x_Vehicle_LowLim</ParameterAddress>
+			      <ValueV>-1.5</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Const_a_x_Vehicle_UpLim</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Const_D_Gain_StartUp</ParameterAddress>
+			      <ValueV>0.001</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Const_I_Gain_ClutchPedal</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Const_I_Gain_StartUp</ParameterAddress>
+			      <ValueV>0.05</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Const_n_Engine_StartUp_Set</ParameterAddress>
+			      <ValueV>1100</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Const_P_Gain_ClutchPedal</ParameterAddress>
+			      <ValueV>20</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Const_P_Gain_StartUp</ParameterAddress>
+			      <ValueV>0.01</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Const_t_Gear_Neutral</ParameterAddress>
+			      <ValueV>0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Const_t_Hold_ClutchPedal</ParameterAddress>
+			      <ValueV>0.1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Const_v_x_Vehicle_LowLim</ParameterAddress>
+			      <ValueV>2.5</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Map_Gear_StartUp</ParameterAddress>
+			      <DimView>[26,21]</DimView>
+			      <ValueX>500 750 1000 1250 1500 1750 2000 2250 2500 2750 3000 3250 3500 3750 4000 4250 4500 4750 5000 5250 5500 5750 6000 6250 6500 6750</ValueX>
+			      <ValueY>0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 2</ValueY>
+			      <ValueV>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Map_i_Ratio</ParameterAddress>
+			      <DimView>[1,7]</DimView>
+			      <ValueX>-1 0 1 2 3 4 5 5.05 5.1 5.15 5.2 5.25 5.3 5.35 5.4 5.45 5.5 5.55 5.6 5.65 5.7 5.75 5.8 5.85 5.9</ValueX>
+			      <ValueV>-3 0 3.75 2.235 1.518 1.13 0.7 0.6785 0.657 0.6355 0.614 0.5925 0.571 0.5495 0.528 0.5065 0.485 0.4635 0.442 0.4205 0.399 0.3775 0.356 0.3345 0.313</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Map_n_Engine_Downshift_Lim</ParameterAddress>
+			      <DimView>[1,11]</DimView>
+			      <ValueX>0 10 20 30 40 50 60 70 80 90 100</ValueX>
+			      <ValueV>1350 1363.5 1377 1390.5 1404 1417.5 1431 1444.5 1458 1471.5 1485</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Map_n_Engine_Upshift_Lim</ParameterAddress>
+			      <DimView>[1,11]</DimView>
+			      <ValueX>0 10 20 30 40 50 60 70 80 90 100</ValueX>
+			      <ValueV>3500 3535 3570 3605 3640 3675 3710 3745 3780 3815 3850</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Map_omega_Out_Trm_Shift_Bias</ParameterAddress>
+			      <DimView>[1,7]</DimView>
+			      <ValueX>-1 -0.5 0 0.5 1 1.5 2</ValueX>
+			      <ValueV>20 27 38 49 67 110 180</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Map_Pos_AccPedal</ParameterAddress>
+			      <DimView>[1,11]</DimView>
+			      <ValueX>0 10 20 30 40 50 60 70 80 90 100</ValueX>
+			      <ValueV>1 0.9 0.8 0.7 0.6 0.5 0.4 0.3 0.2 0.1 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Map_Pos_ClutchPedal_Disengagement</ParameterAddress>
+			      <DimView>[1,6]</DimView>
+			      <ValueX>0 0.1 0.2 0.3 0.4 0.5</ValueX>
+			      <ValueV>0 20 40 60 80 100</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Map_Pos_ClutchPedal_Disengagement_StartUp</ParameterAddress>
+			      <DimView>[1,3]</DimView>
+			      <ValueX>0 0.1 0.2</ValueX>
+			      <ValueV>0 50 100</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Map_Pos_ClutchPedal_Engagement</ParameterAddress>
+			      <DimView>[1,11]</DimView>
+			      <ValueX>0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1</ValueX>
+			      <ValueV>100 90 80 70 60 50 40 30 20 10 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Map_Pos_ClutchPedal_Engagement_StartUp</ParameterAddress>
+			      <DimView>[1,11]</DimView>
+			      <ValueX>0 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 1.8 2</ValueX>
+			      <ValueV>100 98 94 86 78 70 60 50 37 20 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Sw_Upshift_Gear_Skipping</ParameterAddress>
+			      <ValueV>2</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.GEAR_SHIFTER.Sw_ClutchPedal_EngineOff</ParameterAddress>
+			      <ValueV>0</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

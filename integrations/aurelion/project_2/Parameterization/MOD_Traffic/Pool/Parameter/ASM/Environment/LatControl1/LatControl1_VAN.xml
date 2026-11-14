@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>LatControl1</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.LATERAL_CONTROL1.Const_t_Preview_LatCtrl</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LATERAL_CONTROL1.Const_t_PT1_LatCtrl</ParameterAddress>
+			      <ValueV>0.1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LATERAL_CONTROL1.Const_WheelBase</ParameterAddress>
+			      <ValueV>2.7</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

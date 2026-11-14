@@ -1,0 +1,8 @@
+ADASRP Route Export
+ADASRP Version = 4.5.2009.1
+Export Version = 1.0.0.1
+Configuration = d:\project\ADASRP\PlugIns\dSpace\RoadDataExport\ADASRP.RoadDataExport.ini
+Database = D:\Project\ADASRP\ADASRP.DB\EU_2008Q4\
+Date = 2009-11-03 12:19:43 W. Europe Standard Time
+Route Origin = 50.01163°N 9.32327°E
+Route Destination = 49.98127°N 9.26606°E

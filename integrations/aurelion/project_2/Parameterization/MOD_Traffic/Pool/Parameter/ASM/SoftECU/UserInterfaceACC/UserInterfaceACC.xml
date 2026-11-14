@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>SoftECU</MainComponent>
+	  <RecordType>UserInterfaceACC</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.USER_INTERFACE_ACC.Const_v_Step</ParameterAddress>
+			      <ValueV>10</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

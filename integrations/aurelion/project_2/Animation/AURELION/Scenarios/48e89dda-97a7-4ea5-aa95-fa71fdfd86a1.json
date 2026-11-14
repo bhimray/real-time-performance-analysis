@@ -1,0 +1,17 @@
+{
+  "id": "48e89dda-97a7-4ea5-aa95-fa71fdfd86a1",
+  "version": 7,
+  "name": "RoadWorks_Highway",
+  "description": "",
+  "modifiedOn": 1793741104,
+  "type": "ModelDesk",
+  "imageFile": "./Scenarios/48e89dda-97a7-4ea5-aa95-fa71fdfd86a1/Preview.png",
+  "scenery": {
+    "selection": "aur",
+    "scene": {
+      "name": "RoadWorks_Highway",
+      "path": "/AUR_MapsBasic/Scenes/RoadWorks_Highway/RoadWorks_Highway"
+    },
+    "isAvailable": true
+  }
+}

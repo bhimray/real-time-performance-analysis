@@ -1,0 +1,2367 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root>
+	<creator type="key">ControlDesk 26.1p1</creator>
+	<majorversion type="key">26</majorversion>
+	<minorversion type="key">1</minorversion>
+	<maintenanceversion type="key">0</maintenanceversion>
+	<specialbuildversion type="key"/>
+	<releasename type="key">2026-A</releasename>
+	<experiment>
+		<Creator type="key">ControlDesk</Creator>
+		<MigrationHistory type="key"/>
+		<Name type="key">Experiment_001.CDE</Name>
+		<DisplayName type="key">Experiment_001</DisplayName>
+		<Path type="key">.\Experiment_001</Path>
+		<Flags type="key">4096</Flags>
+		<Type type="key">2</Type>
+		<UniqueID type="key">134992252</UniqueID>
+		<EntityID type="key">{2BEF8B51-6D7B-419E-A367-B3B8AADA8E6D}</EntityID>
+		<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+		<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+		<ItemInfoDescr type="key"/>
+		<ItemInfoAddInfoDb type="key"/>
+		<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+		<item>
+			<Component type="key">VariablesManagement</Component>
+			<Name type="key">CalculatedVariables.vdp</Name>
+			<DisplayName type="key">CalculatedVariables.vdp</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">18692</Flags>
+			<Type type="key">4</Type>
+			<UniqueID type="key">89342815</UniqueID>
+			<EntityID type="key">{5446D3F4-F4DF-4D9A-9BCA-ECCB6243B09D}</EntityID>
+			<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+		</item>
+		<item>
+			<Targets type="key">experiment</Targets>
+			<Name type="key">Experiment_001</Name>
+			<DisplayName type="key">Experiment_001</DisplayName>
+			<Path type="key">..</Path>
+			<Flags type="key">4100</Flags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">41867819</UniqueID>
+			<EntityID type="key">{042A1EFA-E071-49E4-A815-06D8CC222CD4}</EntityID>
+			<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+			<item>
+				<Component type="key">Instrumentation</Component>
+				<Targets type="key">instrumentation</Targets>
+				<Name type="key">Experiment Layouts</Name>
+				<DisplayName type="key">Experiment Layouts</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4224</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">209342334</UniqueID>
+				<EntityID type="key">{E83842A2-7357-416C-BAE5-A2B1E61ED375}</EntityID>
+				<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				<item>
+					<Name type="key">Experiment_001.cdc</Name>
+					<DisplayName type="key">Experiment_001.cdc</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">4100</Flags>
+					<Type type="key">4</Type>
+					<UniqueID type="key">957318309</UniqueID>
+					<EntityID type="key">{631E61F1-39F8-44F0-A7FD-9F593EEC8E7B}</EntityID>
+					<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">Telemetry.lay</Name>
+					<DisplayName type="key">Telemetry.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">835985374</UniqueID>
+					<EntityID type="key">{2329D440-B5DC-4751-A768-C7488098872C}</EntityID>
+					<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">Input_Optimal.lay</Name>
+					<DisplayName type="key">Input_Optimal.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">481546037</UniqueID>
+					<EntityID type="key">{D9969539-7A92-43AF-AF1A-33F81FC254FA}</EntityID>
+					<ItemInfoDate type="key">2026-11-06 11:27:10</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">dashboard.lay</Name>
+					<DisplayName type="key">dashboard.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">454676788</UniqueID>
+					<EntityID type="key">{654F1477-3812-4609-ABF0-67AFE94A693A}</EntityID>
+					<ItemInfoDate type="key">2026-11-06 11:47:27</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">brake_torque.lay</Name>
+					<DisplayName type="key">brake_torque.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">2879763</UniqueID>
+					<EntityID type="key">{52084133-7EE2-489C-B84F-7175AE81286F}</EntityID>
+					<ItemInfoDate type="key">2026-11-06 13:30:27</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">drive_torque.lay</Name>
+					<DisplayName type="key">drive_torque.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">538696599</UniqueID>
+					<EntityID type="key">{C3020EF6-D44E-4492-8CCC-A390E71D7BA5}</EntityID>
+					<ItemInfoDate type="key">2026-11-06 13:32:51</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">trajectory.lay</Name>
+					<DisplayName type="key">trajectory.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">219778664</UniqueID>
+					<EntityID type="key">{3A7AC1AB-037E-451F-B926-B0129F792EB3}</EntityID>
+					<ItemInfoDate type="key">2026-11-06 15:39:23</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">Fellow.lay</Name>
+					<DisplayName type="key">Fellow.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">219912099</UniqueID>
+					<EntityID type="key">{FF88163E-95DC-49CD-9D76-A0E9BE094FFE}</EntityID>
+					<ItemInfoDate type="key">2026-11-09 16:17:05</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">slack_value.lay</Name>
+					<DisplayName type="key">slack_value.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">470830316</UniqueID>
+					<EntityID type="key">{511E028D-5D5E-4E94-B20C-C24CFAF5D545}</EntityID>
+					<ItemInfoDate type="key">2026-11-10 13:19:18</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">switch.lay</Name>
+					<DisplayName type="key">switch.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">279286193</UniqueID>
+					<EntityID type="key">{C0C81FEC-A24E-4129-8CEA-A46E97593A4C}</EntityID>
+					<ItemInfoDate type="key">2026-11-13 15:18:09</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+			</item>
+			<item>
+				<Targets type="key">devicemanagement,platformmanagement,diagnosticsmanagement</Targets>
+				<Name type="key">Hardware Configurations</Name>
+				<DisplayName type="key">Hardware Configurations</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">1041233252</UniqueID>
+				<EntityID type="key">{C4AF56BC-6A1B-45AC-8F6D-27EC62A33828}</EntityID>
+				<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				<item>
+					<Component type="key">PlatformManagement</Component>
+					<Targets type="key">Device::79a9a21b-69e9-44fe-93a1-921e46f3adbb</Targets>
+					<RestoreInfopmdn type="key">Platform</RestoreInfopmdn>
+					<RestoreInfopmid type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</RestoreInfopmid>
+					<Name type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Name>
+					<DisplayName type="key">Platform [VEOS, assigned to 'VEOS']</DisplayName>
+					<Flags type="key">128</Flags>
+					<ExtendedFlags type="key">3072</ExtendedFlags>
+					<Type type="key">6</Type>
+					<UniqueID type="key">329728832</UniqueID>
+					<EntityID type="key">{AC0C18B0-6495-4261-86EF-221FE7A0B3DC}</EntityID>
+					<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">ASM_Traffic.sdf</Name>
+						<DisplayName type="key">ASM_Traffic.sdf</DisplayName>
+						<Path type="key">.\Variable Descriptions\ASM_Traffic.sdf</Path>
+						<Flags type="key">18688</Flags>
+						<Type type="key">7</Type>
+						<UniqueID type="key">615602081</UniqueID>
+						<EntityID type="key">{CD768FFA-8EFC-423B-B95F-D13BC10F662A}</EntityID>
+						<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+						<item>
+							<Component type="key">VariablesManagement</Component>
+							<Name type="key">ASM_Traffic.vdp</Name>
+							<DisplayName type="key">ASM_Traffic.vdp</DisplayName>
+							<Path type="key">.\Variable Descriptions\ASM_Traffic.sdf</Path>
+							<Flags type="key">18692</Flags>
+							<Type type="key">4</Type>
+							<UniqueID type="key">1050026007</UniqueID>
+							<EntityID type="key">{2AF6529B-F3BF-4414-84B3-2C2058C2E3ED}</EntityID>
+							<ItemInfoDate type="key">2026-11-13 15:42:34</ItemInfoDate>
+							<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+							<ItemInfoDescr type="key"/>
+							<ItemInfoAddInfoDb type="key"/>
+							<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+						</item>
+						<item>
+							<Component type="key">VariablesManagement</Component>
+							<Name type="key">.metadata</Name>
+							<DisplayName type="key">.metadata</DisplayName>
+							<Path type="key">.\Variable Descriptions\ASM_Traffic.sdf</Path>
+							<Flags type="key">18692</Flags>
+							<Type type="key">4</Type>
+							<UniqueID type="key">343031992</UniqueID>
+							<EntityID type="key">{9803B5B4-4AB7-4AB1-8EFF-8D224C9C0691}</EntityID>
+							<ItemInfoDate type="key">2026-11-13 15:42:32</ItemInfoDate>
+							<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+							<ItemInfoDescr type="key"/>
+							<ItemInfoAddInfoDb type="key"/>
+							<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+						</item>
+						<item>
+							<Component type="key">VariablesManagement</Component>
+							<Name type="key">ASM_Traffic.trc</Name>
+							<DisplayName type="key">ASM_Traffic.trc</DisplayName>
+							<Path type="key">.\Variable Descriptions\ASM_Traffic.sdf</Path>
+							<Flags type="key">18692</Flags>
+							<Type type="key">4</Type>
+							<UniqueID type="key">244925357</UniqueID>
+							<EntityID type="key">{454D26F4-4C1A-41BB-95DE-BF5BEC7753AA}</EntityID>
+							<ItemInfoDate type="key">2026-11-13 15:42:32</ItemInfoDate>
+							<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+							<ItemInfoDescr type="key"/>
+							<ItemInfoAddInfoDb type="key"/>
+							<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+						</item>
+						<item>
+							<Component type="key">VariablesManagement</Component>
+							<Name type="key">ASM_Traffic.xml</Name>
+							<DisplayName type="key">ASM_Traffic.xml</DisplayName>
+							<Path type="key">.\Variable Descriptions\ASM_Traffic.sdf</Path>
+							<Flags type="key">18692</Flags>
+							<Type type="key">4</Type>
+							<UniqueID type="key">971963232</UniqueID>
+							<EntityID type="key">{612DEAAC-C7F1-4CDA-896F-FAE51FF77F6D}</EntityID>
+							<ItemInfoDate type="key">2026-11-13 15:42:32</ItemInfoDate>
+							<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+							<ItemInfoDescr type="key"/>
+							<ItemInfoAddInfoDb type="key"/>
+							<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+						</item>
+						<item>
+							<Component type="key">VariablesManagement</Component>
+							<Name type="key">ASM_Traffic.dsbuildinfo</Name>
+							<DisplayName type="key">ASM_Traffic.dsbuildinfo</DisplayName>
+							<Path type="key">.\Variable Descriptions\ASM_Traffic.sdf</Path>
+							<Flags type="key">18692</Flags>
+							<Type type="key">4</Type>
+							<UniqueID type="key">649862293</UniqueID>
+							<EntityID type="key">{5D4BC134-A828-4E60-A3ED-F982E73FCBC8}</EntityID>
+							<ItemInfoDate type="key">2026-11-13 15:42:32</ItemInfoDate>
+							<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+							<ItemInfoDescr type="key"/>
+							<ItemInfoAddInfoDb type="key"/>
+							<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+						</item>
+						<item>
+							<Component type="key">VariablesManagement</Component>
+							<Name type="key">ASM_Traffic.osa</Name>
+							<DisplayName type="key">ASM_Traffic.osa</DisplayName>
+							<Path type="key">.\Variable Descriptions\ASM_Traffic.sdf</Path>
+							<Flags type="key">18692</Flags>
+							<Type type="key">4</Type>
+							<UniqueID type="key">151913781</UniqueID>
+							<EntityID type="key">{EB2BC977-8510-4032-9E0C-4648FC43B69D}</EntityID>
+							<ItemInfoDate type="key">2026-11-13 15:42:32</ItemInfoDate>
+							<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+							<ItemInfoDescr type="key"/>
+							<ItemInfoAddInfoDb type="key"/>
+							<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+						</item>
+						<item>
+							<Component type="key">DataSetManager</Component>
+							<Name type="key">Data Sets</Name>
+							<DisplayName type="key">Data Sets</DisplayName>
+							<Path type="key">.\Data Sets</Path>
+							<Flags type="key">65798</Flags>
+							<ExtendedFlags type="key">132</ExtendedFlags>
+							<Type type="key">3</Type>
+							<UniqueID type="key">26789651</UniqueID>
+							<EntityID type="key">{D322F9C3-30A9-42FC-A389-84E2F3E588FF}</EntityID>
+							<ItemInfoDate type="key">2026-11-06 11:24:23</ItemInfoDate>
+							<ItemInfoDescr type="key"/>
+							<ItemInfoAddInfoDb type="key"/>
+							<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+						</item>
+					</item>
+				</item>
+				<item>
+					<Component type="key">PlatformManagement</Component>
+					<Targets type="key">Device::VEOS Simulation Time Group 1</Targets>
+					<Name type="key">df46a4fb-bee2-4b51-9c66-f5af313f9b11</Name>
+					<DisplayName type="key">VEOS Simulation Time Group 1</DisplayName>
+					<Flags type="key">128</Flags>
+					<Type type="key">59</Type>
+					<UniqueID type="key">839525684</UniqueID>
+					<EntityID type="key">{14A649A2-AF1A-4FCE-B86B-F8C29D2BEF03}</EntityID>
+					<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+					<item>
+						<Component type="key">PlatformManagement</Component>
+						<Targets type="key">,Device::79a9a21b-69e9-44fe-93a1-921e46f3adbb</Targets>
+						<Flags type="key">416</Flags>
+						<ExtendedFlags type="key">3072</ExtendedFlags>
+						<UniqueID type="key">543187210</UniqueID>
+						<LinkedItem type="key">329728832</LinkedItem>
+					</item>
+				</item>
+			</item>
+			<item>
+				<Targets type="key">variablesmanagement</Targets>
+				<Name type="key">Variable Descriptions</Name>
+				<DisplayName type="key">Variable Descriptions</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">260</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">657785524</UniqueID>
+				<EntityID type="key">{649012A4-71D6-4256-8AF8-8F9F1A88A3BA}</EntityID>
+				<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">measurementconfiguration</Targets>
+				<Name type="key">Measurement Configuration</Name>
+				<DisplayName type="key">Measurement Configuration</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">262404</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">1024172736</UniqueID>
+				<EntityID type="key">{3F0A019D-B4A7-4DB8-952D-222B7246D7DD}</EntityID>
+				<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				<item>
+					<Component type="key">MeasurementConfiguration</Component>
+					<Name type="key">measurementtriggers.xml</Name>
+					<DisplayName type="key">measurementtriggers.xml</DisplayName>
+					<Path type="key">.\Measurement Configuration</Path>
+					<Flags type="key">4</Flags>
+					<Type type="key">4</Type>
+					<UniqueID type="key">1014547388</UniqueID>
+					<EntityID type="key">{E7A2CC20-9F5C-4417-9F74-B5480B8D54A1}</EntityID>
+					<ItemInfoDate type="key">2026-11-06 12:13:04</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+			</item>
+			<item>
+				<Targets type="key">datasetmanager</Targets>
+				<Name type="key">Data Sets</Name>
+				<DisplayName type="key">Data Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">260</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">122957222</UniqueID>
+				<EntityID type="key">{FCED3E13-02FB-4C37-A9CD-89F16FF243BB}</EntityID>
+				<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">mappings</Targets>
+				<Name type="key">Mappings</Name>
+				<DisplayName type="key">Mappings</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">464082240</UniqueID>
+				<EntityID type="key">{3ECE9804-BC2E-4F28-B950-ADA245739C37}</EntityID>
+				<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				<item>
+					<Component type="key">VariablesManagement</Component>
+					<Name type="key">.metadata</Name>
+					<DisplayName type="key">.metadata</DisplayName>
+					<Path type="key">.\Mappings</Path>
+					<Flags type="key">18692</Flags>
+					<Type type="key">4</Type>
+					<UniqueID type="key">381167417</UniqueID>
+					<EntityID type="key">{300F04EB-C0DC-42FC-B8AF-976CD2FAA298}</EntityID>
+					<ItemInfoDate type="key">2026-11-06 11:24:24</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+			</item>
+			<item>
+				<Targets type="key">measuredatamanagement</Targets>
+				<Name type="key">Measurement Data</Name>
+				<DisplayName type="key">Measurement Data</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4224</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">509924483</UniqueID>
+				<EntityID type="key">{88006AFD-8DFE-4F93-8FA3-9059D4724073}</EntityID>
+				<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_001.mf4</Name>
+					<DisplayName type="key">rec1_001.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">296525043</UniqueID>
+					<EntityID type="key">{5A5DA872-9EF3-4F76-A6A2-41B981C7D90F}</EntityID>
+					<ItemInfoDate type="key">2026-11-09 18:24:19</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_002.mf4</Name>
+					<DisplayName type="key">rec1_002.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">897250216</UniqueID>
+					<EntityID type="key">{57E681BF-54DE-4529-9B36-D97A16247612}</EntityID>
+					<ItemInfoDate type="key">2026-11-10 12:27:53</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_003.mf4</Name>
+					<DisplayName type="key">rec1_003.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">607247967</UniqueID>
+					<EntityID type="key">{1600ED17-9459-4E64-AD14-40A00B19F5C0}</EntityID>
+					<ItemInfoDate type="key">2026-11-12 15:25:12</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_004.mf4</Name>
+					<DisplayName type="key">rec1_004.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">859445879</UniqueID>
+					<EntityID type="key">{5FB72173-A976-4C8D-A294-549C15E90ACA}</EntityID>
+					<ItemInfoDate type="key">2026-11-12 19:13:31</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_005.mf4</Name>
+					<DisplayName type="key">rec1_005.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">860366560</UniqueID>
+					<EntityID type="key">{9676C2B7-E16D-4803-BA4A-8DAFB4850CEE}</EntityID>
+					<ItemInfoDate type="key">2026-11-12 20:03:34</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_006.mf4</Name>
+					<DisplayName type="key">rec1_006.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">117910073</UniqueID>
+					<EntityID type="key">{435AC249-F982-4867-89A2-7693F3D6A267}</EntityID>
+					<ItemInfoDate type="key">2026-11-12 20:24:57</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+			</item>
+			<item>
+				<Targets type="key">variablefilters,.vfex</Targets>
+				<Docs type="key">.vfex</Docs>
+				<Name type="key">Variable Filters</Name>
+				<DisplayName type="key">Variable Filters</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">938811647</UniqueID>
+				<EntityID type="key">{1D5717F1-1D11-4345-97AF-0E5C26620189}</EntityID>
+				<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.vfex</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">labellists,.lab</Targets>
+				<Docs type="key">.lab,.txt</Docs>
+				<Name type="key">Label Lists</Name>
+				<DisplayName type="key">Label Lists</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">582185239</UniqueID>
+				<EntityID type="key">{A7DE5D2F-CA25-428D-BED9-BDDBDCD75985}</EntityID>
+				<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.lab,.txt</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">diagnosticsmanagement_reports,.rtf,.pdf,.html,.xml,.txt,.csv</Targets>
+				<Docs type="key">.rtf,.pdf,.html,.txt,.csv</Docs>
+				<Name type="key">Reports</Name>
+				<DisplayName type="key">Reports</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">103681207</UniqueID>
+				<EntityID type="key">{A8A65110-364A-4F43-9AEE-038D40CED8FC}</EntityID>
+				<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.rtf,.pdf,.html,.txt,.csv</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">pythonscriptcomponent</Targets>
+				<Name type="key">Python Scripts</Name>
+				<DisplayName type="key">Python Scripts</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4224</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">704612747</UniqueID>
+				<EntityID type="key">{0BA8F626-7893-494A-B288-F4A3DDC85E7D}</EntityID>
+				<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">signaleditor</Targets>
+				<Name type="key">Signal Generators</Name>
+				<DisplayName type="key">Signal Generators</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">993809092</UniqueID>
+				<EntityID type="key">{69B66DBD-C31D-44A0-9065-A3B3381C731A}</EntityID>
+				<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">busnavigator,.xml</Targets>
+				<Name type="key">BusNavigator</Name>
+				<DisplayName type="key">BusNavigator</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">260</Flags>
+				<ExtendedFlags type="key">256</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">650268743</UniqueID>
+				<EntityID type="key">{66F31CE5-621F-41F3-8726-438C66812501}</EntityID>
+				<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">xilapieesport</Targets>
+				<Name type="key">XIL API EESPorts</Name>
+				<DisplayName type="key">XIL API EESPorts</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">1025630678</UniqueID>
+				<EntityID type="key">{0F4405AE-9A98-4E67-A5E4-9B673AA43A45}</EntityID>
+				<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+			</item>
+		</item>
+		<item>
+			<Name type="key">AutomationCustomData.json</Name>
+			<DisplayName type="key">AutomationCustomData.json</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">4</Flags>
+			<Type type="key">4</Type>
+			<UniqueID type="key">528172054</UniqueID>
+			<EntityID type="key">{6A3F90C2-5184-486F-9652-7DB8127567BB}</EntityID>
+			<ItemInfoDate type="key">2026-11-06 11:24:22</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+		</item>
+		<item>
+			<Name type="key">Events</Name>
+			<DisplayName type="key">Events</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">4</Flags>
+			<ExtendedFlags type="key">4</ExtendedFlags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">12981644</UniqueID>
+			<EntityID type="key">{353775CD-6FF8-48B8-9DDD-A533AB3D3331}</EntityID>
+			<ItemInfoDate type="key">2026-11-06 11:24:24</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+			<item>
+				<Name type="key">Experiment.events</Name>
+				<DisplayName type="key">Experiment.events</DisplayName>
+				<Path type="key">.\Events</Path>
+				<Flags type="key">4</Flags>
+				<Type type="key">52</Type>
+				<UniqueID type="key">452651232</UniqueID>
+				<EntityID type="key">{B7AC344E-8F7F-49C7-AC98-DEAFD654FC14}</EntityID>
+				<ItemInfoDate type="key">2026-11-06 11:24:24</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+			</item>
+		</item>
+	</experiment>
+	<ProjectExperiment/>
+	<DataSetManager>
+		<Version>
+			<Version type="key">2</Version>
+		</Version>
+		<Work/>
+		<ActiveWork/>
+		<Reference/>
+		<ActiveReference/>
+		<Master/>
+		<ActiveMaster/>
+		<InitialMaster/>
+		<Incomplete/>
+		<IncompleteReadonly/>
+		<DataSet/>
+		<Readonly/>
+		<AutomaticDownload/>
+	</DataSetManager>
+	<DiagnosticsManagement/>
+	<Instrumentation Version="1"/>
+	<MeasureDataManagement>
+		<TriggerRules>
+			<Version type="key">2</Version>
+		</TriggerRules>
+		<BookmarkTypes>
+			<BookmarkType>
+				<TypeID type="key">1</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">2</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">3</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">5</TypeID>
+				<RecordingActive type="key">0</RecordingActive>
+				<VisualizationActive type="key">0</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">6</TypeID>
+				<RecordingActive type="key">0</RecordingActive>
+				<VisualizationActive type="key">0</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">8</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">9</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">12</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">13</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">14</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">15</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+		</BookmarkTypes>
+	</MeasureDataManagement>
+	<MeasurementConfiguration>
+		<NextUniqueKey type="key">77</NextUniqueKey>
+		<SortedColumn type="key">4</SortedColumn>
+		<SortAscending type="key">-1</SortAscending>
+		<SignalList>
+			<Variable>
+				<Name type="key">d_front</Name>
+				<Platform type="key">__Calculated</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Fellow1_StationGap</Name>
+				<Platform type="key">__Calculated</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Fellow2_StationGap</Name>
+				<Platform type="key">__Calculated</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">ratio_steering</Name>
+				<Platform type="key">__Calculated</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">wheel_angle</Name>
+				<Platform type="key">__Calculated</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Merged</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/cmd_hold_n_validity/brake_torque_Nm[0]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/cmd_hold_n_validity/brake_torque_Nm[1]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/cmd_hold_n_validity/brake_torque_Nm[2]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/cmd_hold_n_validity/brake_torque_Nm[3]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/cmd_hold_n_validity/drive_torque_Nm[0]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/cmd_hold_n_validity/drive_torque_Nm[1]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/cmd_hold_n_validity/drive_torque_Nm[2]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/cmd_hold_n_validity/drive_torque_Nm[3]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/cmd_hold_n_validity/steering_wheel_deg</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.lbx_0</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.lbx_0[0]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.lbx_0[1]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.lbx_0[2]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.lbx_0[3]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.lbx_0[4]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.lh</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.lh_0</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.parameter_traj</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.u_init</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.ubx_0</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.uh</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.uh_0</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.x_init</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/horizon_prep/P</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/horizon_prep/P[1][0]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/horizon_prep/P[13][0]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/horizon_prep/P[17][0]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/horizon_prep/P[18][0]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/horizon_prep/P[9][0]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/output_routing/command_Outport_1[0]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/output_routing/command_Outport_1[1]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/output_routing/command_Outport_1[2]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/warm_start/u_pred</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/warm_start/x_pred</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/warm_start/x_pred[1][0]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/warm_start/x_pred[1][10]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/warm_start/x_pred[1][20]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/warm_start/x_pred[1][30]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/controller_subsys/warm_start/x_pred[1][40]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/state_conversion/Angle_FL_FR_Wheel[Toe;Camber][deg]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/state_conversion/fellow</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/state_conversion/horizon_prep_in</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/state_conversion/tire_feature</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/history_length/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/kkt_residuals/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/lam_stage0/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/linearization_time_s/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/qp_iteration_history/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/qp_time_s/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/residual_history/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/slack_values/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/slack_values/Out1[103]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/slack_values/Out1[104]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/slack_values/Out1[3]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/slack_values/Out1[303]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/slack_values/Out1[304]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/slack_values/Out1[4]</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/solver_cost/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/solver_status/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/solver_time_s/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/telemetry_unwrapped/sqp_iterations/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/VehicleDynamics/Interface_Out/Animation/Angle_Rot_FL_Wheel[deg]/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/VehicleDynamics/Interface_Out/Animation/Angle_Rot_FR_Wheel[deg]/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/VehicleDynamics/Plant/UserInterface/DISP_Plant/Positions/Pos_x_Vehicle_CoorSys_E[m]/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/VehicleDynamics/Plant/UserInterface/DISP_Plant/Positions/Pos_y_Vehicle_CoorSys_E[m]/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/VehicleDynamics/Plant/UserInterface/DISP_Plant/Steering/Angle_SteeringWheel[deg]/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/VehicleDynamics/Plant/UserInterface/DISP_Plant/Suspension/Angle_Gamma_FL_Wheel[deg]/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Model Root/VehicleDynamics/Plant/UserInterface/DISP_Plant/Suspension/Angle_Gamma_FR_Wheel[deg]/Out1</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">Periodic Task 1</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Tunable Parameters/roadFamilyData</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">OnChange</Raster>
+				</Signal>
+			</Variable>
+			<Variable>
+				<Name type="key">Tunable Parameters/roadFamilyId</Name>
+				<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+				<Active type="key">-1</Active>
+				<Signal>
+					<Raster type="key">OnChange</Raster>
+				</Signal>
+			</Variable>
+		</SignalList>
+		<Platforms>
+			<Platform>
+				<Name type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Name>
+				<FilteredRastersView type="key">1</FilteredRastersView>
+				<UseDefaultRasterForParameters type="key">0</UseDefaultRasterForParameters>
+				<DefaultRaster type="key">Periodic Task 1</DefaultRaster>
+				<Rasters>
+					<PlatformTriggered>
+						<Name type="key">Periodic Task 1</Name>
+						<AutoRepeatEnabled type="key">1</AutoRepeatEnabled>
+						<AutoRepeatBehavior type="key">1</AutoRepeatBehavior>
+						<MultiCaptureHistoryEnabled type="key">0</MultiCaptureHistoryEnabled>
+						<DownsamplingFactor type="key">1</DownsamplingFactor>
+						<StartTrigger type="key">75</StartTrigger>
+						<StopTrigger type="key">76</StopTrigger>
+					</PlatformTriggered>
+				</Rasters>
+				<EnabledHardwarePollingRasters/>
+				<PlatformTriggers/>
+			</Platform>
+			<Platform>
+				<Name type="key">__Calculated</Name>
+				<FilteredRastersView type="key">1</FilteredRastersView>
+				<UseDefaultRasterForParameters type="key">0</UseDefaultRasterForParameters>
+				<Rasters>
+					<Raster>
+						<Name type="key">Merged</Name>
+						<MinimumSamplingPeriod type="key">0.001</MinimumSamplingPeriod>
+					</Raster>
+				</Rasters>
+				<EnabledHardwarePollingRasters/>
+				<PlatformTriggers/>
+			</Platform>
+		</Platforms>
+		<Acquisition>
+			<MeasurementBufferSize type="key">60</MeasurementBufferSize>
+			<BufferOverflowWarningEnabled type="key">0</BufferOverflowWarningEnabled>
+			<BufferOverflowWarningTime type="key">10</BufferOverflowWarningTime>
+			<SaveMeasurementBuffer>
+				<AddToExperimentEnabled type="key">-1</AddToExperimentEnabled>
+				<AutomaticSaveDialogEnabled type="key">0</AutomaticSaveDialogEnabled>
+				<AutomaticExportEnabled type="key">0</AutomaticExportEnabled>
+				<AutomaticExportFileNamePrefix type="key">bufexp_</AutomaticExportFileNamePrefix>
+				<AutomaticExportFileType type="key">ASAM MDF 4.1 Files (*.mf4)</AutomaticExportFileType>
+				<AutomaticExportFolder type="key"/>
+				<AutomaticNamingEnabled type="key">-1</AutomaticNamingEnabled>
+				<AutomaticNamingMinimunDigits type="key">3</AutomaticNamingMinimunDigits>
+				<AutomaticNamingStartIndex type="key">1</AutomaticNamingStartIndex>
+				<Description type="key"/>
+				<FileNamePrefix type="key">buf_</FileNamePrefix>
+				<OpenInMeasurementDataPoolEnabled type="key">0</OpenInMeasurementDataPoolEnabled>
+				<RecordingFileType type="key">ASAM MDF 4.1 Files (*.mf4)</RecordingFileType>
+				<MeasurementTimestampsEnabled type="key">0</MeasurementTimestampsEnabled>
+			</SaveMeasurementBuffer>
+			<SaveDisplayedData>
+				<AddToExperimentEnabled type="key">-1</AddToExperimentEnabled>
+				<AutomaticSaveDialogEnabled type="key">0</AutomaticSaveDialogEnabled>
+				<AutomaticExportEnabled type="key">0</AutomaticExportEnabled>
+				<AutomaticExportFileNamePrefix type="key">sddexp_</AutomaticExportFileNamePrefix>
+				<AutomaticExportFileType type="key">ASAM MDF 4.1 Files (*.mf4)</AutomaticExportFileType>
+				<AutomaticExportFolder type="key"/>
+				<AutomaticNamingEnabled type="key">-1</AutomaticNamingEnabled>
+				<AutomaticNamingMinimunDigits type="key">3</AutomaticNamingMinimunDigits>
+				<AutomaticNamingStartIndex type="key">1</AutomaticNamingStartIndex>
+				<Description type="key"/>
+				<FileNamePrefix type="key">sdd_</FileNamePrefix>
+				<OpenInMeasurementDataPoolEnabled type="key">0</OpenInMeasurementDataPoolEnabled>
+				<RecordingFileType type="key">ASAM MDF 4.1 Files (*.mf4)</RecordingFileType>
+				<MeasurementTimestampsEnabled type="key">0</MeasurementTimestampsEnabled>
+			</SaveDisplayedData>
+			<SaveFlightRecorderData>
+				<AddToExperimentEnabled type="key">-1</AddToExperimentEnabled>
+				<AutomaticSaveDialogEnabled type="key">0</AutomaticSaveDialogEnabled>
+				<AutomaticExportEnabled type="key">0</AutomaticExportEnabled>
+				<AutomaticExportFileNamePrefix type="key">flightrecexp_</AutomaticExportFileNamePrefix>
+				<AutomaticExportFileType type="key">ASAM MDF 4.1 Files (*.mf4)</AutomaticExportFileType>
+				<AutomaticExportFolder type="key"/>
+				<AutomaticNamingEnabled type="key">-1</AutomaticNamingEnabled>
+				<AutomaticNamingMinimunDigits type="key">3</AutomaticNamingMinimunDigits>
+				<AutomaticNamingStartIndex type="key">1</AutomaticNamingStartIndex>
+				<Description type="key"/>
+				<FileNamePrefix type="key">flightrec_</FileNamePrefix>
+				<OpenInMeasurementDataPoolEnabled type="key">0</OpenInMeasurementDataPoolEnabled>
+				<RecordingFileType type="key">ASAM MDF 4.1 Files (*.mf4)</RecordingFileType>
+			</SaveFlightRecorderData>
+		</Acquisition>
+		<Recorders>
+			<Recorder>
+				<Name type="key">Recorder 1</Name>
+				<UniqueKey type="key">1</UniqueKey>
+				<AutomaticSignalConfigurationEnabled type="key">-1</AutomaticSignalConfigurationEnabled>
+				<WriteToFileEnabled type="key">-1</WriteToFileEnabled>
+				<MeasurementTimestampsEnabled type="key">0</MeasurementTimestampsEnabled>
+				<StartAudioSignalEnabled type="key">0</StartAudioSignalEnabled>
+				<StopAudioSignalEnabled type="key">0</StopAudioSignalEnabled>
+				<Active type="key">-1</Active>
+				<StartCondition>
+					<Enabled type="key">0</Enabled>
+					<RecordingCycleCount type="key">1</RecordingCycleCount>
+					<SelectedTriggerRule type="key"/>
+					<TriggerDelay type="key">0</TriggerDelay>
+				</StartCondition>
+				<StopCondition>
+					<RecordingStopWarningEnabled type="key">0</RecordingStopWarningEnabled>
+					<RecordingStopWarningTime type="key">60</RecordingStopWarningTime>
+					<SelectedTriggerRule type="key"/>
+					<Type type="key">0</Type>
+					<TimeLimit type="key">3600</TimeLimit>
+					<TriggerDelay type="key">0</TriggerDelay>
+				</StopCondition>
+				<StorageInformation>
+					<AddToExperimentEnabled type="key">-1</AddToExperimentEnabled>
+					<AutomaticSaveDialogEnabled type="key">0</AutomaticSaveDialogEnabled>
+					<AutomaticExportEnabled type="key">0</AutomaticExportEnabled>
+					<AutomaticExportFileNamePrefix type="key">exp1_</AutomaticExportFileNamePrefix>
+					<AutomaticExportFileType type="key">ASAM MDF 4.1 Files (*.mf4)</AutomaticExportFileType>
+					<AutomaticExportFolder type="key"/>
+					<AutomaticNamingEnabled type="key">-1</AutomaticNamingEnabled>
+					<AutomaticNamingMinimunDigits type="key">3</AutomaticNamingMinimunDigits>
+					<AutomaticNamingStartIndex type="key">7</AutomaticNamingStartIndex>
+					<Description type="key"/>
+					<FileNamePrefix type="key">rec1_</FileNamePrefix>
+					<OpenInMeasurementDataPoolEnabled type="key">0</OpenInMeasurementDataPoolEnabled>
+					<RecordingFileType type="key">ASAM MDF 4.1 Files (*.mf4)</RecordingFileType>
+				</StorageInformation>
+				<SignalList>
+					<Variable>
+						<Name type="key">d_front</Name>
+						<Platform type="key">__Calculated</Platform>
+						<PlatformDisplayName type="key">Calculated</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Fellow1_StationGap</Name>
+						<Platform type="key">__Calculated</Platform>
+						<PlatformDisplayName type="key">Calculated</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Fellow2_StationGap</Name>
+						<Platform type="key">__Calculated</Platform>
+						<PlatformDisplayName type="key">Calculated</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">ratio_steering</Name>
+						<Platform type="key">__Calculated</Platform>
+						<PlatformDisplayName type="key">Calculated</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">wheel_angle</Name>
+						<Platform type="key">__Calculated</Platform>
+						<PlatformDisplayName type="key">Calculated</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Merged</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/cmd_hold_n_validity/brake_torque_Nm[0]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/cmd_hold_n_validity/brake_torque_Nm[1]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/cmd_hold_n_validity/brake_torque_Nm[2]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/cmd_hold_n_validity/brake_torque_Nm[3]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/cmd_hold_n_validity/drive_torque_Nm[0]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/cmd_hold_n_validity/drive_torque_Nm[1]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/cmd_hold_n_validity/drive_torque_Nm[2]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/cmd_hold_n_validity/drive_torque_Nm[3]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/cmd_hold_n_validity/steering_wheel_deg</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.lbx_0</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.lbx_0[0]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.lbx_0[1]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.lbx_0[2]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.lbx_0[3]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.lbx_0[4]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.lh</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.lh_0</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.parameter_traj</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.u_init</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.ubx_0</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.uh</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.uh_0</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/assemble_problem/solverInputs.x_init</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/horizon_prep/P</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/horizon_prep/P[1][0]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/horizon_prep/P[13][0]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/horizon_prep/P[17][0]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/horizon_prep/P[18][0]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/horizon_prep/P[9][0]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/output_routing/command_Outport_1[0]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/output_routing/command_Outport_1[1]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/output_routing/command_Outport_1[2]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/warm_start/u_pred</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/warm_start/x_pred</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/warm_start/x_pred[1][0]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/warm_start/x_pred[1][10]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/warm_start/x_pred[1][20]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/warm_start/x_pred[1][30]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/controller_subsys/warm_start/x_pred[1][40]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/state_conversion/Angle_FL_FR_Wheel[Toe;Camber][deg]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/state_conversion/fellow</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/state_conversion/horizon_prep_in</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/state_conversion/tire_feature</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/history_length/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/kkt_residuals/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/lam_stage0/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/linearization_time_s/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/qp_iteration_history/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/qp_time_s/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/residual_history/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/slack_values/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/slack_values/Out1[103]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/slack_values/Out1[104]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/slack_values/Out1[3]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/slack_values/Out1[303]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/slack_values/Out1[304]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/slack_values/Out1[4]</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/solver_cost/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/solver_status/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/solver_time_s/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/telemetry_unwrapped/sqp_iterations/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/VehicleDynamics/Interface_Out/Animation/Angle_Rot_FL_Wheel[deg]/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/VehicleDynamics/Interface_Out/Animation/Angle_Rot_FR_Wheel[deg]/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/VehicleDynamics/Plant/UserInterface/DISP_Plant/Positions/Pos_x_Vehicle_CoorSys_E[m]/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/VehicleDynamics/Plant/UserInterface/DISP_Plant/Positions/Pos_y_Vehicle_CoorSys_E[m]/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/VehicleDynamics/Plant/UserInterface/DISP_Plant/Steering/Angle_SteeringWheel[deg]/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/VehicleDynamics/Plant/UserInterface/DISP_Plant/Suspension/Angle_Gamma_FL_Wheel[deg]/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Model Root/VehicleDynamics/Plant/UserInterface/DISP_Plant/Suspension/Angle_Gamma_FR_Wheel[deg]/Out1</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">Periodic Task 1</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Tunable Parameters/roadFamilyData</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">OnChange</Raster>
+						</Signal>
+					</Variable>
+					<Variable>
+						<Name type="key">Tunable Parameters/roadFamilyId</Name>
+						<Platform type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Platform>
+						<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+						<Recorded type="key">-1</Recorded>
+						<Signal>
+							<Raster type="key">OnChange</Raster>
+						</Signal>
+					</Variable>
+				</SignalList>
+			</Recorder>
+		</Recorders>
+	</MeasurementConfiguration>
+	<BusNavigator/>
+	<SignalEditor/>
+	<XILAPIEESPort>
+		<XILAPIEESPort>
+			<EESPorts type="key">&lt;EESPorts /&gt;</EESPorts>
+		</XILAPIEESPort>
+	</XILAPIEESPort>
+	<VariablesManagement>
+		<Favorites>
+			<Labels/>
+		</Favorites>
+	</VariablesManagement>
+	<PythonScriptComponent/>
+	<PlatformManagement>
+		<SimulationTimeGroupSupported type="key">-1</SimulationTimeGroupSupported>
+		<DeviceFactory>
+			<Device>
+				<DeviceName type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</DeviceName>
+				<DisplayName type="key">Platform</DisplayName>
+				<DeviceType type="key">330</DeviceType>
+				<applications/>
+				<AssignmentConfiguration>
+					<AssignmentInfo>
+						<AliasName type="key"/>
+						<BoardName type="key"/>
+						<ConnectionType type="key">1</ConnectionType>
+						<MACAddress type="key"/>
+						<Mode type="key">1</Mode>
+						<Children type="key">0</Children>
+						<NetClient type="key">127.0.0.1</NetClient>
+						<PlatformType type="key">26</PlatformType>
+						<PortAddress type="key">0</PortAddress>
+						<ProcessorName type="key"/>
+						<SerialNumber type="key"/>
+						<TopologyCheck type="key">0</TopologyCheck>
+						<AssignmentProperties>
+							<AssignmentProperty>
+								<Name type="key">PlatformType</Name>
+								<Value type="key">26</Value>
+								<Type type="key">System.Int32</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">Mode</Name>
+								<Value type="key">1</Value>
+								<Type type="key">System.Int32</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">ConnectionType</Name>
+								<Value type="key">1</Value>
+								<Type type="key">System.Int32</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">Children</Name>
+								<Value type="key">0</Value>
+								<Type type="key">System.Int32</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">BoardName</Name>
+								<Value type="key"/>
+								<Type type="key">System.String</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">MACAddress</Name>
+								<Value type="key"/>
+								<Type type="key">System.String</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">NetClient</Name>
+								<Value type="key">127.0.0.1</Value>
+								<Type type="key">System.String</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">PortAddress</Name>
+								<Value type="key">0</Value>
+								<Type type="key">System.Int32</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">SerialNumber</Name>
+								<Value type="key"/>
+								<Type type="key">System.String</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">ProcessorName</Name>
+								<Value type="key"/>
+								<Type type="key">System.String</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">TopologyCheck</Name>
+								<Value type="key">False</Value>
+								<Type type="key">System.Boolean</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">AliasName</Name>
+								<Value type="key"/>
+								<Type type="key">System.String</Type>
+							</AssignmentProperty>
+						</AssignmentProperties>
+					</AssignmentInfo>
+				</AssignmentConfiguration>
+				<GeneralSettings>
+					<StartOnlineCalibrationBehavior type="key">5</StartOnlineCalibrationBehavior>
+					<DeviceEnableResynchonisation type="key">1</DeviceEnableResynchonisation>
+					<MeasurementService type="key">1</MeasurementService>
+					<ResumeOnlineCalibrationBehaviour type="key">5</ResumeOnlineCalibrationBehaviour>
+					<DisplayStatusInformation type="key">-1</DisplayStatusInformation>
+					<DisplayAutomaticReconnectBehavior type="key">1</DisplayAutomaticReconnectBehavior>
+					<EnablePlatform type="key">1</EnablePlatform>
+					<StartRTA type="key">1</StartRTA>
+					<EnforceStartingRTA type="key">1</EnforceStartingRTA>
+				</GeneralSettings>
+				<SubstituteFactory/>
+				<SimulationOptions>
+					<SimulationStopTime type="key">Infinity</SimulationStopTime>
+					<SimulationBreakTime type="key">Infinity</SimulationBreakTime>
+					<SingleStepTime type="key">0</SingleStepTime>
+					<RealtimeAccelerationFactor type="key">1</RealtimeAccelerationFactor>
+					<SyncBehaviour type="key">1</SyncBehaviour>
+				</SimulationOptions>
+			</Device>
+		</DeviceFactory>
+		<SimulationTimeGroups>
+			<Item>
+				<Name type="key">df46a4fb-bee2-4b51-9c66-f5af313f9b11</Name>
+				<Master type="key"/>
+			</Item>
+		</SimulationTimeGroups>
+	</PlatformManagement>
+</Root>

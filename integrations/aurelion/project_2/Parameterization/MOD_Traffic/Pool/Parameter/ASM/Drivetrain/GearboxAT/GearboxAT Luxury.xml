@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Drivetrain</MainComponent>
+	  <RecordType>GearboxAT</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.GEARBOX_AT.Const_Damping_InputGear</ParameterAddress>
+			      <ValueV>0.005</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.GEARBOX_AT.Const_Inertia_InputGear</ParameterAddress>
+			      <ValueV>0.014</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.GEARBOX_AT.Const_SyncTime</ParameterAddress>
+			      <ValueV>0.1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.GEARBOX_AT.Map_Forward_Efficiency</ParameterAddress>
+			      <DimView>[1,7]</DimView>
+			      <ValueX>-1 0 1 2 3 4 5 5.05 5.1 5.15 5.2 5.25 5.3 5.35 5.4 5.45 5.5 5.55 5.6 5.65 5.7 5.75 5.8 5.85 5.9</ValueX>
+			      <ValueV>0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.GEARBOX_AT.Map_GearRatio</ParameterAddress>
+			      <DimView>[1,10]</DimView>
+			      <ValueX>-1 0 1 2 3 4 5 6 7 8 8.08 8.16 8.24 8.32 8.4 8.48 8.56 8.64 8.72 8.8 8.88 8.96 9.04 9.12 9.2</ValueX>
+			      <ValueV>-3.32 0 4.71 3.14 2.11 1.67 1.29 1 0.84 0.67 0.6564 0.6428 0.6292 0.6156 0.602 0.5884 0.5748 0.5612 0.5476 0.534 0.5204 0.5068 0.4932 0.4796 0.466</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.GEARBOX_AT.Map_Inertia_Out</ParameterAddress>
+			      <DimView>[1,10]</DimView>
+			      <ValueX>-1 0 1 2 3 4 5 6 7 8 8.08 8.16 8.24 8.32 8.4 8.48 8.56 8.64 8.72 8.8 8.88 8.96 9.04 9.12 9.2</ValueX>
+			      <ValueV>0.133 0.07 0.1684 0.105 0.0861 0.0789 0.0734 0.0734 0.0734 0.0734 0.0734 0.0734 0.0734 0.0734 0.0734 0.0734 0.0734 0.0734 0.0734 0.0734 0.0734 0.0734 0.0734 0.0734 0.0734</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.GEARBOX_AT.Map_Reverse_Efficiency</ParameterAddress>
+			      <DimView>[1,7]</DimView>
+			      <ValueX>-1 0 1 2 3 4 5 5.05 5.1 5.15 5.2 5.25 5.3 5.35 5.4 5.45 5.5 5.55 5.6 5.65 5.7 5.75 5.8 5.85 5.9</ValueX>
+			      <ValueV>0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91</ValueV>
+		    </Parameter>
+	  </Parameters>
+	  <Processing>
+		    <Priority>0</Priority>
+	  </Processing>
+</ParameterFile>

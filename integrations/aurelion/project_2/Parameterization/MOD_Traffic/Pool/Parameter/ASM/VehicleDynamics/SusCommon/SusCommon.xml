@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>VehicleDynamics</MainComponent>
+	  <RecordType>SusCommon</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.ROTATION_SWITCH.Sw_Rotation</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

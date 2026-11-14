@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LayoutConfiguration>
+  <Header>
+    <Version>2.0</Version>
+    <CreationDate>08/08/2018 11:41:39</CreationDate>
+    <ModifiedDate>08/08/2018 11:41:39</ModifiedDate>
+    <Author>Admin</Author>
+    <Comment />
+  </Header>
+  <DataRecording>
+    <Downsampling>1</Downsampling>
+    <SignalBufferSize>1000000</SignalBufferSize>
+  </DataRecording>
+  <Measurements />
+  <Layouts>
+    <Layout>Env_CollisionSensor.lay</Layout>
+    <Layout>NCAP_Testpath.lay</Layout>
+  </Layouts>
+  <TriggerRules>
+    <StartTriggerRules>
+      <TriggerRule>Maneuver Start.xml</TriggerRule>
+    </StartTriggerRules>
+    <StopTriggerRules>
+      <TriggerRule>Maneuver Stop.xml</TriggerRule>
+    </StopTriggerRules>
+  </TriggerRules>
+</LayoutConfiguration>

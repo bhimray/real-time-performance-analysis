@@ -1,0 +1,17 @@
+{
+  "id": "d8490bde-207f-47b0-b640-ffecf31e3f19",
+  "version": 7,
+  "name": "HandlingTrack",
+  "description": "",
+  "modifiedOn": 1793741104,
+  "type": "ModelDesk",
+  "imageFile": "./Scenarios/d8490bde-207f-47b0-b640-ffecf31e3f19/Preview.png",
+  "scenery": {
+    "selection": "aur",
+    "scene": {
+      "name": "HandlingTrack",
+      "path": "/AUR_MapsBasic/Scenes/HandlingTrack/HandlingTrack"
+    },
+    "isAvailable": true
+  }
+}

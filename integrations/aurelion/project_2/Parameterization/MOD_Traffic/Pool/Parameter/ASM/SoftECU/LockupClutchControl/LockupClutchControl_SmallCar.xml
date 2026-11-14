@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>SoftECU</MainComponent>
+	  <RecordType>LockupClutchControl</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.LOCKUP_CLUTCH_CONTROL.Const_I_LockupClutch</ParameterAddress>
+			      <ValueV>5</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.LOCKUP_CLUTCH_CONTROL.Const_P_LockupClutch</ParameterAddress>
+			      <ValueV>5</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.LOCKUP_CLUTCH_CONTROL.Map_State_LockupClutch</ParameterAddress>
+			      <DimView>[18,19]</DimView>
+			      <ValueX>0 10 20 30 40 50 60 62 64 66 68 70 72 74 76 78 80 100</ValueX>
+			      <ValueY>0 900 1060 1220 1380 1540 1700 1860 2020 2180 2340 2500 3000 3500 4000 4500 5000 5500 6000</ValueY>
+			      <ValueV>0 0 0 0 0 0 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 1 1;
+0 0 0 0 0 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 1 1 1;
+0 0 0 0 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 1 1 1 1;
+0 0 0 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 1 1 1 1 1;
+0 0 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 1 1 1 1 1 1;
+0 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 1 1 1 1 1 1 1;
+0 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 1 1 1 1 1 1 1;
+0 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9;
+0 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8 0.8;
+0 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7;
+0 0 0.1 0.2 0.3 0.4 0.5 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6;
+0 0 0.1 0.2 0.3 0.4 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5;
+0 0 0.1 0.2 0.3 0.4 0.4 0.4 0.4 0.4 0.4 0.4 0.4 0.4 0.4 0.4 0.4 0.4 0.4;
+0 0 0.1 0.2 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3;
+0 0 0.1 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2;
+0 0 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1;
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</ValueV>
+		    </Parameter>
+	  </Parameters>
+	  <Processing>
+		    <Priority>0</Priority>
+	  </Processing>
+</ParameterFile>

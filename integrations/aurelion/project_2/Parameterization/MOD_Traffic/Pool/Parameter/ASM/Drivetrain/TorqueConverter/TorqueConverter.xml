@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Drivetrain</MainComponent>
+	  <RecordType>TorqueConverter</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.TORQUE_CONVERTER.Map_Eta_Slip</ParameterAddress>
+			      <DimView>[1,22]</DimView>
+			      <ValueX>-0.1 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 1.11 1.25 1.43 1.67 2 2.5 3.33 5 7 8 8.08 8.16 8.24 8.32 8.4 8.48 8.56 8.64 8.72 8.8 8.88 8.96 9.04 9.12 9.2 9.28 9.36 9.44</ValueX>
+			      <ValueV>0.0045 0.0045 0.0043 0.0041 0.0038 0.0035 0.0032 0.00285 0.0025 0.0021 0.0012 0 -0.0012 -0.0021 -0.0025 -0.00285 -0.0032 -0.0035 -0.0038 -0.0041 -0.0043 -0.0043 -0.0043 -0.0043 -0.0043 -0.0043 -0.0043 -0.0043 -0.0043 -0.0043 -0.0043 -0.0043 -0.0043 -0.0043 -0.0043 -0.0043 -0.0043 -0.0043 -0.0043 -0.0043</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.TORQUE_CONVERTER.Map_Rel_Trq_PumpTurb</ParameterAddress>
+			      <DimView>[1,7]</DimView>
+			      <ValueX>0 0.85 0.87 0.89 0.91 0.93 1 1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1 1.11 1.12 1.13</ValueX>
+			      <ValueV>2.5 1.1 1.06 1.03 1.01 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</ValueV>
+		    </Parameter>
+	  </Parameters>
+	  <Processing>
+		    <Priority>0</Priority>
+	  </Processing>
+</ParameterFile>

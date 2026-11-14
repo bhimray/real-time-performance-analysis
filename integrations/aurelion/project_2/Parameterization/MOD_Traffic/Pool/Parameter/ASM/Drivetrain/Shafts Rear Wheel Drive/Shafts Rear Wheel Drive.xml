@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Drivetrain</MainComponent>
+	  <RecordType>Shafts Rear Wheel Drive</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_CR.Const_Damping_RearWheelDrive</ParameterAddress>
+			      <ValueV>10</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_CR.Const_Stiffenss_RearWheelDrive</ParameterAddress>
+			      <ValueV>6000.000000</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_RL.Const_Damping_RearWheelDrive</ParameterAddress>
+			      <ValueV>10</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_RL.Const_Stiffenss_RearWheelDrive</ParameterAddress>
+			      <ValueV>12030.000000</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_RR.Const_Damping_RearWheelDrive</ParameterAddress>
+			      <ValueV>10</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_RR.Const_Stiffenss_RearWheelDrive</ParameterAddress>
+			      <ValueV>12030.000000</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

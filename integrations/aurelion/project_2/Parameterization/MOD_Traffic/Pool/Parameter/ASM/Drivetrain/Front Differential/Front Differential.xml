@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Drivetrain</MainComponent>
+	  <RecordType>Front Differential</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.FRONT_DIFFERENTIAL.Const_Coef_DynamicClutchTrq</ParameterAddress>
+			      <ValueV>50</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.FRONT_DIFFERENTIAL.Const_Ctrl_Offset_LockClutch</ParameterAddress>
+			      <ValueV>0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.FRONT_DIFFERENTIAL.Const_i_InnerGear</ParameterAddress>
+			      <ValueV>1.42</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.FRONT_DIFFERENTIAL.Const_i_MainReductionGear</ParameterAddress>
+			      <ValueV>3</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.FRONT_DIFFERENTIAL.Const_Inertia_InnerGear</ParameterAddress>
+			      <ValueV>0.0006</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.FRONT_DIFFERENTIAL.Const_Inertia_InputGear</ParameterAddress>
+			      <ValueV>0.007</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.FRONT_DIFFERENTIAL.Const_Inertia_LeftSideGear</ParameterAddress>
+			      <ValueV>0.005</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.FRONT_DIFFERENTIAL.Const_Inertia_MainReductionGear</ParameterAddress>
+			      <ValueV>0.004</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.FRONT_DIFFERENTIAL.Const_Inertia_RightSideGear</ParameterAddress>
+			      <ValueV>0.005</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.FRONT_DIFFERENTIAL.Const_Trq_Max_LockClutch</ParameterAddress>
+			      <ValueV>300</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.FRONT_DIFFERENTIAL.Sw_DifferentialLock_Mode</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

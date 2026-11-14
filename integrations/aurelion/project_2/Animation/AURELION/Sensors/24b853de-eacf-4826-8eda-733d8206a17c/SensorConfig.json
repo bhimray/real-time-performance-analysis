@@ -1,0 +1,112 @@
+{
+    "info": "Please check the AURELION documentation for detailed information about all sensor parameters",
+    "sensorType": "InfraredCamera",
+    "version": "1",
+    "name": "Infrared_Day",
+    "imager": {
+        "resolution": [960, 540],
+        "iso": 100.0,
+        "shutterSpeed": 60.0,
+        "cropFactor": 1.0,
+        "principalPoint": {
+            "offset": [ 0.0, 0.0 ],
+            "offsetUnit": "pixels"
+        },
+        "lightBanding": {
+            "enabled": false,
+            "shutterType": "rollingShutter",
+            "shutterTimeOffset": 0.0061842
+        }
+    },
+    "lens": {
+        "aperture": 4.0,
+        "focalLength": 32.658,
+        "distortion": {
+            "enabled": false,
+            "lutFilePath": "<CONFIG_DIR>/MyLensDistortion.csv"
+        }
+    },
+    "exposureControl": {
+        "mode": "auto",
+        "exposureCompensation": 0.0
+    },
+    "infraredRendering":{
+        "lighting": {
+            "intensitySpectrumFilePath": "<CONFIG_DIR>/planck_5000K",
+            "useSkyLight": true
+        },
+        "quantumEfficiencyCurveFilePath": "<CONFIG_DIR>/quantum_efficiency"
+    },
+    "output": {
+        "modes": ["grayscale"],
+        "toneMappingEnabled" : true,
+        "gammaEncoding": {
+            "enabled": true
+        },
+        "raw": {
+            "normalization": {
+                "mode": "exposure",
+                "factor": 1.0
+            }
+        }
+    },
+    "postProcessing": {
+        "enabled": false,
+        "pluginFilePath": "<CONFIG_DIR>/MyPostProcessingPlugin",
+        "config": {}
+    },
+    "graphics": {
+        "antiAliasing": {
+            "algorithm": "fxaa",
+            "resolutionFraction": 1.0
+        },
+        "bloom": {
+            "enabled": false,
+            "mode": "gauss",
+            "gaussSize": 0.0015,
+            "gaussSizeUnit": "normalized",
+            "intensity": 0.15,
+            "customKernelFilePath": "<CONFIG_DIR>/BloomKernel.exr"
+        },
+        "supersamplingFactor": 1.0,
+        "rayTracing": {
+            "maxTraceDistance": 200,
+            "globalIllumination": {
+                "enabled": false
+            },
+            "reflections": {
+                "enabled": false,
+                "maxBounces": 1
+            }
+        }
+    },
+    "visualRepresentation": {
+        "frustum": {
+            "enabled": true,
+            "range": 1.0,
+            "color": [1.0, 0.0, 0.0],
+            "opacity": 0.3
+        },
+        "fovProjection": {
+            "enabled": false,
+            "range": 50.0,
+            "color": [0.0, 1.0, 1.0],
+            "opacity": 0.3
+        }
+    },
+    "runtimeControl": {
+        "enabled": true,
+        "dataStreamBindings": {
+            "imager": {
+                "iso": "",
+                "shutterSpeed": ""
+            },
+            "lens": {
+                "aperture": ""
+            },
+            "exposureControl": {
+                "exposureCompensation": ""
+            }
+        }
+    }
+}

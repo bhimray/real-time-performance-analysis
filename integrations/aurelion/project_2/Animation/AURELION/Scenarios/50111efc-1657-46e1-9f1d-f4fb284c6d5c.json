@@ -1,0 +1,17 @@
+{
+  "id": "50111efc-1657-46e1-9f1d-f4fb284c6d5c",
+  "version": 7,
+  "name": "CHN_GongHeXinRoad",
+  "description": "",
+  "modifiedOn": 1793741104,
+  "type": "ModelDesk",
+  "imageFile": "./Scenarios/50111efc-1657-46e1-9f1d-f4fb284c6d5c/Preview.png",
+  "scenery": {
+    "selection": "aur",
+    "scene": {
+      "name": "CHN_GongHeXin",
+      "path": "/AUR_MapsBasic/Scenes/GongHeXin/GongHeXin"
+    },
+    "isAvailable": true
+  }
+}

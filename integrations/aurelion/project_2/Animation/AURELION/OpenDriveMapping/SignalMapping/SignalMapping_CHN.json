@@ -1,0 +1,4079 @@
+{
+  "version": 1,
+  "mappings": [
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Straight ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Left turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Right turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Straight ahead and left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Straight ahead and right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Left and right turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Stay right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Stay left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "9"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Left off ramp",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Right off ramp",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "11"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Roundabout info",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "12b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Arror right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.15
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "14"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Pedestrians",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "15"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Horn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "16_50"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Minimum 50 kmh",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "17"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Junction",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "18"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Right of way",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "19"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Pedestrian crossing info",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "20"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Turn right lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "21"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Turn left lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "22"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Straight ahead lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "23"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Straight ahead and right lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "24"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Straight ahead and left lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "25"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "U-Turn lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "26"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Left and U-Turn lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "28"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Bus lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.5
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "29"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Limited access",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "30"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Vehicle lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.5
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "31"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Bicycles only",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "32"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Bicycle lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.5
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "33"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Bus fast lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.5
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "34"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "High occupancy lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "35a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Parking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "35b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Parking left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "35c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Parking right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "35d"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Sidewalk parking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "示",
+        "subtype": "36"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "U-Turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Stop",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.277
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Yield",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.365
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Yield to oncoming",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No entry",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No Entry vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No motor vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No trucks",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No electric tricycles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "9"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No busses",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No cars",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "11"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No truck trailers",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "12"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No tractors",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "13"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No 3-wheeled transport",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "14"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No motorbikes",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "15"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No tractors or trucks",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "16"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No bicycles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "17"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No horse drawn carriage",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "18"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No passenger tricycles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "19"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No transport tricycles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "20"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No carriages",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "21"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No pedestrians",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "22"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No left turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "22a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No truck left turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "23"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No right turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "23a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No car right turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "24"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No straight Ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "25"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No left or right turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "26"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No straight or left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "27"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No straight or right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "28"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No U-Turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "29"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No overtaking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "30"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No overtaking end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "31"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No halting",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "32"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No parking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "33"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No horns",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "34"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Max 3m width",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "35"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Max 3.5m height",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "36"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Max 10t",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "37"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Max 10t per axle",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "38_40"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Speedlimit 40",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "38_60"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Speedlimit 60",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "38_80"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Speedlimit 80",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "38_100"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Speedlimit 100",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "38_110"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Speedlimit 110",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "38_120"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Speedlimit 120",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "39"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Speedlimit 40 end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "39_60"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Speedlimit 60 end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "39_80"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Speedlimit 80 end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "39_100"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Speedlimit 100 end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "39_110"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Speedlimit 110 end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "39_120"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Speedlimit 120 end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "40"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Control",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "41"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No dangerous cargo",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "42"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Customs",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "43"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "30 kmh zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.65
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "44"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "30 kmh zone end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.65
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "45"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No halting zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.65
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "46"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No halting zone end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.65
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "47"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No parking zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.65
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "禁",
+        "subtype": "48"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "No parking zone end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.65
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "1a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "4-way junction",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "1b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Staggered 4-way junction",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "1c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Merge junction left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "1d"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Merge junction right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "1e"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Y-Junction left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "1f"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Y-Junction right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "1g"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "T-Junction",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "1h"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "T-Junction left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "1i"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "T-Junction right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "1j"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Roundabout",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "2a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Tight left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "2b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Tight right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "3a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Tight turns left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "3b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Tight turns right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "4b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Windy road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "5a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Incline",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "5b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Decline",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Decline multiple",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "7a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Narrow road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "7b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Narrowing right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "7c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Narrowing left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Temporary narrowing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "9"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Oncoming traffic",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Pedestrian crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "School zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "12"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Domestic animals",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "13"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Wild animals outside protected area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "13-2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Wild animals inside protected area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "14"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Traffic Lights",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "15a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Rockfall left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "15b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Rockfall right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "16"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "High winds",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "17"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Slippery",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "18a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Cliffside road left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "18b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Cliffside road right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "19a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Riverbank right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "19b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Riverbank left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "20"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Cross village road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "21"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Tunnel",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "22"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Ferry",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "23"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Bridge",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "24"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Uneaven road ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "25"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Bump",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "26"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Dip",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "27"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Overflow road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "28"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Level crossing barriers",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "29"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Level crossing no barriers",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "32"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Cyclists",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "33"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Warning disabled",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "34"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Accident area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "35"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Slow",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "36a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Detour left right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "36b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Detour left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "36c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Detour right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "37"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Warning",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "38"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Roadworks",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "39"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "30 kmh warning",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.15
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "40"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Head lights tunnel",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "41"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Lane with tidal drive",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "42"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Keep safe distance",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "43a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Dual carriage way crossroads",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "43b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Dual carriage way T-Junction",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "44a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Merge left one way",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "44b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Merge right one way",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "45a-1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Escape lane - V",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "45a-2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Escape lane - H",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.5
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "45b-1_500m"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Escape lane 500m - V",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "45b-1_1km"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Escape lane 1km - V",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "45b-1_2km"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Escape lane 2km - V",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "45b-2_500m"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Escape lane 500m - H",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.5
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "45b-2_1km"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Escape lane 1km - H",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.5
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "45b-2_2km"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Escape lane 2km - H",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.5
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "45c_1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Escape lane right - V",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "45c_2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Escape lane right - H",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.5
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "46a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Icy road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "46b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Heavy rain",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "46c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Fog",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "46d"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Thunderstorm",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "警",
+        "subtype": "47"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Traffic jam",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.197
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "23"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Temporary widening right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "26"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Disabled",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "27a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Rest stop and park right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "27b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Rest stop and park left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "28"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Pedestrian",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "31"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Dead end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.65
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "32a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "2 lane mergeing right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "32b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "3 lane mergeing right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "33"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "2 lane extend to 3",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "35a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Tunnel 2500m right bend",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "35b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Tunnel 2500m left bend",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "36a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Arrow left turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "36b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Arrow right turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.7
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "37a_2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Double arrow turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.5
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "37a_3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Tripple arrow turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.15
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "38"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Double arrow red",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "39"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Warning left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "路",
+        "subtype": "40"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "CHN",
+          "Signs": "Warning right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    }
+  ]
+}

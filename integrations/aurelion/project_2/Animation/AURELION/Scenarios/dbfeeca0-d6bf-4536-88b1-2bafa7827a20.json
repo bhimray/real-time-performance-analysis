@@ -1,0 +1,17 @@
+{
+  "id": "dbfeeca0-d6bf-4536-88b1-2bafa7827a20",
+  "version": 7,
+  "name": "ParkingLot",
+  "description": "",
+  "modifiedOn": 1793741104,
+  "type": "ModelDesk",
+  "imageFile": "./Scenarios/dbfeeca0-d6bf-4536-88b1-2bafa7827a20/Preview.png",
+  "scenery": {
+    "selection": "aur",
+    "scene": {
+      "name": "US_ParkingLot",
+      "path": "/AUR_MapsBasic/Scenes/US_ParkingLot/US_ParkingLot"
+    },
+    "isAvailable": true
+  }
+}

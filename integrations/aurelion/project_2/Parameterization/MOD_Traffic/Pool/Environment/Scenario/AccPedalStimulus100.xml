@@ -1,0 +1,2242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TrafficScenario xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic">
+  <PropertyReferenceList />
+  <Name>AccPedalStimulus100</Name>
+  <Description></Description>
+  <Author></Author>
+  <CreatedIn>Prior 5.2</CreatedIn>
+  <CreationDate>2017-07-26T09:18:42</CreationDate>
+  <FileVersion>14</FileVersion>
+  <LaneIndexInterpretationType>RelativeToPreferredLane</LaneIndexInterpretationType>
+  <LastSavedIn>25.2</LastSavedIn>
+  <ListManager z:Id="i2">
+    <PropertyReferenceList />
+    <AsmManager z:Id="i3">
+      <PropertyReferenceList />
+      <Name></Name>
+      <Description></Description>
+      <ListManager z:Ref="i2" />
+      <Pool>
+        <ASM z:Id="i4">
+          <PropertyReferenceList />
+          <Name>AccPedalStimulus100</Name>
+          <Description></Description>
+          <ID>0</ID>
+          <IsUsed>true</IsUsed>
+          <ListManager z:Ref="i2" />
+          <StartList>
+            <StartSegmentManeuverActivity z:Id="i5" i:type="DetailedRouteBasedStartSegmentManeuverActivity">
+              <PropertyReferenceList />
+              <Name>Initialize</Name>
+              <Description></Description>
+              <ID>1013da2f-9a65-4912-a640-18cd7c8547ea</ID>
+              <Branch z:Id="i6">
+                <PropertyReferenceList />
+                <Name></Name>
+                <Description></Description>
+                <ID>bf49a05c-b5da-4279-9e5d-2d6364f9522e</ID>
+                <BranchList z:Id="i7">
+                  <SegmentManeuverActivity z:Id="i8">
+                    <PropertyReferenceList />
+                    <Name>Gear1</Name>
+                    <Description></Description>
+                    <ID>917cd299-9c36-4012-a09b-a1d2c5f39571</ID>
+                    <Branch z:Id="i9">
+                      <PropertyReferenceList />
+                      <Name></Name>
+                      <Description></Description>
+                      <ID>05549d5c-8356-49c1-8533-31cc2891705d</ID>
+                      <BranchList z:Id="i10">
+                        <SegmentManeuverActivity z:Id="i11">
+                          <PropertyReferenceList />
+                          <Name>Gear2</Name>
+                          <Description></Description>
+                          <ID>a5e035aa-d13c-4389-8457-e98e8ec2ae31</ID>
+                          <Branch z:Id="i12">
+                            <PropertyReferenceList />
+                            <Name></Name>
+                            <Description></Description>
+                            <ID>74d6ce77-5aa1-40b7-a177-7a152ba90d48</ID>
+                            <BranchList z:Id="i13">
+                              <SegmentManeuverActivity z:Id="i14">
+                                <PropertyReferenceList />
+                                <Name>Gear3</Name>
+                                <Description></Description>
+                                <ID>ec8a3931-db3b-4c6f-9a0b-ace0dff1bf70</ID>
+                                <Branch z:Id="i15">
+                                  <PropertyReferenceList />
+                                  <Name></Name>
+                                  <Description></Description>
+                                  <ID>84c9056f-c168-422e-898d-89df653c7b1d</ID>
+                                  <BranchList z:Id="i16">
+                                    <SegmentManeuverActivity z:Id="i17">
+                                      <PropertyReferenceList />
+                                      <Name>Gear4</Name>
+                                      <Description></Description>
+                                      <ID>bab15bc4-0f83-43d4-9353-632f33e29b81</ID>
+                                      <Branch z:Id="i18">
+                                        <PropertyReferenceList />
+                                        <Name></Name>
+                                        <Description></Description>
+                                        <ID>92c24b02-b7a8-411e-85b7-5afdcac885c0</ID>
+                                        <BranchList z:Id="i19">
+                                          <SegmentManeuverActivity z:Id="i20">
+                                            <PropertyReferenceList />
+                                            <Name>Gear5</Name>
+                                            <Description></Description>
+                                            <ID>57a6eda1-680a-4326-9fc5-026cb61a04c2</ID>
+                                            <Branch z:Id="i21">
+                                              <PropertyReferenceList />
+                                              <Name></Name>
+                                              <Description></Description>
+                                              <ID>65889d4d-131a-4dcb-b847-c4ad36caeead</ID>
+                                              <BranchList z:Id="i22">
+                                                <SegmentManeuverActivity z:Id="i23">
+                                                  <PropertyReferenceList />
+                                                  <Name>Gear6</Name>
+                                                  <Description></Description>
+                                                  <ID>fa908f03-1fc9-46d9-b6a0-b649e5e78295</ID>
+                                                  <Branch z:Id="i24">
+                                                    <PropertyReferenceList />
+                                                    <Name></Name>
+                                                    <Description></Description>
+                                                    <ID>11f77400-af3a-4cbc-bcae-fd5f01a08c3e</ID>
+                                                    <BranchList z:Id="i25">
+                                                      <SegmentManeuverActivity i:nil="true" />
+                                                    </BranchList>
+                                                  </Branch>
+                                                  <ConditionManager z:Id="i26">
+                                                    <PropertyReferenceList />
+                                                    <Name></Name>
+                                                    <Description></Description>
+                                                    <ID>d302583b-78ea-4a0f-b9cc-450280e2fc1f</ID>
+                                                    <ConditionList>
+                                                      <Condition z:Id="i27" i:type="TimeBasedCondition">
+                                                        <PropertyReferenceList />
+                                                        <Name></Name>
+                                                        <Description></Description>
+                                                        <ID>fb00845b-09b9-4f32-bd64-63bb0e01eefb</ID>
+                                                        <Type>Time</Type>
+                                                        <Time>20</Time>
+                                                      </Condition>
+                                                    </ConditionList>
+                                                    <Delay>0</Delay>
+                                                    <IsDelayEnabled>false</IsDelayEnabled>
+                                                    <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                                                    <Timeout>10</Timeout>
+                                                  </ConditionManager>
+                                                  <Activity xmlns:d26p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic/ManeuverActivity" z:Id="i28">
+                                                    <PropertyReferenceList />
+                                                    <Name></Name>
+                                                    <Description></Description>
+                                                    <ID>1d7943d4-24ab-4f86-aaab-a66676f79285</ID>
+                                                    <ListManager z:Ref="i2" />
+                                                    <UserSignalList />
+                                                    <ActiveLateral z:Id="i29" i:type="d26p1:LateralStimulus">
+                                                      <PropertyReferenceList />
+                                                      <Name></Name>
+                                                      <Description></Description>
+                                                      <ID>ba4ed326-ebeb-4896-9186-c081d974495c</ID>
+                                                      <SourceManager z:Id="i30" i:type="StimulusAngleSourceManager">
+                                                        <PropertyReferenceList />
+                                                        <Name></Name>
+                                                        <Description></Description>
+                                                        <ID>b8a6c8df-6aba-4d15-ae0e-37e8e241dfaa</ID>
+                                                        <ActiveSource z:Id="i31" i:type="ConstantSource">
+                                                          <PropertyReferenceList />
+                                                          <Constant z:Id="i32">
+                                                            <PropertyReferenceList />
+                                                            <Name>Angle</Name>
+                                                            <IsInteger>false</IsInteger>
+                                                            <MaxValue>10000000</MaxValue>
+                                                            <MinValue>-10000000</MinValue>
+                                                            <Unit>°</Unit>
+                                                            <Value>0</Value>
+                                                          </Constant>
+                                                          <HoldCurrentValue>false</HoldCurrentValue>
+                                                        </ActiveSource>
+                                                      </SourceManager>
+                                                    </ActiveLateral>
+                                                    <ActiveLongitudinal z:Id="i33" i:type="d26p1:LongitudinalPedalStimulus">
+                                                      <PropertyReferenceList />
+                                                      <Name></Name>
+                                                      <Description></Description>
+                                                      <ID>e266a600-a70d-4595-b143-dabb9bf8b904</ID>
+                                                      <SourceManager z:Id="i34" i:type="PedalAccelerationSourceManager">
+                                                        <PropertyReferenceList />
+                                                        <Name></Name>
+                                                        <Description></Description>
+                                                        <ID>26ec5013-e20f-4eca-9e4e-abb0717ff3c7</ID>
+                                                        <ActiveSource z:Id="i35" i:type="TableSource">
+                                                          <PropertyReferenceList />
+                                                          <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                                                          <ContextType>ASMAccPedal</ContextType>
+                                                          <FirstValue z:Id="i36">
+                                                            <PropertyReferenceList />
+                                                            <Name>Acc. pedal</Name>
+                                                            <IsInteger>false</IsInteger>
+                                                            <MaxValue>100</MaxValue>
+                                                            <MinValue>0</MinValue>
+                                                            <Unit>%</Unit>
+                                                            <Value>100</Value>
+                                                          </FirstValue>
+                                                          <InterpretationType>Time</InterpretationType>
+                                                          <TableValues xmlns:d30p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>0</d30p1:Key>
+                                                              <d30p1:Value>100</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>0.5</d30p1:Key>
+                                                              <d30p1:Value>0</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>1</d30p1:Key>
+                                                              <d30p1:Value>100</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>12</d30p1:Key>
+                                                              <d30p1:Value>100</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>16</d30p1:Key>
+                                                              <d30p1:Value>100</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>20</d30p1:Key>
+                                                              <d30p1:Value>100</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                          </TableValues>
+                                                        </ActiveSource>
+                                                      </SourceManager>
+                                                      <d26p1:BrakeSourceManager z:Id="i37" i:type="PedalBrakeSourceManager">
+                                                        <PropertyReferenceList />
+                                                        <Name></Name>
+                                                        <Description></Description>
+                                                        <ID>6130062d-0a3e-4aa4-8625-1c9ada64d117</ID>
+                                                        <ActiveSource z:Id="i38" i:type="ConstantSource">
+                                                          <PropertyReferenceList />
+                                                          <Constant z:Id="i39">
+                                                            <PropertyReferenceList />
+                                                            <Name>Position</Name>
+                                                            <IsInteger>false</IsInteger>
+                                                            <MaxValue>100</MaxValue>
+                                                            <MinValue>0</MinValue>
+                                                            <Unit>%</Unit>
+                                                            <Value>0</Value>
+                                                          </Constant>
+                                                          <HoldCurrentValue>false</HoldCurrentValue>
+                                                        </ActiveSource>
+                                                      </d26p1:BrakeSourceManager>
+                                                    </ActiveLongitudinal>
+                                                    <d26p1:ActiveClutchAndGear z:Id="i40" i:type="d26p1:StimulusClutchAndGearActivity">
+                                                      <PropertyReferenceList />
+                                                      <Name></Name>
+                                                      <Description></Description>
+                                                      <ID>4e36b0d3-0880-410e-be44-268d02d25f78</ID>
+                                                      <SourceManager z:Id="i41" i:type="GearSourceManager">
+                                                        <PropertyReferenceList />
+                                                        <Name></Name>
+                                                        <Description></Description>
+                                                        <ID>82aab360-a831-472e-a32b-91c1fc113faa</ID>
+                                                        <ActiveSource z:Id="i42" i:type="TableSource">
+                                                          <PropertyReferenceList />
+                                                          <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                                                          <ContextType>ASMGear</ContextType>
+                                                          <FirstValue z:Id="i43">
+                                                            <PropertyReferenceList />
+                                                            <Name>Gear</Name>
+                                                            <IsInteger>true</IsInteger>
+                                                            <MaxValue>10000000</MaxValue>
+                                                            <MinValue>-10000000</MinValue>
+                                                            <Unit></Unit>
+                                                            <Value>5</Value>
+                                                          </FirstValue>
+                                                          <InterpretationType>Time</InterpretationType>
+                                                          <TableValues xmlns:d30p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>0</d30p1:Key>
+                                                              <d30p1:Value>5</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>0.5</d30p1:Key>
+                                                              <d30p1:Value>6</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>1</d30p1:Key>
+                                                              <d30p1:Value>6</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>12</d30p1:Key>
+                                                              <d30p1:Value>6</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>16</d30p1:Key>
+                                                              <d30p1:Value>6</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>20</d30p1:Key>
+                                                              <d30p1:Value>6</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                          </TableValues>
+                                                        </ActiveSource>
+                                                      </SourceManager>
+                                                      <d26p1:ClutchSourceManager z:Id="i44" i:type="ClutchSourceManager">
+                                                        <PropertyReferenceList />
+                                                        <Name></Name>
+                                                        <Description></Description>
+                                                        <ID>134887eb-a900-49a1-a70a-e69ab63070a6</ID>
+                                                        <ActiveSource z:Id="i45" i:type="TableSource">
+                                                          <PropertyReferenceList />
+                                                          <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                                                          <ContextType>ASMClutchPedal</ContextType>
+                                                          <FirstValue z:Id="i46">
+                                                            <PropertyReferenceList />
+                                                            <Name>Position</Name>
+                                                            <IsInteger>false</IsInteger>
+                                                            <MaxValue>100</MaxValue>
+                                                            <MinValue>0</MinValue>
+                                                            <Unit>%</Unit>
+                                                            <Value>0</Value>
+                                                          </FirstValue>
+                                                          <InterpretationType>Time</InterpretationType>
+                                                          <TableValues xmlns:d30p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>0</d30p1:Key>
+                                                              <d30p1:Value>0</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>0.5</d30p1:Key>
+                                                              <d30p1:Value>100</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>1</d30p1:Key>
+                                                              <d30p1:Value>0</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>12</d30p1:Key>
+                                                              <d30p1:Value>0</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>16</d30p1:Key>
+                                                              <d30p1:Value>0</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                            <d30p1:KeyValueOfdoubledouble>
+                                                              <d30p1:Key>20</d30p1:Key>
+                                                              <d30p1:Value>0</d30p1:Value>
+                                                            </d30p1:KeyValueOfdoubledouble>
+                                                          </TableValues>
+                                                        </ActiveSource>
+                                                      </d26p1:ClutchSourceManager>
+                                                    </d26p1:ActiveClutchAndGear>
+                                                    <d26p1:ActiveSelectorLever z:Id="i47" i:type="d26p1:DriverSelectorLeverActivity">
+                                                      <PropertyReferenceList />
+                                                      <Name></Name>
+                                                      <Description></Description>
+                                                      <ID>76447df4-9c82-42ca-ade4-3dc6bed3df59</ID>
+                                                    </d26p1:ActiveSelectorLever>
+                                                  </Activity>
+                                                </SegmentManeuverActivity>
+                                              </BranchList>
+                                            </Branch>
+                                            <ConditionManager z:Id="i48">
+                                              <PropertyReferenceList />
+                                              <Name></Name>
+                                              <Description></Description>
+                                              <ID>2b445ea0-7399-4135-87d7-a1aa7e3a103e</ID>
+                                              <ConditionList>
+                                                <Condition z:Id="i49" i:type="TimeBasedCondition">
+                                                  <PropertyReferenceList />
+                                                  <Name></Name>
+                                                  <Description></Description>
+                                                  <ID>cfba90e2-06f6-4416-aff6-e109e1e322c4</ID>
+                                                  <Type>Time</Type>
+                                                  <Time>20</Time>
+                                                </Condition>
+                                                <Condition z:Id="i50" i:type="Velocity">
+                                                  <PropertyReferenceList />
+                                                  <Name></Name>
+                                                  <Description></Description>
+                                                  <ID>1d7bf0f0-f5a1-4236-a127-dd871db37c6b</ID>
+                                                  <Type>Velocity</Type>
+                                                  <ReferencePlayerManager z:Id="i51">
+                                                    <PropertyReferenceList />
+                                                    <Name></Name>
+                                                    <CurrentObject z:Ref="i4" />
+                                                    <ObjectList z:Ref="i3" />
+                                                  </ReferencePlayerManager>
+                                                  <UnitType>Velocity</UnitType>
+                                                  <Value>140</Value>
+                                                  <Comparator>GreaterOrEqual</Comparator>
+                                                </Condition>
+                                              </ConditionList>
+                                              <Delay>0</Delay>
+                                              <IsDelayEnabled>false</IsDelayEnabled>
+                                              <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                                              <Timeout>10</Timeout>
+                                            </ConditionManager>
+                                            <Activity xmlns:d23p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic/ManeuverActivity" z:Id="i52">
+                                              <PropertyReferenceList />
+                                              <Name></Name>
+                                              <Description></Description>
+                                              <ID>6a3823ae-5e74-418b-912f-e4f837e36ed2</ID>
+                                              <ListManager z:Ref="i2" />
+                                              <UserSignalList />
+                                              <ActiveLateral z:Id="i53" i:type="d23p1:LateralStimulus">
+                                                <PropertyReferenceList />
+                                                <Name></Name>
+                                                <Description></Description>
+                                                <ID>2173bf1b-9bfe-40cd-96ce-3707470133b6</ID>
+                                                <SourceManager z:Id="i54" i:type="StimulusAngleSourceManager">
+                                                  <PropertyReferenceList />
+                                                  <Name></Name>
+                                                  <Description></Description>
+                                                  <ID>0e0bd2ba-922c-4355-aafe-56354e666da1</ID>
+                                                  <ActiveSource z:Id="i55" i:type="ConstantSource">
+                                                    <PropertyReferenceList />
+                                                    <Constant z:Id="i56">
+                                                      <PropertyReferenceList />
+                                                      <Name>Angle</Name>
+                                                      <IsInteger>false</IsInteger>
+                                                      <MaxValue>10000000</MaxValue>
+                                                      <MinValue>-10000000</MinValue>
+                                                      <Unit>°</Unit>
+                                                      <Value>0</Value>
+                                                    </Constant>
+                                                    <HoldCurrentValue>false</HoldCurrentValue>
+                                                  </ActiveSource>
+                                                </SourceManager>
+                                              </ActiveLateral>
+                                              <ActiveLongitudinal z:Id="i57" i:type="d23p1:LongitudinalPedalStimulus">
+                                                <PropertyReferenceList />
+                                                <Name></Name>
+                                                <Description></Description>
+                                                <ID>87d0c94f-4004-4d63-8ce7-e53333bc7a3f</ID>
+                                                <SourceManager z:Id="i58" i:type="PedalAccelerationSourceManager">
+                                                  <PropertyReferenceList />
+                                                  <Name></Name>
+                                                  <Description></Description>
+                                                  <ID>20462a4a-6636-4282-85d6-7b8cc4a68671</ID>
+                                                  <ActiveSource z:Id="i59" i:type="TableSource">
+                                                    <PropertyReferenceList />
+                                                    <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                                                    <ContextType>ASMAccPedal</ContextType>
+                                                    <FirstValue z:Id="i60">
+                                                      <PropertyReferenceList />
+                                                      <Name>Acc. pedal</Name>
+                                                      <IsInteger>false</IsInteger>
+                                                      <MaxValue>100</MaxValue>
+                                                      <MinValue>0</MinValue>
+                                                      <Unit>%</Unit>
+                                                      <Value>100</Value>
+                                                    </FirstValue>
+                                                    <InterpretationType>Time</InterpretationType>
+                                                    <TableValues xmlns:d27p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>0</d27p1:Key>
+                                                        <d27p1:Value>100</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>0.5</d27p1:Key>
+                                                        <d27p1:Value>0</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>1</d27p1:Key>
+                                                        <d27p1:Value>100</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>12</d27p1:Key>
+                                                        <d27p1:Value>100</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>16</d27p1:Key>
+                                                        <d27p1:Value>100</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>20</d27p1:Key>
+                                                        <d27p1:Value>100</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                    </TableValues>
+                                                  </ActiveSource>
+                                                </SourceManager>
+                                                <d23p1:BrakeSourceManager z:Id="i61" i:type="PedalBrakeSourceManager">
+                                                  <PropertyReferenceList />
+                                                  <Name></Name>
+                                                  <Description></Description>
+                                                  <ID>99062594-ba73-405f-8f43-581ca299c564</ID>
+                                                  <ActiveSource z:Id="i62" i:type="ConstantSource">
+                                                    <PropertyReferenceList />
+                                                    <Constant z:Id="i63">
+                                                      <PropertyReferenceList />
+                                                      <Name>Position</Name>
+                                                      <IsInteger>false</IsInteger>
+                                                      <MaxValue>100</MaxValue>
+                                                      <MinValue>0</MinValue>
+                                                      <Unit>%</Unit>
+                                                      <Value>0</Value>
+                                                    </Constant>
+                                                    <HoldCurrentValue>false</HoldCurrentValue>
+                                                  </ActiveSource>
+                                                </d23p1:BrakeSourceManager>
+                                              </ActiveLongitudinal>
+                                              <d23p1:ActiveClutchAndGear z:Id="i64" i:type="d23p1:StimulusClutchAndGearActivity">
+                                                <PropertyReferenceList />
+                                                <Name></Name>
+                                                <Description></Description>
+                                                <ID>9d50ea2f-a6ec-45e8-b0ec-003df9fbe058</ID>
+                                                <SourceManager z:Id="i65" i:type="GearSourceManager">
+                                                  <PropertyReferenceList />
+                                                  <Name></Name>
+                                                  <Description></Description>
+                                                  <ID>c6ced3d2-6970-435c-b37b-9782a5ba7109</ID>
+                                                  <ActiveSource z:Id="i66" i:type="TableSource">
+                                                    <PropertyReferenceList />
+                                                    <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                                                    <ContextType>ASMGear</ContextType>
+                                                    <FirstValue z:Id="i67">
+                                                      <PropertyReferenceList />
+                                                      <Name>Gear</Name>
+                                                      <IsInteger>true</IsInteger>
+                                                      <MaxValue>10000000</MaxValue>
+                                                      <MinValue>-10000000</MinValue>
+                                                      <Unit></Unit>
+                                                      <Value>4</Value>
+                                                    </FirstValue>
+                                                    <InterpretationType>Time</InterpretationType>
+                                                    <TableValues xmlns:d27p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>0</d27p1:Key>
+                                                        <d27p1:Value>4</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>0.5</d27p1:Key>
+                                                        <d27p1:Value>5</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>1</d27p1:Key>
+                                                        <d27p1:Value>5</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>12</d27p1:Key>
+                                                        <d27p1:Value>5</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>16</d27p1:Key>
+                                                        <d27p1:Value>5</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>20</d27p1:Key>
+                                                        <d27p1:Value>5</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                    </TableValues>
+                                                  </ActiveSource>
+                                                </SourceManager>
+                                                <d23p1:ClutchSourceManager z:Id="i68" i:type="ClutchSourceManager">
+                                                  <PropertyReferenceList />
+                                                  <Name></Name>
+                                                  <Description></Description>
+                                                  <ID>aa4ee56b-8202-4a7e-b6c8-9f6209a61d0f</ID>
+                                                  <ActiveSource z:Id="i69" i:type="TableSource">
+                                                    <PropertyReferenceList />
+                                                    <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                                                    <ContextType>ASMClutchPedal</ContextType>
+                                                    <FirstValue z:Id="i70">
+                                                      <PropertyReferenceList />
+                                                      <Name>Position</Name>
+                                                      <IsInteger>false</IsInteger>
+                                                      <MaxValue>100</MaxValue>
+                                                      <MinValue>0</MinValue>
+                                                      <Unit>%</Unit>
+                                                      <Value>0</Value>
+                                                    </FirstValue>
+                                                    <InterpretationType>Time</InterpretationType>
+                                                    <TableValues xmlns:d27p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>0</d27p1:Key>
+                                                        <d27p1:Value>0</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>0.5</d27p1:Key>
+                                                        <d27p1:Value>100</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>1</d27p1:Key>
+                                                        <d27p1:Value>0</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>12</d27p1:Key>
+                                                        <d27p1:Value>0</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>16</d27p1:Key>
+                                                        <d27p1:Value>0</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                      <d27p1:KeyValueOfdoubledouble>
+                                                        <d27p1:Key>20</d27p1:Key>
+                                                        <d27p1:Value>0</d27p1:Value>
+                                                      </d27p1:KeyValueOfdoubledouble>
+                                                    </TableValues>
+                                                  </ActiveSource>
+                                                </d23p1:ClutchSourceManager>
+                                              </d23p1:ActiveClutchAndGear>
+                                              <d23p1:ActiveSelectorLever z:Id="i71" i:type="d23p1:DriverSelectorLeverActivity">
+                                                <PropertyReferenceList />
+                                                <Name></Name>
+                                                <Description></Description>
+                                                <ID>c12f9d39-33aa-4100-9f10-a5dec96026ab</ID>
+                                              </d23p1:ActiveSelectorLever>
+                                            </Activity>
+                                          </SegmentManeuverActivity>
+                                        </BranchList>
+                                      </Branch>
+                                      <ConditionManager z:Id="i72">
+                                        <PropertyReferenceList />
+                                        <Name></Name>
+                                        <Description></Description>
+                                        <ID>b8f4ccf0-6a23-4453-b0d3-fbe21171f27d</ID>
+                                        <ConditionList>
+                                          <Condition z:Id="i73" i:type="TimeBasedCondition">
+                                            <PropertyReferenceList />
+                                            <Name></Name>
+                                            <Description></Description>
+                                            <ID>d9def42c-eb15-48cc-90fa-aeeef1a88e94</ID>
+                                            <Type>Time</Type>
+                                            <Time>20</Time>
+                                          </Condition>
+                                          <Condition z:Id="i74" i:type="Velocity">
+                                            <PropertyReferenceList />
+                                            <Name></Name>
+                                            <Description></Description>
+                                            <ID>9db87add-5be8-4dd5-9e33-e1b789b500ab</ID>
+                                            <Type>Velocity</Type>
+                                            <ReferencePlayerManager z:Id="i75">
+                                              <PropertyReferenceList />
+                                              <Name></Name>
+                                              <CurrentObject z:Ref="i4" />
+                                              <ObjectList z:Ref="i3" />
+                                            </ReferencePlayerManager>
+                                            <UnitType>Velocity</UnitType>
+                                            <Value>110</Value>
+                                            <Comparator>GreaterOrEqual</Comparator>
+                                          </Condition>
+                                        </ConditionList>
+                                        <Delay>0</Delay>
+                                        <IsDelayEnabled>false</IsDelayEnabled>
+                                        <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                                        <Timeout>10</Timeout>
+                                      </ConditionManager>
+                                      <Activity xmlns:d20p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic/ManeuverActivity" z:Id="i76">
+                                        <PropertyReferenceList />
+                                        <Name></Name>
+                                        <Description></Description>
+                                        <ID>65d6c098-6992-42ea-8710-19825c52c4e3</ID>
+                                        <ListManager z:Ref="i2" />
+                                        <UserSignalList />
+                                        <ActiveLateral z:Id="i77" i:type="d20p1:LateralStimulus">
+                                          <PropertyReferenceList />
+                                          <Name></Name>
+                                          <Description></Description>
+                                          <ID>bd523a40-d83a-4a93-b617-2b716362b9e0</ID>
+                                          <SourceManager z:Id="i78" i:type="StimulusAngleSourceManager">
+                                            <PropertyReferenceList />
+                                            <Name></Name>
+                                            <Description></Description>
+                                            <ID>264d3ec3-43c2-4d17-a142-1a9b065559d6</ID>
+                                            <ActiveSource z:Id="i79" i:type="ConstantSource">
+                                              <PropertyReferenceList />
+                                              <Constant z:Id="i80">
+                                                <PropertyReferenceList />
+                                                <Name>Angle</Name>
+                                                <IsInteger>false</IsInteger>
+                                                <MaxValue>10000000</MaxValue>
+                                                <MinValue>-10000000</MinValue>
+                                                <Unit>°</Unit>
+                                                <Value>0</Value>
+                                              </Constant>
+                                              <HoldCurrentValue>false</HoldCurrentValue>
+                                            </ActiveSource>
+                                          </SourceManager>
+                                        </ActiveLateral>
+                                        <ActiveLongitudinal z:Id="i81" i:type="d20p1:LongitudinalPedalStimulus">
+                                          <PropertyReferenceList />
+                                          <Name></Name>
+                                          <Description></Description>
+                                          <ID>f6fa59ca-a426-4720-b809-052c7d3cf579</ID>
+                                          <SourceManager z:Id="i82" i:type="PedalAccelerationSourceManager">
+                                            <PropertyReferenceList />
+                                            <Name></Name>
+                                            <Description></Description>
+                                            <ID>a7a81250-88cc-42c1-b229-d5c54bfb2ee2</ID>
+                                            <ActiveSource z:Id="i83" i:type="TableSource">
+                                              <PropertyReferenceList />
+                                              <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                                              <ContextType>ASMAccPedal</ContextType>
+                                              <FirstValue z:Id="i84">
+                                                <PropertyReferenceList />
+                                                <Name>Acc. pedal</Name>
+                                                <IsInteger>false</IsInteger>
+                                                <MaxValue>100</MaxValue>
+                                                <MinValue>0</MinValue>
+                                                <Unit>%</Unit>
+                                                <Value>100</Value>
+                                              </FirstValue>
+                                              <InterpretationType>Time</InterpretationType>
+                                              <TableValues xmlns:d24p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>0</d24p1:Key>
+                                                  <d24p1:Value>100</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>0.5</d24p1:Key>
+                                                  <d24p1:Value>0</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>1</d24p1:Key>
+                                                  <d24p1:Value>100</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>12</d24p1:Key>
+                                                  <d24p1:Value>100</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>16</d24p1:Key>
+                                                  <d24p1:Value>100</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>20</d24p1:Key>
+                                                  <d24p1:Value>100</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                              </TableValues>
+                                            </ActiveSource>
+                                          </SourceManager>
+                                          <d20p1:BrakeSourceManager z:Id="i85" i:type="PedalBrakeSourceManager">
+                                            <PropertyReferenceList />
+                                            <Name></Name>
+                                            <Description></Description>
+                                            <ID>d2539e78-be69-4099-bba3-57ee232e8aed</ID>
+                                            <ActiveSource z:Id="i86" i:type="ConstantSource">
+                                              <PropertyReferenceList />
+                                              <Constant z:Id="i87">
+                                                <PropertyReferenceList />
+                                                <Name>Position</Name>
+                                                <IsInteger>false</IsInteger>
+                                                <MaxValue>100</MaxValue>
+                                                <MinValue>0</MinValue>
+                                                <Unit>%</Unit>
+                                                <Value>0</Value>
+                                              </Constant>
+                                              <HoldCurrentValue>false</HoldCurrentValue>
+                                            </ActiveSource>
+                                          </d20p1:BrakeSourceManager>
+                                        </ActiveLongitudinal>
+                                        <d20p1:ActiveClutchAndGear z:Id="i88" i:type="d20p1:StimulusClutchAndGearActivity">
+                                          <PropertyReferenceList />
+                                          <Name></Name>
+                                          <Description></Description>
+                                          <ID>933aa0a3-f674-4f49-bbaa-c6768c78a4eb</ID>
+                                          <SourceManager z:Id="i89" i:type="GearSourceManager">
+                                            <PropertyReferenceList />
+                                            <Name></Name>
+                                            <Description></Description>
+                                            <ID>acebb2d2-a9a7-48bd-a557-7509f878e529</ID>
+                                            <ActiveSource z:Id="i90" i:type="TableSource">
+                                              <PropertyReferenceList />
+                                              <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                                              <ContextType>ASMGear</ContextType>
+                                              <FirstValue z:Id="i91">
+                                                <PropertyReferenceList />
+                                                <Name>Gear</Name>
+                                                <IsInteger>true</IsInteger>
+                                                <MaxValue>10000000</MaxValue>
+                                                <MinValue>-10000000</MinValue>
+                                                <Unit></Unit>
+                                                <Value>3</Value>
+                                              </FirstValue>
+                                              <InterpretationType>Time</InterpretationType>
+                                              <TableValues xmlns:d24p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>0</d24p1:Key>
+                                                  <d24p1:Value>3</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>0.5</d24p1:Key>
+                                                  <d24p1:Value>4</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>1</d24p1:Key>
+                                                  <d24p1:Value>4</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>12</d24p1:Key>
+                                                  <d24p1:Value>4</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>16</d24p1:Key>
+                                                  <d24p1:Value>4</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>20</d24p1:Key>
+                                                  <d24p1:Value>4</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                              </TableValues>
+                                            </ActiveSource>
+                                          </SourceManager>
+                                          <d20p1:ClutchSourceManager z:Id="i92" i:type="ClutchSourceManager">
+                                            <PropertyReferenceList />
+                                            <Name></Name>
+                                            <Description></Description>
+                                            <ID>3dafda70-1432-4d7a-a7e1-c14456574b16</ID>
+                                            <ActiveSource z:Id="i93" i:type="TableSource">
+                                              <PropertyReferenceList />
+                                              <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                                              <ContextType>ASMClutchPedal</ContextType>
+                                              <FirstValue z:Id="i94">
+                                                <PropertyReferenceList />
+                                                <Name>Position</Name>
+                                                <IsInteger>false</IsInteger>
+                                                <MaxValue>100</MaxValue>
+                                                <MinValue>0</MinValue>
+                                                <Unit>%</Unit>
+                                                <Value>0</Value>
+                                              </FirstValue>
+                                              <InterpretationType>Time</InterpretationType>
+                                              <TableValues xmlns:d24p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>0</d24p1:Key>
+                                                  <d24p1:Value>0</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>0.5</d24p1:Key>
+                                                  <d24p1:Value>100</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>1</d24p1:Key>
+                                                  <d24p1:Value>0</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>12</d24p1:Key>
+                                                  <d24p1:Value>0</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>16</d24p1:Key>
+                                                  <d24p1:Value>0</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                                <d24p1:KeyValueOfdoubledouble>
+                                                  <d24p1:Key>20</d24p1:Key>
+                                                  <d24p1:Value>0</d24p1:Value>
+                                                </d24p1:KeyValueOfdoubledouble>
+                                              </TableValues>
+                                            </ActiveSource>
+                                          </d20p1:ClutchSourceManager>
+                                        </d20p1:ActiveClutchAndGear>
+                                        <d20p1:ActiveSelectorLever z:Id="i95" i:type="d20p1:DriverSelectorLeverActivity">
+                                          <PropertyReferenceList />
+                                          <Name></Name>
+                                          <Description></Description>
+                                          <ID>893ad9dc-f546-4fa4-8dd9-c68aa220b6c3</ID>
+                                        </d20p1:ActiveSelectorLever>
+                                      </Activity>
+                                    </SegmentManeuverActivity>
+                                  </BranchList>
+                                </Branch>
+                                <ConditionManager z:Id="i96">
+                                  <PropertyReferenceList />
+                                  <Name></Name>
+                                  <Description></Description>
+                                  <ID>9a680fb9-ed30-4e66-983b-a3631a9d773f</ID>
+                                  <ConditionList>
+                                    <Condition z:Id="i97" i:type="TimeBasedCondition">
+                                      <PropertyReferenceList />
+                                      <Name></Name>
+                                      <Description></Description>
+                                      <ID>1e34291b-fe1b-4c6f-95aa-674b5a149065</ID>
+                                      <Type>Time</Type>
+                                      <Time>20</Time>
+                                    </Condition>
+                                    <Condition z:Id="i98" i:type="Velocity">
+                                      <PropertyReferenceList />
+                                      <Name></Name>
+                                      <Description></Description>
+                                      <ID>d08305ec-a0f2-4b9f-9751-aae791360478</ID>
+                                      <Type>Velocity</Type>
+                                      <ReferencePlayerManager z:Id="i99">
+                                        <PropertyReferenceList />
+                                        <Name></Name>
+                                        <CurrentObject z:Ref="i4" />
+                                        <ObjectList z:Ref="i3" />
+                                      </ReferencePlayerManager>
+                                      <UnitType>Velocity</UnitType>
+                                      <Value>80</Value>
+                                      <Comparator>GreaterOrEqual</Comparator>
+                                    </Condition>
+                                  </ConditionList>
+                                  <Delay>0</Delay>
+                                  <IsDelayEnabled>false</IsDelayEnabled>
+                                  <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                                  <Timeout>10</Timeout>
+                                </ConditionManager>
+                                <Activity xmlns:d17p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic/ManeuverActivity" z:Id="i100">
+                                  <PropertyReferenceList />
+                                  <Name></Name>
+                                  <Description></Description>
+                                  <ID>b1e6b495-ad00-4dbc-904e-d7f90297b3f0</ID>
+                                  <ListManager z:Ref="i2" />
+                                  <UserSignalList />
+                                  <ActiveLateral z:Id="i101" i:type="d17p1:LateralStimulus">
+                                    <PropertyReferenceList />
+                                    <Name></Name>
+                                    <Description></Description>
+                                    <ID>d93f387d-20c2-4ea4-ae39-c68f4b0d72ea</ID>
+                                    <SourceManager z:Id="i102" i:type="StimulusAngleSourceManager">
+                                      <PropertyReferenceList />
+                                      <Name></Name>
+                                      <Description></Description>
+                                      <ID>e87adbb4-c1d4-485a-a798-777dae17e708</ID>
+                                      <ActiveSource z:Id="i103" i:type="ConstantSource">
+                                        <PropertyReferenceList />
+                                        <Constant z:Id="i104">
+                                          <PropertyReferenceList />
+                                          <Name>Angle</Name>
+                                          <IsInteger>false</IsInteger>
+                                          <MaxValue>10000000</MaxValue>
+                                          <MinValue>-10000000</MinValue>
+                                          <Unit>°</Unit>
+                                          <Value>0</Value>
+                                        </Constant>
+                                        <HoldCurrentValue>false</HoldCurrentValue>
+                                      </ActiveSource>
+                                    </SourceManager>
+                                  </ActiveLateral>
+                                  <ActiveLongitudinal z:Id="i105" i:type="d17p1:LongitudinalPedalStimulus">
+                                    <PropertyReferenceList />
+                                    <Name></Name>
+                                    <Description></Description>
+                                    <ID>45fdf2a9-4b62-4657-a413-3d55350b5519</ID>
+                                    <SourceManager z:Id="i106" i:type="PedalAccelerationSourceManager">
+                                      <PropertyReferenceList />
+                                      <Name></Name>
+                                      <Description></Description>
+                                      <ID>ef81f505-3a7f-465a-a10c-2e4182462bc3</ID>
+                                      <ActiveSource z:Id="i107" i:type="TableSource">
+                                        <PropertyReferenceList />
+                                        <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                                        <ContextType>ASMAccPedal</ContextType>
+                                        <FirstValue z:Id="i108">
+                                          <PropertyReferenceList />
+                                          <Name>Acc. pedal</Name>
+                                          <IsInteger>false</IsInteger>
+                                          <MaxValue>100</MaxValue>
+                                          <MinValue>0</MinValue>
+                                          <Unit>%</Unit>
+                                          <Value>100</Value>
+                                        </FirstValue>
+                                        <InterpretationType>Time</InterpretationType>
+                                        <TableValues xmlns:d21p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>0</d21p1:Key>
+                                            <d21p1:Value>100</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>0.5</d21p1:Key>
+                                            <d21p1:Value>0</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>1</d21p1:Key>
+                                            <d21p1:Value>100</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>12</d21p1:Key>
+                                            <d21p1:Value>100</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>16</d21p1:Key>
+                                            <d21p1:Value>100</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>20</d21p1:Key>
+                                            <d21p1:Value>100</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                        </TableValues>
+                                      </ActiveSource>
+                                    </SourceManager>
+                                    <d17p1:BrakeSourceManager z:Id="i109" i:type="PedalBrakeSourceManager">
+                                      <PropertyReferenceList />
+                                      <Name></Name>
+                                      <Description></Description>
+                                      <ID>6e30fa8f-b4a3-4c38-b2b8-1d3deff4682e</ID>
+                                      <ActiveSource z:Id="i110" i:type="ConstantSource">
+                                        <PropertyReferenceList />
+                                        <Constant z:Id="i111">
+                                          <PropertyReferenceList />
+                                          <Name>Position</Name>
+                                          <IsInteger>false</IsInteger>
+                                          <MaxValue>100</MaxValue>
+                                          <MinValue>0</MinValue>
+                                          <Unit>%</Unit>
+                                          <Value>0</Value>
+                                        </Constant>
+                                        <HoldCurrentValue>false</HoldCurrentValue>
+                                      </ActiveSource>
+                                    </d17p1:BrakeSourceManager>
+                                  </ActiveLongitudinal>
+                                  <d17p1:ActiveClutchAndGear z:Id="i112" i:type="d17p1:StimulusClutchAndGearActivity">
+                                    <PropertyReferenceList />
+                                    <Name></Name>
+                                    <Description></Description>
+                                    <ID>4106d71c-2fad-463b-ab76-648a0696f102</ID>
+                                    <SourceManager z:Id="i113" i:type="GearSourceManager">
+                                      <PropertyReferenceList />
+                                      <Name></Name>
+                                      <Description></Description>
+                                      <ID>d5220be5-fd13-4b79-adcd-92f42a25c21b</ID>
+                                      <ActiveSource z:Id="i114" i:type="TableSource">
+                                        <PropertyReferenceList />
+                                        <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                                        <ContextType>ASMGear</ContextType>
+                                        <FirstValue z:Id="i115">
+                                          <PropertyReferenceList />
+                                          <Name>Gear</Name>
+                                          <IsInteger>true</IsInteger>
+                                          <MaxValue>10000000</MaxValue>
+                                          <MinValue>-10000000</MinValue>
+                                          <Unit></Unit>
+                                          <Value>2</Value>
+                                        </FirstValue>
+                                        <InterpretationType>Time</InterpretationType>
+                                        <TableValues xmlns:d21p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>0</d21p1:Key>
+                                            <d21p1:Value>2</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>0.5</d21p1:Key>
+                                            <d21p1:Value>3</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>1</d21p1:Key>
+                                            <d21p1:Value>3</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>12</d21p1:Key>
+                                            <d21p1:Value>3</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>16</d21p1:Key>
+                                            <d21p1:Value>3</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>20</d21p1:Key>
+                                            <d21p1:Value>3</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                        </TableValues>
+                                      </ActiveSource>
+                                    </SourceManager>
+                                    <d17p1:ClutchSourceManager z:Id="i116" i:type="ClutchSourceManager">
+                                      <PropertyReferenceList />
+                                      <Name></Name>
+                                      <Description></Description>
+                                      <ID>eae25c00-fa86-4bac-9c00-83539abbfb35</ID>
+                                      <ActiveSource z:Id="i117" i:type="TableSource">
+                                        <PropertyReferenceList />
+                                        <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                                        <ContextType>ASMClutchPedal</ContextType>
+                                        <FirstValue z:Id="i118">
+                                          <PropertyReferenceList />
+                                          <Name>Position</Name>
+                                          <IsInteger>false</IsInteger>
+                                          <MaxValue>100</MaxValue>
+                                          <MinValue>0</MinValue>
+                                          <Unit>%</Unit>
+                                          <Value>0</Value>
+                                        </FirstValue>
+                                        <InterpretationType>Time</InterpretationType>
+                                        <TableValues xmlns:d21p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>0</d21p1:Key>
+                                            <d21p1:Value>0</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>0.5</d21p1:Key>
+                                            <d21p1:Value>100</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>1</d21p1:Key>
+                                            <d21p1:Value>0</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>12</d21p1:Key>
+                                            <d21p1:Value>0</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>16</d21p1:Key>
+                                            <d21p1:Value>0</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                          <d21p1:KeyValueOfdoubledouble>
+                                            <d21p1:Key>20</d21p1:Key>
+                                            <d21p1:Value>0</d21p1:Value>
+                                          </d21p1:KeyValueOfdoubledouble>
+                                        </TableValues>
+                                      </ActiveSource>
+                                    </d17p1:ClutchSourceManager>
+                                  </d17p1:ActiveClutchAndGear>
+                                  <d17p1:ActiveSelectorLever z:Id="i119" i:type="d17p1:DriverSelectorLeverActivity">
+                                    <PropertyReferenceList />
+                                    <Name></Name>
+                                    <Description></Description>
+                                    <ID>d6030dc4-e756-4bf9-bd52-e6f88375087a</ID>
+                                  </d17p1:ActiveSelectorLever>
+                                </Activity>
+                              </SegmentManeuverActivity>
+                            </BranchList>
+                          </Branch>
+                          <ConditionManager z:Id="i120">
+                            <PropertyReferenceList />
+                            <Name></Name>
+                            <Description></Description>
+                            <ID>3a417186-3cb3-4e9a-a209-2d65cc4a9b40</ID>
+                            <ConditionList>
+                              <Condition z:Id="i121" i:type="TimeBasedCondition">
+                                <PropertyReferenceList />
+                                <Name></Name>
+                                <Description></Description>
+                                <ID>61c5ac15-bc88-4db7-bc71-61c91a3b214a</ID>
+                                <Type>Time</Type>
+                                <Time>20</Time>
+                              </Condition>
+                              <Condition z:Id="i122" i:type="Velocity">
+                                <PropertyReferenceList />
+                                <Name></Name>
+                                <Description></Description>
+                                <ID>fae40ca8-0924-46ea-90dc-085763ad5928</ID>
+                                <Type>Velocity</Type>
+                                <ReferencePlayerManager z:Id="i123">
+                                  <PropertyReferenceList />
+                                  <Name></Name>
+                                  <CurrentObject z:Ref="i4" />
+                                  <ObjectList z:Ref="i3" />
+                                </ReferencePlayerManager>
+                                <UnitType>Velocity</UnitType>
+                                <Value>50</Value>
+                                <Comparator>GreaterOrEqual</Comparator>
+                              </Condition>
+                            </ConditionList>
+                            <Delay>0</Delay>
+                            <IsDelayEnabled>false</IsDelayEnabled>
+                            <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                            <Timeout>10</Timeout>
+                          </ConditionManager>
+                          <Activity xmlns:d14p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic/ManeuverActivity" z:Id="i124">
+                            <PropertyReferenceList />
+                            <Name></Name>
+                            <Description></Description>
+                            <ID>ede73462-0c4a-45d0-b16c-a9283328c846</ID>
+                            <ListManager z:Ref="i2" />
+                            <UserSignalList />
+                            <ActiveLateral z:Id="i125" i:type="d14p1:LateralStimulus">
+                              <PropertyReferenceList />
+                              <Name></Name>
+                              <Description></Description>
+                              <ID>cb1f12e3-c538-4934-99da-c6d1303d4ddc</ID>
+                              <SourceManager z:Id="i126" i:type="StimulusAngleSourceManager">
+                                <PropertyReferenceList />
+                                <Name></Name>
+                                <Description></Description>
+                                <ID>c550bc6b-d9a9-4690-84fb-975d9ef3d702</ID>
+                                <ActiveSource z:Id="i127" i:type="ConstantSource">
+                                  <PropertyReferenceList />
+                                  <Constant z:Id="i128">
+                                    <PropertyReferenceList />
+                                    <Name>Angle</Name>
+                                    <IsInteger>false</IsInteger>
+                                    <MaxValue>10000000</MaxValue>
+                                    <MinValue>-10000000</MinValue>
+                                    <Unit>°</Unit>
+                                    <Value>0</Value>
+                                  </Constant>
+                                  <HoldCurrentValue>false</HoldCurrentValue>
+                                </ActiveSource>
+                              </SourceManager>
+                            </ActiveLateral>
+                            <ActiveLongitudinal z:Id="i129" i:type="d14p1:LongitudinalPedalStimulus">
+                              <PropertyReferenceList />
+                              <Name></Name>
+                              <Description></Description>
+                              <ID>2ebbee01-45c0-433b-b066-d7c3f7f6dec8</ID>
+                              <SourceManager z:Id="i130" i:type="PedalAccelerationSourceManager">
+                                <PropertyReferenceList />
+                                <Name></Name>
+                                <Description></Description>
+                                <ID>83ed43f3-30a3-422e-86c3-9836da0c8da8</ID>
+                                <ActiveSource z:Id="i131" i:type="TableSource">
+                                  <PropertyReferenceList />
+                                  <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                                  <ContextType>ASMAccPedal</ContextType>
+                                  <FirstValue z:Id="i132">
+                                    <PropertyReferenceList />
+                                    <Name>Acc. pedal</Name>
+                                    <IsInteger>false</IsInteger>
+                                    <MaxValue>100</MaxValue>
+                                    <MinValue>0</MinValue>
+                                    <Unit>%</Unit>
+                                    <Value>100</Value>
+                                  </FirstValue>
+                                  <InterpretationType>Time</InterpretationType>
+                                  <TableValues xmlns:d18p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>0</d18p1:Key>
+                                      <d18p1:Value>100</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>0.5</d18p1:Key>
+                                      <d18p1:Value>0</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>1</d18p1:Key>
+                                      <d18p1:Value>100</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>12</d18p1:Key>
+                                      <d18p1:Value>100</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>16</d18p1:Key>
+                                      <d18p1:Value>100</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>20</d18p1:Key>
+                                      <d18p1:Value>100</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                  </TableValues>
+                                </ActiveSource>
+                              </SourceManager>
+                              <d14p1:BrakeSourceManager z:Id="i133" i:type="PedalBrakeSourceManager">
+                                <PropertyReferenceList />
+                                <Name></Name>
+                                <Description></Description>
+                                <ID>3fe363eb-d801-4db3-bb4a-d4d74dcb94a7</ID>
+                                <ActiveSource z:Id="i134" i:type="ConstantSource">
+                                  <PropertyReferenceList />
+                                  <Constant z:Id="i135">
+                                    <PropertyReferenceList />
+                                    <Name>Position</Name>
+                                    <IsInteger>false</IsInteger>
+                                    <MaxValue>100</MaxValue>
+                                    <MinValue>0</MinValue>
+                                    <Unit>%</Unit>
+                                    <Value>0</Value>
+                                  </Constant>
+                                  <HoldCurrentValue>false</HoldCurrentValue>
+                                </ActiveSource>
+                              </d14p1:BrakeSourceManager>
+                            </ActiveLongitudinal>
+                            <d14p1:ActiveClutchAndGear z:Id="i136" i:type="d14p1:StimulusClutchAndGearActivity">
+                              <PropertyReferenceList />
+                              <Name></Name>
+                              <Description></Description>
+                              <ID>cb74c6e8-90b4-4cd3-ac9b-37125309d2c7</ID>
+                              <SourceManager z:Id="i137" i:type="GearSourceManager">
+                                <PropertyReferenceList />
+                                <Name></Name>
+                                <Description></Description>
+                                <ID>11e82b40-b56e-4351-a98a-8852ad575082</ID>
+                                <ActiveSource z:Id="i138" i:type="TableSource">
+                                  <PropertyReferenceList />
+                                  <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                                  <ContextType>ASMGear</ContextType>
+                                  <FirstValue z:Id="i139">
+                                    <PropertyReferenceList />
+                                    <Name>Gear</Name>
+                                    <IsInteger>true</IsInteger>
+                                    <MaxValue>10000000</MaxValue>
+                                    <MinValue>-10000000</MinValue>
+                                    <Unit></Unit>
+                                    <Value>1</Value>
+                                  </FirstValue>
+                                  <InterpretationType>Time</InterpretationType>
+                                  <TableValues xmlns:d18p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>0</d18p1:Key>
+                                      <d18p1:Value>1</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>0.5</d18p1:Key>
+                                      <d18p1:Value>2</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>1</d18p1:Key>
+                                      <d18p1:Value>2</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>12</d18p1:Key>
+                                      <d18p1:Value>2</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>16</d18p1:Key>
+                                      <d18p1:Value>2</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>20</d18p1:Key>
+                                      <d18p1:Value>2</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                  </TableValues>
+                                </ActiveSource>
+                              </SourceManager>
+                              <d14p1:ClutchSourceManager z:Id="i140" i:type="ClutchSourceManager">
+                                <PropertyReferenceList />
+                                <Name></Name>
+                                <Description></Description>
+                                <ID>01486462-ed46-4f3a-938d-b1543b092f4f</ID>
+                                <ActiveSource z:Id="i141" i:type="TableSource">
+                                  <PropertyReferenceList />
+                                  <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                                  <ContextType>ASMClutchPedal</ContextType>
+                                  <FirstValue z:Id="i142">
+                                    <PropertyReferenceList />
+                                    <Name>Position</Name>
+                                    <IsInteger>false</IsInteger>
+                                    <MaxValue>100</MaxValue>
+                                    <MinValue>0</MinValue>
+                                    <Unit>%</Unit>
+                                    <Value>0</Value>
+                                  </FirstValue>
+                                  <InterpretationType>Time</InterpretationType>
+                                  <TableValues xmlns:d18p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>0</d18p1:Key>
+                                      <d18p1:Value>0</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>0.5</d18p1:Key>
+                                      <d18p1:Value>100</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>1</d18p1:Key>
+                                      <d18p1:Value>0</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>12</d18p1:Key>
+                                      <d18p1:Value>0</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>16</d18p1:Key>
+                                      <d18p1:Value>0</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                    <d18p1:KeyValueOfdoubledouble>
+                                      <d18p1:Key>20</d18p1:Key>
+                                      <d18p1:Value>0</d18p1:Value>
+                                    </d18p1:KeyValueOfdoubledouble>
+                                  </TableValues>
+                                </ActiveSource>
+                              </d14p1:ClutchSourceManager>
+                            </d14p1:ActiveClutchAndGear>
+                            <d14p1:ActiveSelectorLever z:Id="i143" i:type="d14p1:DriverSelectorLeverActivity">
+                              <PropertyReferenceList />
+                              <Name></Name>
+                              <Description></Description>
+                              <ID>0d5ab456-d712-479d-a215-26a9cae757e9</ID>
+                            </d14p1:ActiveSelectorLever>
+                          </Activity>
+                        </SegmentManeuverActivity>
+                      </BranchList>
+                    </Branch>
+                    <ConditionManager z:Id="i144">
+                      <PropertyReferenceList />
+                      <Name></Name>
+                      <Description></Description>
+                      <ID>1f8b549d-a0e2-471b-98f3-da2185d006c6</ID>
+                      <ConditionList>
+                        <Condition z:Id="i145" i:type="TimeBasedCondition">
+                          <PropertyReferenceList />
+                          <Name></Name>
+                          <Description></Description>
+                          <ID>d1c0f6ec-23e6-4c35-ab19-570fa6c88fa8</ID>
+                          <Type>Time</Type>
+                          <Time>20</Time>
+                        </Condition>
+                        <Condition z:Id="i146" i:type="Velocity">
+                          <PropertyReferenceList />
+                          <Name></Name>
+                          <Description></Description>
+                          <ID>a9894cfd-875f-434b-a3a9-e5d66786da0e</ID>
+                          <Type>Velocity</Type>
+                          <ReferencePlayerManager z:Id="i147">
+                            <PropertyReferenceList />
+                            <Name></Name>
+                            <CurrentObject z:Ref="i4" />
+                            <ObjectList z:Ref="i3" />
+                          </ReferencePlayerManager>
+                          <UnitType>Velocity</UnitType>
+                          <Value>20</Value>
+                          <Comparator>GreaterOrEqual</Comparator>
+                        </Condition>
+                      </ConditionList>
+                      <Delay>0</Delay>
+                      <IsDelayEnabled>false</IsDelayEnabled>
+                      <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                      <Timeout>10</Timeout>
+                    </ConditionManager>
+                    <Activity xmlns:d11p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic/ManeuverActivity" z:Id="i148">
+                      <PropertyReferenceList />
+                      <Name></Name>
+                      <Description></Description>
+                      <ID>bd3cd9aa-cfaa-40e8-ab0f-69815518053c</ID>
+                      <ListManager z:Ref="i2" />
+                      <UserSignalList />
+                      <ActiveLateral z:Id="i149" i:type="d11p1:LateralStimulus">
+                        <PropertyReferenceList />
+                        <Name></Name>
+                        <Description></Description>
+                        <ID>d42da61c-a8df-47bc-b1b5-d26a715ea941</ID>
+                        <SourceManager z:Id="i150" i:type="StimulusAngleSourceManager">
+                          <PropertyReferenceList />
+                          <Name></Name>
+                          <Description></Description>
+                          <ID>490d3adc-0c30-4670-9668-4093b14751ab</ID>
+                          <ActiveSource z:Id="i151" i:type="ConstantSource">
+                            <PropertyReferenceList />
+                            <Constant z:Id="i152">
+                              <PropertyReferenceList />
+                              <Name>Angle</Name>
+                              <IsInteger>false</IsInteger>
+                              <MaxValue>10000000</MaxValue>
+                              <MinValue>-10000000</MinValue>
+                              <Unit>°</Unit>
+                              <Value>0</Value>
+                            </Constant>
+                            <HoldCurrentValue>false</HoldCurrentValue>
+                          </ActiveSource>
+                        </SourceManager>
+                      </ActiveLateral>
+                      <ActiveLongitudinal z:Id="i153" i:type="d11p1:LongitudinalPedalStimulus">
+                        <PropertyReferenceList />
+                        <Name></Name>
+                        <Description></Description>
+                        <ID>8aa10ad9-3afd-4c51-b338-f09141544a09</ID>
+                        <SourceManager z:Id="i154" i:type="PedalAccelerationSourceManager">
+                          <PropertyReferenceList />
+                          <Name></Name>
+                          <Description></Description>
+                          <ID>4f10e52d-9afe-476e-8fe7-ce74c4415bab</ID>
+                          <ActiveSource z:Id="i155" i:type="TableSource">
+                            <PropertyReferenceList />
+                            <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                            <ContextType>ASMAccPedal</ContextType>
+                            <FirstValue z:Id="i156">
+                              <PropertyReferenceList />
+                              <Name>Acc. pedal</Name>
+                              <IsInteger>false</IsInteger>
+                              <MaxValue>100</MaxValue>
+                              <MinValue>0</MinValue>
+                              <Unit>%</Unit>
+                              <Value>0</Value>
+                            </FirstValue>
+                            <InterpretationType>Time</InterpretationType>
+                            <TableValues xmlns:d15p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>0</d15p1:Key>
+                                <d15p1:Value>0</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>1</d15p1:Key>
+                                <d15p1:Value>0</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>2</d15p1:Key>
+                                <d15p1:Value>100</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>12</d15p1:Key>
+                                <d15p1:Value>100</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>16</d15p1:Key>
+                                <d15p1:Value>100</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>20</d15p1:Key>
+                                <d15p1:Value>100</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                            </TableValues>
+                          </ActiveSource>
+                        </SourceManager>
+                        <d11p1:BrakeSourceManager z:Id="i157" i:type="PedalBrakeSourceManager">
+                          <PropertyReferenceList />
+                          <Name></Name>
+                          <Description></Description>
+                          <ID>92062553-32da-4394-82eb-65a093f9299d</ID>
+                          <ActiveSource z:Id="i158" i:type="ConstantSource">
+                            <PropertyReferenceList />
+                            <Constant z:Id="i159">
+                              <PropertyReferenceList />
+                              <Name>Position</Name>
+                              <IsInteger>false</IsInteger>
+                              <MaxValue>100</MaxValue>
+                              <MinValue>0</MinValue>
+                              <Unit>%</Unit>
+                              <Value>0</Value>
+                            </Constant>
+                            <HoldCurrentValue>false</HoldCurrentValue>
+                          </ActiveSource>
+                        </d11p1:BrakeSourceManager>
+                      </ActiveLongitudinal>
+                      <d11p1:ActiveClutchAndGear z:Id="i160" i:type="d11p1:StimulusClutchAndGearActivity">
+                        <PropertyReferenceList />
+                        <Name></Name>
+                        <Description></Description>
+                        <ID>01601c54-4e0e-430d-a36d-b5e934ed92cc</ID>
+                        <SourceManager z:Id="i161" i:type="GearSourceManager">
+                          <PropertyReferenceList />
+                          <Name></Name>
+                          <Description></Description>
+                          <ID>ec84eac5-5935-47af-9ac9-1d3bd1b8fc1e</ID>
+                          <ActiveSource z:Id="i162" i:type="TableSource">
+                            <PropertyReferenceList />
+                            <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                            <ContextType>ASMGear</ContextType>
+                            <FirstValue z:Id="i163">
+                              <PropertyReferenceList />
+                              <Name>Gear</Name>
+                              <IsInteger>true</IsInteger>
+                              <MaxValue>10000000</MaxValue>
+                              <MinValue>-10000000</MinValue>
+                              <Unit></Unit>
+                              <Value>0</Value>
+                            </FirstValue>
+                            <InterpretationType>Time</InterpretationType>
+                            <TableValues xmlns:d15p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>0</d15p1:Key>
+                                <d15p1:Value>0</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>1</d15p1:Key>
+                                <d15p1:Value>1</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>2</d15p1:Key>
+                                <d15p1:Value>1</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>12</d15p1:Key>
+                                <d15p1:Value>1</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>16</d15p1:Key>
+                                <d15p1:Value>1</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>20</d15p1:Key>
+                                <d15p1:Value>1</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                            </TableValues>
+                          </ActiveSource>
+                        </SourceManager>
+                        <d11p1:ClutchSourceManager z:Id="i164" i:type="ClutchSourceManager">
+                          <PropertyReferenceList />
+                          <Name></Name>
+                          <Description></Description>
+                          <ID>bf5cdc8e-784d-42f3-8f41-ca488a5210f2</ID>
+                          <ActiveSource z:Id="i165" i:type="TableSource">
+                            <PropertyReferenceList />
+                            <AllowedInterpretationTypes>Time Distance DistanceRoute</AllowedInterpretationTypes>
+                            <ContextType>ASMClutchPedal</ContextType>
+                            <FirstValue z:Id="i166">
+                              <PropertyReferenceList />
+                              <Name>Position</Name>
+                              <IsInteger>false</IsInteger>
+                              <MaxValue>100</MaxValue>
+                              <MinValue>0</MinValue>
+                              <Unit>%</Unit>
+                              <Value>0</Value>
+                            </FirstValue>
+                            <InterpretationType>Time</InterpretationType>
+                            <TableValues xmlns:d15p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>0</d15p1:Key>
+                                <d15p1:Value>0</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>1</d15p1:Key>
+                                <d15p1:Value>100</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>2</d15p1:Key>
+                                <d15p1:Value>0</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>12</d15p1:Key>
+                                <d15p1:Value>0</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>16</d15p1:Key>
+                                <d15p1:Value>0</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                              <d15p1:KeyValueOfdoubledouble>
+                                <d15p1:Key>20</d15p1:Key>
+                                <d15p1:Value>0</d15p1:Value>
+                              </d15p1:KeyValueOfdoubledouble>
+                            </TableValues>
+                          </ActiveSource>
+                        </d11p1:ClutchSourceManager>
+                      </d11p1:ActiveClutchAndGear>
+                      <d11p1:ActiveSelectorLever z:Id="i167" i:type="d11p1:DriverSelectorLeverActivity">
+                        <PropertyReferenceList />
+                        <Name></Name>
+                        <Description></Description>
+                        <ID>58a6d916-a048-4d17-bf14-95acb1aafdd9</ID>
+                      </d11p1:ActiveSelectorLever>
+                    </Activity>
+                  </SegmentManeuverActivity>
+                </BranchList>
+              </Branch>
+              <ConditionManager z:Id="i168">
+                <PropertyReferenceList />
+                <Name></Name>
+                <Description></Description>
+                <ID>7d59b59e-3d94-473f-bdc3-5e882ee321f1</ID>
+                <ConditionList>
+                  <Condition z:Id="i169" i:type="TimeBasedCondition">
+                    <PropertyReferenceList />
+                    <Name></Name>
+                    <Description></Description>
+                    <ID>551e3638-fc4b-4612-840a-96da3959b4dd</ID>
+                    <Type>Time</Type>
+                    <Time>2</Time>
+                  </Condition>
+                </ConditionList>
+                <Delay>0</Delay>
+                <IsDelayEnabled>false</IsDelayEnabled>
+                <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                <Timeout>10</Timeout>
+              </ConditionManager>
+              <ReverseDirection>false</ReverseDirection>
+              <RouteManager z:Id="i170">
+                <PropertyReferenceList />
+                <Name></Name>
+                <CurrentObject z:Id="i171" i:type="NotAvailableObject">
+                  <PropertyReferenceList />
+                  <Name>N.A.</Name>
+                  <Description></Description>
+                  <ID>1</ID>
+                  <IsUsed>false</IsUsed>
+                </CurrentObject>
+                <ObjectList z:Id="i172" i:type="RoutenManager" />
+              </RouteManager>
+              <UseExternal>false</UseExternal>
+              <AdditionalLateralOffset z:Id="i173">
+                <PropertyReferenceList />
+                <Name>Additional lateral offset</Name>
+                <IsInteger>false</IsInteger>
+                <MaxValue>10000000</MaxValue>
+                <MinValue>-10000000</MinValue>
+                <Unit>m</Unit>
+                <Value>0</Value>
+              </AdditionalLateralOffset>
+              <InitialHeight z:Id="i174">
+                <PropertyReferenceList />
+                <Name>Initial height value</Name>
+                <IsInteger>false</IsInteger>
+                <MaxValue>10000000</MaxValue>
+                <MinValue>0</MinValue>
+                <Unit>m</Unit>
+                <Value>0.01</Value>
+              </InitialHeight>
+              <InitialHeightMode>Offset</InitialHeightMode>
+              <InitialLaneIndex z:Id="i175">
+                <PropertyReferenceList />
+                <Name>Initial lane index</Name>
+                <IsInteger>false</IsInteger>
+                <MaxValue>100</MaxValue>
+                <MinValue>-100</MinValue>
+                <Unit></Unit>
+                <Value>0</Value>
+              </InitialLaneIndex>
+              <InitialLongitudinalVelocity z:Id="i176">
+                <PropertyReferenceList />
+                <Name>Initial longitudinal velocity</Name>
+                <IsInteger>false</IsInteger>
+                <MaxValue>10000000</MaxValue>
+                <MinValue>0</MinValue>
+                <Unit>km/h</Unit>
+                <Value>0</Value>
+              </InitialLongitudinalVelocity>
+              <StartPosition z:Id="i177">
+                <PropertyReferenceList />
+                <Name>Start position on route</Name>
+                <IsInteger>false</IsInteger>
+                <MaxValue>10000000</MaxValue>
+                <MinValue>0</MinValue>
+                <Unit>m</Unit>
+                <Value>0</Value>
+              </StartPosition>
+              <VehicleOrientation z:Id="i178">
+                <PropertyReferenceList />
+                <Name>Vehicle orientation</Name>
+                <IsInteger>false</IsInteger>
+                <MaxValue>180</MaxValue>
+                <MinValue>-180</MinValue>
+                <Unit>°</Unit>
+                <Value>0</Value>
+              </VehicleOrientation>
+            </StartSegmentManeuverActivity>
+          </StartList>
+          <DAEPath>%customer_objects%\AURELION\Vehicles\Cars\$ASM_Coupe\ASM_Coupe.dae</DAEPath>
+          <TrafficDriverPath>TrafficDriverNormal.trd</TrafficDriverPath>
+          <TrafficObjectGuid>de28775d-4084-4c4b-8092-732b7959b4bf</TrafficObjectGuid>
+          <TrafficObjectPath>Chassis\ASM_Coupe.tro</TrafficObjectPath>
+        </ASM>
+      </Pool>
+      <ManeuverProperties z:Id="i179">
+        <PropertyReferenceList />
+        <DriverCurvatureMode>RoadNetwork</DriverCurvatureMode>
+        <FastDriver z:Id="i180">
+          <PropertyReferenceList />
+          <BrakeAcceleration z:Id="i181">
+            <PropertyReferenceList />
+            <Name>Brake acceleration threshold</Name>
+            <IsInteger>false</IsInteger>
+            <MaxValue>10000000</MaxValue>
+            <MinValue>0</MinValue>
+            <Unit>m/s²</Unit>
+            <Value>2.5</Value>
+          </BrakeAcceleration>
+          <LateralAcceleration z:Id="i182">
+            <PropertyReferenceList />
+            <Name>Maximum lateral acceleration</Name>
+            <IsInteger>false</IsInteger>
+            <MaxValue>10000000</MaxValue>
+            <MinValue>0</MinValue>
+            <Unit>m/s²</Unit>
+            <Value>5</Value>
+          </LateralAcceleration>
+          <LongitudinalAcceleration z:Id="i183">
+            <PropertyReferenceList />
+            <Name>Maximum longitudinal acceleration</Name>
+            <IsInteger>false</IsInteger>
+            <MaxValue>10000000</MaxValue>
+            <MinValue>0</MinValue>
+            <Unit>m/s²</Unit>
+            <Value>3.5</Value>
+          </LongitudinalAcceleration>
+        </FastDriver>
+        <LateralController>Controller2</LateralController>
+        <NormalDriver z:Id="i184">
+          <PropertyReferenceList />
+          <BrakeAcceleration z:Id="i185">
+            <PropertyReferenceList />
+            <Name>Brake acceleration threshold</Name>
+            <IsInteger>false</IsInteger>
+            <MaxValue>10000000</MaxValue>
+            <MinValue>0</MinValue>
+            <Unit>m/s²</Unit>
+            <Value>2</Value>
+          </BrakeAcceleration>
+          <LateralAcceleration z:Id="i186">
+            <PropertyReferenceList />
+            <Name>Maximum lateral acceleration</Name>
+            <IsInteger>false</IsInteger>
+            <MaxValue>10000000</MaxValue>
+            <MinValue>0</MinValue>
+            <Unit>m/s²</Unit>
+            <Value>3</Value>
+          </LateralAcceleration>
+          <LongitudinalAcceleration z:Id="i187">
+            <PropertyReferenceList />
+            <Name>Maximum longitudinal acceleration</Name>
+            <IsInteger>false</IsInteger>
+            <MaxValue>10000000</MaxValue>
+            <MinValue>0</MinValue>
+            <Unit>m/s²</Unit>
+            <Value>2</Value>
+          </LongitudinalAcceleration>
+        </NormalDriver>
+        <SlowDriver z:Id="i188">
+          <PropertyReferenceList />
+          <BrakeAcceleration z:Id="i189">
+            <PropertyReferenceList />
+            <Name>Brake acceleration threshold</Name>
+            <IsInteger>false</IsInteger>
+            <MaxValue>10000000</MaxValue>
+            <MinValue>0</MinValue>
+            <Unit>m/s²</Unit>
+            <Value>2</Value>
+          </BrakeAcceleration>
+          <LateralAcceleration z:Id="i190">
+            <PropertyReferenceList />
+            <Name>Maximum lateral acceleration</Name>
+            <IsInteger>false</IsInteger>
+            <MaxValue>10000000</MaxValue>
+            <MinValue>0</MinValue>
+            <Unit>m/s²</Unit>
+            <Value>2</Value>
+          </LateralAcceleration>
+          <LongitudinalAcceleration z:Id="i191">
+            <PropertyReferenceList />
+            <Name>Maximum longitudinal acceleration</Name>
+            <IsInteger>false</IsInteger>
+            <MaxValue>10000000</MaxValue>
+            <MinValue>0</MinValue>
+            <Unit>m/s²</Unit>
+            <Value>1.5</Value>
+          </LongitudinalAcceleration>
+        </SlowDriver>
+      </ManeuverProperties>
+    </AsmManager>
+    <FellowUserSignalsManager z:Id="i192">
+      <UserSignalTemplate z:Id="i193">
+        <PropertyReferenceList />
+        <Name>TurnLights [0Off|1Left|2Right|3Both]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i194">
+        <PropertyReferenceList />
+        <Name>MoveCharacteristic [0Veh|1Veh|2Trailer|3Motorcycle|4UseYawRoadRefline]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i195">
+        <PropertyReferenceList />
+        <Name>DoorFL[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i196">
+        <PropertyReferenceList />
+        <Name>DoorFR[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i197">
+        <PropertyReferenceList />
+        <Name>DoorRL[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i198">
+        <PropertyReferenceList />
+        <Name>DoorRR[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i199">
+        <PropertyReferenceList />
+        <Name>Hood[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i200">
+        <PropertyReferenceList />
+        <Name>Trunk[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+    </FellowUserSignalsManager>
+    <GlobalUserSignalsManager z:Id="i201">
+      <PropertyReferenceList />
+      <Name></Name>
+      <Description></Description>
+      <ListManager z:Ref="i2" />
+      <Pool />
+    </GlobalUserSignalsManager>
+    <ManeuverTriggerManager z:Id="i202">
+      <TriggerTemplate z:Id="i203">
+        <PropertyReferenceList />
+        <Name>Trigger 1</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i204">
+        <PropertyReferenceList />
+        <Name>Trigger 2</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i205">
+        <PropertyReferenceList />
+        <Name>Trigger 3</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i206">
+        <PropertyReferenceList />
+        <Name>Trigger 4</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i207">
+        <PropertyReferenceList />
+        <Name>Trigger 5</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i208">
+        <PropertyReferenceList />
+        <Name>Trigger 6</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i209">
+        <PropertyReferenceList />
+        <Name>Trigger 7</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i210">
+        <PropertyReferenceList />
+        <Name>Trigger 8</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i211">
+        <PropertyReferenceList />
+        <Name>Trigger 9</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i212">
+        <PropertyReferenceList />
+        <Name>Trigger 10</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i213">
+        <PropertyReferenceList />
+        <Name>Trigger 11</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i214">
+        <PropertyReferenceList />
+        <Name>Trigger 12</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i215">
+        <PropertyReferenceList />
+        <Name>Trigger 13</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i216">
+        <PropertyReferenceList />
+        <Name>Trigger 14</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i217">
+        <PropertyReferenceList />
+        <Name>Trigger 15</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i218">
+        <PropertyReferenceList />
+        <Name>Trigger 16</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i219">
+        <PropertyReferenceList />
+        <Name>Trigger 17</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i220">
+        <PropertyReferenceList />
+        <Name>Trigger 18</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i221">
+        <PropertyReferenceList />
+        <Name>Trigger 19</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i222">
+        <PropertyReferenceList />
+        <Name>Trigger 20</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i223">
+        <PropertyReferenceList />
+        <Name>Trigger 21</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i224">
+        <PropertyReferenceList />
+        <Name>Trigger 22</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i225">
+        <PropertyReferenceList />
+        <Name>Trigger 23</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i226">
+        <PropertyReferenceList />
+        <Name>Trigger 24</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i227">
+        <PropertyReferenceList />
+        <Name>Trigger 25</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+    </ManeuverTriggerManager>
+    <ManeuverUserSignalsManager z:Id="i228">
+      <UserSignalTemplate z:Id="i229">
+        <PropertyReferenceList />
+        <Name>ExternalSegmentEnd_Mode[]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i230">
+        <PropertyReferenceList />
+        <Name>ExternalSegmentEnd_Value[]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i231">
+        <PropertyReferenceList />
+        <Name>TurnLights[0Off|1Left|2Right|3Both]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i232">
+        <PropertyReferenceList />
+        <Name>ECU_Commands[]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i233">
+        <PropertyReferenceList />
+        <Name>Obj_DataStream_5[]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i234">
+        <PropertyReferenceList />
+        <Name>Obj_DataStream_6[]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i235">
+        <PropertyReferenceList />
+        <Name>Obj_DataStream_7[]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i236">
+        <PropertyReferenceList />
+        <Name>Obj_DataStream_8[]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i237">
+        <PropertyReferenceList />
+        <Name>DoorFL[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i238">
+        <PropertyReferenceList />
+        <Name>DoorFR[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i239">
+        <PropertyReferenceList />
+        <Name>DoorRL[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i240">
+        <PropertyReferenceList />
+        <Name>DoorRR[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i241">
+        <PropertyReferenceList />
+        <Name>Hood[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i242">
+        <PropertyReferenceList />
+        <Name>Trunk[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i243">
+        <PropertyReferenceList />
+        <Name>User signal 15</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i244">
+        <PropertyReferenceList />
+        <Name>User signal 16</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i245">
+        <PropertyReferenceList />
+        <Name>User signal 17</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i246">
+        <PropertyReferenceList />
+        <Name>User signal 18</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i247">
+        <PropertyReferenceList />
+        <Name>User signal 19</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i248">
+        <PropertyReferenceList />
+        <Name>User signal 20</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i249">
+        <PropertyReferenceList />
+        <Name>User signal 21</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i250">
+        <PropertyReferenceList />
+        <Name>User signal 22</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i251">
+        <PropertyReferenceList />
+        <Name>User signal 23</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i252">
+        <PropertyReferenceList />
+        <Name>User signal 24</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i253">
+        <PropertyReferenceList />
+        <Name>User signal 25</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i254">
+        <PropertyReferenceList />
+        <Name>User signal 26</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i255">
+        <PropertyReferenceList />
+        <Name>User signal 27</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i256">
+        <PropertyReferenceList />
+        <Name>User signal 28</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i257">
+        <PropertyReferenceList />
+        <Name>User signal 29</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i258">
+        <PropertyReferenceList />
+        <Name>User signal 30</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+    </ManeuverUserSignalsManager>
+    <MarkerManager z:Id="i259" />
+    <PlayerManager z:Id="i260">
+      <PropertyReferenceList />
+      <Name></Name>
+      <Description></Description>
+      <ListManager z:Ref="i2" />
+      <Pool />
+    </PlayerManager>
+    <RoutenManager z:Ref="i172" />
+    <TableListFellow />
+    <TableListManeuver>
+      <TableSource z:Ref="i155" />
+      <TableSource z:Ref="i162" />
+      <TableSource z:Ref="i165" />
+      <TableSource z:Ref="i131" />
+      <TableSource z:Ref="i138" />
+      <TableSource z:Ref="i141" />
+      <TableSource z:Ref="i107" />
+      <TableSource z:Ref="i114" />
+      <TableSource z:Ref="i117" />
+      <TableSource z:Ref="i83" />
+      <TableSource z:Ref="i90" />
+      <TableSource z:Ref="i93" />
+      <TableSource z:Ref="i59" />
+      <TableSource z:Ref="i66" />
+      <TableSource z:Ref="i69" />
+      <TableSource z:Ref="i35" />
+      <TableSource z:Ref="i42" />
+      <TableSource z:Ref="i45" />
+    </TableListManeuver>
+    <TriggerManager z:Id="i261">
+      <TriggerTemplate z:Id="i262">
+        <PropertyReferenceList />
+        <Name>SegmentEnd_External1 [0|1]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i263">
+        <PropertyReferenceList />
+        <Name>SegmentEnd_External2 [0|1]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i264">
+        <PropertyReferenceList />
+        <Name>SegmentEnd_External3 [0|1]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+    </TriggerManager>
+  </ListManager>
+  <Road></Road>
+  <Version>10</Version>
+  <Comment></Comment>
+  <AliasListTraffic z:Id="i265">
+    <AliasType xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">Traffic</AliasType>
+    <AliasVariableList xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common" />
+    <IsPlain xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">false</IsPlain>
+    <Source xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">AccPedalStimulus100.xml</Source>
+  </AliasListTraffic>
+  <AliasListManeuver z:Id="i266">
+    <AliasType xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">Maneuver</AliasType>
+    <AliasVariableList xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common" />
+    <IsPlain xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">false</IsPlain>
+    <Source xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">AccPedalStimulus100.xml</Source>
+  </AliasListManeuver>
+</TrafficScenario>

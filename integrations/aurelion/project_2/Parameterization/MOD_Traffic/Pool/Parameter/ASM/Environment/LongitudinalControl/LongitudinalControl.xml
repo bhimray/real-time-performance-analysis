@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>LongitudinalControl</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.LONGITUDINAL_CONTROL.Const_Max_AccPedal</ParameterAddress>
+			      <ValueV>100</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LONGITUDINAL_CONTROL.Const_Max_BrakePedal</ParameterAddress>
+			      <ValueV>100</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LONGITUDINAL_CONTROL.Const_P_FeedForward_aCtrl</ParameterAddress>
+			      <ValueV>5</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LONGITUDINAL_CONTROL.Const_Pos_BrakePedal_Standstill</ParameterAddress>
+			      <ValueV>15</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LONGITUDINAL_CONTROL.Const_Rate_Drop_Max_AccPedal</ParameterAddress>
+			      <ValueV>200</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LONGITUDINAL_CONTROL.Const_Rate_Drop_Max_BrakePedal</ParameterAddress>
+			      <ValueV>200</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LONGITUDINAL_CONTROL.Const_Rate_Rise_Max_AccPedal</ParameterAddress>
+			      <ValueV>150</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LONGITUDINAL_CONTROL.Const_Rate_Rise_Max_BrakePedal</ParameterAddress>
+			      <ValueV>150</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LONGITUDINAL_CONTROL.Const_t_Min_Pedals</ParameterAddress>
+			      <ValueV>0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LONGITUDINAL_CONTROL.Const_t_Preview</ParameterAddress>
+			      <ValueV>0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LONGITUDINAL_CONTROL.Map_I_vCtrl</ParameterAddress>
+			      <DimView>[1,30]</DimView>
+			      <ValueX>0 10 20 30 40 50 60 70 80 90 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119</ValueX>
+			      <ValueV>5 10 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LONGITUDINAL_CONTROL.Map_P_vCtrl</ParameterAddress>
+			      <DimView>[1,30]</DimView>
+			      <ValueX>0 10 20 30 40 50 60 70 80 90 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119</ValueX>
+			      <ValueV>10 20 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30</ValueV>
+		    </Parameter>
+	  </Parameters>
+	  <Processing>
+		    <Priority>0</Priority>
+	  </Processing>
+</ParameterFile>

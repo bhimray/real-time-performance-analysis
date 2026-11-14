@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VariableDescriptionMetaData SchemaVersion="1">
+  <SerializedFileName>ASM_Traffic.vdp</SerializedFileName>
+  <IsActive>true</IsActive>
+  <FileName>ASM_Traffic.sdf</FileName>
+  <VariableDescriptionSourcePathAndFileName>..\..\..\..\..\ASM_Traffic.sdf</VariableDescriptionSourcePathAndFileName>
+  <ImportOptions>
+    <DisableLookupDetection>false</DisableLookupDetection>
+  </ImportOptions>
+  <BuildResultXilMapping>
+    <IsActive>false</IsActive>
+    <FileName />
+    <SourcePathAndFileName />
+  </BuildResultXilMapping>
+</VariableDescriptionMetaData>

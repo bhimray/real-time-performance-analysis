@@ -1,7 +1,7 @@
 % ANIMATE_MOTION Load/preprocess a saved run, then replay timestamped motion.
 project=currentProject(); projectRoot=string(project.RootFolder);
 experimentStage="w2";
-runName="F4_I0001_mu0p9_cap200_T8";
+runName="F2_I0001_mu0p9_cap200_T8";
 runDirectory=fullfile(projectRoot,"results","simulink",experimentStage,runName);
 groupsDirectory=fullfile(runDirectory,"data","groups");
 

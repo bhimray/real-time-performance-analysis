@@ -13,13 +13,13 @@ arguments
     options.ResultsRoot (1,1) string = ""
 end
 
-config = controller_config();
-assert(options.IterationCap <= config.max_iter,'Cap exceeds generated configuration.');
-referenceFile = fullfile(options.Root,'scenarios','a6','lanes_0p01m', ...
-    sprintf('F%d_%04d_lanes.mat',options.FamilyId,options.InstanceId));
-laneData = ecu.scenario.load_lane_data(referenceFile);
-instance = laneData.instance;
-assert(config.Ts == instance.timing.controller_period_s,'Controller period mismatch.');
+prepared = ecu.control.prepare_controller(Root=options.Root, ...
+    FamilyId=options.FamilyId,InstanceId=options.InstanceId, ...
+    IterationCap=options.IterationCap);
+config = prepared.config;
+referenceFile = prepared.scenario_file;
+laneData = prepared.lane_data;
+instance = prepared.instance;
 context = ecu.model.create_plant_context(laneData,config);
 plantContext.config.vehicle.m = config.vehicle.m;
 plantContext.config.vehicle.Iz = config.vehicle.Iz;
@@ -30,26 +30,19 @@ plantContext.station_max_m = context.station_max_m;
 % Remove descriptive cell strings from the code-generation parameter.
 plantContext.index = rmfield(plantContext.index,'names');
 
-initialState = [instance.ego.initial_state; ...
-    instance.ego.initial_longitudinal_speed_mps; instance.ego.initial_station_m];
-parameters = ecu.scenario.prepare_horizon(instance,0,initialState(7), ...
-    initialState(6),[],config,laneData);
-warmStart = ecu.control.initial_guess(initialState(1:5),parameters,config);
+initialState = prepared.initial_state;
 
 plan.schema_version = 2;
 plan.options = options;
 plan.config = config;
 plan.instance = instance;
 plan.scenario_file = referenceFile;
-modelConfig = ecu.simulation.numeric_parameters(config);
-modelInstance = ecu.simulation.numeric_parameters(instance);
-modelLaneData = ecu.simulation.numeric_parameters(laneData);
-plan.variables = struct('controllerConfig',modelConfig,'instance',modelInstance, ...
-    'mu',instance.friction_coefficient, ...
-    'laneData',modelLaneData,'plantContext',plantContext, ...
-    'plantInitialState',initialState,'initialXguess',warmStart.x, ...
-    'initialUguess',warmStart.u,'executionCap',uint32(options.IterationCap), ...
-    'executionEnable',true,'executionReset',false);
+plan.variables = prepared.variables;
+plan.variables.plantContext = plantContext;
+plan.variables.plantInitialState = initialState;
+plan.variables.executionCap = prepared.execution.executionCap;
+plan.variables.executionEnable = prepared.execution.executionEnable;
+plan.variables.executionReset = prepared.execution.executionReset;
 plan.bindings = table( ...
     ["controllerConfig";"instance";"mu";"laneData";"initialXguess";"initialUguess"; ...
      "plantContext";"plantInitialState";"executionCap";"executionEnable";"executionReset"], ...
@@ -69,4 +62,5 @@ plan.results_root = fullfile(plan.results_root,options.ExperimentStage);
 plan.provenance_files = referenceFile;
 plan.replay_policy = "Primal snapshots only; retained dual/slack/QP memory not certified.";
 end
+
 

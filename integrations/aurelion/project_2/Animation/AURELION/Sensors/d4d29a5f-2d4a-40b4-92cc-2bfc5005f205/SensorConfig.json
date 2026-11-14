@@ -1,0 +1,102 @@
+{
+	"info": "Please check the AURELION documentation for detailed information about all sensor parameters",
+    "sensorType": "Ultrasonic",
+    "version": "1",
+	"name": "Ultrasonic_PropagationPaths",
+    "model": {
+        "waveFrequency_kHz": 50.0,
+        "emitterResolutionHorizontal": 100,
+        "emitterResolutionVertical": 40,
+        "maxRayBounceRecursionDepth": 4,
+        "soundPressureLevelTracingThreshold_dB": -114.0
+    },
+    "transducerTypes": [
+        {
+            "name": "DefaultTransceiver",
+            "mode": "transceiver",
+            "initialSoundPressureLevel_dB": 90.0,
+            "initialSPLDistanceFromTransducer_m": 0.3,
+            "azimuthConeSize_deg": 150.0,
+            "elevationConeSize_deg": 60.0,
+            "range_m": 5.0,
+            "receiveRadius_m": 0.1,
+            "useCustomBeamPattern": false,
+            "customBeamPatternFilePath": "<CONFIG_DIR>/SampleBeamPattern.csv"
+        }
+    ],
+    "transducerInstances": [
+        {
+            "typeName": "DefaultTransceiver",
+            "enabled": true,
+            "offsetToSensor_m": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotationToSensor_deg": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "postProcessing": {
+        "enabled": true,
+        "pluginFilePath": "<CONFIG_DIR>/PP_USS_PropagationPaths/PP_USS_PropagationPaths",
+        "config": {
+            "maxReceivedPathsPerTransducer": 4096
+        }
+    },
+    "performance": {
+        "echoBufferSizePerTransducer": 275000,
+        "enableAnimatedChars": true,
+        "performanceLog": {
+            "enabled": false,
+            "outputPath": "<OUTPUT_DIR>/SensorPerformanceLog.csv"
+        }
+    },
+    "visualization": {
+        "colorMode": "soundPressureLevel",
+        "colorModeSettings": {
+            "soundPressureLevel": {
+                "fixedRange": true,
+                "rangeMin_dB": -150.0,
+                "rangeMax_dB": 100.0
+            },
+            "pathLength": {
+                "customRange": false,
+                "rangeMin_m": 0.0,
+                "rangeMax_m": 30.0
+            }
+        },
+        "gradient": {
+            "gradientMode": "bitmap",
+            "bitmap": {
+                "path": "<CONTENT_DIR>/Visualization/Bitmaps/rainbow.png"
+            },
+            "curve": {
+                "keys": [
+                    {
+                        "time": 0.0,
+                        "red": 0,
+                        "green": 0,
+                        "blue": 255,
+                        "alpha": 255
+                    },
+                    {
+                        "time": 1.0,
+                        "red": 255,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    }
+                ]
+            }
+        },
+        "elementSize": 3.5,
+        "hopsMin": 1,
+        "hopsMax": 999,
+        "maxAmount": 4096,
+        "type": "reflectionPoints"
+    }
+}

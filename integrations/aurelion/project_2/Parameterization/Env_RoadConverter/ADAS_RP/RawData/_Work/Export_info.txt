@@ -1,0 +1,12 @@
+ADASRP Route Export
+ADASRP Version = 4.5.2009.1
+Export Version = 1.0.0.1
+Configuration = C:\Program Files\NAVTEQ\ADASRP\ADASRP.2009\bin\Win32\ADASRP\dSPACE.VP.ADASRP.Samples.ini
+Database = C:\Program Files\NAVTEQ\ADASRP\ADASRP.DB\EU_2009Q2\
+Date = 2010-03-18 16:08:47 W. Europe Standard Time
+Route Origin = 51.71288°N 8.73810°E
+Route Origin Road = BAHNHOFSTRASSE
+Route Destination = 51.86134°N 8.93434°E
+Route Destination Road = B1
+Route Destination Road Number = B1
+Comment = PB_Horn_A33_B1

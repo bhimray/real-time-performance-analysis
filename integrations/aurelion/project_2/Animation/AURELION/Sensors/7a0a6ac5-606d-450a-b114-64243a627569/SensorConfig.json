@@ -1,0 +1,159 @@
+{
+    "info": "Please check the AURELION documentation for detailed information about all sensor parameters",
+    "sensorType": "Radar",
+    "version": "10",
+    "name": "Default_DetectionsList",
+    "model": {
+        "waveFrequency_ghz": 77.0,
+        "maxRayBounceRecursionDepth": 4,
+        "calculateRayPathDivergencyLoss": true,
+        "antennaPatternInfluencesAmplitude": true,
+        "poOutAngleStandardDeviation": 0.0,
+        "usePlanarExcitation": false,
+        "usedRandomSeed": 0,
+        "enableBacktracing": true
+    },
+    "weather":{
+        "rain":{
+            "enabled": true
+        }
+    },
+    "antennas": {
+        "rxAntennaArray": [
+            {
+                "enabled": true,
+                "useCustomAntennaPattern": false,
+                "antennaPatternPath": "",
+                "offsetToSensor_m": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotationToSensor_deg": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        ],
+        "txAntennaArray": [
+            {
+                "enabled": true,
+                "useCustomAntennaPattern": false,
+                "antennaPatternPath": "",
+                "offsetToSensor_m": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotationToSensor_deg": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "sendingRange_m": 100.0,
+                "azimuthConeSize_deg": 90.0,
+                "elevationConeSize_deg": 30.0
+            }
+        ]
+    },
+    "performance": {
+        "enableAnimatedChars": true,
+        "maxAllowedTriangleSideLength_m": 3.0,
+        "echoBufferSizePerAntenna": 900000,
+        "poSubSampling": {
+            "enabled": true,
+            "thresholdFactor": 1.0
+        },
+        "performanceLog": {
+            "enabled": false,
+            "outputPath": "<OUTPUT_DIR>/PerfLog.csv"
+        }
+    },
+    "output": {
+        "echoSortMode": "horizontal"
+    },
+    "postProcessing": {
+        "enabled": true,
+        "pluginFilePath": "<CONFIG_DIR>/PP_Radar_Detections/PP_Radar_Detections",
+        "config": {
+            "UsedRxAntennaId": 0,
+            "MaxDetectedTargets": 100,
+            "MaxReceivedPathsPerAntenna": 4096,
+            "AssumedSensorTemperature_Kelvin": 293.0,
+            "ReceiverBandwith_Hz": 5e6,
+            "SendingPower_dBm": 20.0,
+            "Accuracy": {
+                "Distance": 0.1,
+                "Velocity": 0.1,
+                "Azimuth": 0.5,
+                "Elevation": 0.5,
+                "NoiseEnabled": true,
+                "NoiseRandSeed": 1234
+            },
+            "Resolution": {
+                "EnableDetectionAmbiguity": true,
+                "AzMin": -45.0,
+                "AzMax": 45.0,
+                "AzStep": 1.0,
+                "ElMin": -15.0,
+                "ElMax": 15.0,
+                "ElStep": 1.0,
+                "DistMin": 0.2,
+                "DistMax": 300.0,
+                "DistStep": 1.0,
+                "VeloMin": -100.0,
+                "VeloMax": 100.0,
+                "VeloStep": 1.0,
+                "UseIndividualAzimuthCellAngles": false,
+                "IndividualAzimuthCellAngles": [],
+                "UseIndividualElevationCellAngles": false,
+                "IndividualElevationCellAngles": []
+            }
+        }
+    },
+    "visualization": {
+        "type": "propagationPaths",
+        "maxAmount": 12288,
+        "hopsMin": 1,
+        "hopsMax": 1000,
+        "elementSize": 0.1,
+        "colorMode": "amplitude",
+        "colorModeSettings": {
+            "amplitude": {
+                "fixedRange": true,
+                "rangeMin_dB_V_per_m": -250.0,
+                "rangeMax_dB_V_per_m": 20.0
+            },
+            "dopplerSpeed": {
+                "fixedRange": true,
+                "rangeMin_m_per_s": -150.0,
+                "rangeMax_m_per_s": 60.0
+            }
+        },
+        "gradient": {
+            "gradientMode": "bitmap",
+            "bitmap": {
+                "path": "<CONTENT_DIR>/Visualization/Bitmaps/rainbow.png"
+            },
+            "curve": {
+                "keys": [
+                    {
+                        "time": 0.0,
+                        "red": 0,
+                        "green": 0,
+                        "blue": 255,
+                        "alpha": 255
+                    },
+                    {
+                        "time": 1.0,
+                        "red": 255,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    }
+                ]
+            }
+        }
+    }
+}

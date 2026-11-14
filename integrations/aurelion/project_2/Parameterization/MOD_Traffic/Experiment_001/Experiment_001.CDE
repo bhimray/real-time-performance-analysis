@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root>
+	<creator type="key">ModelDesk 26.1</creator>
+	<majorversion type="key">26</majorversion>
+	<minorversion type="key">1</minorversion>
+	<maintenanceversion type="key">0</maintenanceversion>
+	<specialbuildversion type="key"/>
+	<releasename type="key">2026-A</releasename>
+	<experiment>
+		<Creator type="key">ModelDesk</Creator>
+		<MigrationHistory type="key"/>
+		<Name type="key">Experiment_001.CDE</Name>
+		<DisplayName type="key">Experiment_001</DisplayName>
+		<Path type="key">.\Experiment_001</Path>
+		<Flags type="key">4096</Flags>
+		<ExtendedFlags type="key">4</ExtendedFlags>
+		<Type type="key">2</Type>
+		<UniqueID type="key">671084788</UniqueID>
+		<EntityID type="key">{5ED9F259-B640-417D-8839-157AD5C47522}</EntityID>
+		<ItemInfoDate type="key">27.Apr.2026</ItemInfoDate>
+		<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+		<ItemInfoDescr type="key"/>
+		<ItemInfoAuthor type="key">dSPACE GmbH</ItemInfoAuthor>
+		<item>
+			<Targets type="key">experiment</Targets>
+			<Name type="key">Experiment_001</Name>
+			<DisplayName type="key">Experiment_001</DisplayName>
+			<Path type="key">..</Path>
+			<Flags type="key">4100</Flags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">246121626</UniqueID>
+			<EntityID type="key">{0B21E263-CFA7-406E-BF47-56B5ADA43630}</EntityID>
+			<ItemInfoDate type="key">27.Apr.2026</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAuthor type="key">dSPACE GmbH</ItemInfoAuthor>
+			<item>
+				<Component type="key">MDLDProjectManager</Component>
+				<Name type="key">Simulation Model</Name>
+				<DisplayName type="key">Simulation Model</DisplayName>
+				<Flags type="key">256</Flags>
+				<Type type="key">21</Type>
+				<UniqueID type="key">823370113</UniqueID>
+				<EntityID type="key">{24482949-BA6A-4DA6-BD54-3CF3C8404DBC}</EntityID>
+				<ItemInfoDate type="key">27.Apr.2026</ItemInfoDate>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">dSPACE GmbH</ItemInfoAuthor>
+				<item>
+					<Component type="key">MDLDProjectManager</Component>
+					<Name type="key">ASM_Traffic.slx</Name>
+					<DisplayName type="key">ASM_Traffic.slx</DisplayName>
+					<Path type="key">..\..\..\Simulation\Models</Path>
+					<Flags type="key">2304</Flags>
+					<ExtendedFlags type="key">4</ExtendedFlags>
+					<Type type="key">4</Type>
+					<UniqueID type="key">486157843</UniqueID>
+					<EntityID type="key">{484D75F3-D13F-4911-8B6B-F0715394C9EB}</EntityID>
+					<ItemInfoDate type="key">2026-11-13 15:41:12</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MDLDProjectManager</Component>
+					<Name type="key">ASM_Traffic.sdf</Name>
+					<DisplayName type="key">ASM_Traffic.sdf (VEOS)</DisplayName>
+					<Path type="key">..\..\..\..\..\..</Path>
+					<Flags type="key">537135360</Flags>
+					<ExtendedFlags type="key">4</ExtendedFlags>
+					<Type type="key">4</Type>
+					<UniqueID type="key">246691256</UniqueID>
+					<EntityID type="key">{7D53DAB7-963F-4127-9017-DCD7473BAB6C}</EntityID>
+					<ItemInfoDate type="key">2026-11-13 15:41:12</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+			</item>
+			<item>
+				<Component type="key">Interpreter</Component>
+				<Targets type="key">interpreter</Targets>
+				<Name type="key">Python Scripts</Name>
+				<DisplayName type="key">Python Scripts</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4228</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">486571185</UniqueID>
+				<EntityID type="key">{DD3CA908-C3CE-45D6-8C8B-BCBFD277F3C7}</EntityID>
+				<ItemInfoDate type="key">27.Apr.2026</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAuthor type="key">dSPACE GmbH</ItemInfoAuthor>
+			</item>
+			<item>
+				<Component type="key">RoadGenerator</Component>
+				<Targets type="key">roadgenerator</Targets>
+				<Name type="key">Road</Name>
+				<DisplayName type="key">Road</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">4194562</Flags>
+				<ExtendedFlags type="key">4</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">8551460</UniqueID>
+				<EntityID type="key">{ED5B0D95-E3A1-469D-9850-C347A6158A27}</EntityID>
+				<ItemInfoDate type="key">27.Apr.2026</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAuthor type="key">dSPACE GmbH</ItemInfoAuthor>
+				<item>
+					<Component type="key">MDLDProjectManager</Component>
+					<Flags type="key">16777504</Flags>
+					<ExtendedFlags type="key">4</ExtendedFlags>
+					<UniqueID type="key">248276999</UniqueID>
+					<LinkedItem type="key">544007214</LinkedItem>
+				</item>
+			</item>
+			<item>
+				<Component type="key">TrafficEditor</Component>
+				<Targets type="key">trafficeditor</Targets>
+				<Name type="key">Scenario</Name>
+				<DisplayName type="key">Scenario</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">258</Flags>
+				<ExtendedFlags type="key">4</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">577576902</UniqueID>
+				<EntityID type="key">{61BDFC88-6995-4399-872E-4B1BCC80A766}</EntityID>
+				<ItemInfoDate type="key">27.Apr.2026</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAuthor type="key">dSPACE GmbH</ItemInfoAuthor>
+				<item>
+					<Component type="key">MDLDProjectManager</Component>
+					<Flags type="key">16777504</Flags>
+					<ExtendedFlags type="key">4</ExtendedFlags>
+					<UniqueID type="key">958732898</UniqueID>
+					<LinkedItem type="key">96994838</LinkedItem>
+				</item>
+			</item>
+			<item>
+				<Component type="key">PlotManager</Component>
+				<Targets type="key">plotmanager</Targets>
+				<Name type="key">Simulation Results</Name>
+				<DisplayName type="key">Simulation Results</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">258</Flags>
+				<ExtendedFlags type="key">4</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">292665011</UniqueID>
+				<EntityID type="key">{197C5ABC-1020-416F-A78C-1BEA6847B831}</EntityID>
+				<ItemInfoDate type="key">27.Apr.2026</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAuthor type="key">dSPACE GmbH</ItemInfoAuthor>
+				<item>
+					<Component type="key">MDLDProjectManager</Component>
+					<Flags type="key">16777504</Flags>
+					<UniqueID type="key">245016730</UniqueID>
+					<LinkedItem type="key">137167486</LinkedItem>
+				</item>
+			</item>
+			<item>
+				<Component type="key">TestingMD</Component>
+				<Targets type="key">testingmd</Targets>
+				<Name type="key">Testing</Name>
+				<DisplayName type="key">Testing</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">649184557</UniqueID>
+				<EntityID type="key">{8B990DBC-0647-4385-AA39-043D294A00C4}</EntityID>
+				<ItemInfoDate type="key">27.Apr.2026</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">dSPACE GmbH</ItemInfoAuthor>
+				<item>
+					<Component type="key">MDLDProjectManager</Component>
+					<Flags type="key">16777504</Flags>
+					<UniqueID type="key">825229872</UniqueID>
+					<LinkedItem type="key">845320302</LinkedItem>
+				</item>
+			</item>
+			<item>
+				<Component type="key">MDLDProjectManager</Component>
+				<Targets type="key">mdldparameterization</Targets>
+				<Name type="key">Parametersets</Name>
+				<DisplayName type="key">Parametersets</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">8388866</Flags>
+				<ExtendedFlags type="key">4</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">885831963</UniqueID>
+				<EntityID type="key">{93B554A3-B0EE-4CE1-B6D8-6D49E177E5B2}</EntityID>
+				<ItemInfoDate type="key">27.Apr.2026</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAuthor type="key">dSPACE GmbH</ItemInfoAuthor>
+				<item>
+					<Component type="key">MDLDParameterization</Component>
+					<Name type="key">ParameterSetsFile.xml</Name>
+					<DisplayName type="key">ParameterSetsFile.xml</DisplayName>
+					<Path type="key">.\Parametersets</Path>
+					<Flags type="key">8388612</Flags>
+					<Type type="key">4</Type>
+					<UniqueID type="key">923873865</UniqueID>
+					<EntityID type="key">{F8F42668-B124-43FF-A835-E8EF082F575B}</EntityID>
+					<ItemInfoDate type="key">27.Apr.2026</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAuthor type="key">dSPACE GmbH</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MDLDParameterization</Component>
+					<Name type="key">ASM_Traffic.xml</Name>
+					<DisplayName type="key">ASM_Traffic.xml</DisplayName>
+					<Flags type="key">67108868</Flags>
+					<ExtendedFlags type="key">4</ExtendedFlags>
+					<Type type="key">4</Type>
+					<UniqueID type="key">636798499</UniqueID>
+					<EntityID type="key">{A4B91989-8778-4A11-BDC2-7E287AC61183}</EntityID>
+					<ItemInfoDate type="key">2026-11-13 15:41:12</ItemInfoDate>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+			</item>
+		</item>
+	</experiment>
+	<ProjectExperiment/>
+	<Interpreter/>
+	<Instrumentation Version="1"/>
+	<RoadGenerator/>
+	<TrafficObjectManager/>
+	<TrafficDriver/>
+	<ModelConfigurationMD/>
+	<PlotManager/>
+	<TrafficEditor/>
+	<ProcessingMD>
+		<Container/>
+	</ProcessingMD>
+	<TestingMD/>
+	<MDLDProjectManager/>
+	<MDLDParameterization/>
+	<PlatformManagement/>
+	<UserManager/>
+	<ManeuverEditor/>
+	<XDeskLayouter/>
+</Root>

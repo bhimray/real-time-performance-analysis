@@ -1,0 +1,137 @@
+{
+    "info": "Please check the AURELION documentation for detailed information about all sensor parameters",
+    "sensorType": "Camera",
+    "version": "11",
+    "name": "Basic",
+    "imager": {
+        "resolution": [960, 540],
+        "iso": 20.0,
+        "shutterSpeed": 400.0,
+        "cropFactor": 1.0,
+        "colorFilterArray": {
+            "topLeft": [1.0, 0.0, 0.0],
+            "topRight": [0.0, 1.0, 0.0],
+            "bottomLeft": [0.0, 1.0, 0.0],
+            "bottomRight": [0.0, 0.0, 1.0]
+        },
+        "lightBanding": {
+            "enabled": false,
+            "shutterType": "rollingShutter",
+            "shutterTimeOffset": 0.032467
+        },
+        "principalPoint": {
+            "offset": [ 0.0, 0.0 ],
+            "offsetUnit": "pixels"
+        },
+        "noise": {
+            "seed": 3462,
+            "ambientNoise": {
+                "enabled": false,
+                "mean": 0.000,
+                "standardDeviation": 0.002
+            },
+            "luminanceNoise": {
+                "enabled": false,
+                "lutFilePath": "<CONFIG_DIR>/LutLuminanceNoise.csv",
+                "luminanceCoefficients": [0.2126, 0.7152, 0.0722]
+            }
+        }
+    },
+    "lens": {
+        "aperture": 1.6,
+        "focalLength": 32.658,
+        "distortion": {
+            "enabled": false,
+            "lutFilePath": "<CONFIG_DIR>/MyLensDistortion.csv"
+        },
+        "lensFlare": {
+            "enabled": true,
+            "intensity": 0.3,
+            "ghostSize": 3.0,
+            "threshold": 800.0,
+            "tint": [
+                [1.0, 1.0, 1.0, 0.62],
+                [1.0, 1.0, 1.0, 0.5],
+                [1.0, 1.0, 1.0, 0.4],
+                [1.0, 1.0, 1.0, 0.37],
+                [1.0, 1.0, 1.0, 0.01]
+            ]
+        }
+    },
+    "exposureControl": {
+        "mode": "auto",
+        "exposureCompensation": 0.0
+    },
+    "output": {
+        "modes": ["sRGB"],
+        "toneMappingEnabled": true,
+        "gammaEncoding": {
+            "enabled": true
+        },
+        "raw": {
+            "normalization": {
+                "mode": "saturate",
+                "factor": 1.0
+            }
+        }
+    },
+    "postProcessing": {
+        "enabled": false,
+        "pluginFilePath": "<CONFIG_DIR>/MyPostProcessingPlugin",
+        "config": {}
+    },
+    "graphics": {
+        "antiAliasing": {
+            "algorithm": "fxaa",
+            "resolutionFraction": 1.0
+        },
+        "bloom": {
+            "enabled": true,
+            "mode": "gauss",
+            "gaussSize": 0.0015,
+            "gaussSizeUnit": "normalized",
+            "intensity": 0.15,
+            "customKernelFilePath": "<CONFIG_DIR>/BloomKernel.exr"
+        },
+        "supersamplingFactor": 1.0,
+        "rayTracing": {
+            "maxTraceDistance": 200,
+            "globalIllumination": {
+                "enabled": false
+            },
+            "reflections": {
+                "enabled": false,
+                "maxBounces": 1
+            }
+        }
+    },
+    "runtimeControl": {
+        "enabled": false,
+        "dataStreamBindings": {
+            "imager": {
+                "iso": "",
+                "shutterSpeed": ""
+            },
+            "lens": {
+                "aperture": ""
+            },
+            "exposureControl": {
+                "exposureCompensation": ""
+            }
+        }
+    },
+    "visualRepresentation": {
+        "frustum": {
+            "enabled": true,
+            "range": 10.0,
+            "color": [0.0, 0.0, 1.0],
+            "opacity": 0.3
+        },
+        "fovProjection": {
+            "enabled": false,
+            "range": 50.0,
+            "color": [0.0, 1.0, 1.0],
+            "opacity": 0.3
+        }
+    }
+}

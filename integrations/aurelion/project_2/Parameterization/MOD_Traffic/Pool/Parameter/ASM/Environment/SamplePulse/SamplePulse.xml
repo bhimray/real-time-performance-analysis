@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>SamplePulse</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.SAMPLE_PULSE.Const_t_Cycle_Pulse</ParameterAddress>
+			      <ValueV>0.02</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.SAMPLE_PULSE.Const_t_Offs_Pulse</ParameterAddress>
+			      <ValueV>0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.SAMPLE_PULSE.Sw_SamplePulse</ParameterAddress>
+			      <ValueV>0</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

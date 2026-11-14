@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>VehicleDynamics</MainComponent>
+	  <RecordType>TireMode</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.TIRE_MODE.ModeLeft</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.TIRE_MODE.ModeRight</ParameterAddress>
+			      <ValueV>2</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

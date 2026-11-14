@@ -1,0 +1,17 @@
+{
+  "id": "5cf80ff1-e30c-4632-85fc-6c5bfe15d040",
+  "version": 7,
+  "name": "Highway_A33_Paderborn",
+  "description": "",
+  "modifiedOn": 1793741104,
+  "type": "ModelDesk",
+  "imageFile": "./Scenarios/5cf80ff1-e30c-4632-85fc-6c5bfe15d040/Preview.png",
+  "scenery": {
+    "selection": "aur",
+    "scene": {
+      "name": "Highway_A33_Paderborn",
+      "path": "/AUR_MapsBasic/Scenes/Highway_A33_Paderborn/Highway_A33_Paderborn"
+    },
+    "isAvailable": true
+  }
+}

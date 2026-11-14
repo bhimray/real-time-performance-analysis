@@ -1,0 +1,10 @@
+{
+  "id": "d4d29a5f-2d4a-40b4-92cc-2bfc5005f205",
+  "description": "Ultrasonic sensor with default parameters",
+  "modifiedOn": 1793741104,
+  "name": "Default Ultrasonic",
+  "type": "ULTRASONIC",
+  "configFile": "./Sensors/d4d29a5f-2d4a-40b4-92cc-2bfc5005f205/SensorConfig.json",
+  "additionalFilesDirectory": "./Sensors/d4d29a5f-2d4a-40b4-92cc-2bfc5005f205/AdditionalFiles",
+  "version": 2
+}

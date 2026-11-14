@@ -1,0 +1,19 @@
+function P = horizon_prep_asm(s, vx, horizon_prep_in, fellow, Xguess, ...
+    controllerConfig, instance)
+%#codegen
+% instance supplies controller road bounds and safety geometry only.
+preview = reshape(horizon_prep_in, 42, 1);
+traffic = reshape(fellow, 30, 4);
+X = reshape(Xguess, 5, 41);
+
+actorSlots = find(traffic(:, 3) ~= 0);
+assert(numel(actorSlots) == 2, ...
+    'ASM horizon requires exactly two active fellows.');
+actors = [traffic(actorSlots(1:2), 2).'; ...
+          traffic(actorSlots(1:2), 1).'; ...
+          traffic(actorSlots(1:2), 4).' / 3.6];
+
+P = ecu.scenario.prepare_asm_horizon(s, vx, X(3, 1:40), ...
+    controllerConfig, preview(18:32), preview(3:17), s, preview(1), ...
+    actors, instance.road.bounds_m, instance.obstacle_geometry.safety_semi_axes_m);
+end

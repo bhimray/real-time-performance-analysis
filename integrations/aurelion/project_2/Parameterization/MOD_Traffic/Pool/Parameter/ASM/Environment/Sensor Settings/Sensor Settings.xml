@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>Sensor Settings</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADARSENSOR_3D.num_Triangles</ParameterAddress>
+			      <ValueV>15</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.SENSOR_SELECTOR.Map_SensorIndex</ParameterAddress>
+			      <DimView>[1,20]</DimView>
+			      <ValueX>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20</ValueX>
+			      <ValueV>1 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.SENSOR_SELECTOR.t_SensorUpdate</ParameterAddress>
+			      <ValueV>0.01</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

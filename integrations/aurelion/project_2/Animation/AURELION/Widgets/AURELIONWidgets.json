@@ -1,0 +1,618 @@
+[
+  {
+    "name": "Default Vehicle Info 1",
+    "type": "Widget",
+    "assetPath": "/Widgets/W_DataOverlayWidget",
+    "properties": [
+      {
+        "name": "Blur (%)",
+        "description": "The strength of the background blur of this widget as a percentage.",
+        "value": "60",
+        "type": "Int32",
+        "isReadOnly": false,
+        "range": "0 - 100"
+      },
+      {
+        "name": "Visibility 1",
+        "description": "Select or clear to display or hide this specific information element.",
+        "value": "1",
+        "type": "Bool",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Visualization 1",
+        "description": "Visualization type of this information element. A datastream value can be presented just on its own, as a single value. Alternatively a progress bar can be added.",
+        "value": "Single value",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Label 1",
+        "description": "Label text of this information element.",
+        "value": "Maneuver time",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Datastream 1",
+        "description": "Choose from available datastreams in the dropdown after a simulation was connected or type the exact name of the datastream as defined in the model that provides the data during the simulation for this information element.",
+        "value": "ManeuverTime",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Unit 1",
+        "description": "The unit text or symbol that is displayed next to the value.",
+        "value": "s",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Float precision 1",
+        "description": "The amount of decimal places shown for the data stream value. Only affects display, not calculations.",
+        "value": "2",
+        "type": "Int32",
+        "isReadOnly": false,
+        "range": "0 - 5"
+      },
+      {
+        "name": "Minimum value 1",
+        "description": "The minimum value for the progress bar. Only shows if visualization type is 'Progress bar'.",
+        "value": "0.0000000",
+        "type": "Float",
+        "isReadOnly": false,
+        "range": "-100000 - 100000"
+      },
+      {
+        "name": "Maximum value 1",
+        "description": "The maximum value for the progress bar. Only shows if visualization type is 'Progress bar'.",
+        "value": "1.0000000",
+        "type": "Float",
+        "isReadOnly": false,
+        "range": "-100000 - 100000"
+      },
+      {
+        "name": "Visibility 2",
+        "description": "Select or clear to display or hide this specific information element.",
+        "value": "1",
+        "type": "Bool",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Visualization 2",
+        "description": "Visualization type of this information element. A datastream value can be presented just on its own, as a single value. Alternatively a progress bar can be added.",
+        "value": "Single value",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Label 2",
+        "description": "Label text of this information element.",
+        "value": "Maneuver state",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Datastream 2",
+        "description": "Choose from available datastreams in the dropdown after a simulation was connected or type the exact name of the datastream as defined in the model that provides the data during the simulation for this information element.",
+        "value": "ManeuverState",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Unit 2",
+        "description": "The unit text or symbol that is displayed next to the value.",
+        "value": "",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Float precision 2",
+        "description": "The amount of decimal places shown for the data stream value. Only affects display, not calculations.",
+        "value": "0",
+        "type": "Int32",
+        "isReadOnly": false,
+        "range": "0 - 5"
+      },
+      {
+        "name": "Minimum value 2",
+        "description": "The minimum value for the progress bar. Only shows if visualization type is 'Progress bar'.",
+        "value": "0.0000000",
+        "type": "Float",
+        "isReadOnly": false,
+        "range": "-100000 - 100000"
+      },
+      {
+        "name": "Maximum value 2",
+        "description": "The maximum value for the progress bar. Only shows if visualization type is 'Progress bar'.",
+        "value": "1.0000000",
+        "type": "Float",
+        "isReadOnly": false,
+        "range": "-100000 - 100000"
+      },
+      {
+        "name": "Visibility 3",
+        "description": "Select or clear to display or hide this specific information element.",
+        "value": "1",
+        "type": "Bool",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Visualization 3",
+        "description": "Visualization type of this information element. A datastream value can be presented just on its own, as a single value. Alternatively a progress bar can be added.",
+        "value": "Single value",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Label 3",
+        "description": "Label text of this information element.",
+        "value": "Driven distance",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Datastream 3",
+        "description": "Choose from available datastreams in the dropdown after a simulation was connected or type the exact name of the datastream as defined in the model that provides the data during the simulation for this information element.",
+        "value": "DrivenDistance",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Unit 3",
+        "description": "The unit text or symbol that is displayed next to the value.",
+        "value": "m",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Float precision 3",
+        "description": "The amount of decimal places shown for the data stream value. Only affects display, not calculations.",
+        "value": "1",
+        "type": "Int32",
+        "isReadOnly": false,
+        "range": "0 - 5"
+      },
+      {
+        "name": "Minimum value 3",
+        "description": "The minimum value for the progress bar. Only shows if visualization type is 'Progress bar'.",
+        "value": "0.0000000",
+        "type": "Float",
+        "isReadOnly": false,
+        "range": "-100000 - 100000"
+      },
+      {
+        "name": "Maximum value 3",
+        "description": "The maximum value for the progress bar. Only shows if visualization type is 'Progress bar'.",
+        "value": "1.0000000",
+        "type": "Float",
+        "isReadOnly": false,
+        "range": "-100000 - 100000"
+      },
+      {
+        "name": "Visibility 4",
+        "description": "Select or clear to display or hide this specific information element.",
+        "value": "1",
+        "type": "Bool",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Visualization 4",
+        "description": "Visualization type of this information element. A datastream value can be presented just on its own, as a single value. Alternatively a progress bar can be added.",
+        "value": "Single value",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Label 4",
+        "description": "Label text of this information element.",
+        "value": "Route s value",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Datastream 4",
+        "description": "Choose from available datastreams in the dropdown after a simulation was connected or type the exact name of the datastream as defined in the model that provides the data during the simulation for this information element.",
+        "value": "s_Road",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Unit 4",
+        "description": "The unit text or symbol that is displayed next to the value.",
+        "value": "m",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Float precision 4",
+        "description": "The amount of decimal places shown for the data stream value. Only affects display, not calculations.",
+        "value": "0",
+        "type": "Int32",
+        "isReadOnly": false,
+        "range": "0 - 5"
+      },
+      {
+        "name": "Minimum value 4",
+        "description": "The minimum value for the progress bar. Only shows if visualization type is 'Progress bar'.",
+        "value": "0.0000000",
+        "type": "Float",
+        "isReadOnly": false,
+        "range": "-100000 - 100000"
+      },
+      {
+        "name": "Maximum value 4",
+        "description": "The maximum value for the progress bar. Only shows if visualization type is 'Progress bar'.",
+        "value": "1.0000000",
+        "type": "Float",
+        "isReadOnly": false,
+        "range": "-100000 - 100000"
+      },
+      {
+        "name": "Align with User Interface",
+        "description": "If enabled, this widget will align its position with the user interface and move accordingly with it.",
+        "value": "1",
+        "type": "Bool",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Widget position",
+        "description": "Position of this widget.",
+        "value": "X=324.022 Y=574.142",
+        "type": "Vector2D",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Visible",
+        "description": "Visibility of this widget.",
+        "value": "1",
+        "type": "Bool",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Name",
+        "description": "Name of this widget.",
+        "value": "Default Vehicle Info 1",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      }
+    ],
+    "datastreams": [],
+    "boundingBoxMin": null,
+    "boundingBoxMax": null,
+    "childs": [],
+    "id": "CCA8DD11FE5B303F8AA77D1430F929FE"
+  },
+  {
+    "name": "Default Vehicle Info 2",
+    "type": "Widget",
+    "assetPath": "/Widgets/W_DataOverlayWidget",
+    "properties": [
+      {
+        "name": "Blur (%)",
+        "description": "The strength of the background blur of this widget as a percentage.",
+        "value": "60",
+        "type": "Int32",
+        "isReadOnly": false,
+        "range": "0 - 100"
+      },
+      {
+        "name": "Visibility 1",
+        "description": "Select or clear to display or hide this specific information element.",
+        "value": "1",
+        "type": "Bool",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Visualization 1",
+        "description": "Visualization type of this information element. A datastream value can be presented just on its own, as a single value. Alternatively a progress bar can be added.",
+        "value": "Single value",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Label 1",
+        "description": "Label text of this information element.",
+        "value": "Gear",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Datastream 1",
+        "description": "Choose from available datastreams in the dropdown after a simulation was connected or type the exact name of the datastream as defined in the model that provides the data during the simulation for this information element.",
+        "value": "Gear",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Unit 1",
+        "description": "The unit text or symbol that is displayed next to the value.",
+        "value": "",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Float precision 1",
+        "description": "The amount of decimal places shown for the data stream value. Only affects display, not calculations.",
+        "value": "0",
+        "type": "Int32",
+        "isReadOnly": false,
+        "range": "0 - 5"
+      },
+      {
+        "name": "Minimum value 1",
+        "description": "The minimum value for the progress bar. Only shows if visualization type is 'Progress bar'.",
+        "value": "0.0000000",
+        "type": "Float",
+        "isReadOnly": false,
+        "range": "-100000 - 100000"
+      },
+      {
+        "name": "Maximum value 1",
+        "description": "The maximum value for the progress bar. Only shows if visualization type is 'Progress bar'.",
+        "value": "1.0000000",
+        "type": "Float",
+        "isReadOnly": false,
+        "range": "-100000 - 100000"
+      },
+      {
+        "name": "Visibility 2",
+        "description": "Select or clear to display or hide this specific information element.",
+        "value": "1",
+        "type": "Bool",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Visualization 2",
+        "description": "Visualization type of this information element. A datastream value can be presented just on its own, as a single value. Alternatively a progress bar can be added.",
+        "value": "Progress Bar",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Label 2",
+        "description": "Label text of this information element.",
+        "value": "Engine",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Datastream 2",
+        "description": "Choose from available datastreams in the dropdown after a simulation was connected or type the exact name of the datastream as defined in the model that provides the data during the simulation for this information element.",
+        "value": "Engine",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Unit 2",
+        "description": "The unit text or symbol that is displayed next to the value.",
+        "value": "rpm",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Float precision 2",
+        "description": "The amount of decimal places shown for the data stream value. Only affects display, not calculations.",
+        "value": "0",
+        "type": "Int32",
+        "isReadOnly": false,
+        "range": "0 - 5"
+      },
+      {
+        "name": "Minimum value 2",
+        "description": "The minimum value for the progress bar. Only shows if visualization type is 'Progress bar'.",
+        "value": "0.0000000",
+        "type": "Float",
+        "isReadOnly": false,
+        "range": "-100000 - 100000"
+      },
+      {
+        "name": "Maximum value 2",
+        "description": "The maximum value for the progress bar. Only shows if visualization type is 'Progress bar'.",
+        "value": "8000.0000000",
+        "type": "Float",
+        "isReadOnly": false,
+        "range": "-100000 - 100000"
+      },
+      {
+        "name": "Visibility 3",
+        "description": "Select or clear to display or hide this specific information element.",
+        "value": "1",
+        "type": "Bool",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Visualization 3",
+        "description": "Visualization type of this information element. A datastream value can be presented just on its own, as a single value. Alternatively a progress bar can be added.",
+        "value": "Progress Bar",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Label 3",
+        "description": "Label text of this information element.",
+        "value": "Speed",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Datastream 3",
+        "description": "Choose from available datastreams in the dropdown after a simulation was connected or type the exact name of the datastream as defined in the model that provides the data during the simulation for this information element.",
+        "value": "Speed",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Unit 3",
+        "description": "The unit text or symbol that is displayed next to the value.",
+        "value": "km/h",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Float precision 3",
+        "description": "The amount of decimal places shown for the data stream value. Only affects display, not calculations.",
+        "value": "0",
+        "type": "Int32",
+        "isReadOnly": false,
+        "range": "0 - 5"
+      },
+      {
+        "name": "Minimum value 3",
+        "description": "The minimum value for the progress bar. Only shows if visualization type is 'Progress bar'.",
+        "value": "0.0000000",
+        "type": "Float",
+        "isReadOnly": false,
+        "range": "-100000 - 100000"
+      },
+      {
+        "name": "Maximum value 3",
+        "description": "The maximum value for the progress bar. Only shows if visualization type is 'Progress bar'.",
+        "value": "200.0000000",
+        "type": "Float",
+        "isReadOnly": false,
+        "range": "-100000 - 100000"
+      },
+      {
+        "name": "Visibility 4",
+        "description": "Select or clear to display or hide this specific information element.",
+        "value": "0",
+        "type": "Bool",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Visualization 4",
+        "description": "Visualization type of this information element. A datastream value can be presented just on its own, as a single value. Alternatively a progress bar can be added.",
+        "value": "Single value",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Label 4",
+        "description": "Label text of this information element.",
+        "value": "Entry 4",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Datastream 4",
+        "description": "Choose from available datastreams in the dropdown after a simulation was connected or type the exact name of the datastream as defined in the model that provides the data during the simulation for this information element.",
+        "value": "",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Unit 4",
+        "description": "The unit text or symbol that is displayed next to the value.",
+        "value": "Unit",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Float precision 4",
+        "description": "The amount of decimal places shown for the data stream value. Only affects display, not calculations.",
+        "value": "0",
+        "type": "Int32",
+        "isReadOnly": false,
+        "range": "0 - 5"
+      },
+      {
+        "name": "Minimum value 4",
+        "description": "The minimum value for the progress bar. Only shows if visualization type is 'Progress bar'.",
+        "value": "0.0000000",
+        "type": "Float",
+        "isReadOnly": false,
+        "range": "-100000 - 100000"
+      },
+      {
+        "name": "Maximum value 4",
+        "description": "The maximum value for the progress bar. Only shows if visualization type is 'Progress bar'.",
+        "value": "1.0000000",
+        "type": "Float",
+        "isReadOnly": false,
+        "range": "-100000 - 100000"
+      },
+      {
+        "name": "Align with User Interface",
+        "description": "If enabled, this widget will align its position with the user interface and move accordingly with it.",
+        "value": "1",
+        "type": "Bool",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Widget position",
+        "description": "Position of this widget.",
+        "value": "X=486.067 Y=592.658",
+        "type": "Vector2D",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Visible",
+        "description": "Visibility of this widget.",
+        "value": "1",
+        "type": "Bool",
+        "isReadOnly": false,
+        "range": ""
+      },
+      {
+        "name": "Name",
+        "description": "Name of this widget.",
+        "value": "Default Vehicle Info 2",
+        "type": "String",
+        "isReadOnly": false,
+        "range": ""
+      }
+    ],
+    "datastreams": [],
+    "boundingBoxMin": null,
+    "boundingBoxMax": null,
+    "childs": [],
+    "id": "D92EDA95DEF03E7AB381D0F92BEA1A40"
+  }
+]

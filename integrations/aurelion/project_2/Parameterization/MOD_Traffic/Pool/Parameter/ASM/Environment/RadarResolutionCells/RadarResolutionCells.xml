@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>RadarResolutionCells</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADAR_RESOLUTION_CELLS.Const_Angle_Hor_Resolution</ParameterAddress>
+			      <ValueV>2</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADAR_RESOLUTION_CELLS.Const_Angle_Ver_Resolution</ParameterAddress>
+			      <ValueV>2</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADAR_RESOLUTION_CELLS.Const_Distance_Resolution</ParameterAddress>
+			      <ValueV>2</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADAR_RESOLUTION_CELLS.Const_Velocity_Resolution</ParameterAddress>
+			      <ValueV>2</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADAR_RESOLUTION_CELLS.Sw_Angle_Hor_Resolution_Enable</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADAR_RESOLUTION_CELLS.Sw_Angle_Ver_Resolution_Enable</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADAR_RESOLUTION_CELLS.Sw_Distance_Resolution_Enable</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADAR_RESOLUTION_CELLS.Sw_Resolution_Cells_Enable</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADAR_RESOLUTION_CELLS.Sw_Velocity_Resolution_Enable</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

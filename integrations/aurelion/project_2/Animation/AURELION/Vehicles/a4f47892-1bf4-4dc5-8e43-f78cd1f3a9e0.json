@@ -1,0 +1,52 @@
+{
+  "id": "a4f47892-1bf4-4dc5-8e43-f78cd1f3a9e0",
+  "name": "dSPACE Car",
+  "description": "dSPACE Car with front camera",
+  "imageFile": "./Vehicles/a4f47892-1bf4-4dc5-8e43-f78cd1f3a9e0/Preview.png",
+  "modifiedOn": 1793741104,
+  "sensorInstances": [
+    {
+      "id": "d92f9176-028a-4180-bd51-230d93903888",
+      "name": "Front camera",
+      "sensorId": "b755c148-5a05-48fc-9003-f64d38739937",
+      "enable": true,
+      "position": [-1.07, -0.035, 1.111],
+      "rotation": [0, 0, 0],
+      "isValid": true,
+      "vehicleComponentId": "8442d4a6-7191-4e3b-85b6-835c7d2b90c6",
+      "sensorNumber": 1
+    }
+  ],
+  "components": [
+    {
+      "id": "8442d4a6-7191-4e3b-85b6-835c7d2b90c6",
+      "name": "Car",
+      "assetPath": "/Vehicles/Cars/BP_dSPACE_Car",
+      "model3d": "./Vehicles/a4f47892-1bf4-4dc5-8e43-f78cd1f3a9e0/Model3D.glb",
+      "baseDataStream": "chassis",
+      "assetType": "aurelion-asset",
+      "occupantMonitoring": {
+        "driver": {
+          "assetId": "",
+          "gazeLocationDataStream": "",
+          "lizardOwlRatioDataStream": "",
+          "driverAnimationDataStream": "",
+          "seatbeltDataStream": "",
+          "accessory":  "",
+          "gazeLocations": [
+            { "id": 0, "x": 5, "y": 0, "z": 1, "name": "Straight" },
+            { "id": 1, "x": -0.81, "y": 0.4, "z": 0.74, "name": "Dashboard" },
+            { "id": 2, "x": -1.25988151, "y": 0, "z": 1.06494253, "name": "RearViewMirror" },
+            { "id": 3, "x": -0.79, "y": 0.63, "z": 0.77, "name": "LeftMirror" },
+            { "id": 4, "x": -0.79, "y": 0.18, "z": 0.77, "name": "RightMirror" },
+            { "id": 5, "x": -1.24988151, "y": 1.5, "z": 0.88994253, "name": "Left" },
+            { "id": 6, "x": -1.25, "y": -1.5, "z": 0.89, "name": "Right" },
+            { "id": 7, "x": -0.79, "y": 0, "z": 0.75, "name": "Infotainment" },
+            { "id": 8, "x": -1.6, "y": -0.41, "z": 0.94, "name": "Passenger" }
+          ]
+        }
+      }
+    }
+  ],
+  "version": 6
+}

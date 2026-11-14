@@ -1,0 +1,176 @@
+{
+    "info": "Please check the AURELION documentation for detailed information about all sensor parameters",
+    "sensorType": "Lidar",
+    "version": "12",
+    "name": "Default point cloud",
+    "model": {
+        "updateRate": 20.0,
+        "enableDetectTransparentObject": true,
+        "enableMotionDistortion": false,
+        "maxDetectionsPerRay": 5,
+        "halfPowerPulseWidthNanoSecond": 15.0
+    },
+    "range": {
+        "min": 1.5,
+        "max": 200.0
+    },
+    "beamDivergence": {
+        "enabled": true,
+        "divergenceAngleHorizontalFWHM": 0.1,
+        "divergenceAngleVerticalFWHM": 0.1,
+        "subRayDistanceAtMaxRange": 0.2,
+        "minDistanceBetweenReturns": 1.0,
+        "cutoffSigma": 2.0,
+        "bufferSizeFactor": 3,
+		"limitDetectionsToMaxDetectionsPerRay": false
+    },
+    "powerThreshold": {
+        "enabled": true,
+        "targetReflectanceFactor": 0.8,
+        "targetDetectionRange": 150.0
+    },
+    "reflectanceFormula": {
+        "base": 1500.0,
+        "lambertOut": 0.3921568691730499,
+        "maxIn": 1500.0,
+        "maxOut": 1.0
+    },
+    "noise": {
+        "seed": 0,
+        "gaussian": {
+            "enabled": false,
+            "mean": 0.0,
+            "standardDeviation": 0.0
+        },
+        "intensityBased": { 
+            "enabled": true,
+            "rangeMinimumStandardDeviation_mm": 6.0,
+            "rangePrecision_mm": 30.0,
+            "referenceRange_m": 90.0,
+            "referenceReflectivity": 0.1
+        }
+    },
+    "weather": {
+        "rain": {
+            "enabled": true,
+            "attenuationFactor": 0.01,
+            "attenuationExponent": 0.6,
+            "simpleRangeNoise": {
+                "enabled": false,
+                "noiseSigma": 0.02
+            }
+        },
+        "fog": {
+            "enabled": true
+        },
+        "noWeatherUpToIntersection": 0
+    },
+    "pattern": {
+        "patternMode": "scanning",
+        "custom": {
+            "path": ""
+        },
+        "scanning": {
+            "columns": 360,
+            "rows": 91,
+            "azimuthLeft": -180.0,
+            "azimuthRight": 179.0,
+            "elevationDown": -45.0,
+            "elevationUp": 45.0
+        },
+        "flashAngle": {
+            "columns": 100,
+            "rows": 100,
+            "azimuthLeft": -45.0,
+            "azimuthRight": 45.0,
+            "elevationDown": -45.0,
+            "elevationUp": 45.0
+        },
+        "flashCartesian": {
+            "columns": 100,
+            "rows": 100,
+            "minX": -1.0,
+            "maxX": 1.0,
+            "minY": -1.0,
+            "maxY": 1.0
+        }
+    },
+    "postProcessing": {
+        "enabled": true,
+        "pluginFilePath": "<CONFIG_DIR>/PP_Lidar_PointCloud/PP_Lidar_PointCloud",
+        "config": {
+            "outputWidth": 960,
+            "outputHeight": 512,
+            "outputModeNormal": false,
+            "outputModeAzimuth": true,
+            "outputModeElevation": true,
+            "outputModeDistance": true,
+            "outputModeRelativeVelocity": false,
+            "outputModeReflectivity": true,
+            "outputModeOpticalPower": false,
+            "outputModeTimeOffset": false,
+            "outputModeRayID": false,
+            "outputModeMaterialID": false,
+            "outputModeInstanceID": false,
+            "outputModeClassID": false,
+            "enableCrc32": false
+        }
+    },
+    "ghostTargets": {
+        "enabled": false,
+        "maxNumberOfMirrorReflectionsPerRay": 1,
+        "brdfThresholdForReflection": 0.99
+    },
+    "visualization": {
+        "colorMode": "reflectivity",
+        "colorModeSettings": {
+            "distance": {
+                "customRange": false,
+                "rangeMin_m": 0.0,
+                "rangeMax_m": 100.0
+            },
+            "reflectivity": {
+                "customRange": false,
+                "rangeMin": 0,
+                "rangeMax": 0.3921568691730499
+            }
+        },
+        "gradient": {
+            "gradientMode": "bitmap",
+            "bitmap": {
+                "path": "<CONTENT_DIR>/Visualization/Bitmaps/rainbow.png"
+            },
+            "curve": {
+                "keys": [
+                    {
+                        "time": 0.0,
+                        "red": 255,
+                        "green": 255,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    {
+                        "time": 1.0,
+                        "red": 255,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    }
+                ]
+            }
+        },
+        "point": {
+            "shape": "circle",
+            "scale": 5.0,
+            "divergenceAngle": 0.125,
+            "scaleWithDivergence": true
+        }
+    },
+    "performance": {
+        "enableAnimatedChars": true,
+        "performanceLog": {
+            "enabled": false,
+            "outputPath": "<OUTPUT_DIR>/PerfLog.csv"
+        }
+    }
+}

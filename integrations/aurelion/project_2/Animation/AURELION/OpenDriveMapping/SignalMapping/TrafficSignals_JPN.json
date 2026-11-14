@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "mappings": [
+    {
+      "from": {
+        "country": "jn",
+        "type": "1000001"
+      },
+      "to": {
+        "assetPath": "/AUR_Asia_Assets/3DContent/Traffic/TrafficLights/JPN_TrafficLights/BP_JPN_TrafficLight_V_ryg",
+        "assetId": "45033D7B4C4011EEF444E199B3ACE21C",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "jn",
+        "type": "1000012"
+      },
+      "to": {
+        "assetPath": "/AUR_Asia_Assets/3DContent/Traffic/TrafficLights/JPN_TrafficLights/BP_JPN_TrafficLight_V_g",
+        "assetId": "235F02AE4AFA89128A5BF98A2072F81C",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "jn",
+        "type": "1000009",
+        "subtype": "30"
+      },
+      "to": {
+        "assetPath": "/AUR_Asia_Assets/3DContent/Traffic/TrafficLights/JPN_TrafficLights/BP_JPN_TrafficLight_V_rg",
+        "assetId": "8A3FCE7146D72A5303A3B2BE1921447E",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ]
+}

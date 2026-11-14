@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "mappings": [
+    {
+      "from": {
+        "country": "us",
+        "type": "1000001"
+      },
+      "to": {
+        "assetPath": "/AUR_US_Assets/3DContent/Traffic/TrafficLights/US_TrafficLights/BP_US_TrafficLight_V_ryg",
+        "assetId": "6F3D3BCD4F477FC2A3597AAF1F1ABE15",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "1000012"
+      },
+      "to": {
+        "assetPath": "/AUR_US_Assets/3DContent/Traffic/TrafficLights/US_TrafficLights/BP_US_TrafficLight_V_g",
+        "assetId": "24E795F84391775CFB2EC7851D07306D",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "1000009",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/AUR_US_Assets/3DContent/Traffic/TrafficLights/US_TrafficLights/BP_US_TrafficLight_V_ry",
+        "assetId": "848ADDC5497CCC1F27FA38BB118CDFC1",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ]
+}

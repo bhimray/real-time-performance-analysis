@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParameterSet>
+	<Name>LuxuryCar</Name>
+	<Version>26.1</Version>
+	<Revision>1</Revision>
+	<Author></Author>
+	<CreationDate>22.05.2025</CreationDate>
+	<VariantSelections>
+		<MainComponents>
+			<MainComponent>
+				<Name>Drivetrain</Name>
+				<OptionGroups>
+					<OptionGroup>
+						<Name>Drivetrain Type</Name>
+						<Option>Rear Wheel Drive</Option>
+					</OptionGroup>
+					<OptionGroup>
+						<Name>Transmission Type</Name>
+						<Option>Stepped Automatic</Option>
+					</OptionGroup>
+				</OptionGroups>
+			</MainComponent>
+			<MainComponent>
+				<Name>DrivetrainBasic</Name>
+				<OptionGroups>
+					<OptionGroup>
+						<Name>Transmission Type</Name>
+						<Option>Stepped Automatic</Option>
+					</OptionGroup>
+				</OptionGroups>
+			</MainComponent>
+			<MainComponent>
+				<Name>Trailer</Name>
+				<OptionGroups>
+					<OptionGroup>
+						<Name>Trl Tire Model</Name>
+						<Option>Tmeasy</Option>
+					</OptionGroup>
+				</OptionGroups>
+			</MainComponent>
+			<MainComponent>
+				<Name>VehicleDynamics</Name>
+				<OptionGroups>
+					<OptionGroup>
+						<Name>Tire Model</Name>
+						<Option>TMeasy</Option>
+					</OptionGroup>
+				</OptionGroups>
+			</MainComponent>
+		</MainComponents>
+	</VariantSelections>
+	<MainComponents>
+		<MainComponent>
+			<Name>EngineBasic</Name>
+			<ParameterRecords>
+				<ParameterRecord>
+					<Name>Engine</Name>
+					<ParameterFile>Engine.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Fuel Consumption</Name>
+					<ParameterFile>FuelConsumption.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+			</ParameterRecords>
+		</MainComponent>
+		<MainComponent>
+			<Name>Environment</Name>
+			<ParameterRecords>
+				<ParameterRecord>
+					<Name>Ambient</Name>
+					<ParameterFile>Ambient.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Collision Sensor</Name>
+					<ParameterFile>Collision Sensor.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Common Driver Parameters</Name>
+					<ParameterFile>CommonDriverParam.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Custom Points</Name>
+					<ParameterFile>Sensor Front Long CustomPoints.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Custom Points</Name>
+					<ParameterFile>Sensor Front Mid CustomPoints.xml</ParameterFile>
+					<InstanceID>2</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Custom Points</Name>
+					<ParameterFile>Sensor Rear CustomPoints.xml</ParameterFile>
+					<InstanceID>3</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Gear Shifter</Name>
+					<ParameterFile>GearShifter.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Lanesensor Dynamic Parameters</Name>
+					<ParameterFile>LanesensorDynamicParameters.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Lateral Control 1</Name>
+					<ParameterFile>LatControl1 Luxury.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Lateral Control 2</Name>
+					<ParameterFile>LatControl2.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Line Sensor</Name>
+					<ParameterFile>LineSensor.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Longitudinal Control</Name>
+					<ParameterFile>LongitudinalControl.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Object Sensor 2D</Name>
+					<ParameterFile>Sensor Front.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Object Sensor 2D</Name>
+					<ParameterFile>Sensor Front Left.xml</ParameterFile>
+					<InstanceID>2</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Object Sensor 2D</Name>
+					<ParameterFile>Sensor Left.xml</ParameterFile>
+					<InstanceID>3</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Object Sensor 2D</Name>
+					<ParameterFile>Sensor Rear Left.xml</ParameterFile>
+					<InstanceID>4</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Object Sensor 2D</Name>
+					<ParameterFile>Sensor Front Right.xml</ParameterFile>
+					<InstanceID>5</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Object Sensor 2D</Name>
+					<ParameterFile>Sensor Right.xml</ParameterFile>
+					<InstanceID>6</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Object Sensor 2D</Name>
+					<ParameterFile>Sensor Rear Right.xml</ParameterFile>
+					<InstanceID>7</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Object Sensor 3D</Name>
+					<ParameterFile>Sensor Front Long.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Object Sensor 3D</Name>
+					<ParameterFile>Sensor Front Mid.xml</ParameterFile>
+					<InstanceID>2</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Object Sensor 3D</Name>
+					<ParameterFile>Sensor Rear.xml</ParameterFile>
+					<InstanceID>3</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Object Sensor 3D Calculation</Name>
+					<ParameterFile>ObjectSensor3DCalculation.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>OSI GroundTruth Interface</Name>
+					<ParameterFile>OSIGroundTruthInterface.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Radar Detection Range</Name>
+					<ParameterFile>Sensor Front Long RadarDetectionRange.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Radar Detection Range</Name>
+					<ParameterFile>Sensor Front Mid RadarDetectionRange.xml</ParameterFile>
+					<InstanceID>2</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Radar Detection Range</Name>
+					<ParameterFile>Sensor Rear RadarDetectionRange.xml</ParameterFile>
+					<InstanceID>3</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Radar Measurement Noise</Name>
+					<ParameterFile>Sensor Front Long RadarMeasurementNoise.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Radar Measurement Noise</Name>
+					<ParameterFile>Sensor Front Mid RadarMeasurementNoise.xml</ParameterFile>
+					<InstanceID>2</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Radar Measurement Noise</Name>
+					<ParameterFile>Sensor Rear RadarMeasurementNoise.xml</ParameterFile>
+					<InstanceID>3</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Radar Output Sort</Name>
+					<ParameterFile>Sensor Front Long RadarOutputSort.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Radar Output Sort</Name>
+					<ParameterFile>Sensor Front Mid RadarOutputSort.xml</ParameterFile>
+					<InstanceID>2</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Radar Output Sort</Name>
+					<ParameterFile>Sensor Rear RadarOutputSort.xml</ParameterFile>
+					<InstanceID>3</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Radar RCS Noise</Name>
+					<ParameterFile>Sensor Front Long RadarRCSNoise.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Radar RCS Noise</Name>
+					<ParameterFile>Sensor Front Mid RadarRCSNoise.xml</ParameterFile>
+					<InstanceID>2</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Radar RCS Noise</Name>
+					<ParameterFile>Sensor Rear RadarRCSNoise.xml</ParameterFile>
+					<InstanceID>3</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Radar Resolution Cells</Name>
+					<ParameterFile>Sensor Front Long RadarResolutionCells.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Radar Resolution Cells</Name>
+					<ParameterFile>Sensor Front Mid RadarResolutionCells.xml</ParameterFile>
+					<InstanceID>2</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Radar Resolution Cells</Name>
+					<ParameterFile>Sensor Rear RadarResolutionCells.xml</ParameterFile>
+					<InstanceID>3</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Sample Pulse</Name>
+					<ParameterFile>SamplePulse1.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Sample Pulse</Name>
+					<ParameterFile>SamplePulse2.xml</ParameterFile>
+					<InstanceID>2</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Traffic Sign Sensor Geometry</Name>
+					<ParameterFile>TrafficSignSensorGeometry.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+			</ParameterRecords>
+		</MainComponent>
+		<MainComponent>
+			<Name>SoftECU</Name>
+			<ParameterRecords>
+				<ParameterRecord>
+					<Name>Controller ACC</Name>
+					<ParameterFile>ControllerACC.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Engine Operation Basic</Name>
+					<ParameterFile>Engine Operation Basic.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Idle Speed Control Basic</Name>
+					<ParameterFile>IdleSpeedControlBasic.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Lockup Clutch Control</Name>
+					<ParameterFile>LockupClutchControl.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Shift Strategy</Name>
+					<ParameterFile>ShiftStrategy Luxury.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Soft ECU PowerSteering</Name>
+					<ParameterFile>Soft ECU PowerSteering EPSdp_EPSapa.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>SoftECU Transmission Setup</Name>
+					<ParameterFile>SoftECUTrmSetup Luxury.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Start Button</Name>
+					<ParameterFile>StartButton.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Target Selection ACC</Name>
+					<ParameterFile>TargetSelectionACC.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Torque Intervention Basic</Name>
+					<ParameterFile>TorqueInterventionSlowBasic.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Torque Intervention Control</Name>
+					<ParameterFile>TorqueInterventionControl.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>User Interface ACC</Name>
+					<ParameterFile>UserInterfaceACC.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+			</ParameterRecords>
+		</MainComponent>
+		<MainComponent>
+			<Name>Drivetrain</Name>
+			<ParameterRecords>
+				<ParameterRecord>
+					<Name>Central Differential Rigid</Name>
+					<ParameterFile>Central Differential Rigid.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Clutch 4WD Rigid</Name>
+					<ParameterFile>Clutch 4WD Rigid.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Clutch Rigid</Name>
+					<ParameterFile>Clutch Rigid.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Crankshaft Rigid</Name>
+					<ParameterFile>Crankshaft Rigid.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Engine Starter</Name>
+					<ParameterFile>Engine Starter.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Front Differential Rigid</Name>
+					<ParameterFile>Front Differential Rigid.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Gearbox Automatic Rigid</Name>
+					<ParameterFile>Gearbox Automatic Rigid.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Gearbox Manual Rigid</Name>
+					<ParameterFile>Gearbox Manual Rigid.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Lockup Clutch Rigid</Name>
+					<ParameterFile>LockupClutchRigid.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Rear Differential Rigid</Name>
+					<ParameterFile>Rear Differential Rigid.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Test Bench VD</Name>
+					<ParameterFile>Test Bench VD.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Torque Converter Rigid</Name>
+					<ParameterFile>TorqueConverterRigid.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Transfer Gearbox Rigid</Name>
+					<ParameterFile>Transfer Gearbox Rigid.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+			</ParameterRecords>
+		</MainComponent>
+		<MainComponent>
+			<Name>VehicleDynamics</Name>
+			<ParameterRecords>
+				<ParameterRecord>
+					<Name>Additional Loads</Name>
+					<ParameterFile>Additional Loads.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Aerodynamics</Name>
+					<ParameterFile>Aerodynamics.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Body Geometry and Mass</Name>
+					<ParameterFile>Body Luxury.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Brake Disc</Name>
+					<ParameterFile>Brake Disc.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Brake Hydraulics Basic</Name>
+					<ParameterFile>Brake Hydraulics Basic.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Manifold Pressure</Name>
+					<ParameterFile>ManifoldPressure.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Master Brake Cylinder</Name>
+					<ParameterFile>Master Brake Cylinder.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Sensor Position</Name>
+					<ParameterFile>Sensor Position.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Steering 3DOF Variable</Name>
+					<ParameterFile>Steering 3DOF Luxury EPSdp_EPSapa.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Steering Rod Back Calc</Name>
+					<ParameterFile>SteeringRodBackCalc.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>SusCommon</Name>
+					<ParameterFile>SusCommon.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>SusComp 2D Front</Name>
+					<ParameterFile>SusComp 2D Front Luxury.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>SusComp 2D Rear</Name>
+					<ParameterFile>SusComp 2D Rear Luxury.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>SusForces Front</Name>
+					<ParameterFile>SusForces Front Luxury.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>SusForces Rear</Name>
+					<ParameterFile>SusForces Rear Luxury.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>SusKin Sym</Name>
+					<ParameterFile>SusKinSym_Front Luxury.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>SusKin Sym</Name>
+					<ParameterFile>SusKinSym_Rear Luxury.xml</ParameterFile>
+					<InstanceID>2</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Tire Mode</Name>
+					<ParameterFile>TireMode.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Tire TMEasy</Name>
+					<ParameterFile>TireTMEasy Luxury.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Tire TMEasy</Name>
+					<ParameterFile>TireTMEasy Luxury.xml</ParameterFile>
+					<InstanceID>2</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Tire TMEasy</Name>
+					<ParameterFile>TireTMEasy Luxury.xml</ParameterFile>
+					<InstanceID>3</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Tire TMEasy</Name>
+					<ParameterFile>TireTMEasy Luxury.xml</ParameterFile>
+					<InstanceID>4</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Vacuum Servo</Name>
+					<ParameterFile>VacuumServo.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+				<ParameterRecord>
+					<Name>Wheel Mass and Inertia</Name>
+					<ParameterFile>Wheel Mass and Inertia.xml</ParameterFile>
+					<InstanceID>1</InstanceID>
+					<Processing>
+						<Active>No</Active>
+					</Processing>
+				</ParameterRecord>
+			</ParameterRecords>
+		</MainComponent>
+	</MainComponents>
+	<CustomLibraries></CustomLibraries>
+	<Processing>
+		<GeneralSettings>\General\VehicleDynamics.m</GeneralSettings>
+		<PlotConfiguration>
+			<PlotType>1</PlotType>
+			<PlotContext>27</PlotContext>
+			<ErrorPlots>No</ErrorPlots>
+			<IncrementalPlots>No</IncrementalPlots>
+			<Delay></Delay>
+		</PlotConfiguration>
+	</Processing>
+</ParameterSet>

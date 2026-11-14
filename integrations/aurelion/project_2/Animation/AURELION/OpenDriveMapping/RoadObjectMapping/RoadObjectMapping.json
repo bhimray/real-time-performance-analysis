@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "mappings": [
+    { "from": { "type": "obstacle" }, "to": {} },
+    {
+      "from": { "type": "car" },
+      "to": {
+        "assetId": "38F816444DE0F1F07964C9B59D21D533",
+        "assetPath": "/Vehicles/Cars/BP_GER_Coupe_A",
+        "properties": {
+          "Color": "LightBlue"
+        }
+      }
+    },
+    {
+      "from": { "type": "pole" },
+      "to": {
+        "assetId": "355912514C1B92C4F45E52AA64F744B3",
+        "assetPath": "/Traffic/TrafficLights_deprecated/BP_TrafficLight_Pole"
+      }
+    },
+    {
+      "from": { "type": "tree" },
+      "to": {
+        "assetId": "2E1BF0C249E729B07A2EDFAD5CFD47C5",
+        "assetPath": "/Nature/Trees/Alder/BP_Tree_Alder_A"
+      }
+    },
+    { "from": { "type": "vegetation" }, "to": {} },
+    { "from": { "type": "barrier" }, "to": {} },
+    { "from": { "type": "building" }, "to": {} },
+    { "from": { "type": "parkingSpace" }, "to": {} },
+    { "from": { "type": "patch" }, "to": {} },
+    { "from": { "type": "railing" }, "to": {} },
+    { "from": { "type": "trafficIsland" }, "to": {} },
+    { "from": { "type": "crosswalk" }, "to": {} },
+    {
+      "from": { "type": "streetLamp" },
+      "to": {
+        "assetId": "E5FA00AB4EE2B8D90D8E628D3C76C655",
+        "assetPath": "/Environment/StreetLights/BP_StreetLight_B"
+      }
+    },
+    { "from": { "type": "gantry" }, "to": {} },
+    { "from": { "type": "soundBarrier" }, "to": {} },
+    {
+      "from": { "type": "van" },
+      "to": {
+        "assetId": "0204C7FB4D482470886D13B62C56443B",
+        "assetPath": "/Vehicles/Cars/BP_GER_Van_B",
+        "properties": {
+          "Color": "White"
+        }
+      }
+    },
+    {
+      "from": { "type": "bus" },
+      "to": {
+        "assetId": "408506F644CD97ED8284C7AC001FF819",
+        "assetPath": "/Vehicles/Service/BP_GER_Bus_B"
+      }
+    },
+    {
+      "from": { "type": "trailer" },
+      "to": {
+        "assetId": "B2107F0B4F94137D0131EBAE1AB54557",
+        "assetPath": "/Vehicles/Cars/BP_EU_SmallTrailer_A"
+      }
+    },
+    {
+      "from": { "type": "bike" },
+      "to": {
+        "assetId": "363E22544A4362370A17529B202917CC",
+        "assetPath": "/Vehicles/Bikes/BP_GB_Bicycle-M_A"
+      }
+    },
+    {
+      "from": { "type": "motorbike" },
+      "to": {
+        "assetId": "E28A22924E4A881D7859058357113E4E",
+        "assetPath": "/Vehicles/Bikes/BP_US_Motorbike_A"
+      }
+    },
+    { "from": { "type": "tram" }, "to": {} },
+    {
+      "from": { "type": "train" },
+      "to": {
+        "assetId": "0DEA8FC848B3AAF3C34871B89B057CCE",
+        "assetPath": "/Environment/Props_City/Trains/HighSpeed_Train/BP_HighSpeedTrain"
+      }
+    },
+    {
+      "from": { "type": "pedestrian" },
+      "to": {
+        "assetId": "5067C3E84168A0B0B580AA9E1BDEB4A3",
+        "assetPath": "/AUR_AssetMaster/3DContent/Characters/Humans/BP_Man_01"
+      }
+    },
+    { "from": { "type": "wind" }, "to": {} },
+    { "from": { "type": "roadMark" }, "to": {} }
+  ]
+}

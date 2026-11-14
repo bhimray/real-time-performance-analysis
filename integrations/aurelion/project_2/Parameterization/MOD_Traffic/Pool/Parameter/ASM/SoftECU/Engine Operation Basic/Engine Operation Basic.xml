@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>SoftECU</MainComponent>
+	  <RecordType>Engine Operation Basic</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.ENGINE_OPERATION_BASIC.Const_n_Engine_LowLim_Shutdown</ParameterAddress>
+			      <ValueV>50</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.ENGINE_OPERATION_BASIC.Const_n_Engine_Min_EngineOn</ParameterAddress>
+			      <ValueV>200</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.ENGINE_OPERATION_BASIC.Const_t_Max_Starter</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.ENGINE_OPERATION_BASIC.Const_t_Shutdown</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+	  </Parameters>
+	  <Processing>
+		    <Priority>0</Priority>
+	  </Processing>
+</ParameterFile>

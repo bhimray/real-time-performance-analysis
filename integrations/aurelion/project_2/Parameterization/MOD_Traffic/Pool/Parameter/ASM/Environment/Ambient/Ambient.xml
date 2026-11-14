@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>Ambient</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.AMBIENT.Const_pressure</ParameterAddress>
+			      <ValueV>1000</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.AMBIENT.Const_temperature</ParameterAddress>
+			      <ValueV>20</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

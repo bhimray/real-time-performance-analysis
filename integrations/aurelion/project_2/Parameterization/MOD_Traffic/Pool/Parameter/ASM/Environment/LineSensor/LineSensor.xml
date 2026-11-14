@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>LineSensor</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.LINE_SENSOR.Const_Dist_Road_Sample_Pnts</ParameterAddress>
+			      <ValueV>2</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LINE_SENSOR.Const_Length_Sensor_Range</ParameterAddress>
+			      <ValueV>40</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LINE_SENSOR.Const_Num_Lines_Per_Side_Max</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LINE_SENSOR.Sw_Sensor_Enable</ParameterAddress>
+			      <ValueV>0</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

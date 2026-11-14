@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>Collision Sensor</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.COLLISION_SENSOR.Sw_Detection_Mode</ParameterAddress>
+			      <ValueV>2</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.COLLISION_SENSOR.Sw_Sensor_Enable</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

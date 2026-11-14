@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>VehicleDynamics</MainComponent>
+	  <RecordType>Sensor Position</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SENSOR_MOTION.Const_PosVec_Sensor1</ParameterAddress>
+			      <ValueV>0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SENSOR_MOTION.Const_PosVec_Sensor2</ParameterAddress>
+			      <ValueV>0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SENSOR_MOTION.Const_PosVec_Sensor3</ParameterAddress>
+			      <ValueV>0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SENSOR_MOTION.Const_PosVec_Sensor4</ParameterAddress>
+			      <ValueV>0 0 0</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

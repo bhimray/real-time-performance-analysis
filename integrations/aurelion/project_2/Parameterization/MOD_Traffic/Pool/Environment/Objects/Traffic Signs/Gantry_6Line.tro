@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TrafficObject xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/TrafficObject">
+  <Children z:Id="i2" />
+  <FileVersion>1.6</FileVersion>
+  <ID>7554061e-81f3-4238-9721-e12e77a84c4e</ID>
+  <Author></Author>
+  <BoxSensor z:Id="i3">
+    <IsEnabled>false</IsEnabled>
+    <CenterPoint z:Id="i4">
+      <X>0</X>
+      <Y>0</Y>
+      <Z>3.5149998664855957</Z>
+    </CenterPoint>
+    <Height>11.029999732971191</Height>
+    <Length>4.559999942779541</Length>
+    <Width>45</Width>
+  </BoxSensor>
+  <ContourLineSensor z:Id="i5">
+    <IsEnabled>false</IsEnabled>
+    <MaxHeight>0</MaxHeight>
+    <MinHeight>0</MinHeight>
+    <PolygonLine>
+      <Point z:Id="i6">
+        <X>-2.2799999713897705</X>
+        <Y>-22.5</Y>
+      </Point>
+      <Point z:Id="i7">
+        <X>2.2799999713897705</X>
+        <Y>-22.5</Y>
+      </Point>
+      <Point z:Id="i8">
+        <X>2.2799999713897705</X>
+        <Y>22.5</Y>
+      </Point>
+      <Point z:Id="i9">
+        <X>-2.2799999713897705</X>
+        <Y>22.5</Y>
+      </Point>
+      <Point z:Id="i10">
+        <X>-2.2799999713897705</X>
+        <Y>-22.5</Y>
+      </Point>
+    </PolygonLine>
+  </ContourLineSensor>
+  <CustomSensor z:Id="i11">
+    <IsEnabled>false</IsEnabled>
+    <UserDataList>
+      <UserData z:Id="i12">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i13">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i14">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i15">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i16">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i17">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i18">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i19">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i20">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i21">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+    </UserDataList>
+  </CustomSensor>
+  <DAEPath>%customer_objects%\AURELION\Signs\SignGantrys\$43m_Gantry\43m_Gantry.dae</DAEPath>
+  <Description></Description>
+  <Dynamic>false</Dynamic>
+  <FellowSensor z:Id="i22">
+    <IsEnabled>false</IsEnabled>
+    <FellowDynamics z:Id="i23">
+      <EnginePower>100</EnginePower>
+      <MaximumDeceleration>6</MaximumDeceleration>
+      <MaximumSpeed>200</MaximumSpeed>
+      <VehicleMass>1300</VehicleMass>
+    </FellowDynamics>
+    <FellowGeometry z:Id="i24">
+      <DistanceFrontToRearAxis>2.48</DistanceFrontToRearAxis>
+      <DistanceFrontWheels>1.36</DistanceFrontWheels>
+      <DistanceRearWheels>1.4</DistanceRearWheels>
+      <WheelRadius>0.32</WheelRadius>
+    </FellowGeometry>
+  </FellowSensor>
+  <ObjectPointsSensor z:Id="i25">
+    <IsEnabled>false</IsEnabled>
+    <Points z:Id="i26">
+      <CustomPoints />
+      <NCAPReferencePoints />
+      <ReflectionPoints />
+    </Points>
+  </ObjectPointsSensor>
+  <ObjectStates z:Id="i27" />
+  <Orientation>0</Orientation>
+  <SimulationID>121</SimulationID>
+  <TrafficSignSensor z:Id="i28" i:type="Priority">
+    <IsEnabled>false</IsEnabled>
+    <Condition>100</Condition>
+    <IdentifierCode>0</IdentifierCode>
+    <Type>Priority</Type>
+    <PriorityType>Stop</PriorityType>
+  </TrafficSignSensor>
+  <TrafficSignSensorAdvanced z:Id="i29">
+    <IsEnabled>false</IsEnabled>
+    <DynamicTrafficSignSensorValues z:Id="i30" />
+    <StateDependentValues>false</StateDependentValues>
+    <StaticTrafficSignSensorValues z:Id="i31">
+      <Condition>100</Condition>
+      <Country>DEU</Country>
+      <SubType>0</SubType>
+      <Text></Text>
+      <Type>274</Type>
+      <Value>60</Value>
+    </StaticTrafficSignSensorValues>
+  </TrafficSignSensorAdvanced>
+</TrafficObject>

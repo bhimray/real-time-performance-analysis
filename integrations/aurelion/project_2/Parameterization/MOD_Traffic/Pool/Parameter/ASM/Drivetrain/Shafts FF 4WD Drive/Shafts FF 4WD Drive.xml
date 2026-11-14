@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Drivetrain</MainComponent>
+	  <RecordType>Shafts FF 4WD Drive</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_FL.Const_Damping_FourWheelDrive</ParameterAddress>
+			      <ValueV>10</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_FL.Const_Stiffenss_FourWheelDrive</ParameterAddress>
+			      <ValueV>12030</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_FR.Const_Damping_FourWheelDrive</ParameterAddress>
+			      <ValueV>10</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_FR.Const_Stiffenss_FourWheelDrive</ParameterAddress>
+			      <ValueV>12030</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_RL.Const_Damping_FourWheelDrive</ParameterAddress>
+			      <ValueV>10</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_RL.Const_Stiffenss_FourWheelDrive</ParameterAddress>
+			      <ValueV>12030.5</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_RR.Const_Damping_FourWheelDrive</ParameterAddress>
+			      <ValueV>10</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_RR.Const_Stiffenss_FourWheelDrive</ParameterAddress>
+			      <ValueV>12030.5</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_TGCL4WD.Const_Damping_Shaft_TGCL4WD</ParameterAddress>
+			      <ValueV>10</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_TGCL4WD.Const_Stiffness_Shaft_TGCL4WD</ParameterAddress>
+			      <ValueV>6000</ValueV>
+		    </Parameter>
+	  </Parameters>
+	  <Processing>
+		    <Priority>0</Priority>
+	  </Processing>
+</ParameterFile>

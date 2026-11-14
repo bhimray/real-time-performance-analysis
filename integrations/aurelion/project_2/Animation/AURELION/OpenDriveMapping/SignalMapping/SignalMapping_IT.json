@@ -1,0 +1,4095 @@
+{
+  "version": 1,
+  "mappings": [
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 44",
+        "subtype": "Art 113"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Priority road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.355
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 42",
+        "subtype": "Art 111"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of priority road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.355
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 36",
+        "subtype": "Art 106"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Yield",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.408
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 37",
+        "subtype": "Art 107"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Stop",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.328
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 37",
+        "subtype": "Art 107"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Stop small",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 47",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No entry for vehicular traffic",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 46",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Restricted vehicular access",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 70",
+        "subtype": "Art 119"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Derestriction",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 72",
+        "subtype": "Art 119"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of no overtaking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 73",
+        "subtype": "Art 119"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of no overtaking by large goods vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 41",
+        "subtype": "DB Plast"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Give priority to vehicles from opposite direction",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 50",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Maximum speed 10",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 50",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Maximum speed 20",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 50",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Maximum speed 30",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 50",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Maximum speed 40",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 50",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Maximum speed 50",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 50",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Maximum speed 60",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 50",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Maximum speed 70",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 50",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Maximum speed 80",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 50",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Maximum speed 90",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 50",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Maximum speed 100",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 50",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Maximum speed 110",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 50",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Maximum speed 120",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 50",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Maximum speed 130",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 309",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No through road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 80-a",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Drive straight",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 81-b",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Drive straight or turn right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 81-c",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Drive straight or turn left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 90",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Cycle lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 91",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of cycle lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 42"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No right turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 48",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No overtaking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 52",
+        "subtype": "Art 117"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No overtaking by heavy goods vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 76",
+        "subtype": "Art 120"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Parking place",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 75",
+        "subtype": "Art 120"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No stopping",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 74",
+        "subtype": "Art 120"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No parking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 383",
+        "subtype": "DB Plast"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Road works - Yellow",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 35G",
+        "subtype": "DB Plast"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Other danger - Yellow",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 389",
+        "subtype": "DB Plast"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Uneven road - Yellow",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 390",
+        "subtype": "DB Plast"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Loose chippings - Yellow",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 386",
+        "subtype": "DB Plast"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Road narrows on right - Yellow",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 385",
+        "subtype": "DB Plast"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Road narrows on left - Yellow",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 384",
+        "subtype": "DB Plast"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Road narrows - Yellow",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 387",
+        "subtype": "DB Plast"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Two-way traffic - Yellow",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 404",
+        "subtype": "DB Plast"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Traffic lights - Yellow",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 13",
+        "subtype": "Art 88"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Pedestrian crossing ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 40",
+        "subtype": "Art 109"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Crossroads with right-of-way from the right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 4",
+        "subtype": "Art 86"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Bend to right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 5",
+        "subtype": "Art 86"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Bend to left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 6",
+        "subtype": "Art 86"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Double bend first to right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 7",
+        "subtype": "Art 86"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Double bend first to left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 14",
+        "subtype": "Art 88"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Bicycle crossing ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 84",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Roundabout",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 82-b",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Keep right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 82-a",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Keep left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 83",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Pass either side",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 323-a",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "30 kmh zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 323-b",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of a 30 kmh zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 358",
+        "subtype": "Art 136"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Bus stop",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 366",
+        "subtype": "Art 136"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Refreshments",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 356",
+        "subtype": "Art 136"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Petrol station",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 357",
+        "subtype": "Art 136"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Petrol station with LPG",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 345",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Motorway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 346",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Motorway ends",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 345",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Expressway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 346",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Expressway ends",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 365",
+        "subtype": "Art 136"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Hotel",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Modello II 8-d",
+        "subtype": "Art 83"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No trucks",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 79-a",
+        "subtype": "Art 120"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Parking space reserved for vehicles used by people with disabilities",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 354",
+        "subtype": "Art 136"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Repairs",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 367",
+        "subtype": "Art 136"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Restaurant",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 355",
+        "subtype": "Art 136"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Telephone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 328",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Breakdown bay",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Modello II 8-c",
+        "subtype": "Art 83"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Mandatory direction ahead for trucks - right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Modello II 8-c",
+        "subtype": "Art 83"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Mandatory direction ahead for trucks - left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Modello II 8-b",
+        "subtype": "Art 83"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Mandatory direction for vehicle carrying dangerous goods - right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Modello II 8-b",
+        "subtype": "Art 83"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Mandatory direction for vehicle carrying dangerous goods - left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Modello II 8-b",
+        "subtype": "Art 83"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Mandatory direction for vehicle carrying dangerous goods - straight",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 11-c",
+        "subtype": "Art 87"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Level crossing marker 50m",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.494
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 11-b",
+        "subtype": "Art 87"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Level crossing marker 100m",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.494
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 11-a",
+        "subtype": "Art 87"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Level crossing marker 150m",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.494
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 94",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Bridleway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 95",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of bridleway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 80-c",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Turn right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 80-b",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Turn left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 80-d",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Right turn only ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 80-e",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Left turn only ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 81-a",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Right or left turn only ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 85",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Minimum speed",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 86",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of minimum speed",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 88",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Pedestrian lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 89",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of pedestrian lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 92-b",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Shared path",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 93-b",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of shared path",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 92-a",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Segregated pedestrian and cycle path",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 93-a",
+        "subtype": "Art 122"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of segregated pedestrian and cycle path",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 49",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Minimum distance",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 96",
+        "subtype": "Art 123"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Customs",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 56",
+        "subtype": "Art 117"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No motorcycles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 59",
+        "subtype": "Art 117"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No buses",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 58",
+        "subtype": "Art 117"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No motor vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 57",
+        "subtype": "Art 117"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No handcarts",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 55",
+        "subtype": "Art 117"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No bicycles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 66",
+        "subtype": "Art 118"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No vehicles over 3.50m height",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 51",
+        "subtype": "Art 116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No use of horns",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 53",
+        "subtype": "Art 117"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No animal-drawn vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 54",
+        "subtype": "Art 117"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No pedestrians",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 54",
+        "subtype": "Art 117"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No tractors",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 60-a",
+        "subtype": "Art 117"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No large goods vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 63",
+        "subtype": "Art 117"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No vehicles carrying dangerous goods",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 64-b",
+        "subtype": "Art 117"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No vehicles carrying goods which could pollute water",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 67",
+        "subtype": "Art 118"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No vehicles over 10m length",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 61",
+        "subtype": "Art 117"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No vehicles with trailer",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 60-b",
+        "subtype": "Art 117"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No large goods vehicles over 6.5t",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 64"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No U-turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 65",
+        "subtype": "Art 118"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Max width 2.3m",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 98",
+        "subtype": "Art 123"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Stop police roadblock",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 99",
+        "subtype": "Art 123"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Stop pay toll",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 68",
+        "subtype": "Art 118"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Maximum weight 7t",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 69",
+        "subtype": "Art 118"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Axle weight limit 7t",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 24",
+        "subtype": "Art 95"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Cattle",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 25",
+        "subtype": "Art 95"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Wild animals",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 35",
+        "subtype": "Art 103"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Other danger",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 20",
+        "subtype": "Art 91"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Opening or swing bridge ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 3",
+        "subtype": "Art 85"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Dip",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 2",
+        "subtype": "Art 85"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Bumps in the road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 1",
+        "subtype": "Art 85"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Uneven road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 15",
+        "subtype": "Art 89"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Steep hill downwards",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 21",
+        "subtype": "Art 92"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Dangerous verges",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 29",
+        "subtype": "Art 98"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Loose chippings",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 43-a",
+        "subtype": "Art 112"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Crossroads",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 43-b",
+        "subtype": "Art 112"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Junction with a side-road from right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 43-e",
+        "subtype": "Art 112"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Merging traffic from right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 23",
+        "subtype": "Art 94"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Children",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 19",
+        "subtype": "Art 90"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Road narrows on right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 17",
+        "subtype": "Art 90"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Road narrows",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 32",
+        "subtype": "Art 100"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Low-flying aircraft",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 26",
+        "subtype": "Art 96"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Two-way traffic",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 28",
+        "subtype": "Art 97"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "River bank",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 30-b",
+        "subtype": "Art 98"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Falling rocks",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 27",
+        "subtype": "Art 96"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Roundabout ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 22",
+        "subtype": "Art 93"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Slippery road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 31-b",
+        "subtype": "Art 99"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Horizontal traffic lights",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 31-a",
+        "subtype": "Art 99"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Traffic lights",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 8",
+        "subtype": "Art 87"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Level crossing with barrier or gate ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 9",
+        "subtype": "Art 87"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Level crossing without barrier or gate ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 12",
+        "subtype": "Art 88"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Trams crossing ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.314
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 16",
+        "subtype": "Art 89"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Steep hill upwards",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 33",
+        "subtype": "Art 101"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Side winds",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Modello II 6-b",
+        "subtype": "Art 83"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Road accident",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 312",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Advisory speed limit",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 313",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of advisory speed limit",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 317",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Bridge",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 317",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Bridge - motorways",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 303",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Pedestrian crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 324",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Bicycle crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 311",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No through road - side road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 306",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Pedestrian underpass",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 308",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Pedestrian ramp",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Modello II 6-f",
+        "subtype": "Art 83"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Queue",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 304",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "School bus stop",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 342",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Increase in the number of lanes",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 341",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 468",
+        "subtype": "Art 174"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Chevron marker R",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 468",
+        "subtype": "Art 174"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Chevron marker L",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 314",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Highway reserved for motor vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 315",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of road reserved for motor vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 349",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "One-way traffic",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 318",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Home zone entry",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 319",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of home zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 45",
+        "subtype": "DB Plast"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Traffic has priority over oncoming vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 327",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Possibility of reversing the direction of travel",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 327",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Possibility of reversing the direction of travel - motorways",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Modello II 6-q2",
+        "subtype": "Art 83"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Road cleaning",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Modello II 6-l",
+        "subtype": "Art 83"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Slow moving vehicle ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 305",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Emergency telephone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "AB6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Tunnel",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 316",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Tunnel - motorways",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 316",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Pedestrian overpass",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 320-a",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Pedestrian zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 321",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of pedestrian zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 322-b",
+        "subtype": "Art 135"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of restricted vehicular traffic zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 71",
+        "subtype": "Art 119"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "30 limit end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 71",
+        "subtype": "Art 119"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "40 limit end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 71",
+        "subtype": "Art 119"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "End of maximum speed",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 71",
+        "subtype": "Art 119"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "60 limit end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 71",
+        "subtype": "Art 119"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "70 limit end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 71",
+        "subtype": "Art 119"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "80 limit end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Fig II 71",
+        "subtype": "Art 119"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "90 limit end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "II 74/b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No parking alternating restriction left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "II 74/b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "No parking alternating restriction right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Figura II 274",
+        "subtype": "Art. 131"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "Directional sign",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.65
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Figura II 273f",
+        "subtype": "Art. 131"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "City exit",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.35
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Figura II 273f",
+        "subtype": "Art. 131"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "City exit 2",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.35
+      }
+    },
+    {
+      "from": {
+        "country": "it",
+        "type": "Figura II 273",
+        "subtype": "Art. 131"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "IT",
+          "Signs": "City entry",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.35
+      }
+    }
+  ]
+}

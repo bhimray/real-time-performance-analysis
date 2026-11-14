@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Drivetrain</MainComponent>
+	  <RecordType>Test Bench VD</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.TEST_BENCH.Const_I_Gain</ParameterAddress>
+			      <ValueV>0.03</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.TEST_BENCH.Const_Inertia_TestBench</ParameterAddress>
+			      <ValueV>0.001</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.TEST_BENCH.Const_P_Gain</ParameterAddress>
+			      <ValueV>0.001</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.TEST_BENCH.Const_Trq_Max_TestBench</ParameterAddress>
+			      <ValueV>3000</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

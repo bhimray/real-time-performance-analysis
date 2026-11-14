@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Drivetrain</MainComponent>
+	  <RecordType>Clutch</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.CLUTCH.Const_Coef_DynamicClutchTrq</ParameterAddress>
+			      <ValueV>70</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.CLUTCH.Const_Damping</ParameterAddress>
+			      <ValueV>2</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.CLUTCH.Const_Inertia</ParameterAddress>
+			      <ValueV>0.01</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.CLUTCH.Const_Torque_Max</ParameterAddress>
+			      <ValueV>357</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.CLUTCH.Map_Stiffness</ParameterAddress>
+			      <DimView>[1,5]</DimView>
+			      <ValueX>-5 -3 0 3 5 5.05 5.1 5.15 5.2 5.25 5.3 5.35 5.4 5.45 5.5 5.55 5.6 5.65 5.7 5.75</ValueX>
+			      <ValueV>-300 -2 0 2 300 307.45 314.9 322.35 329.8 337.25 344.7 352.15 359.6 367.05 374.5 381.95 389.4 396.85 404.3 411.75</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.CLUTCH.Map_Trq_Clutch_Red</ParameterAddress>
+			      <DimView>[1,21]</DimView>
+			      <ValueX>0    5   10   15   20   25   30   35   40   45   50   55   60   65   70   75   80   85   90   95  100</ValueX>
+			      <ValueV>0        0.05         0.1        0.15         0.2        0.25         0.3        0.35         0.4        0.45         0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95           1</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

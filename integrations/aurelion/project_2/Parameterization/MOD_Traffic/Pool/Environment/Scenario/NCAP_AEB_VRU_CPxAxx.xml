@@ -1,0 +1,2362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TrafficScenario xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic">
+  <PropertyReferenceList />
+  <Name>NCAP_AEB_VRU_CPxAxx</Name>
+  <Description>Euro NCAP AEB VRU (Version 2.0.2). 
+Scenario for CPNA-25, CPNA-75, and CPFA-50 test scenarios.
+Default settings simulate CPNA-25 test scenario.
+CPNA-25: Car-to-Pedestrian Nearside Adult 25%
+CPNA-75: Car-to-Pedestrian Nearside Adult 75%
+CPFA-50: Car-to-Pedestrian Farside Adult 50%</Description>
+  <Author></Author>
+  <CreatedIn>Prior 5.2</CreatedIn>
+  <CreationDate>2017-09-29T11:12:29</CreationDate>
+  <FileVersion>14</FileVersion>
+  <LaneIndexInterpretationType>RelativeToPreferredLane</LaneIndexInterpretationType>
+  <LastSavedIn>25.2</LastSavedIn>
+  <ListManager z:Id="i2">
+    <PropertyReferenceList />
+    <AsmManager z:Id="i3">
+      <PropertyReferenceList />
+      <Name></Name>
+      <Description></Description>
+      <ListManager z:Ref="i2" />
+      <Pool>
+        <ASM z:Id="i4">
+          <PropertyReferenceList />
+          <Name>NCAP</Name>
+          <Description></Description>
+          <ID>0</ID>
+          <IsUsed>true</IsUsed>
+          <ListManager z:Ref="i2" />
+          <StartList>
+            <StartSegmentManeuverActivity z:Id="i5" i:type="DetailedRouteBasedStartSegmentManeuverActivity">
+              <PropertyReferenceList />
+              <Name>Initialize</Name>
+              <Description></Description>
+              <ID>d106ed94-855f-4d79-964b-0324f3c02529</ID>
+              <Branch z:Id="i6">
+                <PropertyReferenceList />
+                <Name></Name>
+                <Description></Description>
+                <ID>f9f23052-aedb-43d7-8b71-379484ea4a6f</ID>
+                <BranchList z:Id="i7">
+                  <SegmentManeuverActivity z:Id="i8">
+                    <PropertyReferenceList />
+                    <Name>Standstill</Name>
+                    <Description></Description>
+                    <ID>4883ea2b-402c-4284-98d7-db1c1871867f</ID>
+                    <Branch z:Id="i9">
+                      <PropertyReferenceList />
+                      <Name></Name>
+                      <Description></Description>
+                      <ID>244df18f-9e4c-4d09-b7f9-4412f10b9f5a</ID>
+                      <BranchList z:Id="i10">
+                        <SegmentManeuverActivity z:Id="i11">
+                          <PropertyReferenceList />
+                          <Name>Driver_Accelerate</Name>
+                          <Description></Description>
+                          <ID>2f0033ac-5541-4218-836c-0358cf3e9f55</ID>
+                          <Branch z:Id="i12">
+                            <PropertyReferenceList />
+                            <Name></Name>
+                            <Description></Description>
+                            <ID>e4714e46-6bac-4d79-bfeb-95cf58280362</ID>
+                            <BranchList z:Id="i13">
+                              <SegmentManeuverActivity z:Id="i14">
+                                <PropertyReferenceList />
+                                <Name>ACC_On</Name>
+                                <Description></Description>
+                                <ID>f5e4a209-6005-4ee3-81b2-7b4bf4c8383e</ID>
+                                <Branch z:Id="i15">
+                                  <PropertyReferenceList />
+                                  <Name></Name>
+                                  <Description></Description>
+                                  <ID>f9e997a1-c53f-4029-bd1b-51e0151cbb48</ID>
+                                  <BranchList z:Id="i16">
+                                    <SegmentManeuverActivity z:Id="i17">
+                                      <PropertyReferenceList />
+                                      <Name>AEB_Only</Name>
+                                      <Description></Description>
+                                      <ID>900924b3-142c-44a7-a4e7-d9f0a20dd0ea</ID>
+                                      <Branch z:Id="i18">
+                                        <PropertyReferenceList />
+                                        <Name></Name>
+                                        <Description></Description>
+                                        <ID>3181a162-092d-4cbd-ad98-d13dc3e899c2</ID>
+                                        <BranchList z:Id="i19">
+                                          <SegmentManeuverActivity z:Id="i20">
+                                            <PropertyReferenceList />
+                                            <Name>ACC_SetSpeed</Name>
+                                            <Description></Description>
+                                            <ID>32349f5e-c04e-4895-9e5e-e28e70d541fc</ID>
+                                            <Branch z:Id="i21">
+                                              <PropertyReferenceList />
+                                              <Name></Name>
+                                              <Description></Description>
+                                              <ID>2ae34b32-3433-4e8e-98e8-bfce5fbcb8f8</ID>
+                                              <BranchList z:Id="i22">
+                                                <SegmentManeuverActivity z:Id="i23">
+                                                  <PropertyReferenceList />
+                                                  <Name>ACC_Drive</Name>
+                                                  <Description></Description>
+                                                  <ID>6608da7d-d3d2-4823-8bac-6ea980b67cd4</ID>
+                                                  <Branch z:Id="i24">
+                                                    <PropertyReferenceList />
+                                                    <Name></Name>
+                                                    <Description></Description>
+                                                    <ID>ac342f04-5d47-4624-85e9-75ea715375d0</ID>
+                                                    <BranchList z:Id="i25">
+                                                      <SegmentManeuverActivity z:Id="i26">
+                                                        <PropertyReferenceList />
+                                                        <Name>Brake</Name>
+                                                        <Description></Description>
+                                                        <ID>7ec7794d-f49b-47b5-95d2-78f6e6064b30</ID>
+                                                        <Branch z:Id="i27">
+                                                          <PropertyReferenceList />
+                                                          <Name></Name>
+                                                          <Description></Description>
+                                                          <ID>1bbe1c89-cba8-49cc-b9f6-e06119465c61</ID>
+                                                          <BranchList z:Id="i28">
+                                                            <SegmentManeuverActivity i:nil="true" />
+                                                          </BranchList>
+                                                        </Branch>
+                                                        <ConditionManager z:Id="i29">
+                                                          <PropertyReferenceList />
+                                                          <Name></Name>
+                                                          <Description></Description>
+                                                          <ID>35589d2e-c918-4cec-b993-f8f388db6746</ID>
+                                                          <ConditionList>
+                                                            <Condition z:Id="i30" i:type="TimeBasedCondition">
+                                                              <PropertyReferenceList />
+                                                              <Name></Name>
+                                                              <Description></Description>
+                                                              <ID>0f832aec-da78-4856-b679-55b13dba97e8</ID>
+                                                              <Type>Time</Type>
+                                                              <Time>10</Time>
+                                                            </Condition>
+                                                          </ConditionList>
+                                                          <Delay>0</Delay>
+                                                          <IsDelayEnabled>false</IsDelayEnabled>
+                                                          <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                                                          <Timeout>10</Timeout>
+                                                        </ConditionManager>
+                                                        <Activity xmlns:d29p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic/ManeuverActivity" z:Id="i31">
+                                                          <PropertyReferenceList />
+                                                          <Name></Name>
+                                                          <Description></Description>
+                                                          <ID>955798ed-22e5-421e-997a-8aa3895795e5</ID>
+                                                          <ListManager z:Ref="i2" />
+                                                          <UserSignalList />
+                                                          <ActiveLateral z:Id="i32" i:type="d29p1:LateralFollowRoad">
+                                                            <PropertyReferenceList />
+                                                            <Name></Name>
+                                                            <Description></Description>
+                                                            <ID>8b783dc9-b822-45a0-93a4-01cc6d78b382</ID>
+                                                            <SourceManager z:Id="i33" i:type="LaneIndexSourceManager">
+                                                              <PropertyReferenceList />
+                                                              <Name></Name>
+                                                              <Description></Description>
+                                                              <ID>8ba270c2-8953-4ef6-bbd9-c0a6c3044bab</ID>
+                                                              <ActiveSource z:Id="i34" i:type="ConstantSource">
+                                                                <PropertyReferenceList />
+                                                                <Constant z:Id="i35">
+                                                                  <PropertyReferenceList />
+                                                                  <Name>Lane index</Name>
+                                                                  <IsInteger>false</IsInteger>
+                                                                  <MaxValue>100</MaxValue>
+                                                                  <MinValue>-100</MinValue>
+                                                                  <Unit></Unit>
+                                                                  <Value>0</Value>
+                                                                </Constant>
+                                                                <HoldCurrentValue>false</HoldCurrentValue>
+                                                              </ActiveSource>
+                                                            </SourceManager>
+                                                            <d29p1:DriverToleranceEnabled>false</d29p1:DriverToleranceEnabled>
+                                                            <d29p1:DriverType>None</d29p1:DriverType>
+                                                            <d29p1:DriverTypeValues z:Id="i36">
+                                                              <PropertyReferenceList />
+                                                              <BrakeAcceleration z:Id="i37">
+                                                                <PropertyReferenceList />
+                                                                <Name>Brake acceleration threshold</Name>
+                                                                <IsInteger>false</IsInteger>
+                                                                <MaxValue>10000000</MaxValue>
+                                                                <MinValue>0</MinValue>
+                                                                <Unit>m/s²</Unit>
+                                                                <Value>2</Value>
+                                                              </BrakeAcceleration>
+                                                              <LateralAcceleration z:Id="i38">
+                                                                <PropertyReferenceList />
+                                                                <Name>Maximum lateral acceleration</Name>
+                                                                <IsInteger>false</IsInteger>
+                                                                <MaxValue>10000000</MaxValue>
+                                                                <MinValue>0</MinValue>
+                                                                <Unit>m/s²</Unit>
+                                                                <Value>3</Value>
+                                                              </LateralAcceleration>
+                                                              <LongitudinalAcceleration z:Id="i39">
+                                                                <PropertyReferenceList />
+                                                                <Name>Maximum longitudinal acceleration</Name>
+                                                                <IsInteger>false</IsInteger>
+                                                                <MaxValue>10000000</MaxValue>
+                                                                <MinValue>0</MinValue>
+                                                                <Unit>m/s²</Unit>
+                                                                <Value>2</Value>
+                                                              </LongitudinalAcceleration>
+                                                            </d29p1:DriverTypeValues>
+                                                            <d29p1:ForceToRoad>true</d29p1:ForceToRoad>
+                                                            <d29p1:LateralDriverTolerance z:Id="i40">
+                                                              <PropertyReferenceList />
+                                                              <Name>Lateral driver tolerance</Name>
+                                                              <IsInteger>false</IsInteger>
+                                                              <MaxValue>10000000</MaxValue>
+                                                              <MinValue>0</MinValue>
+                                                              <Unit>m</Unit>
+                                                              <Value>1</Value>
+                                                            </d29p1:LateralDriverTolerance>
+                                                            <d29p1:LateralOffsetSourceManager z:Id="i41" i:type="LateralOffsetSourceManager">
+                                                              <PropertyReferenceList />
+                                                              <Name></Name>
+                                                              <Description></Description>
+                                                              <ID>6a93b62e-ba94-4215-8d2e-4b0b4f65a1cb</ID>
+                                                              <ActiveSource z:Id="i42" i:type="ConstantSource">
+                                                                <PropertyReferenceList />
+                                                                <Constant z:Id="i43">
+                                                                  <PropertyReferenceList />
+                                                                  <Name>Lateral offset</Name>
+                                                                  <IsInteger>false</IsInteger>
+                                                                  <MaxValue>10000000</MaxValue>
+                                                                  <MinValue>-10000000</MinValue>
+                                                                  <Unit>m</Unit>
+                                                                  <Value>0.5</Value>
+                                                                </Constant>
+                                                                <HoldCurrentValue>true</HoldCurrentValue>
+                                                              </ActiveSource>
+                                                            </d29p1:LateralOffsetSourceManager>
+                                                            <d29p1:ManeuverProperties z:Id="i44">
+                                                              <PropertyReferenceList />
+                                                              <DriverCurvatureMode>RoadNetwork</DriverCurvatureMode>
+                                                              <FastDriver z:Id="i45">
+                                                                <PropertyReferenceList />
+                                                                <BrakeAcceleration z:Id="i46">
+                                                                  <PropertyReferenceList />
+                                                                  <Name>Brake acceleration threshold</Name>
+                                                                  <IsInteger>false</IsInteger>
+                                                                  <MaxValue>10000000</MaxValue>
+                                                                  <MinValue>0</MinValue>
+                                                                  <Unit>m/s²</Unit>
+                                                                  <Value>2.5</Value>
+                                                                </BrakeAcceleration>
+                                                                <LateralAcceleration z:Id="i47">
+                                                                  <PropertyReferenceList />
+                                                                  <Name>Maximum lateral acceleration</Name>
+                                                                  <IsInteger>false</IsInteger>
+                                                                  <MaxValue>10000000</MaxValue>
+                                                                  <MinValue>0</MinValue>
+                                                                  <Unit>m/s²</Unit>
+                                                                  <Value>5</Value>
+                                                                </LateralAcceleration>
+                                                                <LongitudinalAcceleration z:Id="i48">
+                                                                  <PropertyReferenceList />
+                                                                  <Name>Maximum longitudinal acceleration</Name>
+                                                                  <IsInteger>false</IsInteger>
+                                                                  <MaxValue>10000000</MaxValue>
+                                                                  <MinValue>0</MinValue>
+                                                                  <Unit>m/s²</Unit>
+                                                                  <Value>3.5</Value>
+                                                                </LongitudinalAcceleration>
+                                                              </FastDriver>
+                                                              <LateralController>Controller1</LateralController>
+                                                              <NormalDriver z:Id="i49">
+                                                                <PropertyReferenceList />
+                                                                <BrakeAcceleration z:Id="i50">
+                                                                  <PropertyReferenceList />
+                                                                  <Name>Brake acceleration threshold</Name>
+                                                                  <IsInteger>false</IsInteger>
+                                                                  <MaxValue>10000000</MaxValue>
+                                                                  <MinValue>0</MinValue>
+                                                                  <Unit>m/s²</Unit>
+                                                                  <Value>2</Value>
+                                                                </BrakeAcceleration>
+                                                                <LateralAcceleration z:Id="i51">
+                                                                  <PropertyReferenceList />
+                                                                  <Name>Maximum lateral acceleration</Name>
+                                                                  <IsInteger>false</IsInteger>
+                                                                  <MaxValue>10000000</MaxValue>
+                                                                  <MinValue>0</MinValue>
+                                                                  <Unit>m/s²</Unit>
+                                                                  <Value>3</Value>
+                                                                </LateralAcceleration>
+                                                                <LongitudinalAcceleration z:Id="i52">
+                                                                  <PropertyReferenceList />
+                                                                  <Name>Maximum longitudinal acceleration</Name>
+                                                                  <IsInteger>false</IsInteger>
+                                                                  <MaxValue>10000000</MaxValue>
+                                                                  <MinValue>0</MinValue>
+                                                                  <Unit>m/s²</Unit>
+                                                                  <Value>2</Value>
+                                                                </LongitudinalAcceleration>
+                                                              </NormalDriver>
+                                                              <SlowDriver z:Id="i53">
+                                                                <PropertyReferenceList />
+                                                                <BrakeAcceleration z:Id="i54">
+                                                                  <PropertyReferenceList />
+                                                                  <Name>Brake acceleration threshold</Name>
+                                                                  <IsInteger>false</IsInteger>
+                                                                  <MaxValue>10000000</MaxValue>
+                                                                  <MinValue>0</MinValue>
+                                                                  <Unit>m/s²</Unit>
+                                                                  <Value>2</Value>
+                                                                </BrakeAcceleration>
+                                                                <LateralAcceleration z:Id="i55">
+                                                                  <PropertyReferenceList />
+                                                                  <Name>Maximum lateral acceleration</Name>
+                                                                  <IsInteger>false</IsInteger>
+                                                                  <MaxValue>10000000</MaxValue>
+                                                                  <MinValue>0</MinValue>
+                                                                  <Unit>m/s²</Unit>
+                                                                  <Value>2</Value>
+                                                                </LateralAcceleration>
+                                                                <LongitudinalAcceleration z:Id="i56">
+                                                                  <PropertyReferenceList />
+                                                                  <Name>Maximum longitudinal acceleration</Name>
+                                                                  <IsInteger>false</IsInteger>
+                                                                  <MaxValue>10000000</MaxValue>
+                                                                  <MinValue>0</MinValue>
+                                                                  <Unit>m/s²</Unit>
+                                                                  <Value>1.5</Value>
+                                                                </LongitudinalAcceleration>
+                                                              </SlowDriver>
+                                                            </d29p1:ManeuverProperties>
+                                                            <d29p1:ReferenceType>Absolute</d29p1:ReferenceType>
+                                                            <d29p1:ReferencedObject>M1: NCAP</d29p1:ReferencedObject>
+                                                          </ActiveLateral>
+                                                          <ActiveLongitudinal z:Id="i57" i:type="d29p1:LongitudinalStopWithinDistance">
+                                                            <PropertyReferenceList />
+                                                            <Name></Name>
+                                                            <Description></Description>
+                                                            <ID>77c71e7c-6783-4146-a48f-5bffca4aa389</ID>
+                                                            <SourceManager z:Id="i58" i:type="UntilStopSourceManager">
+                                                              <PropertyReferenceList />
+                                                              <Name></Name>
+                                                              <Description></Description>
+                                                              <ID>f6f06ac0-f31f-476d-b840-db8e9523092d</ID>
+                                                              <ActiveSource z:Id="i59" i:type="UntilStop">
+                                                                <PropertyReferenceList />
+                                                              </ActiveSource>
+                                                            </SourceManager>
+                                                          </ActiveLongitudinal>
+                                                          <d29p1:ActiveClutchAndGear z:Id="i60" i:type="d29p1:OpenClutchActivity">
+                                                            <PropertyReferenceList />
+                                                            <Name></Name>
+                                                            <Description></Description>
+                                                            <ID>bf85f3e5-340f-436d-a235-801dc9c00cb9</ID>
+                                                          </d29p1:ActiveClutchAndGear>
+                                                          <d29p1:ActiveSelectorLever z:Id="i61" i:type="d29p1:DriverSelectorLeverActivity">
+                                                            <PropertyReferenceList />
+                                                            <Name></Name>
+                                                            <Description></Description>
+                                                            <ID>5ff25326-7ec2-48f2-8c6e-fab9c978fadb</ID>
+                                                          </d29p1:ActiveSelectorLever>
+                                                        </Activity>
+                                                      </SegmentManeuverActivity>
+                                                    </BranchList>
+                                                  </Branch>
+                                                  <ConditionManager z:Id="i62">
+                                                    <PropertyReferenceList />
+                                                    <Name></Name>
+                                                    <Description></Description>
+                                                    <ID>16bbb636-e1c9-46c4-b411-0f4115d64ce2</ID>
+                                                    <ConditionList>
+                                                      <Condition z:Id="i63" i:type="TimeBasedCondition">
+                                                        <PropertyReferenceList />
+                                                        <Name></Name>
+                                                        <Description></Description>
+                                                        <ID>2c420c61-25c0-4650-90b8-b4f5e3da51c7</ID>
+                                                        <Type>Time</Type>
+                                                        <Time>80</Time>
+                                                      </Condition>
+                                                      <Condition z:Id="i64" i:type="Velocity">
+                                                        <PropertyReferenceList />
+                                                        <Name></Name>
+                                                        <Description></Description>
+                                                        <ID>cb36930d-493d-45e3-a61e-202a819be203</ID>
+                                                        <Type>Velocity</Type>
+                                                        <ReferencePlayerManager z:Id="i65">
+                                                          <PropertyReferenceList />
+                                                          <Name></Name>
+                                                          <CurrentObject z:Ref="i4" />
+                                                          <ObjectList z:Ref="i3" />
+                                                        </ReferencePlayerManager>
+                                                        <UnitType>Velocity</UnitType>
+                                                        <Value>0.5</Value>
+                                                        <Comparator>LessOrEqual</Comparator>
+                                                      </Condition>
+                                                      <Condition z:Id="i66" i:type="DistanceReferenceBasedCondition">
+                                                        <PropertyReferenceList />
+                                                        <Name></Name>
+                                                        <Description></Description>
+                                                        <ID>a6e92167-1600-4640-a6b7-55452de03df4</ID>
+                                                        <Type>Distance</Type>
+                                                        <ReferencePlayerManager z:Id="i67">
+                                                          <PropertyReferenceList />
+                                                          <Name></Name>
+                                                          <CurrentObject z:Ref="i4" />
+                                                          <ObjectList z:Id="i68" i:type="PlayerManager">
+                                                            <PropertyReferenceList />
+                                                            <Name></Name>
+                                                            <Description></Description>
+                                                            <ListManager z:Ref="i2" />
+                                                            <Pool>
+                                                              <Player z:Id="i69">
+                                                                <PropertyReferenceList />
+                                                                <Name>EPTa</Name>
+                                                                <Description></Description>
+                                                                <ID>1</ID>
+                                                                <IsUsed>true</IsUsed>
+                                                                <ListManager z:Ref="i2" />
+                                                                <StartList>
+                                                                  <StartSegmentTrafficActivity z:Id="i70" i:type="RouteBasedStartSegmentTrafficActivity">
+                                                                    <PropertyReferenceList />
+                                                                    <Name>Sequence1</Name>
+                                                                    <Description></Description>
+                                                                    <ID>762acb88-f856-4548-b9e6-31fa5af91676</ID>
+                                                                    <Branch z:Id="i71">
+                                                                      <PropertyReferenceList />
+                                                                      <Name>Wait for 1s</Name>
+                                                                      <Description></Description>
+                                                                      <ID>a054fd98-6d08-4e07-83aa-f523d3fafa14</ID>
+                                                                      <BranchList z:Id="i72">
+                                                                        <SegmentTrafficActivity z:Id="i73">
+                                                                          <PropertyReferenceList />
+                                                                          <Name>Segment1</Name>
+                                                                          <Description></Description>
+                                                                          <ID>e3d97067-2f19-448b-a549-02017bcfe5b9</ID>
+                                                                          <Branch z:Id="i74">
+                                                                            <PropertyReferenceList />
+                                                                            <Name>Immediate</Name>
+                                                                            <Description></Description>
+                                                                            <ID>15f3b568-70bf-45f0-b07b-205bf7a7073e</ID>
+                                                                            <BranchList z:Id="i75">
+                                                                              <SegmentTrafficActivity z:Id="i76">
+                                                                                <PropertyReferenceList />
+                                                                                <Name>Segment3</Name>
+                                                                                <Description></Description>
+                                                                                <ID>47792365-c677-4ee3-ad8a-6e0d5c5d9468</ID>
+                                                                                <Branch z:Id="i77">
+                                                                                  <PropertyReferenceList />
+                                                                                  <Name>Wait for 10s</Name>
+                                                                                  <Description></Description>
+                                                                                  <ID>8ac5eaeb-b300-4dba-8774-c0631f9f2b45</ID>
+                                                                                  <BranchList z:Id="i78">
+                                                                                    <SegmentTrafficActivity i:nil="true" />
+                                                                                  </BranchList>
+                                                                                </Branch>
+                                                                                <ConditionManager z:Id="i79">
+                                                                                  <PropertyReferenceList />
+                                                                                  <Name></Name>
+                                                                                  <Description></Description>
+                                                                                  <ID>dedd10e2-3619-414d-b4fb-c9a13939e1bc</ID>
+                                                                                  <ConditionList>
+                                                                                    <Condition z:Id="i80" i:type="TimeBasedCondition">
+                                                                                      <PropertyReferenceList />
+                                                                                      <Name></Name>
+                                                                                      <Description></Description>
+                                                                                      <ID>e86e6664-7c94-459f-952e-81ead72a9428</ID>
+                                                                                      <Type>Time</Type>
+                                                                                      <Time>10</Time>
+                                                                                    </Condition>
+                                                                                  </ConditionList>
+                                                                                  <Delay>0</Delay>
+                                                                                  <IsDelayEnabled>false</IsDelayEnabled>
+                                                                                  <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                                                                                  <Timeout>10</Timeout>
+                                                                                </ConditionManager>
+                                                                                <Activity xmlns:d41p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic/TrafficActivity" z:Id="i81">
+                                                                                  <PropertyReferenceList />
+                                                                                  <Name>Drive</Name>
+                                                                                  <Description></Description>
+                                                                                  <ID>7b28b181-5633-4c15-ab9a-2f39f58ed577</ID>
+                                                                                  <ListManager z:Ref="i2" />
+                                                                                  <UserSignalList />
+                                                                                  <ActiveLateral z:Id="i82" i:type="d41p1:LateralDeviation">
+                                                                                    <PropertyReferenceList />
+                                                                                    <Name></Name>
+                                                                                    <Description></Description>
+                                                                                    <ID>79ba7275-2e52-4991-9df7-0da2b79a4322</ID>
+                                                                                    <SourceManager z:Id="i83" i:type="LateralDeviationSourceManager">
+                                                                                      <PropertyReferenceList />
+                                                                                      <Name></Name>
+                                                                                      <Description></Description>
+                                                                                      <ID>e173b8a7-280c-4a49-947f-1898734be825</ID>
+                                                                                      <ActiveSource z:Id="i84" i:type="FinalDeviation">
+                                                                                        <PropertyReferenceList>
+                                                                                          <TrafficEditorPropertyReference z:Id="i85">
+                                                                                            <Comment xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common"></Comment>
+                                                                                            <Description xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">The lateral velocity used to reach the deviation value.</Description>
+                                                                                            <Name xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">Movement</Name>
+                                                                                            <AliasContextType>Traffic</AliasContextType>
+                                                                                            <Owner z:Ref="i84" />
+                                                                                            <PropertyName>MovementValue</PropertyName>
+                                                                                          </TrafficEditorPropertyReference>
+                                                                                          <TrafficEditorPropertyReference z:Id="i86">
+                                                                                            <Comment xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common"></Comment>
+                                                                                            <Description xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">The target lateral deviation from the road reference line.</Description>
+                                                                                            <Name xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">Final</Name>
+                                                                                            <AliasContextType>Traffic</AliasContextType>
+                                                                                            <Owner z:Ref="i84" />
+                                                                                            <PropertyName>FinalValue</PropertyName>
+                                                                                          </TrafficEditorPropertyReference>
+                                                                                        </PropertyReferenceList>
+                                                                                        <Final z:Id="i87">
+                                                                                          <PropertyReferenceList />
+                                                                                          <Name>Deviation</Name>
+                                                                                          <IsInteger>false</IsInteger>
+                                                                                          <MaxValue>10000000</MaxValue>
+                                                                                          <MinValue>-10000000</MinValue>
+                                                                                          <Unit>m</Unit>
+                                                                                          <Value>10</Value>
+                                                                                        </Final>
+                                                                                        <Movement z:Id="i88">
+                                                                                          <PropertyReferenceList />
+                                                                                          <Name>Relative velocity</Name>
+                                                                                          <IsInteger>false</IsInteger>
+                                                                                          <MaxValue>10000000</MaxValue>
+                                                                                          <MinValue>-10000000</MinValue>
+                                                                                          <Unit>m/s</Unit>
+                                                                                          <Value>1.3888888888888888</Value>
+                                                                                        </Movement>
+                                                                                      </ActiveSource>
+                                                                                    </SourceManager>
+                                                                                    <ReferencedVehicle z:Id="i89">
+                                                                                      <PropertyReferenceList />
+                                                                                      <ReferenceType>Absolute</ReferenceType>
+                                                                                      <ReferencedVehicle z:Id="i90">
+                                                                                        <PropertyReferenceList />
+                                                                                        <Name></Name>
+                                                                                        <CurrentObject z:Ref="i4" />
+                                                                                        <ObjectList z:Ref="i68" />
+                                                                                      </ReferencedVehicle>
+                                                                                    </ReferencedVehicle>
+                                                                                    <d41p1:Object1ReferencePoint>Main</d41p1:Object1ReferencePoint>
+                                                                                    <d41p1:Object2ReferencePoint>Main</d41p1:Object2ReferencePoint>
+                                                                                  </ActiveLateral>
+                                                                                  <ActiveLongitudinal z:Id="i91" i:type="d41p1:LongitudinalPosition">
+                                                                                    <PropertyReferenceList />
+                                                                                    <Name></Name>
+                                                                                    <Description></Description>
+                                                                                    <ID>39a715c1-83d2-4853-a3ba-0e1db54fe2c0</ID>
+                                                                                    <SourceManager z:Id="i92" i:type="PositionSourceManager">
+                                                                                      <PropertyReferenceList />
+                                                                                      <Name></Name>
+                                                                                      <Description></Description>
+                                                                                      <ID>2956d872-3a2a-428b-b80d-6802e8bec259</ID>
+                                                                                      <ActiveSource z:Id="i93" i:type="YawAngleConstantSource">
+                                                                                        <PropertyReferenceList />
+                                                                                        <Constant z:Id="i94">
+                                                                                          <PropertyReferenceList />
+                                                                                          <Name>Position</Name>
+                                                                                          <IsInteger>false</IsInteger>
+                                                                                          <MaxValue>10000000</MaxValue>
+                                                                                          <MinValue>-10000000</MinValue>
+                                                                                          <Unit>m</Unit>
+                                                                                          <Value>1007.5</Value>
+                                                                                        </Constant>
+                                                                                        <HoldCurrentValue>true</HoldCurrentValue>
+                                                                                        <YawAngle z:Id="i95">
+                                                                                          <PropertyReferenceList />
+                                                                                          <Name>Yaw angle</Name>
+                                                                                          <IsInteger>false</IsInteger>
+                                                                                          <MaxValue>360</MaxValue>
+                                                                                          <MinValue>-360</MinValue>
+                                                                                          <Unit>°</Unit>
+                                                                                          <Value>0</Value>
+                                                                                        </YawAngle>
+                                                                                      </ActiveSource>
+                                                                                    </SourceManager>
+                                                                                  </ActiveLongitudinal>
+                                                                                </Activity>
+                                                                              </SegmentTrafficActivity>
+                                                                            </BranchList>
+                                                                          </Branch>
+                                                                          <ConditionManager z:Id="i96">
+                                                                            <PropertyReferenceList />
+                                                                            <Name></Name>
+                                                                            <Description></Description>
+                                                                            <ID>e86e5b6f-1e85-4f62-9343-69a582ec54c5</ID>
+                                                                            <ConditionList>
+                                                                              <Condition z:Id="i97" i:type="DistanceReferenceBasedCondition">
+                                                                                <PropertyReferenceList>
+                                                                                  <TrafficEditorPropertyReference z:Id="i98">
+                                                                                    <Comment xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common"></Comment>
+                                                                                    <Description xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">The distance value used to check if the condition is met.</Description>
+                                                                                    <Name xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">Value</Name>
+                                                                                    <AliasContextType>Traffic</AliasContextType>
+                                                                                    <Owner z:Ref="i97" />
+                                                                                    <PropertyName>Value</PropertyName>
+                                                                                  </TrafficEditorPropertyReference>
+                                                                                </PropertyReferenceList>
+                                                                                <Name></Name>
+                                                                                <Description></Description>
+                                                                                <ID>f83ae98d-6e60-432e-a86b-c32b3ab76b70</ID>
+                                                                                <Type>Distance</Type>
+                                                                                <ReferencePlayerManager z:Id="i99">
+                                                                                  <PropertyReferenceList />
+                                                                                  <Name></Name>
+                                                                                  <CurrentObject z:Ref="i4" />
+                                                                                  <ObjectList z:Ref="i68" />
+                                                                                </ReferencePlayerManager>
+                                                                                <UnitType>Distance</UnitType>
+                                                                                <Value>36.7</Value>
+                                                                                <ApproximationType>Approach</ApproximationType>
+                                                                                <MarkerManager z:Id="i100">
+                                                                                  <PropertyReferenceList />
+                                                                                  <Name></Name>
+                                                                                  <CurrentObject z:Id="i101" i:type="NotAvailableObject">
+                                                                                    <PropertyReferenceList />
+                                                                                    <Name>N.A.</Name>
+                                                                                    <Description></Description>
+                                                                                    <ID>1</ID>
+                                                                                    <IsUsed>false</IsUsed>
+                                                                                  </CurrentObject>
+                                                                                  <ObjectList z:Id="i102" i:type="MarkerManager" />
+                                                                                </MarkerManager>
+                                                                                <ObjectManager z:Id="i103">
+                                                                                  <PropertyReferenceList />
+                                                                                  <Name></Name>
+                                                                                  <CurrentObject z:Ref="i69" />
+                                                                                  <ObjectList z:Ref="i68" />
+                                                                                </ObjectManager>
+                                                                                <ReferencedObjectType>Player</ReferencedObjectType>
+                                                                              </Condition>
+                                                                            </ConditionList>
+                                                                            <Delay>0</Delay>
+                                                                            <IsDelayEnabled>false</IsDelayEnabled>
+                                                                            <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                                                                            <Timeout>10</Timeout>
+                                                                          </ConditionManager>
+                                                                          <Activity xmlns:d38p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic/TrafficActivity" z:Id="i104">
+                                                                            <PropertyReferenceList />
+                                                                            <Name>Init</Name>
+                                                                            <Description></Description>
+                                                                            <ID>658d4924-be97-4fbc-8e2d-586dc7336657</ID>
+                                                                            <ListManager z:Ref="i2" />
+                                                                            <UserSignalList />
+                                                                            <ActiveLateral z:Id="i105" i:type="d38p1:LateralDeviation">
+                                                                              <PropertyReferenceList />
+                                                                              <Name></Name>
+                                                                              <Description></Description>
+                                                                              <ID>a1142e20-557c-4f96-8a0b-24410b8424ec</ID>
+                                                                              <SourceManager z:Id="i106" i:type="LateralDeviationSourceManager">
+                                                                                <PropertyReferenceList />
+                                                                                <Name></Name>
+                                                                                <Description></Description>
+                                                                                <ID>5e038ebb-bb56-4bb6-8f9e-e47d71e1d4db</ID>
+                                                                                <ActiveSource z:Id="i107" i:type="ConstantSource">
+                                                                                  <PropertyReferenceList>
+                                                                                    <TrafficEditorPropertyReference z:Id="i108">
+                                                                                      <Comment xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common"></Comment>
+                                                                                      <Description xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">Defines the value for the selected constant behavior type.</Description>
+                                                                                      <Name xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">Constant</Name>
+                                                                                      <AliasContextType>Traffic</AliasContextType>
+                                                                                      <Owner z:Ref="i107" />
+                                                                                      <PropertyName>ConstantValue</PropertyName>
+                                                                                    </TrafficEditorPropertyReference>
+                                                                                  </PropertyReferenceList>
+                                                                                  <Constant z:Id="i109">
+                                                                                    <PropertyReferenceList />
+                                                                                    <Name>Lateral deviation</Name>
+                                                                                    <IsInteger>false</IsInteger>
+                                                                                    <MaxValue>10000000</MaxValue>
+                                                                                    <MinValue>-10000000</MinValue>
+                                                                                    <Unit>m</Unit>
+                                                                                    <Value>-4</Value>
+                                                                                  </Constant>
+                                                                                  <HoldCurrentValue>false</HoldCurrentValue>
+                                                                                </ActiveSource>
+                                                                              </SourceManager>
+                                                                              <ReferencedVehicle z:Id="i110">
+                                                                                <PropertyReferenceList />
+                                                                                <ReferenceType>Absolute</ReferenceType>
+                                                                                <ReferencedVehicle z:Id="i111">
+                                                                                  <PropertyReferenceList />
+                                                                                  <Name></Name>
+                                                                                  <CurrentObject z:Ref="i4" />
+                                                                                  <ObjectList z:Ref="i68" />
+                                                                                </ReferencedVehicle>
+                                                                              </ReferencedVehicle>
+                                                                              <d38p1:Object1ReferencePoint>Main</d38p1:Object1ReferencePoint>
+                                                                              <d38p1:Object2ReferencePoint>Main</d38p1:Object2ReferencePoint>
+                                                                            </ActiveLateral>
+                                                                            <ActiveLongitudinal z:Id="i112" i:type="d38p1:LongitudinalPosition">
+                                                                              <PropertyReferenceList />
+                                                                              <Name></Name>
+                                                                              <Description></Description>
+                                                                              <ID>eda02e6d-3dbf-46c4-9c5f-8fe8d96fe57b</ID>
+                                                                              <SourceManager z:Id="i113" i:type="PositionSourceManager">
+                                                                                <PropertyReferenceList />
+                                                                                <Name></Name>
+                                                                                <Description></Description>
+                                                                                <ID>e00231bc-7488-4156-9063-b781d3d84ed6</ID>
+                                                                                <ActiveSource z:Id="i114" i:type="YawAngleConstantSource">
+                                                                                  <PropertyReferenceList>
+                                                                                    <TrafficEditorPropertyReference z:Id="i115">
+                                                                                      <Comment xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common"></Comment>
+                                                                                      <Description xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">The initial orientation of the fellow relative to the direction of the road.</Description>
+                                                                                      <Name xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">Yaw angle</Name>
+                                                                                      <AliasContextType>Traffic</AliasContextType>
+                                                                                      <Owner z:Ref="i114" />
+                                                                                      <PropertyName>YawAngleValue</PropertyName>
+                                                                                    </TrafficEditorPropertyReference>
+                                                                                  </PropertyReferenceList>
+                                                                                  <Constant z:Id="i116">
+                                                                                    <PropertyReferenceList />
+                                                                                    <Name>Position</Name>
+                                                                                    <IsInteger>false</IsInteger>
+                                                                                    <MaxValue>10000000</MaxValue>
+                                                                                    <MinValue>-10000000</MinValue>
+                                                                                    <Unit>m</Unit>
+                                                                                    <Value>1007.5</Value>
+                                                                                  </Constant>
+                                                                                  <HoldCurrentValue>false</HoldCurrentValue>
+                                                                                  <YawAngle z:Id="i117">
+                                                                                    <PropertyReferenceList />
+                                                                                    <Name>Yaw angle</Name>
+                                                                                    <IsInteger>false</IsInteger>
+                                                                                    <MaxValue>360</MaxValue>
+                                                                                    <MinValue>-360</MinValue>
+                                                                                    <Unit>°</Unit>
+                                                                                    <Value>90</Value>
+                                                                                  </YawAngle>
+                                                                                </ActiveSource>
+                                                                              </SourceManager>
+                                                                            </ActiveLongitudinal>
+                                                                          </Activity>
+                                                                        </SegmentTrafficActivity>
+                                                                      </BranchList>
+                                                                    </Branch>
+                                                                    <ConditionManager z:Id="i118">
+                                                                      <PropertyReferenceList />
+                                                                      <Name></Name>
+                                                                      <Description></Description>
+                                                                      <ID>c7871d30-29e7-469e-9b2b-bbc505e28116</ID>
+                                                                      <ConditionList>
+                                                                        <Condition z:Id="i119" i:type="ImmediateCondition">
+                                                                          <PropertyReferenceList />
+                                                                          <Name></Name>
+                                                                          <Description></Description>
+                                                                          <ID>f11d8b4b-6d32-4f9f-a771-5b4811f70e51</ID>
+                                                                          <Type>Immediate</Type>
+                                                                        </Condition>
+                                                                      </ConditionList>
+                                                                      <Delay>0</Delay>
+                                                                      <IsDelayEnabled>false</IsDelayEnabled>
+                                                                      <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                                                                      <Timeout>10</Timeout>
+                                                                    </ConditionManager>
+                                                                    <ReverseDirection>false</ReverseDirection>
+                                                                    <RouteManager z:Id="i120">
+                                                                      <PropertyReferenceList />
+                                                                      <Name></Name>
+                                                                      <CurrentObject z:Id="i121" i:type="Route">
+                                                                        <PropertyReferenceList />
+                                                                        <Name>Route 1</Name>
+                                                                        <Description></Description>
+                                                                        <ID>1</ID>
+                                                                        <IsUsed>true</IsUsed>
+                                                                      </CurrentObject>
+                                                                      <ObjectList z:Id="i122" i:type="RoutenManager">
+                                                                        <Route z:Ref="i121" />
+                                                                      </ObjectList>
+                                                                    </RouteManager>
+                                                                    <UseExternal>false</UseExternal>
+                                                                  </StartSegmentTrafficActivity>
+                                                                </StartList>
+                                                                <DAEPath>%customer_objects%\AURELION\NCAP\$NCAP_Pedestrian\NCAP_Pedestrian.dae</DAEPath>
+                                                                <TrafficDriverPath>TrafficDriverNormal.trd</TrafficDriverPath>
+                                                                <TrafficObjectGuid>4909afc5-22c4-497e-92de-75c6d692a393</TrafficObjectGuid>
+                                                                <TrafficObjectPath>EuroNCAP\EPTa.tro</TrafficObjectPath>
+                                                              </Player>
+                                                            </Pool>
+                                                          </ObjectList>
+                                                        </ReferencePlayerManager>
+                                                        <UnitType>Distance</UnitType>
+                                                        <Value>5</Value>
+                                                        <ApproximationType>Depart</ApproximationType>
+                                                        <MarkerManager z:Id="i123">
+                                                          <PropertyReferenceList />
+                                                          <Name></Name>
+                                                          <CurrentObject z:Id="i124" i:type="NotAvailableObject">
+                                                            <PropertyReferenceList />
+                                                            <Name>N.A.</Name>
+                                                            <Description></Description>
+                                                            <ID>1</ID>
+                                                            <IsUsed>false</IsUsed>
+                                                          </CurrentObject>
+                                                          <ObjectList z:Ref="i102" />
+                                                        </MarkerManager>
+                                                        <ObjectManager z:Id="i125">
+                                                          <PropertyReferenceList />
+                                                          <Name></Name>
+                                                          <CurrentObject z:Ref="i69" />
+                                                          <ObjectList z:Ref="i68" />
+                                                        </ObjectManager>
+                                                        <ReferencedObjectType>Player</ReferencedObjectType>
+                                                      </Condition>
+                                                    </ConditionList>
+                                                    <Delay>1</Delay>
+                                                    <IsDelayEnabled>true</IsDelayEnabled>
+                                                    <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                                                    <Timeout>10</Timeout>
+                                                  </ConditionManager>
+                                                  <Activity xmlns:d26p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic/ManeuverActivity" z:Id="i126">
+                                                    <PropertyReferenceList />
+                                                    <Name></Name>
+                                                    <Description></Description>
+                                                    <ID>b0509189-d2be-4d8b-bbd2-169ab67f1f19</ID>
+                                                    <ListManager z:Ref="i2" />
+                                                    <UserSignalList />
+                                                    <ActiveLateral z:Id="i127" i:type="d26p1:LateralFollowRoad">
+                                                      <PropertyReferenceList />
+                                                      <Name></Name>
+                                                      <Description></Description>
+                                                      <ID>b5e7fcfb-f3b3-4f9d-8ee4-56989be69f20</ID>
+                                                      <SourceManager z:Id="i128" i:type="LaneIndexSourceManager">
+                                                        <PropertyReferenceList />
+                                                        <Name></Name>
+                                                        <Description></Description>
+                                                        <ID>99fc8b68-3f9a-4293-80fe-aa5aeef123f0</ID>
+                                                        <ActiveSource z:Id="i129" i:type="ConstantSource">
+                                                          <PropertyReferenceList />
+                                                          <Constant z:Id="i130">
+                                                            <PropertyReferenceList />
+                                                            <Name>Lane index</Name>
+                                                            <IsInteger>false</IsInteger>
+                                                            <MaxValue>100</MaxValue>
+                                                            <MinValue>-100</MinValue>
+                                                            <Unit></Unit>
+                                                            <Value>0</Value>
+                                                          </Constant>
+                                                          <HoldCurrentValue>false</HoldCurrentValue>
+                                                        </ActiveSource>
+                                                      </SourceManager>
+                                                      <d26p1:DriverToleranceEnabled>false</d26p1:DriverToleranceEnabled>
+                                                      <d26p1:DriverType>None</d26p1:DriverType>
+                                                      <d26p1:DriverTypeValues z:Id="i131">
+                                                        <PropertyReferenceList />
+                                                        <BrakeAcceleration z:Id="i132">
+                                                          <PropertyReferenceList />
+                                                          <Name>Brake acceleration threshold</Name>
+                                                          <IsInteger>false</IsInteger>
+                                                          <MaxValue>10000000</MaxValue>
+                                                          <MinValue>0</MinValue>
+                                                          <Unit>m/s²</Unit>
+                                                          <Value>2</Value>
+                                                        </BrakeAcceleration>
+                                                        <LateralAcceleration z:Id="i133">
+                                                          <PropertyReferenceList />
+                                                          <Name>Maximum lateral acceleration</Name>
+                                                          <IsInteger>false</IsInteger>
+                                                          <MaxValue>10000000</MaxValue>
+                                                          <MinValue>0</MinValue>
+                                                          <Unit>m/s²</Unit>
+                                                          <Value>3</Value>
+                                                        </LateralAcceleration>
+                                                        <LongitudinalAcceleration z:Id="i134">
+                                                          <PropertyReferenceList />
+                                                          <Name>Maximum longitudinal acceleration</Name>
+                                                          <IsInteger>false</IsInteger>
+                                                          <MaxValue>10000000</MaxValue>
+                                                          <MinValue>0</MinValue>
+                                                          <Unit>m/s²</Unit>
+                                                          <Value>2</Value>
+                                                        </LongitudinalAcceleration>
+                                                      </d26p1:DriverTypeValues>
+                                                      <d26p1:ForceToRoad>true</d26p1:ForceToRoad>
+                                                      <d26p1:LateralDriverTolerance z:Id="i135">
+                                                        <PropertyReferenceList />
+                                                        <Name>Lateral driver tolerance</Name>
+                                                        <IsInteger>false</IsInteger>
+                                                        <MaxValue>10000000</MaxValue>
+                                                        <MinValue>0</MinValue>
+                                                        <Unit>m</Unit>
+                                                        <Value>1</Value>
+                                                      </d26p1:LateralDriverTolerance>
+                                                      <d26p1:LateralOffsetSourceManager z:Id="i136" i:type="LateralOffsetSourceManager">
+                                                        <PropertyReferenceList />
+                                                        <Name></Name>
+                                                        <Description></Description>
+                                                        <ID>6c7385c4-6643-4eb1-967a-d9fffe24c930</ID>
+                                                        <ActiveSource z:Id="i137" i:type="ConstantSource">
+                                                          <PropertyReferenceList />
+                                                          <Constant z:Id="i138">
+                                                            <PropertyReferenceList />
+                                                            <Name>Lateral offset</Name>
+                                                            <IsInteger>false</IsInteger>
+                                                            <MaxValue>10000000</MaxValue>
+                                                            <MinValue>-10000000</MinValue>
+                                                            <Unit>m</Unit>
+                                                            <Value>0.5</Value>
+                                                          </Constant>
+                                                          <HoldCurrentValue>true</HoldCurrentValue>
+                                                        </ActiveSource>
+                                                      </d26p1:LateralOffsetSourceManager>
+                                                      <d26p1:ManeuverProperties z:Ref="i44" />
+                                                      <d26p1:ReferenceType>Absolute</d26p1:ReferenceType>
+                                                      <d26p1:ReferencedObject>M1: NCAP</d26p1:ReferencedObject>
+                                                    </ActiveLateral>
+                                                    <ActiveLongitudinal z:Id="i139" i:type="d26p1:LongitudinalPedalStimulus">
+                                                      <PropertyReferenceList />
+                                                      <Name></Name>
+                                                      <Description></Description>
+                                                      <ID>f9bec111-d7da-4701-9aa2-827b5dafe706</ID>
+                                                      <SourceManager z:Id="i140" i:type="PedalAccelerationSourceManager">
+                                                        <PropertyReferenceList />
+                                                        <Name></Name>
+                                                        <Description></Description>
+                                                        <ID>e156320c-241e-4660-875e-c7f96a9e5604</ID>
+                                                        <ActiveSource z:Id="i141" i:type="ConstantSource">
+                                                          <PropertyReferenceList />
+                                                          <Constant z:Id="i142">
+                                                            <PropertyReferenceList />
+                                                            <Name>Position</Name>
+                                                            <IsInteger>false</IsInteger>
+                                                            <MaxValue>100</MaxValue>
+                                                            <MinValue>0</MinValue>
+                                                            <Unit>%</Unit>
+                                                            <Value>0</Value>
+                                                          </Constant>
+                                                          <HoldCurrentValue>false</HoldCurrentValue>
+                                                        </ActiveSource>
+                                                      </SourceManager>
+                                                      <d26p1:BrakeSourceManager z:Id="i143" i:type="PedalBrakeSourceManager">
+                                                        <PropertyReferenceList />
+                                                        <Name></Name>
+                                                        <Description></Description>
+                                                        <ID>50501dc9-14ee-4ee4-9412-6857f9471f32</ID>
+                                                        <ActiveSource z:Id="i144" i:type="ConstantSource">
+                                                          <PropertyReferenceList />
+                                                          <Constant z:Id="i145">
+                                                            <PropertyReferenceList />
+                                                            <Name>Position</Name>
+                                                            <IsInteger>false</IsInteger>
+                                                            <MaxValue>100</MaxValue>
+                                                            <MinValue>0</MinValue>
+                                                            <Unit>%</Unit>
+                                                            <Value>0</Value>
+                                                          </Constant>
+                                                          <HoldCurrentValue>false</HoldCurrentValue>
+                                                        </ActiveSource>
+                                                      </d26p1:BrakeSourceManager>
+                                                    </ActiveLongitudinal>
+                                                    <d26p1:ActiveClutchAndGear z:Id="i146" i:type="d26p1:DriverClutchAndGearActivity">
+                                                      <PropertyReferenceList />
+                                                      <Name></Name>
+                                                      <Description></Description>
+                                                      <ID>38310de1-1b2c-43fc-8663-9feb555ccf2d</ID>
+                                                      <d26p1:GearValue>6</d26p1:GearValue>
+                                                      <d26p1:SaturateGear>false</d26p1:SaturateGear>
+                                                    </d26p1:ActiveClutchAndGear>
+                                                    <d26p1:ActiveSelectorLever z:Id="i147" i:type="d26p1:DriverSelectorLeverActivity">
+                                                      <PropertyReferenceList />
+                                                      <Name></Name>
+                                                      <Description></Description>
+                                                      <ID>d3ff1ca3-1d21-46c6-9367-adcb6b03b504</ID>
+                                                    </d26p1:ActiveSelectorLever>
+                                                  </Activity>
+                                                </SegmentManeuverActivity>
+                                              </BranchList>
+                                            </Branch>
+                                            <ConditionManager z:Id="i148">
+                                              <PropertyReferenceList />
+                                              <Name></Name>
+                                              <Description></Description>
+                                              <ID>ecef7908-6cbc-4405-8d49-b205f9618e09</ID>
+                                              <ConditionList>
+                                                <Condition z:Id="i149" i:type="TimeBasedCondition">
+                                                  <PropertyReferenceList />
+                                                  <Name></Name>
+                                                  <Description></Description>
+                                                  <ID>557f87b5-55eb-42ac-a99b-3b84edc50b4d</ID>
+                                                  <Type>Time</Type>
+                                                  <Time>1</Time>
+                                                </Condition>
+                                              </ConditionList>
+                                              <Delay>0</Delay>
+                                              <IsDelayEnabled>false</IsDelayEnabled>
+                                              <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                                              <Timeout>10</Timeout>
+                                            </ConditionManager>
+                                            <Activity xmlns:d23p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic/ManeuverActivity" z:Id="i150">
+                                              <PropertyReferenceList />
+                                              <Name></Name>
+                                              <Description></Description>
+                                              <ID>ce8f2010-0093-4875-974b-7266decfb80d</ID>
+                                              <ListManager z:Ref="i2" />
+                                              <UserSignalList>
+                                                <ManeuverUserSignal z:Id="i151">
+                                                  <PropertyReferenceList />
+                                                  <Name></Name>
+                                                  <Description></Description>
+                                                  <ID>aeb8d80a-becb-4e63-a3b9-563fda41c7d8</ID>
+                                                  <CurrentValue z:Id="i152" i:type="ManeuverUserSignalSourceManager">
+                                                    <PropertyReferenceList />
+                                                    <Name></Name>
+                                                    <Description></Description>
+                                                    <ID>3677f60f-e49a-40a7-bd3d-8a084757eed4</ID>
+                                                    <ActiveSource z:Id="i153" i:type="SimpleConstantSource">
+                                                      <PropertyReferenceList />
+                                                      <Constant z:Id="i154">
+                                                        <PropertyReferenceList />
+                                                        <Name>Constant</Name>
+                                                        <IsInteger>false</IsInteger>
+                                                        <MaxValue>10000000</MaxValue>
+                                                        <MinValue>-10000000</MinValue>
+                                                        <Unit></Unit>
+                                                        <Value>1020</Value>
+                                                      </Constant>
+                                                    </ActiveSource>
+                                                    <Delay>0</Delay>
+                                                  </CurrentValue>
+                                                  <FellowUserSignalsManager z:Id="i155" i:type="ManeuverUserSignalsManager">
+                                                    <UserSignalTemplate z:Id="i156">
+                                                      <PropertyReferenceList />
+                                                      <Name>ExternalSegmentEnd_Mode[]</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i157">
+                                                      <PropertyReferenceList />
+                                                      <Name>ExternalSegmentEnd_Value[]</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i158">
+                                                      <PropertyReferenceList />
+                                                      <Name>TurnLights[0Off|1Left|2Right|3Both]</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i159">
+                                                      <PropertyReferenceList />
+                                                      <Name>ECU_Commands[]</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i160">
+                                                      <PropertyReferenceList />
+                                                      <Name>Obj_DataStream_5[]</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i161">
+                                                      <PropertyReferenceList />
+                                                      <Name>Obj_DataStream_6[]</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i162">
+                                                      <PropertyReferenceList />
+                                                      <Name>Obj_DataStream_7[]</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i163">
+                                                      <PropertyReferenceList />
+                                                      <Name>Obj_DataStream_8[]</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i164">
+                                                      <PropertyReferenceList />
+                                                      <Name>DoorFL[0Closed_1Open]</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i165">
+                                                      <PropertyReferenceList />
+                                                      <Name>DoorFR[0Closed_1Open]</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i166">
+                                                      <PropertyReferenceList />
+                                                      <Name>DoorRL[0Closed_1Open]</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i167">
+                                                      <PropertyReferenceList />
+                                                      <Name>DoorRR[0Closed_1Open]</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i168">
+                                                      <PropertyReferenceList />
+                                                      <Name>Hood[0Closed_1Open]</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i169">
+                                                      <PropertyReferenceList />
+                                                      <Name>Trunk[0Closed_1Open]</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i170">
+                                                      <PropertyReferenceList />
+                                                      <Name>User signal 15</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i171">
+                                                      <PropertyReferenceList />
+                                                      <Name>User signal 16</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i172">
+                                                      <PropertyReferenceList />
+                                                      <Name>User signal 17</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i173">
+                                                      <PropertyReferenceList />
+                                                      <Name>User signal 18</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i174">
+                                                      <PropertyReferenceList />
+                                                      <Name>User signal 19</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i175">
+                                                      <PropertyReferenceList />
+                                                      <Name>User signal 20</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i176">
+                                                      <PropertyReferenceList />
+                                                      <Name>User signal 21</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i177">
+                                                      <PropertyReferenceList />
+                                                      <Name>User signal 22</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i178">
+                                                      <PropertyReferenceList />
+                                                      <Name>User signal 23</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i179">
+                                                      <PropertyReferenceList />
+                                                      <Name>User signal 24</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i180">
+                                                      <PropertyReferenceList />
+                                                      <Name>User signal 25</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i181">
+                                                      <PropertyReferenceList />
+                                                      <Name>User signal 26</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i182">
+                                                      <PropertyReferenceList />
+                                                      <Name>User signal 27</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i183">
+                                                      <PropertyReferenceList />
+                                                      <Name>User signal 28</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i184">
+                                                      <PropertyReferenceList />
+                                                      <Name>User signal 29</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                    <UserSignalTemplate z:Id="i185">
+                                                      <PropertyReferenceList />
+                                                      <Name>User signal 30</Name>
+                                                      <Description></Description>
+                                                      <IsUsed>true</IsUsed>
+                                                    </UserSignalTemplate>
+                                                  </FellowUserSignalsManager>
+                                                  <Template z:Ref="i159" />
+                                                </ManeuverUserSignal>
+                                              </UserSignalList>
+                                              <ActiveLateral z:Id="i186" i:type="d23p1:LateralFollowRoad">
+                                                <PropertyReferenceList />
+                                                <Name></Name>
+                                                <Description></Description>
+                                                <ID>41b18958-5877-4655-a10b-0f1f61271a01</ID>
+                                                <SourceManager z:Id="i187" i:type="LaneIndexSourceManager">
+                                                  <PropertyReferenceList />
+                                                  <Name></Name>
+                                                  <Description></Description>
+                                                  <ID>088abef1-25bb-4405-b6b7-86762c89fe5d</ID>
+                                                  <ActiveSource z:Id="i188" i:type="ConstantSource">
+                                                    <PropertyReferenceList />
+                                                    <Constant z:Id="i189">
+                                                      <PropertyReferenceList />
+                                                      <Name>Lane index</Name>
+                                                      <IsInteger>false</IsInteger>
+                                                      <MaxValue>100</MaxValue>
+                                                      <MinValue>-100</MinValue>
+                                                      <Unit></Unit>
+                                                      <Value>0</Value>
+                                                    </Constant>
+                                                    <HoldCurrentValue>false</HoldCurrentValue>
+                                                  </ActiveSource>
+                                                </SourceManager>
+                                                <d23p1:DriverToleranceEnabled>false</d23p1:DriverToleranceEnabled>
+                                                <d23p1:DriverType>None</d23p1:DriverType>
+                                                <d23p1:DriverTypeValues z:Id="i190">
+                                                  <PropertyReferenceList />
+                                                  <BrakeAcceleration z:Id="i191">
+                                                    <PropertyReferenceList />
+                                                    <Name>Brake acceleration threshold</Name>
+                                                    <IsInteger>false</IsInteger>
+                                                    <MaxValue>10000000</MaxValue>
+                                                    <MinValue>0</MinValue>
+                                                    <Unit>m/s²</Unit>
+                                                    <Value>2</Value>
+                                                  </BrakeAcceleration>
+                                                  <LateralAcceleration z:Id="i192">
+                                                    <PropertyReferenceList />
+                                                    <Name>Maximum lateral acceleration</Name>
+                                                    <IsInteger>false</IsInteger>
+                                                    <MaxValue>10000000</MaxValue>
+                                                    <MinValue>0</MinValue>
+                                                    <Unit>m/s²</Unit>
+                                                    <Value>3</Value>
+                                                  </LateralAcceleration>
+                                                  <LongitudinalAcceleration z:Id="i193">
+                                                    <PropertyReferenceList />
+                                                    <Name>Maximum longitudinal acceleration</Name>
+                                                    <IsInteger>false</IsInteger>
+                                                    <MaxValue>10000000</MaxValue>
+                                                    <MinValue>0</MinValue>
+                                                    <Unit>m/s²</Unit>
+                                                    <Value>2</Value>
+                                                  </LongitudinalAcceleration>
+                                                </d23p1:DriverTypeValues>
+                                                <d23p1:ForceToRoad>true</d23p1:ForceToRoad>
+                                                <d23p1:LateralDriverTolerance z:Id="i194">
+                                                  <PropertyReferenceList />
+                                                  <Name>Lateral driver tolerance</Name>
+                                                  <IsInteger>false</IsInteger>
+                                                  <MaxValue>10000000</MaxValue>
+                                                  <MinValue>0</MinValue>
+                                                  <Unit>m</Unit>
+                                                  <Value>1</Value>
+                                                </d23p1:LateralDriverTolerance>
+                                                <d23p1:LateralOffsetSourceManager z:Id="i195" i:type="LateralOffsetSourceManager">
+                                                  <PropertyReferenceList />
+                                                  <Name></Name>
+                                                  <Description></Description>
+                                                  <ID>38cc8c10-b17b-40da-83ea-954a44e78236</ID>
+                                                  <ActiveSource z:Id="i196" i:type="ConstantSource">
+                                                    <PropertyReferenceList />
+                                                    <Constant z:Id="i197">
+                                                      <PropertyReferenceList />
+                                                      <Name>Lateral offset</Name>
+                                                      <IsInteger>false</IsInteger>
+                                                      <MaxValue>10000000</MaxValue>
+                                                      <MinValue>-10000000</MinValue>
+                                                      <Unit>m</Unit>
+                                                      <Value>0.5</Value>
+                                                    </Constant>
+                                                    <HoldCurrentValue>true</HoldCurrentValue>
+                                                  </ActiveSource>
+                                                </d23p1:LateralOffsetSourceManager>
+                                                <d23p1:ManeuverProperties z:Ref="i44" />
+                                                <d23p1:ReferenceType>Absolute</d23p1:ReferenceType>
+                                                <d23p1:ReferencedObject>M1: NCAP</d23p1:ReferencedObject>
+                                              </ActiveLateral>
+                                              <ActiveLongitudinal z:Id="i198" i:type="d23p1:LongitudinalPedalStimulus">
+                                                <PropertyReferenceList />
+                                                <Name></Name>
+                                                <Description></Description>
+                                                <ID>2b187df1-8e14-44e9-b113-4cb52de0a8ad</ID>
+                                                <SourceManager z:Id="i199" i:type="PedalAccelerationSourceManager">
+                                                  <PropertyReferenceList />
+                                                  <Name></Name>
+                                                  <Description></Description>
+                                                  <ID>9cb5f5e3-e9ba-447d-8b32-158a1f666b7c</ID>
+                                                  <ActiveSource z:Id="i200" i:type="ConstantSource">
+                                                    <PropertyReferenceList />
+                                                    <Constant z:Id="i201">
+                                                      <PropertyReferenceList />
+                                                      <Name>Position</Name>
+                                                      <IsInteger>false</IsInteger>
+                                                      <MaxValue>100</MaxValue>
+                                                      <MinValue>0</MinValue>
+                                                      <Unit>%</Unit>
+                                                      <Value>0</Value>
+                                                    </Constant>
+                                                    <HoldCurrentValue>false</HoldCurrentValue>
+                                                  </ActiveSource>
+                                                </SourceManager>
+                                                <d23p1:BrakeSourceManager z:Id="i202" i:type="PedalBrakeSourceManager">
+                                                  <PropertyReferenceList />
+                                                  <Name></Name>
+                                                  <Description></Description>
+                                                  <ID>a10ed79a-d533-4284-a345-d5ba59e5294b</ID>
+                                                  <ActiveSource z:Id="i203" i:type="ConstantSource">
+                                                    <PropertyReferenceList />
+                                                    <Constant z:Id="i204">
+                                                      <PropertyReferenceList />
+                                                      <Name>Position</Name>
+                                                      <IsInteger>false</IsInteger>
+                                                      <MaxValue>100</MaxValue>
+                                                      <MinValue>0</MinValue>
+                                                      <Unit>%</Unit>
+                                                      <Value>0</Value>
+                                                    </Constant>
+                                                    <HoldCurrentValue>false</HoldCurrentValue>
+                                                  </ActiveSource>
+                                                </d23p1:BrakeSourceManager>
+                                              </ActiveLongitudinal>
+                                              <d23p1:ActiveClutchAndGear z:Id="i205" i:type="d23p1:DriverClutchAndGearActivity">
+                                                <PropertyReferenceList />
+                                                <Name></Name>
+                                                <Description></Description>
+                                                <ID>e119cb26-7b0f-4fa4-920b-e47ee4345e8d</ID>
+                                                <d23p1:GearValue>6</d23p1:GearValue>
+                                                <d23p1:SaturateGear>false</d23p1:SaturateGear>
+                                              </d23p1:ActiveClutchAndGear>
+                                              <d23p1:ActiveSelectorLever z:Id="i206" i:type="d23p1:DriverSelectorLeverActivity">
+                                                <PropertyReferenceList />
+                                                <Name></Name>
+                                                <Description></Description>
+                                                <ID>0227a261-8b1b-43e9-a7d1-45dddf1508a2</ID>
+                                              </d23p1:ActiveSelectorLever>
+                                            </Activity>
+                                          </SegmentManeuverActivity>
+                                        </BranchList>
+                                      </Branch>
+                                      <ConditionManager z:Id="i207">
+                                        <PropertyReferenceList />
+                                        <Name></Name>
+                                        <Description></Description>
+                                        <ID>17b42f54-c478-4fd8-b9a5-ef08f620f43f</ID>
+                                        <ConditionList>
+                                          <Condition z:Id="i208" i:type="TimeBasedCondition">
+                                            <PropertyReferenceList />
+                                            <Name></Name>
+                                            <Description></Description>
+                                            <ID>dfbb5748-7c69-4e5c-a67e-a715adc00b24</ID>
+                                            <Type>Time</Type>
+                                            <Time>1</Time>
+                                          </Condition>
+                                        </ConditionList>
+                                        <Delay>0</Delay>
+                                        <IsDelayEnabled>false</IsDelayEnabled>
+                                        <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                                        <Timeout>10</Timeout>
+                                      </ConditionManager>
+                                      <Activity xmlns:d20p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic/ManeuverActivity" z:Id="i209">
+                                        <PropertyReferenceList />
+                                        <Name></Name>
+                                        <Description></Description>
+                                        <ID>49891419-53f0-4639-8eb1-aa51205d14bf</ID>
+                                        <ListManager z:Ref="i2" />
+                                        <UserSignalList>
+                                          <ManeuverUserSignal z:Id="i210">
+                                            <PropertyReferenceList />
+                                            <Name></Name>
+                                            <Description></Description>
+                                            <ID>fb7101a6-8d3c-43db-91ba-0c3f395b2510</ID>
+                                            <CurrentValue z:Id="i211" i:type="ManeuverUserSignalSourceManager">
+                                              <PropertyReferenceList />
+                                              <Name></Name>
+                                              <Description></Description>
+                                              <ID>29d12a8c-d10f-4c83-813c-da465679391a</ID>
+                                              <ActiveSource z:Id="i212" i:type="SimpleConstantSource">
+                                                <PropertyReferenceList />
+                                                <Constant z:Id="i213">
+                                                  <PropertyReferenceList />
+                                                  <Name>Constant</Name>
+                                                  <IsInteger>false</IsInteger>
+                                                  <MaxValue>10000000</MaxValue>
+                                                  <MinValue>-10000000</MinValue>
+                                                  <Unit></Unit>
+                                                  <Value>1031</Value>
+                                                </Constant>
+                                              </ActiveSource>
+                                              <Delay>0</Delay>
+                                            </CurrentValue>
+                                            <FellowUserSignalsManager z:Ref="i155" />
+                                            <Template z:Ref="i159" />
+                                          </ManeuverUserSignal>
+                                        </UserSignalList>
+                                        <ActiveLateral z:Id="i214" i:type="d20p1:LateralStimulus">
+                                          <PropertyReferenceList />
+                                          <Name></Name>
+                                          <Description></Description>
+                                          <ID>3b3eba36-028f-4253-953e-faab76244518</ID>
+                                          <SourceManager z:Id="i215" i:type="StimulusAngleSourceManager">
+                                            <PropertyReferenceList />
+                                            <Name></Name>
+                                            <Description></Description>
+                                            <ID>bdb5c602-1a36-41b8-8a11-ec9c13dd4bad</ID>
+                                            <ActiveSource z:Id="i216" i:type="ConstantSource">
+                                              <PropertyReferenceList />
+                                              <Constant z:Id="i217">
+                                                <PropertyReferenceList />
+                                                <Name>Angle</Name>
+                                                <IsInteger>false</IsInteger>
+                                                <MaxValue>10000000</MaxValue>
+                                                <MinValue>-10000000</MinValue>
+                                                <Unit>°</Unit>
+                                                <Value>0</Value>
+                                              </Constant>
+                                              <HoldCurrentValue>false</HoldCurrentValue>
+                                            </ActiveSource>
+                                          </SourceManager>
+                                        </ActiveLateral>
+                                        <ActiveLongitudinal z:Id="i218" i:type="d20p1:LongitudinalVelocity">
+                                          <PropertyReferenceList />
+                                          <Name></Name>
+                                          <Description></Description>
+                                          <ID>593bc38d-31ad-4581-816b-a7fd16557d07</ID>
+                                          <SourceManager z:Id="i219" i:type="VelocitySourceManager">
+                                            <PropertyReferenceList />
+                                            <Name></Name>
+                                            <Description></Description>
+                                            <ID>39cb1817-94cf-4f49-8d31-47d02435fefd</ID>
+                                            <ActiveSource z:Id="i220" i:type="ConstantSource">
+                                              <PropertyReferenceList />
+                                              <Constant z:Id="i221">
+                                                <PropertyReferenceList />
+                                                <Name>Velocity</Name>
+                                                <IsInteger>false</IsInteger>
+                                                <MaxValue>10000000</MaxValue>
+                                                <MinValue>-10000000</MinValue>
+                                                <Unit>km/h</Unit>
+                                                <Value>50</Value>
+                                              </Constant>
+                                              <HoldCurrentValue>true</HoldCurrentValue>
+                                            </ActiveSource>
+                                          </SourceManager>
+                                          <ReferencedVehicle z:Id="i222">
+                                            <PropertyReferenceList />
+                                            <ReferenceType>Absolute</ReferenceType>
+                                            <ReferencedVehicle z:Id="i223">
+                                              <PropertyReferenceList />
+                                              <Name></Name>
+                                              <CurrentObject z:Ref="i4" />
+                                              <ObjectList z:Ref="i3" />
+                                            </ReferencedVehicle>
+                                          </ReferencedVehicle>
+                                        </ActiveLongitudinal>
+                                        <d20p1:ActiveClutchAndGear z:Id="i224" i:type="d20p1:DriverClutchAndGearActivity">
+                                          <PropertyReferenceList />
+                                          <Name></Name>
+                                          <Description></Description>
+                                          <ID>e68c7caa-7879-4d85-bce4-cad91a3d26e9</ID>
+                                          <d20p1:GearValue>6</d20p1:GearValue>
+                                          <d20p1:SaturateGear>false</d20p1:SaturateGear>
+                                        </d20p1:ActiveClutchAndGear>
+                                        <d20p1:ActiveSelectorLever z:Id="i225" i:type="d20p1:DriverSelectorLeverActivity">
+                                          <PropertyReferenceList />
+                                          <Name></Name>
+                                          <Description></Description>
+                                          <ID>86815372-3292-4649-b4b3-68872d385c23</ID>
+                                        </d20p1:ActiveSelectorLever>
+                                      </Activity>
+                                    </SegmentManeuverActivity>
+                                  </BranchList>
+                                </Branch>
+                                <ConditionManager z:Id="i226">
+                                  <PropertyReferenceList />
+                                  <Name></Name>
+                                  <Description></Description>
+                                  <ID>4af310ef-24a2-446e-8043-52d19d275ea5</ID>
+                                  <ConditionList>
+                                    <Condition z:Id="i227" i:type="TimeBasedCondition">
+                                      <PropertyReferenceList />
+                                      <Name></Name>
+                                      <Description></Description>
+                                      <ID>e2b08da9-d979-49b4-83d0-649bead75129</ID>
+                                      <Type>Time</Type>
+                                      <Time>1</Time>
+                                    </Condition>
+                                  </ConditionList>
+                                  <Delay>0</Delay>
+                                  <IsDelayEnabled>false</IsDelayEnabled>
+                                  <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                                  <Timeout>10</Timeout>
+                                </ConditionManager>
+                                <Activity xmlns:d17p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic/ManeuverActivity" z:Id="i228">
+                                  <PropertyReferenceList />
+                                  <Name></Name>
+                                  <Description></Description>
+                                  <ID>cbc2074e-b130-41d9-af18-98ba637342db</ID>
+                                  <ListManager z:Ref="i2" />
+                                  <UserSignalList>
+                                    <ManeuverUserSignal z:Id="i229">
+                                      <PropertyReferenceList />
+                                      <Name></Name>
+                                      <Description></Description>
+                                      <ID>385bd3a0-3e83-48e1-92cd-47a07dcfaeb8</ID>
+                                      <CurrentValue z:Id="i230" i:type="ManeuverUserSignalSourceManager">
+                                        <PropertyReferenceList />
+                                        <Name></Name>
+                                        <Description></Description>
+                                        <ID>e134142c-2023-4730-9753-e9c0a2cb144a</ID>
+                                        <ActiveSource z:Id="i231" i:type="SimpleConstantSource">
+                                          <PropertyReferenceList />
+                                          <Constant z:Id="i232">
+                                            <PropertyReferenceList />
+                                            <Name>Constant</Name>
+                                            <IsInteger>false</IsInteger>
+                                            <MaxValue>10000000</MaxValue>
+                                            <MinValue>-10000000</MinValue>
+                                            <Unit></Unit>
+                                            <Value>1010</Value>
+                                          </Constant>
+                                        </ActiveSource>
+                                        <Delay>0</Delay>
+                                      </CurrentValue>
+                                      <FellowUserSignalsManager z:Ref="i155" />
+                                      <Template z:Ref="i159" />
+                                    </ManeuverUserSignal>
+                                  </UserSignalList>
+                                  <ActiveLateral z:Id="i233" i:type="d17p1:LateralFollowRoad">
+                                    <PropertyReferenceList />
+                                    <Name></Name>
+                                    <Description></Description>
+                                    <ID>4d854574-3b80-4968-bd22-e06a71fcfa60</ID>
+                                    <SourceManager z:Id="i234" i:type="LaneIndexSourceManager">
+                                      <PropertyReferenceList />
+                                      <Name></Name>
+                                      <Description></Description>
+                                      <ID>735eb6bf-0615-4761-a595-412f5d046e2a</ID>
+                                      <ActiveSource z:Id="i235" i:type="ConstantSource">
+                                        <PropertyReferenceList />
+                                        <Constant z:Id="i236">
+                                          <PropertyReferenceList />
+                                          <Name>Lane index</Name>
+                                          <IsInteger>false</IsInteger>
+                                          <MaxValue>100</MaxValue>
+                                          <MinValue>-100</MinValue>
+                                          <Unit></Unit>
+                                          <Value>0</Value>
+                                        </Constant>
+                                        <HoldCurrentValue>false</HoldCurrentValue>
+                                      </ActiveSource>
+                                    </SourceManager>
+                                    <d17p1:DriverToleranceEnabled>false</d17p1:DriverToleranceEnabled>
+                                    <d17p1:DriverType>Normal</d17p1:DriverType>
+                                    <d17p1:DriverTypeValues z:Id="i237">
+                                      <PropertyReferenceList />
+                                      <BrakeAcceleration z:Id="i238">
+                                        <PropertyReferenceList />
+                                        <Name>Brake acceleration threshold</Name>
+                                        <IsInteger>false</IsInteger>
+                                        <MaxValue>10000000</MaxValue>
+                                        <MinValue>0</MinValue>
+                                        <Unit>m/s²</Unit>
+                                        <Value>2</Value>
+                                      </BrakeAcceleration>
+                                      <LateralAcceleration z:Id="i239">
+                                        <PropertyReferenceList />
+                                        <Name>Maximum lateral acceleration</Name>
+                                        <IsInteger>false</IsInteger>
+                                        <MaxValue>10000000</MaxValue>
+                                        <MinValue>0</MinValue>
+                                        <Unit>m/s²</Unit>
+                                        <Value>3</Value>
+                                      </LateralAcceleration>
+                                      <LongitudinalAcceleration z:Id="i240">
+                                        <PropertyReferenceList />
+                                        <Name>Maximum longitudinal acceleration</Name>
+                                        <IsInteger>false</IsInteger>
+                                        <MaxValue>10000000</MaxValue>
+                                        <MinValue>0</MinValue>
+                                        <Unit>m/s²</Unit>
+                                        <Value>2</Value>
+                                      </LongitudinalAcceleration>
+                                    </d17p1:DriverTypeValues>
+                                    <d17p1:ForceToRoad>true</d17p1:ForceToRoad>
+                                    <d17p1:LateralDriverTolerance z:Id="i241">
+                                      <PropertyReferenceList />
+                                      <Name>Lateral driver tolerance</Name>
+                                      <IsInteger>false</IsInteger>
+                                      <MaxValue>10000000</MaxValue>
+                                      <MinValue>0</MinValue>
+                                      <Unit>m</Unit>
+                                      <Value>0</Value>
+                                    </d17p1:LateralDriverTolerance>
+                                    <d17p1:LateralOffsetSourceManager z:Id="i242" i:type="LateralOffsetSourceManager">
+                                      <PropertyReferenceList />
+                                      <Name></Name>
+                                      <Description></Description>
+                                      <ID>20735a55-0943-4a62-b72f-969e4ea9ab16</ID>
+                                      <ActiveSource z:Id="i243" i:type="ConstantSource">
+                                        <PropertyReferenceList />
+                                        <Constant z:Id="i244">
+                                          <PropertyReferenceList />
+                                          <Name>Lateral offset</Name>
+                                          <IsInteger>false</IsInteger>
+                                          <MaxValue>10000000</MaxValue>
+                                          <MinValue>-10000000</MinValue>
+                                          <Unit>m</Unit>
+                                          <Value>0.5</Value>
+                                        </Constant>
+                                        <HoldCurrentValue>true</HoldCurrentValue>
+                                      </ActiveSource>
+                                    </d17p1:LateralOffsetSourceManager>
+                                    <d17p1:ManeuverProperties z:Ref="i44" />
+                                    <d17p1:ReferenceType>Absolute</d17p1:ReferenceType>
+                                    <d17p1:ReferencedObject>M1: NCAP</d17p1:ReferencedObject>
+                                  </ActiveLateral>
+                                  <ActiveLongitudinal z:Id="i245" i:type="d17p1:LongitudinalVelocity">
+                                    <PropertyReferenceList />
+                                    <Name></Name>
+                                    <Description></Description>
+                                    <ID>edb79286-dd43-475a-a4c5-c01da06177a5</ID>
+                                    <SourceManager z:Id="i246" i:type="VelocitySourceManager">
+                                      <PropertyReferenceList />
+                                      <Name></Name>
+                                      <Description></Description>
+                                      <ID>4bc5508e-13e1-4215-bde7-3eda58742698</ID>
+                                      <ActiveSource z:Id="i247" i:type="ConstantSource">
+                                        <PropertyReferenceList />
+                                        <Constant z:Id="i248">
+                                          <PropertyReferenceList />
+                                          <Name>Velocity</Name>
+                                          <IsInteger>false</IsInteger>
+                                          <MaxValue>10000000</MaxValue>
+                                          <MinValue>-10000000</MinValue>
+                                          <Unit>km/h</Unit>
+                                          <Value>0</Value>
+                                        </Constant>
+                                        <HoldCurrentValue>true</HoldCurrentValue>
+                                      </ActiveSource>
+                                    </SourceManager>
+                                    <ReferencedVehicle z:Id="i249">
+                                      <PropertyReferenceList />
+                                      <ReferenceType>Absolute</ReferenceType>
+                                      <ReferencedVehicle z:Id="i250">
+                                        <PropertyReferenceList />
+                                        <Name></Name>
+                                        <CurrentObject z:Ref="i4" />
+                                        <ObjectList z:Ref="i3" />
+                                      </ReferencedVehicle>
+                                    </ReferencedVehicle>
+                                  </ActiveLongitudinal>
+                                  <d17p1:ActiveClutchAndGear z:Id="i251" i:type="d17p1:DriverClutchAndGearActivity">
+                                    <PropertyReferenceList />
+                                    <Name></Name>
+                                    <Description></Description>
+                                    <ID>d9eab5c5-4406-4930-95d8-68728ecd6150</ID>
+                                    <d17p1:GearValue>6</d17p1:GearValue>
+                                    <d17p1:SaturateGear>false</d17p1:SaturateGear>
+                                  </d17p1:ActiveClutchAndGear>
+                                  <d17p1:ActiveSelectorLever z:Id="i252" i:type="d17p1:DriverSelectorLeverActivity">
+                                    <PropertyReferenceList />
+                                    <Name></Name>
+                                    <Description></Description>
+                                    <ID>9e0c6415-0947-47a6-9caf-fd0ac87f57dc</ID>
+                                  </d17p1:ActiveSelectorLever>
+                                </Activity>
+                              </SegmentManeuverActivity>
+                            </BranchList>
+                          </Branch>
+                          <ConditionManager z:Id="i253">
+                            <PropertyReferenceList />
+                            <Name></Name>
+                            <Description></Description>
+                            <ID>1fdd1d5f-5266-472d-ae01-4a465688ba08</ID>
+                            <ConditionList>
+                              <Condition z:Id="i254" i:type="TimeBasedCondition">
+                                <PropertyReferenceList>
+                                  <TrafficEditorPropertyReference z:Id="i255">
+                                    <Comment xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common"></Comment>
+                                    <Description xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">The duration after which the condition is met.</Description>
+                                    <Name xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">Value</Name>
+                                    <AliasContextType>Maneuver</AliasContextType>
+                                    <Owner z:Ref="i254" />
+                                    <PropertyName>Time</PropertyName>
+                                  </TrafficEditorPropertyReference>
+                                </PropertyReferenceList>
+                                <Name></Name>
+                                <Description></Description>
+                                <ID>f9efadbf-9c09-467a-acc0-1bf33532e0b1</ID>
+                                <Type>Time</Type>
+                                <Time>15</Time>
+                              </Condition>
+                            </ConditionList>
+                            <Delay>0</Delay>
+                            <IsDelayEnabled>false</IsDelayEnabled>
+                            <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                            <Timeout>10</Timeout>
+                          </ConditionManager>
+                          <Activity xmlns:d14p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic/ManeuverActivity" z:Id="i256">
+                            <PropertyReferenceList />
+                            <Name></Name>
+                            <Description></Description>
+                            <ID>e33e1b25-af02-4bf6-a04d-d66145476979</ID>
+                            <ListManager z:Ref="i2" />
+                            <UserSignalList />
+                            <ActiveLateral z:Id="i257" i:type="d14p1:LateralFollowRoad">
+                              <PropertyReferenceList />
+                              <Name></Name>
+                              <Description></Description>
+                              <ID>22bb6774-4409-4eda-9d3e-3191d2037fa6</ID>
+                              <SourceManager z:Id="i258" i:type="LaneIndexSourceManager">
+                                <PropertyReferenceList />
+                                <Name></Name>
+                                <Description></Description>
+                                <ID>74161448-3718-4f9b-9d61-e136a18162ec</ID>
+                                <ActiveSource z:Id="i259" i:type="ConstantSource">
+                                  <PropertyReferenceList />
+                                  <Constant z:Id="i260">
+                                    <PropertyReferenceList />
+                                    <Name>Lane index</Name>
+                                    <IsInteger>false</IsInteger>
+                                    <MaxValue>100</MaxValue>
+                                    <MinValue>-100</MinValue>
+                                    <Unit></Unit>
+                                    <Value>0</Value>
+                                  </Constant>
+                                  <HoldCurrentValue>false</HoldCurrentValue>
+                                </ActiveSource>
+                              </SourceManager>
+                              <d14p1:DriverToleranceEnabled>false</d14p1:DriverToleranceEnabled>
+                              <d14p1:DriverType>Normal</d14p1:DriverType>
+                              <d14p1:DriverTypeValues z:Id="i261">
+                                <PropertyReferenceList />
+                                <BrakeAcceleration z:Id="i262">
+                                  <PropertyReferenceList />
+                                  <Name>Brake acceleration threshold</Name>
+                                  <IsInteger>false</IsInteger>
+                                  <MaxValue>10000000</MaxValue>
+                                  <MinValue>0</MinValue>
+                                  <Unit>m/s²</Unit>
+                                  <Value>2</Value>
+                                </BrakeAcceleration>
+                                <LateralAcceleration z:Id="i263">
+                                  <PropertyReferenceList />
+                                  <Name>Maximum lateral acceleration</Name>
+                                  <IsInteger>false</IsInteger>
+                                  <MaxValue>10000000</MaxValue>
+                                  <MinValue>0</MinValue>
+                                  <Unit>m/s²</Unit>
+                                  <Value>3</Value>
+                                </LateralAcceleration>
+                                <LongitudinalAcceleration z:Id="i264">
+                                  <PropertyReferenceList />
+                                  <Name>Maximum longitudinal acceleration</Name>
+                                  <IsInteger>false</IsInteger>
+                                  <MaxValue>10000000</MaxValue>
+                                  <MinValue>0</MinValue>
+                                  <Unit>m/s²</Unit>
+                                  <Value>2</Value>
+                                </LongitudinalAcceleration>
+                              </d14p1:DriverTypeValues>
+                              <d14p1:ForceToRoad>true</d14p1:ForceToRoad>
+                              <d14p1:LateralDriverTolerance z:Id="i265">
+                                <PropertyReferenceList />
+                                <Name>Lateral driver tolerance</Name>
+                                <IsInteger>false</IsInteger>
+                                <MaxValue>10000000</MaxValue>
+                                <MinValue>0</MinValue>
+                                <Unit>m</Unit>
+                                <Value>0</Value>
+                              </d14p1:LateralDriverTolerance>
+                              <d14p1:LateralOffsetSourceManager z:Id="i266" i:type="LateralOffsetSourceManager">
+                                <PropertyReferenceList />
+                                <Name></Name>
+                                <Description></Description>
+                                <ID>bd554f1c-b6d0-4e86-a11e-2262b960416d</ID>
+                                <ActiveSource z:Id="i267" i:type="ConstantSource">
+                                  <PropertyReferenceList />
+                                  <Constant z:Id="i268">
+                                    <PropertyReferenceList />
+                                    <Name>Lateral offset</Name>
+                                    <IsInteger>false</IsInteger>
+                                    <MaxValue>10000000</MaxValue>
+                                    <MinValue>-10000000</MinValue>
+                                    <Unit>m</Unit>
+                                    <Value>0</Value>
+                                  </Constant>
+                                  <HoldCurrentValue>true</HoldCurrentValue>
+                                </ActiveSource>
+                              </d14p1:LateralOffsetSourceManager>
+                              <d14p1:ManeuverProperties z:Ref="i44" />
+                              <d14p1:ReferenceType>Absolute</d14p1:ReferenceType>
+                              <d14p1:ReferencedObject>M1: NCAP</d14p1:ReferencedObject>
+                            </ActiveLateral>
+                            <ActiveLongitudinal z:Id="i269" i:type="d14p1:LongitudinalVelocity">
+                              <PropertyReferenceList />
+                              <Name></Name>
+                              <Description></Description>
+                              <ID>daf1f249-1f36-4ca7-9971-4de297616992</ID>
+                              <SourceManager z:Id="i270" i:type="VelocitySourceManager">
+                                <PropertyReferenceList />
+                                <Name></Name>
+                                <Description></Description>
+                                <ID>59c54d25-ec08-4cab-a0b8-9f24e72bc422</ID>
+                                <ActiveSource z:Id="i271" i:type="FinalVelocity">
+                                  <PropertyReferenceList>
+                                    <TrafficEditorPropertyReference z:Id="i272">
+                                      <Comment xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common"></Comment>
+                                      <Description xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">Final vehicle velocity [km/h]</Description>
+                                      <Name xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">End Velocity</Name>
+                                      <AliasContextType>Maneuver</AliasContextType>
+                                      <Owner z:Ref="i271" />
+                                      <PropertyName>FinalValue</PropertyName>
+                                    </TrafficEditorPropertyReference>
+                                  </PropertyReferenceList>
+                                  <Final z:Id="i273">
+                                    <PropertyReferenceList />
+                                    <Name>Final velocity</Name>
+                                    <IsInteger>false</IsInteger>
+                                    <MaxValue>10000000</MaxValue>
+                                    <MinValue>-10000000</MinValue>
+                                    <Unit>km/h</Unit>
+                                    <Value>50</Value>
+                                  </Final>
+                                  <Movement z:Id="i274">
+                                    <PropertyReferenceList />
+                                    <Name>Positive acceleration</Name>
+                                    <IsInteger>false</IsInteger>
+                                    <MaxValue>10000000</MaxValue>
+                                    <MinValue>-10000000</MinValue>
+                                    <Unit>m/s²</Unit>
+                                    <Value>3</Value>
+                                  </Movement>
+                                  <IgnoreDriverParameters>false</IgnoreDriverParameters>
+                                  <NegativeAcceleration z:Id="i275">
+                                    <PropertyReferenceList />
+                                    <Name>Negative acceleration</Name>
+                                    <IsInteger>false</IsInteger>
+                                    <MaxValue>10000000</MaxValue>
+                                    <MinValue>-10000000</MinValue>
+                                    <Unit>m/s²</Unit>
+                                    <Value>2</Value>
+                                  </NegativeAcceleration>
+                                </ActiveSource>
+                              </SourceManager>
+                              <ReferencedVehicle z:Id="i276">
+                                <PropertyReferenceList />
+                                <ReferenceType>Absolute</ReferenceType>
+                                <ReferencedVehicle z:Id="i277">
+                                  <PropertyReferenceList />
+                                  <Name></Name>
+                                  <CurrentObject z:Ref="i4" />
+                                  <ObjectList z:Ref="i3" />
+                                </ReferencedVehicle>
+                              </ReferencedVehicle>
+                            </ActiveLongitudinal>
+                            <d14p1:ActiveClutchAndGear z:Id="i278" i:type="d14p1:DriverClutchAndGearActivity">
+                              <PropertyReferenceList />
+                              <Name></Name>
+                              <Description></Description>
+                              <ID>983e42b5-8cd6-41c3-b0d4-fbea986aba03</ID>
+                              <d14p1:GearValue>6</d14p1:GearValue>
+                              <d14p1:SaturateGear>false</d14p1:SaturateGear>
+                            </d14p1:ActiveClutchAndGear>
+                            <d14p1:ActiveSelectorLever z:Id="i279" i:type="d14p1:DriverSelectorLeverActivity">
+                              <PropertyReferenceList />
+                              <Name></Name>
+                              <Description></Description>
+                              <ID>3be94542-d94c-496e-b3a2-1796bc1d99a9</ID>
+                            </d14p1:ActiveSelectorLever>
+                          </Activity>
+                        </SegmentManeuverActivity>
+                      </BranchList>
+                    </Branch>
+                    <ConditionManager z:Id="i280">
+                      <PropertyReferenceList />
+                      <Name></Name>
+                      <Description></Description>
+                      <ID>7ec85555-85ea-4842-be02-0052ffff33af</ID>
+                      <ConditionList>
+                        <Condition z:Id="i281" i:type="TimeBasedCondition">
+                          <PropertyReferenceList />
+                          <Name>Wait for 2s</Name>
+                          <Description></Description>
+                          <ID>5edfa87d-bb7e-431f-97b6-1383768b1c17</ID>
+                          <Type>Time</Type>
+                          <Time>2</Time>
+                        </Condition>
+                      </ConditionList>
+                      <Delay>0</Delay>
+                      <IsDelayEnabled>false</IsDelayEnabled>
+                      <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                      <Timeout>10</Timeout>
+                    </ConditionManager>
+                    <Activity xmlns:d11p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic/ManeuverActivity" z:Id="i282">
+                      <PropertyReferenceList />
+                      <Name></Name>
+                      <Description></Description>
+                      <ID>7ea683bc-34b2-4619-88ba-6426c63cba4a</ID>
+                      <ListManager z:Ref="i2" />
+                      <UserSignalList />
+                      <ActiveLateral z:Id="i283" i:type="d11p1:LateralNotUsed">
+                        <PropertyReferenceList />
+                        <Name></Name>
+                        <Description></Description>
+                        <ID>ec84c234-c042-47c3-8af4-ed86e0d344d0</ID>
+                      </ActiveLateral>
+                      <ActiveLongitudinal z:Id="i284" i:type="d11p1:LongitudinalStandstill">
+                        <PropertyReferenceList />
+                        <Name></Name>
+                        <Description></Description>
+                        <ID>320f400d-d0cc-4c4a-9287-71c584057730</ID>
+                      </ActiveLongitudinal>
+                      <d11p1:ActiveClutchAndGear z:Id="i285" i:type="d11p1:OpenClutchActivity">
+                        <PropertyReferenceList />
+                        <Name></Name>
+                        <Description></Description>
+                        <ID>5a020a71-c7bd-453b-8d02-8847a9f0d998</ID>
+                      </d11p1:ActiveClutchAndGear>
+                      <d11p1:ActiveSelectorLever z:Id="i286" i:type="d11p1:DriverSelectorLeverActivity">
+                        <PropertyReferenceList />
+                        <Name></Name>
+                        <Description></Description>
+                        <ID>3810435d-07ec-4e5d-a1b1-bbbf5b34b3f9</ID>
+                      </d11p1:ActiveSelectorLever>
+                    </Activity>
+                  </SegmentManeuverActivity>
+                </BranchList>
+              </Branch>
+              <ConditionManager z:Id="i287">
+                <PropertyReferenceList />
+                <Name></Name>
+                <Description></Description>
+                <ID>708f32ad-4afb-4074-96b4-45a20f5faa31</ID>
+                <ConditionList>
+                  <Condition z:Id="i288" i:type="ImmediateCondition">
+                    <PropertyReferenceList />
+                    <Name></Name>
+                    <Description></Description>
+                    <ID>80c58beb-a446-4e15-9de1-8f4e6d083616</ID>
+                    <Type>Immediate</Type>
+                  </Condition>
+                </ConditionList>
+                <Delay>0</Delay>
+                <IsDelayEnabled>false</IsDelayEnabled>
+                <IsTimeoutEnabled>false</IsTimeoutEnabled>
+                <Timeout>10</Timeout>
+              </ConditionManager>
+              <ReverseDirection>false</ReverseDirection>
+              <RouteManager z:Id="i289">
+                <PropertyReferenceList />
+                <Name></Name>
+                <CurrentObject z:Ref="i121" />
+                <ObjectList z:Ref="i122" />
+              </RouteManager>
+              <UseExternal>false</UseExternal>
+              <AdditionalLateralOffset z:Id="i290">
+                <PropertyReferenceList />
+                <Name>Additional lateral offset</Name>
+                <IsInteger>false</IsInteger>
+                <MaxValue>10000000</MaxValue>
+                <MinValue>-10000000</MinValue>
+                <Unit>m</Unit>
+                <Value>0</Value>
+              </AdditionalLateralOffset>
+              <InitialHeight z:Id="i291">
+                <PropertyReferenceList />
+                <Name>Initial height value</Name>
+                <IsInteger>false</IsInteger>
+                <MaxValue>10000000</MaxValue>
+                <MinValue>0</MinValue>
+                <Unit>m</Unit>
+                <Value>0.01</Value>
+              </InitialHeight>
+              <InitialHeightMode>Offset</InitialHeightMode>
+              <InitialLaneIndex z:Id="i292">
+                <PropertyReferenceList />
+                <Name>Initial lane index</Name>
+                <IsInteger>false</IsInteger>
+                <MaxValue>100</MaxValue>
+                <MinValue>-100</MinValue>
+                <Unit></Unit>
+                <Value>0</Value>
+              </InitialLaneIndex>
+              <InitialLongitudinalVelocity z:Id="i293">
+                <PropertyReferenceList />
+                <Name>Initial longitudinal velocity</Name>
+                <IsInteger>false</IsInteger>
+                <MaxValue>10000000</MaxValue>
+                <MinValue>0</MinValue>
+                <Unit>km/h</Unit>
+                <Value>0</Value>
+              </InitialLongitudinalVelocity>
+              <StartPosition z:Id="i294">
+                <PropertyReferenceList />
+                <Name>Start position on route</Name>
+                <IsInteger>false</IsInteger>
+                <MaxValue>10000000</MaxValue>
+                <MinValue>0</MinValue>
+                <Unit>m</Unit>
+                <Value>700</Value>
+              </StartPosition>
+              <VehicleOrientation z:Id="i295">
+                <PropertyReferenceList />
+                <Name>Vehicle orientation</Name>
+                <IsInteger>false</IsInteger>
+                <MaxValue>180</MaxValue>
+                <MinValue>-180</MinValue>
+                <Unit>°</Unit>
+                <Value>0</Value>
+              </VehicleOrientation>
+            </StartSegmentManeuverActivity>
+          </StartList>
+          <DAEPath>%customer_objects%\AURELION\Vehicles\Cars\$ASM_Coupe\ASM_Coupe.dae</DAEPath>
+          <TrafficDriverPath>TrafficDriverNormal.trd</TrafficDriverPath>
+          <TrafficObjectGuid>de28775d-4084-4c4b-8092-732b7959b4bf</TrafficObjectGuid>
+          <TrafficObjectPath>Chassis\ASM_Coupe.tro</TrafficObjectPath>
+        </ASM>
+      </Pool>
+      <ManeuverProperties z:Ref="i44" />
+    </AsmManager>
+    <FellowUserSignalsManager z:Id="i296">
+      <UserSignalTemplate z:Id="i297">
+        <PropertyReferenceList />
+        <Name>TurnLights [0Off|1Left|2Right|3Both]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i298">
+        <PropertyReferenceList />
+        <Name>MoveCharacteristic [0Veh|1Veh|2Trailer|3Motorcycle|4UseYawRoadRefline]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i299">
+        <PropertyReferenceList />
+        <Name>DoorFL[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i300">
+        <PropertyReferenceList />
+        <Name>DoorFR[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i301">
+        <PropertyReferenceList />
+        <Name>DoorRL[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i302">
+        <PropertyReferenceList />
+        <Name>DoorRR[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i303">
+        <PropertyReferenceList />
+        <Name>Hood[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+      <UserSignalTemplate z:Id="i304">
+        <PropertyReferenceList />
+        <Name>Trunk[0Closed_1Open]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </UserSignalTemplate>
+    </FellowUserSignalsManager>
+    <GlobalUserSignalsManager z:Id="i305">
+      <PropertyReferenceList />
+      <Name></Name>
+      <Description></Description>
+      <ListManager z:Ref="i2" />
+      <Pool />
+    </GlobalUserSignalsManager>
+    <ManeuverTriggerManager z:Id="i306">
+      <TriggerTemplate z:Id="i307">
+        <PropertyReferenceList />
+        <Name>Trigger 1</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i308">
+        <PropertyReferenceList />
+        <Name>Trigger 2</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i309">
+        <PropertyReferenceList />
+        <Name>Trigger 3</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i310">
+        <PropertyReferenceList />
+        <Name>Trigger 4</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i311">
+        <PropertyReferenceList />
+        <Name>Trigger 5</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i312">
+        <PropertyReferenceList />
+        <Name>Trigger 6</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i313">
+        <PropertyReferenceList />
+        <Name>Trigger 7</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i314">
+        <PropertyReferenceList />
+        <Name>Trigger 8</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i315">
+        <PropertyReferenceList />
+        <Name>Trigger 9</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i316">
+        <PropertyReferenceList />
+        <Name>Trigger 10</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i317">
+        <PropertyReferenceList />
+        <Name>Trigger 11</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i318">
+        <PropertyReferenceList />
+        <Name>Trigger 12</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i319">
+        <PropertyReferenceList />
+        <Name>Trigger 13</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i320">
+        <PropertyReferenceList />
+        <Name>Trigger 14</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i321">
+        <PropertyReferenceList />
+        <Name>Trigger 15</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i322">
+        <PropertyReferenceList />
+        <Name>Trigger 16</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i323">
+        <PropertyReferenceList />
+        <Name>Trigger 17</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i324">
+        <PropertyReferenceList />
+        <Name>Trigger 18</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i325">
+        <PropertyReferenceList />
+        <Name>Trigger 19</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i326">
+        <PropertyReferenceList />
+        <Name>Trigger 20</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i327">
+        <PropertyReferenceList />
+        <Name>Trigger 21</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i328">
+        <PropertyReferenceList />
+        <Name>Trigger 22</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i329">
+        <PropertyReferenceList />
+        <Name>Trigger 23</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i330">
+        <PropertyReferenceList />
+        <Name>Trigger 24</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i331">
+        <PropertyReferenceList />
+        <Name>Trigger 25</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+    </ManeuverTriggerManager>
+    <ManeuverUserSignalsManager z:Ref="i155" />
+    <MarkerManager z:Ref="i102" />
+    <PlayerManager z:Ref="i68" />
+    <RoutenManager z:Ref="i122" />
+    <TableListFellow />
+    <TableListManeuver />
+    <TriggerManager z:Id="i332">
+      <TriggerTemplate z:Id="i333">
+        <PropertyReferenceList />
+        <Name>SegmentEnd_External1 [0|1]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i334">
+        <PropertyReferenceList />
+        <Name>SegmentEnd_External2 [0|1]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+      <TriggerTemplate z:Id="i335">
+        <PropertyReferenceList />
+        <Name>SegmentEnd_External3 [0|1]</Name>
+        <Description></Description>
+        <IsUsed>true</IsUsed>
+      </TriggerTemplate>
+    </TriggerManager>
+  </ListManager>
+  <Road>NCAP_AEB.rd</Road>
+  <Version>158</Version>
+  <Comment></Comment>
+  <AliasListTraffic z:Id="i336">
+    <AliasType xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">Traffic</AliasType>
+    <AliasVariableList xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">
+      <AliasVariable z:Id="i337" xmlns:d4p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic" i:type="d4p1:TrafficEditorAliasVariable">
+        <Comment></Comment>
+        <IsPlain>false</IsPlain>
+        <Max xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:double">INF</Max>
+        <Min xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:double">-INF</Min>
+        <Name>LateralPosition</Name>
+        <PropertyReferenceList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:anyType z:Ref="i108" />
+        </PropertyReferenceList>
+      </AliasVariable>
+      <AliasVariable z:Id="i338" xmlns:d4p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic" i:type="d4p1:TrafficEditorAliasVariable">
+        <Comment></Comment>
+        <IsPlain>false</IsPlain>
+        <Max xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:double">INF</Max>
+        <Min xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:double">-INF</Min>
+        <Name>PedestrianVelocity</Name>
+        <PropertyReferenceList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:anyType z:Ref="i85" />
+        </PropertyReferenceList>
+      </AliasVariable>
+      <AliasVariable z:Id="i339" xmlns:d4p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic" i:type="d4p1:TrafficEditorAliasVariable">
+        <Comment></Comment>
+        <IsPlain>false</IsPlain>
+        <Max xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:double">INF</Max>
+        <Min xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:double">-INF</Min>
+        <Name>PedestrianEndPosition</Name>
+        <PropertyReferenceList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:anyType z:Ref="i86" />
+        </PropertyReferenceList>
+      </AliasVariable>
+      <AliasVariable z:Id="i340" xmlns:d4p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic" i:type="d4p1:TrafficEditorAliasVariable">
+        <Comment></Comment>
+        <IsPlain>false</IsPlain>
+        <Max xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:double">INF</Max>
+        <Min xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:double">-INF</Min>
+        <Name>PedestrianOrientation</Name>
+        <PropertyReferenceList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:anyType z:Ref="i115" />
+        </PropertyReferenceList>
+      </AliasVariable>
+      <AliasVariable z:Id="i341" xmlns:d4p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic" i:type="d4p1:TrafficEditorAliasVariable">
+        <Comment></Comment>
+        <IsPlain>false</IsPlain>
+        <Max xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:double">INF</Max>
+        <Min xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:double">-INF</Min>
+        <Name>TriggerDistance</Name>
+        <PropertyReferenceList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:anyType z:Ref="i98" />
+        </PropertyReferenceList>
+      </AliasVariable>
+    </AliasVariableList>
+    <IsPlain xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">false</IsPlain>
+    <Source xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">NCAP_AEB_VRU_CPxAxx.xml</Source>
+  </AliasListTraffic>
+  <AliasListManeuver z:Id="i342">
+    <AliasType xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">Maneuver</AliasType>
+    <AliasVariableList xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">
+      <AliasVariable z:Id="i343">
+        <Comment></Comment>
+        <IsPlain>false</IsPlain>
+        <Max xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:double">INF</Max>
+        <Min xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:double">-INF</Min>
+        <Name>VUT_Speed</Name>
+        <PropertyReferenceList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:anyType z:Ref="i272" />
+        </PropertyReferenceList>
+      </AliasVariable>
+      <AliasVariable z:Id="i344" xmlns:d4p1="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Traffic" i:type="d4p1:TrafficEditorAliasVariable">
+        <Comment></Comment>
+        <IsPlain>false</IsPlain>
+        <Max xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:double">INF</Max>
+        <Min xmlns:d5p1="http://www.w3.org/2001/XMLSchema" i:type="d5p1:double">-INF</Min>
+        <Name>ACC_StartTime</Name>
+        <PropertyReferenceList xmlns:d5p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+          <d5p1:anyType z:Ref="i255" />
+        </PropertyReferenceList>
+      </AliasVariable>
+    </AliasVariableList>
+    <IsPlain xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">false</IsPlain>
+    <Source xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">NCAP_AEB_VRU_CPxAxx.xml</Source>
+  </AliasListManeuver>
+</TrafficScenario>

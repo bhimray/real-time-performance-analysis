@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "mappings": [
+    {
+      "from": {
+        "country": "kr",
+        "type": "1000001"
+      },
+      "to": {
+        "assetPath": "/AUR_Asia_Assets/3DContent/Traffic/TrafficLights/KOR_TrafficLights/BP_KOR_TrafficLight_V_ryg",
+        "assetId": "3AC2C1A34C745D895A9743B8C584D4BC",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "kr",
+        "type": "1000012"
+      },
+      "to": {
+        "assetPath": "/AUR_Asia_Assets/3DContent/Traffic/TrafficLights/KOR_TrafficLights/BP_KOR_TrafficLight_V_g",
+        "assetId": "24D636C44B747C1F3D40279971E66631",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "kr",
+        "type": "1000009",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/AUR_Asia_Assets/3DContent/Traffic/TrafficLights/KOR_TrafficLights/BP_KOR_TrafficLight_V_ry",
+        "assetId": "32E7FB484B5319EBDC16189E768BC30D",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ]
+}

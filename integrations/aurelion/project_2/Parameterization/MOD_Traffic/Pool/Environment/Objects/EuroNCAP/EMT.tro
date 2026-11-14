@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TrafficObject xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/TrafficObject">
+  <Children z:Id="i2" />
+  <FileVersion>1.6</FileVersion>
+  <ID>bbaf2ba2-11ad-4c4a-ae4a-fb88405aa417</ID>
+  <Author></Author>
+  <BoxSensor z:Id="i3">
+    <IsEnabled>true</IsEnabled>
+    <CenterPoint z:Id="i4">
+      <X>-0.71</X>
+      <Y>0.0</Y>
+      <Z>0.548</Z>
+    </CenterPoint>
+    <Height>1.695</Height>
+    <Length>2.02</Length>
+    <Width>0.67</Width>
+  </BoxSensor>
+  <ContourLineSensor z:Id="i5">
+    <IsEnabled>true</IsEnabled>
+    <MaxHeight>1.3949999809265137</MaxHeight>
+    <MinHeight>-0.30000001192092896</MinHeight>
+    <PolygonLine>
+      <Point z:Id="i6">
+        <X>0.30000000000000004</X>
+        <Y>0</Y>
+      </Point>
+      <Point z:Id="i7">
+        <X>0.30000000000000004</X>
+        <Y>-0.105</Y>
+      </Point>
+      <Point z:Id="i8">
+        <X>-0.094999999999999973</X>
+        <Y>-0.105</Y>
+      </Point>
+      <Point z:Id="i9">
+        <X>-0.094999999999999973</X>
+        <Y>-0.335</Y>
+      </Point>
+      <Point z:Id="i10">
+        <X>-1.2799999999999998</X>
+        <Y>-0.335</Y>
+      </Point>
+      <Point z:Id="i11">
+        <X>-1.2799999999999998</X>
+        <Y>-0.13</Y>
+      </Point>
+      <Point z:Id="i12">
+        <X>-1.72</X>
+        <Y>-0.13</Y>
+      </Point>
+      <Point z:Id="i13">
+        <X>-1.72</X>
+        <Y>0</Y>
+      </Point>
+      <Point z:Id="i14">
+        <X>-1.72</X>
+        <Y>0.13</Y>
+      </Point>
+      <Point z:Id="i15">
+        <X>-1.2799999999999998</X>
+        <Y>0.13</Y>
+      </Point>
+      <Point z:Id="i16">
+        <X>-1.2799999999999998</X>
+        <Y>0.335</Y>
+      </Point>
+      <Point z:Id="i17">
+        <X>-0.094999999999999973</X>
+        <Y>0.335</Y>
+      </Point>
+      <Point z:Id="i18">
+        <X>-0.094999999999999973</X>
+        <Y>0.105</Y>
+      </Point>
+      <Point z:Id="i19">
+        <X>0.30000000000000004</X>
+        <Y>0.105</Y>
+      </Point>
+      <Point z:Id="i20">
+        <X>0.30000000000000004</X>
+        <Y>-0</Y>
+      </Point>
+    </PolygonLine>
+  </ContourLineSensor>
+  <CustomSensor z:Id="i21">
+    <IsEnabled>true</IsEnabled>
+    <UserDataList>
+      <UserData z:Id="i22">
+        <Name>Type</Name>
+        <Value>2</Value>
+      </UserData>
+      <UserData z:Id="i23">
+        <Name>VehicleType</Name>
+        <Value>10</Value>
+      </UserData>
+      <UserData z:Id="i24">
+        <Name>GroundClearance</Name>
+        <Value>170</Value>
+      </UserData>
+      <UserData z:Id="i25">
+        <Name>NumberOfWheels</Name>
+        <Value>2</Value>
+      </UserData>
+      <UserData z:Id="i26">
+        <Name>HasTrailer</Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i27">
+        <Name>Trailer_ID</Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i28">
+        <Name>Driver_ID</Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i29">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i30">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i31">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+    </UserDataList>
+  </CustomSensor>
+  <DAEPath>%customer_objects%\AURELION\NCAP\$NCAP_Motorbike\NCAP_Motorbike.dae</DAEPath>
+  <Description>Based on Test Protocol – AEB/LSS VRU systems v4.5, and deliverable D2.1 of the MUSE project</Description>
+  <Dynamic>false</Dynamic>
+  <FellowSensor z:Id="i32">
+    <IsEnabled>true</IsEnabled>
+    <FellowDynamics z:Id="i33">
+      <EnginePower>100</EnginePower>
+      <MaximumDeceleration>6</MaximumDeceleration>
+      <MaximumSpeed>200</MaximumSpeed>
+      <VehicleMass>1300</VehicleMass>
+    </FellowDynamics>
+    <FellowGeometry z:Id="i34">
+      <DistanceFrontToRearAxis>1.425</DistanceFrontToRearAxis>
+      <DistanceFrontWheels>0</DistanceFrontWheels>
+      <DistanceRearWheels>0</DistanceRearWheels>
+      <WheelRadius>0.3</WheelRadius>
+    </FellowGeometry>
+  </FellowSensor>
+  <ObjectPointsSensor z:Id="i35">
+    <IsEnabled>true</IsEnabled>
+    <Points z:Id="i36">
+      <CustomPoints>
+        <CustomPoint z:Id="i37">
+          <X>0.3</X>
+          <Y>0</Y>
+          <ID>1</ID>
+          <Z>0</Z>
+          <Data_1>0</Data_1>
+          <Data_2>0</Data_2>
+          <Data_3>0</Data_3>
+          <Data_4>0</Data_4>
+          <Data_5>0</Data_5>
+        </CustomPoint>
+        <CustomPoint z:Id="i38">
+          <X>-1.72</X>
+          <Y>0</Y>
+          <ID>2</ID>
+          <Z>0</Z>
+          <Data_1>0</Data_1>
+          <Data_2>0</Data_2>
+          <Data_3>0</Data_3>
+          <Data_4>0</Data_4>
+          <Data_5>0</Data_5>
+        </CustomPoint>
+      </CustomPoints>
+      <NCAPReferencePoints>
+        <ObjectPoint z:Id="i39">
+          <X>-0.095</X>
+          <Y>0.335</Y>
+          <ID>1</ID>
+          <Z>0.6</Z>
+        </ObjectPoint>
+      </NCAPReferencePoints>
+      <ReflectionPoints>
+        <ReflectionPoint z:Id="i40">
+          <X>0</X>
+          <Y>0</Y>
+          <ID>1</ID>
+          <Z>0.15</Z>
+          <Axis>Front</Axis>
+          <Orientation>0</Orientation>
+          <RCS>10</RCS>
+          <Type>Fixed</Type>
+          <Visibility>90</Visibility>
+        </ReflectionPoint>
+        <ReflectionPoint z:Id="i41">
+          <X>-1.425</X>
+          <Y>0</Y>
+          <ID>2</ID>
+          <Z>0.15</Z>
+          <Axis>Front</Axis>
+          <Orientation>0</Orientation>
+          <RCS>10</RCS>
+          <Type>Fixed</Type>
+          <Visibility>90</Visibility>
+        </ReflectionPoint>
+      </ReflectionPoints>
+    </Points>
+  </ObjectPointsSensor>
+  <ObjectStates z:Id="i42" />
+  <Orientation>0</Orientation>
+  <SimulationID>214</SimulationID>
+  <TrafficSignSensor z:Id="i43" i:type="Priority">
+    <IsEnabled>false</IsEnabled>
+    <Condition>100</Condition>
+    <IdentifierCode>0</IdentifierCode>
+    <Type>Priority</Type>
+    <PriorityType>Stop</PriorityType>
+  </TrafficSignSensor>
+  <TrafficSignSensorAdvanced z:Id="i44">
+    <IsEnabled>false</IsEnabled>
+    <DynamicTrafficSignSensorValues z:Id="i45" />
+    <StateDependentValues>false</StateDependentValues>
+    <StaticTrafficSignSensorValues z:Id="i46">
+      <Condition>100</Condition>
+      <Country>DEU</Country>
+      <SubType>0</SubType>
+      <Text></Text>
+      <Type>274</Type>
+      <Value>60</Value>
+    </StaticTrafficSignSensorValues>
+  </TrafficSignSensorAdvanced>
+</TrafficObject>

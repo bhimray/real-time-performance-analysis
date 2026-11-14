@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>SensorScheduling</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.SENSOR_SCHEDULING_PARAMETERS.Const_SensorIdx</ParameterAddress>
+			      <ValueV>0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.SENSOR_SCHEDULING_PARAMETERS.Const_t_Cycle_Sensor</ParameterAddress>
+			      <ValueV>0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.SENSOR_SCHEDULING_PARAMETERS.Const_t_Delay_SensorOutput</ParameterAddress>
+			      <ValueV>0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.SENSOR_SCHEDULING_PARAMETERS.Const_t_Offs_Sensor</ParameterAddress>
+			      <ValueV>0</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

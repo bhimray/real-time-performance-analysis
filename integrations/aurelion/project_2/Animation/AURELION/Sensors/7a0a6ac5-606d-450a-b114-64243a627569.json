@@ -1,0 +1,10 @@
+{
+  "id": "7a0a6ac5-606d-450a-b114-64243a627569",
+  "description": "Radar sensor with default parameters",
+  "modifiedOn": 1793741104,
+  "name": "Default Radar",
+  "type": "RADAR",
+  "configFile": "./Sensors/7a0a6ac5-606d-450a-b114-64243a627569/SensorConfig.json",
+  "additionalFilesDirectory": "./Sensors/7a0a6ac5-606d-450a-b114-64243a627569/AdditionalFiles",
+  "version": 2
+}

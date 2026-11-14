@@ -1,0 +1,9 @@
+{
+  "id": "b755c148-5a05-48fc-9003-f64d38739937",
+  "description": "Camera sensor with default parameters",
+  "modifiedOn": 1793741104,
+  "name": "Default Camera",
+  "type": "CAMERA",
+  "configFile": "./Sensors/b755c148-5a05-48fc-9003-f64d38739937/SensorConfig.json",
+  "version": 2
+}

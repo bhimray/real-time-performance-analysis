@@ -1,0 +1,17 @@
+{
+  "id": "c0c824dc-9c2a-4396-b346-ff9bb93489da",
+  "version": 7,
+  "name": "US_Suburb",
+  "description": "",
+  "modifiedOn": 1793741104,
+  "type": "ModelDesk",
+  "imageFile": "./Scenarios/c0c824dc-9c2a-4396-b346-ff9bb93489da/Preview.png",
+  "scenery": {
+    "selection": "aur",
+    "scene": {
+      "name": "US_Suburb",
+      "path": "/AUR_MapsBasic/Scenes/US_Suburb/US_Suburb"
+    },
+    "isAvailable": true
+  }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>SoftECU</MainComponent>
+	  <RecordType>TorqueInterventionControl</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.TORQUE_INTERVENTION_CONTROL.Const_t_Gear_Offs</ParameterAddress>
+			      <ValueV>0.06</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.TORQUE_INTERVENTION_CONTROL.Map_Factor_Trq_Engine_Red</ParameterAddress>
+			      <DimView>[1,20]</DimView>
+			      <ValueX>0 0.02 0.04 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4</ValueX>
+			      <ValueV>100 60 50 0 50 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

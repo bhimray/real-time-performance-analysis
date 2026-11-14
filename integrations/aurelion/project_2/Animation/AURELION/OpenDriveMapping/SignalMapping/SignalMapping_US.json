@@ -1,0 +1,5716 @@
+{
+  "version": 1,
+  "mappings": [
+    {
+      "from": {
+        "country": "us",
+        "type": "M1",
+        "subtype": "1_19"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Interstate 19",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.457
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "M1",
+        "subtype": "1_794"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Interstate 794",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.457
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R1",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Stop",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.45
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R4",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Do Not Pass",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R5",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Do not enter",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.305
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "NoMotorVehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 5",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 10",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-15"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 15",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-20"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 20",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-25"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 25",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-30"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 30",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-35"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 35",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-40"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 40",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-45"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 45",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-50"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 50",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-55"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 55",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-60"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 60",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-65"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 65",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-70"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 70",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-75"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 75",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-80"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 80",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1-85"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed Limit 85",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 5",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 10",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-15"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 15",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-20"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 20",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-25"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 25",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-30"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 30",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-35"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 35",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-40"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 40",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-45"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 45",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-50"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 50",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-55"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 55",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-60"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 60",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-65"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 65",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-70"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 70",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-75"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 75",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-80"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 80",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "4P-85"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Minimum Speed 85",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 5",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 10",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-15"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 15",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-20"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 20",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-25"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 25",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-30"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 30",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-35"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 35",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-40"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 40",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-45"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 45",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-50"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 50",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-55"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 55",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-60"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 60",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-65"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 65",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-70"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 70",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-75"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 75",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-80"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 80",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "E-85"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End Speed Limit 85",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D10",
+        "subtype": "16"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "U-turn yield to right turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.305
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D11",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Bicycle route",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D12",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Travel info",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D4",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Parking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.305
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D4",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Park and Ride",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D4",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Bicycle Parking Left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D5",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Rest Area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.45
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D6",
+        "subtype": "4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "National Scenic Byways marker",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D9",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Information",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D9",
+        "subtype": "7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Gas",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D9",
+        "subtype": "11"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Diesel fuel",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D9",
+        "subtype": "11a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Alternative fuel - natural gas",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D9",
+        "subtype": "11b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Alternative fuel - electric",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D9",
+        "subtype": "13"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Emergency medical services",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D9",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Telephone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D9",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Hospital",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D9",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Tent camping",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D9",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Handicapped accessible facility",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D9",
+        "subtype": "8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Food",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D9",
+        "subtype": "9"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Lodging",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "E11",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "All traffic must exit",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.45
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "E5",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Exit",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.376
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "E5",
+        "subtype": "2a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Exit closed",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.45
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "EM",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Hurricane evacuation route",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "G20",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Road work next 5 miles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.227
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "F20",
+        "subtype": "2a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End road work",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.227
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "I",
+        "subtype": "12"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Light rail transit station ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "M4",
+        "subtype": "10L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Detour left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.15
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "M4",
+        "subtype": "10R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Detour right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.15
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "M4",
+        "subtype": "9aL"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Bicycle and pedestrian detour left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.376
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "M4",
+        "subtype": "9aR"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Bicycle and pedestrian detour right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.376
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R1",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Yield",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.139
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R1",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Multi-way stop",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.075
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R1",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Yield here to pedestrians",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R10",
+        "subtype": "13"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Emergency signal",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.301
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R10",
+        "subtype": "19"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Photo enforced info",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R10",
+        "subtype": "3b L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Pedestrian push button left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.15
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R10",
+        "subtype": "3b R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Pedestrian push button right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.15
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R10",
+        "subtype": "3e L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Pedestrian push button with countdown left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.188
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R10",
+        "subtype": "3e R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Pedestrian push button with countdown right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.188
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R12",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Truck weight limit",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.449
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R14",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Hazardous materials prohibited",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.305
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "15",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Railroad crossbuck",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.6
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "15",
+        "subtype": "4a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Light rail only right lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.749
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R15",
+        "subtype": "4b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Light rail only left lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.749
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R15",
+        "subtype": "4c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Light rail only center lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.749
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R15",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Do not pass stopped trains",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.749
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R15",
+        "subtype": "6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Do not drive on tracks",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R15",
+        "subtype": "7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Divided highway transit rail crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R15",
+        "subtype": "8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Look both ways",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.227
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "10b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Low emission vehicles allowed",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.528
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "12"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "HOV lane ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.528
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "12a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "HOV lane ends",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.528
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "17"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Bike lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "17a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Ahead info",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "17b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Ends",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.227
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "18"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "No U-turn or left turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.305
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "No left turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.305
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "2a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "No left turn across tracks",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.305
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "No U-turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.305
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "5a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Straight ahead only",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.453
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "5L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Left turn only",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.453
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "5R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Right turn only",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.453
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "6L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Left or through",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.453
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "6R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Right or through",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.453
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Intersection lane control",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.381
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "9a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Two way left turn only",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.453
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "9d"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Reversible lane control",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.6
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "9g"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Reverse lane end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.451
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "9h"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Reverse lane ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.451
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R3",
+        "subtype": "9i"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "End reverse lane left only",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.6
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R4",
+        "subtype": "4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Vehicles must yield to bikes on right turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.376
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R5",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "No trucks",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.305
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R5",
+        "subtype": "6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "No bicycles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.305
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R6",
+        "subtype": "1L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "One way left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.151
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R6",
+        "subtype": "1R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "One way right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.151
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R6",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Divided highway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.305
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R7",
+        "subtype": "201a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Tow-away zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.075
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R7",
+        "subtype": "8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Reserved parking handicapped",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R7",
+        "subtype": "9a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "No parking bike lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R8",
+        "subtype": "3a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "No parking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.305
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R9",
+        "subtype": "11"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Sidewalk closed ahead cross here",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.15
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R9",
+        "subtype": "3a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "No pedestrian crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R9",
+        "subtype": "4a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "No hitchhiking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R9",
+        "subtype": "6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Bicyclists yield to pedestrians",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R9",
+        "subtype": "7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Bicyclists left pedestrians right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R9",
+        "subtype": "8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Pedestrian crosswalk",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.227
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "RA",
+        "subtype": "060"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Laundry facilities",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "RG",
+        "subtype": "050"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Drinking water",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "RG",
+        "subtype": "130"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Litter barrel",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "RL",
+        "subtype": "100"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Hiking trail",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "RL",
+        "subtype": "170"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "All-terrain vehicle trail",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "RM",
+        "subtype": "030"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Ferry service",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "RM",
+        "subtype": "100"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Auto mechanic",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "RM",
+        "subtype": "120"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Picnic area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "RM",
+        "subtype": "140"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Bathrooms",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "RM",
+        "subtype": "200"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Motor home facilities",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "RS",
+        "subtype": "040"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Cross-country ski trail",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "RS",
+        "subtype": "070"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Snowmobile trail",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "RS",
+        "subtype": "090"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "winter recreation area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "RW",
+        "subtype": "080"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Boat launch area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "RW",
+        "subtype": "130"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Swimming area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "RW",
+        "subtype": "160"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Fishing pier",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "S1",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "School crosswalk",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.292
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "10L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Intersection within curve ahead - left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "10R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Intersection within curve ahead - right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "11L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Hairpin curve left ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "11R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Hairpin curve right ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "13L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Truck rollover warning sharp curve left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "13R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Truck rollover warning sharp curve right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "15L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Very sharp curve left ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "15R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Very sharp curve right ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "1L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Left turn ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "1R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Right turn ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "2L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Left curve ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "2R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Right curve ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "3L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Left reverse turn ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "3R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Right reverse turn ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "5L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Winding road left ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "5R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Winding road right ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "6L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Sharp curve to left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.15
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "6R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Sharp curve to right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.15
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Intersection",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.15
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "8L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Sharp curve left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.305
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "8R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Sharp curve right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.305
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "9L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Sharp left turn with advisory speed",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W1",
+        "subtype": "9R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Sharp right turn with advisory speed",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W10",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "No signal",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W10",
+        "subtype": "11"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Railroad crossing storage space - T intersection",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.433
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W10",
+        "subtype": "11a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Space between tracks and highway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.453
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W10",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Railroad crossing ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.306
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W10",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Railroad crossing storage space - cross road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.433
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W10",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Low ground clearance on track",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.433
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W10",
+        "subtype": "7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Light rail vehicle approaching",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W10",
+        "subtype": "9"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "No train horn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W11",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Truck crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W11",
+        "subtype": "12p"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Emergency signal ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W11",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Bicycle crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W11",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Pedestrian crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W11",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Deer crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W11",
+        "subtype": "4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Cattle crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W11",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Farm machinery crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W11",
+        "subtype": "6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Snowmobile crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W11",
+        "subtype": "8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Fire station",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W11",
+        "subtype": "9"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Handicapped crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W12",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Low clearance ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W13",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Advisory speed - 35",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W13",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Advisory exit speed - 25",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.453
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W13",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Advisory ramp speed -35",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.453
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W14",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "No passing zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.318
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W15",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Playground ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W16",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Photo enforced",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W16",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Share the road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.305
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W16",
+        "subtype": "7pL"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Arrow left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.15
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W16",
+        "subtype": "7pR"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Arrow right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.15
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W16",
+        "subtype": "9p"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.15
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W2",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Cross road ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W2",
+        "subtype": "2L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Side road left ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W2",
+        "subtype": "2R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Side road right ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W2",
+        "subtype": "3L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Side road left at angle ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W2",
+        "subtype": "3R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Side road right at angle ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W2",
+        "subtype": "4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "T-Intersection ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W2",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Y-Intersection ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W2",
+        "subtype": "6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Circular intersection ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W20",
+        "subtype": "5a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Right lanes closed ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W20",
+        "subtype": "7a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Flagger ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W21",
+        "subtype": "1a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Workers ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W21",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Shoulder work",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W21",
+        "subtype": "5a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Right shoulder closed",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W21",
+        "subtype": "7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Utility work ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W23",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Slow traffic ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.301
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W3",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Stop ahead text",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W3",
+        "subtype": "1a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Stop ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W3",
+        "subtype": "2a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Yield ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W3",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Signal ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W4",
+        "subtype": "1aL"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Entering roadway merge left ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W4",
+        "subtype": "1aR"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Entering roadway merge right ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W4",
+        "subtype": "1L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Merging traffic left ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W4",
+        "subtype": "1R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Merging traffic right ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W4",
+        "subtype": "2L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Lane reduction left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W4",
+        "subtype": "2R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Lane reduction right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W4",
+        "subtype": "3aL"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Entering roadway added left lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W4",
+        "subtype": "3aR"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Entering roadway added right lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W4",
+        "subtype": "3L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Added left lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W4",
+        "subtype": "3R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Added right lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W5",
+        "subtype": "1a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Road narrows",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W6",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Divided highway ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W6",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Divided highway ends",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W6",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Two way traffic",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W7",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Steep hill",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W7",
+        "subtype": "1b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Steep hill percentage - 8",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W7",
+        "subtype": "4c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Truck escape ramp",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.749
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W7",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Hill bicycle",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W8",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Slippery when wet - bicycle",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W8",
+        "subtype": "10p"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Slippery when wet text",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.113
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "W8",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Slippery when wet",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "E1",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Interchange advance exit sign",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.419
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D10",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Mile marker 444",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.45
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D10",
+        "subtype": "7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Roadway identification mile marker 260",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.367
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "D10",
+        "subtype": "8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Roadway identification mile marker 260.2",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.45
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "E5",
+        "subtype": "1a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Interchange exit sign",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "E7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Destination distance",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.6
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "I",
+        "subtype": "13"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Report emergency stalled vehicle on tracks",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "I",
+        "subtype": "13a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Report emergency",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.227
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "M1",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Named highway - Eisenhower",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "M1",
+        "subtype": "4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "US route marker - 40",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "M1",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "State route marker - 21",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.229
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "M1",
+        "subtype": "6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "County route marker - 16",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.299
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "M1",
+        "subtype": "7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "National forest route marker - 13",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.294
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "M1",
+        "subtype": "8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Bicycle route marker - 60",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "M1",
+        "subtype": "9"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Interstate bicycle route - 7",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.234
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "M2",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Roadway junction - 47 3",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.6
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "R2",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Speed limit metric 80",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.449
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "",
+        "subtype": ""
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Downtown colorcoded",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.123
+      }
+    },
+    {
+      "from": {
+        "country": "us",
+        "type": "",
+        "subtype": "-"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "US",
+          "Signs": "Theater disctrict colorcoded",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.123
+      }
+    }
+  ]
+}
