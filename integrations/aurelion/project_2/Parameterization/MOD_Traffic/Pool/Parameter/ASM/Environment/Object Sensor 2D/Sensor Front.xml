@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>Object Sensor 2D</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.OBJECT_SENSOR_2D_PARAMETERS.Const_Angle_ScopeZone_Horizontal</ParameterAddress>
+			      <ValueV>60</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OBJECT_SENSOR_2D_PARAMETERS.Const_Angle_z_Orientation_Sensor_CoorSys_V</ParameterAddress>
+			      <ValueV>0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OBJECT_SENSOR_2D_PARAMETERS.Const_Length_ScopeZone</ParameterAddress>
+			      <ValueV>70</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OBJECT_SENSOR_2D_PARAMETERS.Const_Num_SensorRays_Used</ParameterAddress>
+			      <ValueV>10</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OBJECT_SENSOR_2D_PARAMETERS.Const_Pos_Sensor_Apex_CoorSys_V</ParameterAddress>
+			      <ValueV>-0.75 0 0.9</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OBJECT_SENSOR_2D_PARAMETERS.Const_SensorIdx</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OBJECT_SENSOR_2D_PARAMETERS.Const_t_Cycle_Sensor</ParameterAddress>
+			      <ValueV>0.02</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OBJECT_SENSOR_2D_PARAMETERS.Const_t_Delay_SensorOutput</ParameterAddress>
+			      <ValueV>0.009</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OBJECT_SENSOR_2D_PARAMETERS.Const_t_Offs_Sensor</ParameterAddress>
+			      <ValueV>0.01</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OBJECT_SENSOR_2D_PARAMETERS.Sw_Object_Detection_Mode</ParameterAddress>
+			      <ValueV>3</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OBJECT_SENSOR_2D_PARAMETERS.Sw_Sensor_Detection_Mode</ParameterAddress>
+			      <ValueV>2</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OBJECT_SENSOR_2D_PARAMETERS.Sw_Sensor_Enable</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+	  </Parameters>
+	  <Processing>
+		    <Priority>0</Priority>
+	  </Processing>
+</ParameterFile>

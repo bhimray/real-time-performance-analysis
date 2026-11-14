@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TrafficObject xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/TrafficObject">
+  <Children z:Id="i2" />
+  <FileVersion>1.6</FileVersion>
+  <ID>c14339fc-4330-4f59-9783-75def45f9ebe</ID>
+  <Author></Author>
+  <BoxSensor z:Id="i3">
+    <IsEnabled>true</IsEnabled>
+    <CenterPoint z:Id="i4">
+      <X>-0.23647558689117432</X>
+      <Y>0.00021082162857055664</Y>
+      <Z>2.0154499244689958</Z>
+    </CenterPoint>
+    <Height>4.0309001541137661</Height>
+    <Length>3.810075044631958</Length>
+    <Width>2.2000008821487427</Width>
+  </BoxSensor>
+  <ContourLineSensor z:Id="i5">
+    <IsEnabled>true</IsEnabled>
+    <MaxHeight>0</MaxHeight>
+    <MinHeight>0</MinHeight>
+    <PolygonLine>
+      <Point z:Id="i6">
+        <X>-2.1415131092071533</X>
+        <Y>-1.0997896194458008</Y>
+      </Point>
+      <Point z:Id="i7">
+        <X>1.6685619354248047</X>
+        <Y>-1.0997896194458008</Y>
+      </Point>
+      <Point z:Id="i8">
+        <X>1.6685619354248047</X>
+        <Y>1.1002112627029419</Y>
+      </Point>
+      <Point z:Id="i9">
+        <X>-2.1415131092071533</X>
+        <Y>1.1002112627029419</Y>
+      </Point>
+      <Point z:Id="i10">
+        <X>-2.1415131092071533</X>
+        <Y>-1.0997896194458008</Y>
+      </Point>
+    </PolygonLine>
+  </ContourLineSensor>
+  <CustomSensor z:Id="i11">
+    <IsEnabled>true</IsEnabled>
+    <UserDataList>
+      <UserData z:Id="i12">
+        <Name>Type</Name>
+        <Value>16</Value>
+      </UserData>
+      <UserData z:Id="i13">
+        <Name>Material</Name>
+        <Value>5</Value>
+      </UserData>
+      <UserData z:Id="i14">
+        <Name>Density</Name>
+        <Value>1</Value>
+      </UserData>
+      <UserData z:Id="i15">
+        <Name>Color</Name>
+        <Value>10</Value>
+      </UserData>
+      <UserData z:Id="i16">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i17">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i18">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i19">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i20">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+      <UserData z:Id="i21">
+        <Name></Name>
+        <Value>0</Value>
+      </UserData>
+    </UserDataList>
+  </CustomSensor>
+  <DAEPath>%customer_objects%\AURELION\Traffic\Construction\$WarningTrailer\WarningTrailer.dae</DAEPath>
+  <Description></Description>
+  <Dynamic>false</Dynamic>
+  <FellowSensor z:Id="i22">
+    <IsEnabled>false</IsEnabled>
+    <FellowDynamics z:Id="i23">
+      <EnginePower>100</EnginePower>
+      <MaximumDeceleration>6</MaximumDeceleration>
+      <MaximumSpeed>200</MaximumSpeed>
+      <VehicleMass>1300</VehicleMass>
+    </FellowDynamics>
+    <FellowGeometry z:Id="i24">
+      <DistanceFrontToRearAxis>2.48</DistanceFrontToRearAxis>
+      <DistanceFrontWheels>1.36</DistanceFrontWheels>
+      <DistanceRearWheels>1.4</DistanceRearWheels>
+      <WheelRadius>0.32</WheelRadius>
+    </FellowGeometry>
+  </FellowSensor>
+  <ObjectPointsSensor z:Id="i25">
+    <IsEnabled>false</IsEnabled>
+    <Points z:Id="i26">
+      <CustomPoints />
+      <NCAPReferencePoints />
+      <ReflectionPoints />
+    </Points>
+  </ObjectPointsSensor>
+  <ObjectStates z:Id="i27">
+    <StateSubObject z:Id="i28">
+      <ActiveState>off</ActiveState>
+      <Name>WarningLight</Name>
+      <States xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>off</d4p1:string>
+        <d4p1:string>light_on</d4p1:string>
+        <d4p1:string>blinking_on</d4p1:string>
+      </States>
+    </StateSubObject>
+    <StateSubObject z:Id="i29">
+      <ActiveState>off</ActiveState>
+      <Name>ArrowLight</Name>
+      <States xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>off</d4p1:string>
+        <d4p1:string>point_left</d4p1:string>
+        <d4p1:string>point_right</d4p1:string>
+        <d4p1:string>cross</d4p1:string>
+        <d4p1:string>blink_left</d4p1:string>
+        <d4p1:string>blink_right</d4p1:string>
+        <d4p1:string>blink_cross</d4p1:string>
+      </States>
+    </StateSubObject>
+    <StateSubObject z:Id="i30">
+      <ActiveState>left</ActiveState>
+      <Name>Arrow</Name>
+      <States xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>left</d4p1:string>
+        <d4p1:string>down</d4p1:string>
+        <d4p1:string>right</d4p1:string>
+      </States>
+    </StateSubObject>
+  </ObjectStates>
+  <Orientation>0</Orientation>
+  <SimulationID>106</SimulationID>
+  <TrafficSignSensor z:Id="i31" i:type="Priority">
+    <IsEnabled>false</IsEnabled>
+    <Condition>100</Condition>
+    <IdentifierCode>0</IdentifierCode>
+    <Type>Priority</Type>
+    <PriorityType>Stop</PriorityType>
+  </TrafficSignSensor>
+  <TrafficSignSensorAdvanced z:Id="i32">
+    <IsEnabled>false</IsEnabled>
+    <DynamicTrafficSignSensorValues z:Id="i33" />
+    <StateDependentValues>false</StateDependentValues>
+    <StaticTrafficSignSensorValues z:Id="i34">
+      <Condition>100</Condition>
+      <Country>DEU</Country>
+      <SubType>0</SubType>
+      <Text></Text>
+      <Type>274</Type>
+      <Value>60</Value>
+    </StaticTrafficSignSensorValues>
+  </TrafficSignSensorAdvanced>
+</TrafficObject>

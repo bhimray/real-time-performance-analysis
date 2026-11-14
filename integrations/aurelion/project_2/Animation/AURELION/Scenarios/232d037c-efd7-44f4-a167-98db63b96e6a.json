@@ -1,0 +1,17 @@
+{
+  "id": "232d037c-efd7-44f4-a167-98db63b96e6a",
+  "version": 7,
+  "name": "CityTrackRural",
+  "description": "",
+  "modifiedOn": 1793741104,
+  "type": "ModelDesk",
+  "imageFile": "./Scenarios/232d037c-efd7-44f4-a167-98db63b96e6a/Preview.png",
+  "scenery": {
+    "selection": "aur",
+    "scene": {
+      "name": "CityTrack_Rural",
+      "path": "/AUR_MapsBasic/Scenes/CityTrack_Rural/CityTrack_Rural"
+    },
+    "isAvailable": true
+  }
+}

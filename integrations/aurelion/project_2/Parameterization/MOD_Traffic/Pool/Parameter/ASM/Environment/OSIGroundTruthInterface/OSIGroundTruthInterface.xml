@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>OSIGroundTruthInterface</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.OSI_GROUNDTRUTH_INTERFACE.Const_Length_GT_Area_Front</ParameterAddress>
+			      <ValueV>200</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OSI_GROUNDTRUTH_INTERFACE.Const_Length_GT_Area_Left</ParameterAddress>
+			      <ValueV>20</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OSI_GROUNDTRUTH_INTERFACE.Const_Length_GT_Area_Rear</ParameterAddress>
+			      <ValueV>50</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OSI_GROUNDTRUTH_INTERFACE.Const_Length_GT_Area_Right</ParameterAddress>
+			      <ValueV>20</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OSI_GROUNDTRUTH_INTERFACE.Const_Quad_Dim_x</ParameterAddress>
+			      <ValueV>250</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OSI_GROUNDTRUTH_INTERFACE.Const_Quad_Dim_y</ParameterAddress>
+			      <ValueV>250</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OSI_GROUNDTRUTH_INTERFACE.Sw_GT_Area_Definition_Mode</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OSI_GROUNDTRUTH_INTERFACE.Sw_Interface_Mode</ParameterAddress>
+			      <ValueV>0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.OSI_GROUNDTRUTH_INTERFACE.Sw_Quadrant_Def_Mode</ParameterAddress>
+			      <ValueV>2</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

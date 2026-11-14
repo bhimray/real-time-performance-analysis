@@ -1,0 +1,1409 @@
+{
+  "observers": [
+    {
+      "name": "Driver",
+      "type": "Observer",
+      "assetPath": "/Observers/Camera_Observer",
+      "properties": [
+        {
+          "name": "Parent",
+          "description": "Sets the parent asset ID this asset is attached to.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Lock movement",
+          "description": "If enabled the observer does not move anymore.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Align with asset tilt",
+          "description": "Uses the Look at asset, or otherwise the Attach to asset, as the observer’s tilt reference. Disable to keep the observer upright relative to the world.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Scale",
+          "description": "",
+          "value": "X=1.000 Y=1.000 Z=1.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Location",
+          "description": "World Location of the observer.",
+          "value": "X=112.455 Y=0.208 Z=1.127",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Relative location",
+          "description": "Relative location of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "X=-1.700 Y=0.400 Z=0.800",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Rotation",
+          "description": "World Rotation of the observer. Only enabled when not attached to an asset.",
+          "value": "R=0.000000 P=10.167648 Y=-1.816713",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Relative rotation",
+          "description": "Relative rotation of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "P=10.021141 Y=0.115673 R=-0.000236",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Motion Blur",
+          "description": "",
+          "value": "Off",
+          "type": "String",
+          "isReadOnly": false,
+          "range": "Off, High, Mid, Low"
+        },
+        {
+          "name": "Attach to asset",
+          "description": "Name of the asset that the observer shall be following.",
+          "value": "<ego_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        },
+        {
+          "name": "Look at asset",
+          "description": "Name of the asset that the obeserver shall be always looking at.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        }
+      ],
+      "datastreams": [],
+      "boundingBoxMin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "boundingBoxMax": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "childs": [],
+      "id": "43980732A5DB422492873AAAD0BFBFB7"
+    },
+    {
+      "name": "F1 rear",
+      "type": "Observer",
+      "assetPath": "/Observers/Camera_Observer",
+      "properties": [
+        {
+          "name": "Parent",
+          "description": "Sets the parent asset ID this asset is attached to.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Lock movement",
+          "description": "If enabled the observer does not move anymore.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Align with asset tilt",
+          "description": "Uses the Look at asset, or otherwise the Attach to asset, as the observer’s tilt reference. Disable to keep the observer upright relative to the world.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Scale",
+          "description": "",
+          "value": "X=1.000 Y=1.000 Z=1.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Location",
+          "description": "World Location of the observer.",
+          "value": "X=82.001 Y=-0.000 Z=5.319",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Relative location",
+          "description": "Relative location of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "X=-14.000 Y=-0.000 Z=5.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Rotation",
+          "description": "World Rotation of the observer. Only enabled when not attached to an asset.",
+          "value": "R=0.000000 P=15.000000 Y=0.000000",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Relative rotation",
+          "description": "Relative rotation of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "P=15.000000 Y=0.000000 R=0.000000",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Motion Blur",
+          "description": "",
+          "value": "Off",
+          "type": "String",
+          "isReadOnly": false,
+          "range": "Off, High, Mid, Low"
+        },
+        {
+          "name": "Attach to asset",
+          "description": "Name of the asset that the observer shall be following.",
+          "value": "<fellow_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        },
+        {
+          "name": "Look at asset",
+          "description": "Name of the asset that the obeserver shall be always looking at.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        }
+      ],
+      "datastreams": [],
+      "boundingBoxMin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "boundingBoxMax": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "childs": [],
+      "id": "070684F3DD5F4326B3D1EBEB6AFCA6F9"
+    },
+    {
+      "name": "F1 top",
+      "type": "Observer",
+      "assetPath": "/Observers/Camera_Observer",
+      "properties": [
+        {
+          "name": "Parent",
+          "description": "Sets the parent asset ID this asset is attached to.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Lock movement",
+          "description": "If enabled the observer does not move anymore.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Align with asset tilt",
+          "description": "Uses the Look at asset, or otherwise the Attach to asset, as the observer’s tilt reference. Disable to keep the observer upright relative to the world.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Scale",
+          "description": "",
+          "value": "X=1.000 Y=1.000 Z=1.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Location",
+          "description": "World Location of the observer.",
+          "value": "X=94.001 Y=0.000 Z=80.319",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Relative location",
+          "description": "Relative location of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "X=-2.000 Y=0.000 Z=80.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Rotation",
+          "description": "World Rotation of the observer. Only enabled when not attached to an asset.",
+          "value": "R=0.000000 P=89.476572 Y=0.000000",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Relative rotation",
+          "description": "Relative rotation of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "P=89.476572 Y=0.000005 R=0.000000",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Motion Blur",
+          "description": "",
+          "value": "Off",
+          "type": "String",
+          "isReadOnly": false,
+          "range": "Off, High, Mid, Low"
+        },
+        {
+          "name": "Attach to asset",
+          "description": "Name of the asset that the observer shall be following.",
+          "value": "<fellow_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        },
+        {
+          "name": "Look at asset",
+          "description": "Name of the asset that the obeserver shall be always looking at.",
+          "value": "<fellow_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        }
+      ],
+      "datastreams": [],
+      "boundingBoxMin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "boundingBoxMax": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "childs": [],
+      "id": "AADAB32AEDA84ADDA78279F7C96DD5C9"
+    },
+    {
+      "name": "F2 rear",
+      "type": "Observer",
+      "assetPath": "/Observers/Camera_Observer",
+      "properties": [
+        {
+          "name": "Parent",
+          "description": "Sets the parent asset ID this asset is attached to.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Lock movement",
+          "description": "If enabled the observer does not move anymore.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Align with asset tilt",
+          "description": "Uses the Look at asset, or otherwise the Attach to asset, as the observer’s tilt reference. Disable to keep the observer upright relative to the world.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Scale",
+          "description": "",
+          "value": "X=1.000 Y=1.000 Z=1.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Location",
+          "description": "World Location of the observer.",
+          "value": "X=62.637 Y=3.625 Z=5.377",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Relative location",
+          "description": "Relative location of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "X=-14.000 Y=-0.000 Z=5.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Rotation",
+          "description": "World Rotation of the observer. Only enabled when not attached to an asset.",
+          "value": "R=0.000000 P=15.000000 Y=0.000000",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Relative rotation",
+          "description": "Relative rotation of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "P=15.000000 Y=0.000000 R=0.000000",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Motion Blur",
+          "description": "",
+          "value": "Off",
+          "type": "String",
+          "isReadOnly": false,
+          "range": "Off, High, Mid, Low"
+        },
+        {
+          "name": "Attach to asset",
+          "description": "Name of the asset that the observer shall be following.",
+          "value": "<fellow_2>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        },
+        {
+          "name": "Look at asset",
+          "description": "Name of the asset that the obeserver shall be always looking at.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        }
+      ],
+      "datastreams": [],
+      "boundingBoxMin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "boundingBoxMax": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "childs": [],
+      "id": "E2E0E8D69C334D30A3D38D59FE9ED681"
+    },
+    {
+      "name": "F2 top",
+      "type": "Observer",
+      "assetPath": "/Observers/Camera_Observer",
+      "properties": [
+        {
+          "name": "Parent",
+          "description": "Sets the parent asset ID this asset is attached to.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Lock movement",
+          "description": "If enabled the observer does not move anymore.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Align with asset tilt",
+          "description": "Uses the Look at asset, or otherwise the Attach to asset, as the observer’s tilt reference. Disable to keep the observer upright relative to the world.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Scale",
+          "description": "",
+          "value": "X=1.000 Y=1.000 Z=1.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Location",
+          "description": "World Location of the observer.",
+          "value": "X=74.637 Y=3.625 Z=80.377",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Relative location",
+          "description": "Relative location of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "X=-2.000 Y=-0.000 Z=80.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Rotation",
+          "description": "World Rotation of the observer. Only enabled when not attached to an asset.",
+          "value": "R=0.069158 P=89.607362 Y=0.069160",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Relative rotation",
+          "description": "Relative rotation of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "P=89.607362 Y=0.069165 R=0.069163",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Motion Blur",
+          "description": "",
+          "value": "Off",
+          "type": "String",
+          "isReadOnly": false,
+          "range": "Off, High, Mid, Low"
+        },
+        {
+          "name": "Attach to asset",
+          "description": "Name of the asset that the observer shall be following.",
+          "value": "<fellow_2>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        },
+        {
+          "name": "Look at asset",
+          "description": "Name of the asset that the obeserver shall be always looking at.",
+          "value": "<fellow_2>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        }
+      ],
+      "datastreams": [],
+      "boundingBoxMin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "boundingBoxMax": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "childs": [],
+      "id": "F248B835F0774D24A7B979676C0493B7"
+    },
+    {
+      "name": "Front",
+      "type": "Observer",
+      "assetPath": "/Observers/Camera_Observer",
+      "properties": [
+        {
+          "name": "Parent",
+          "description": "Sets the parent asset ID this asset is attached to.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Lock movement",
+          "description": "If enabled the observer does not move anymore.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Align with asset tilt",
+          "description": "Uses the Look at asset, or otherwise the Attach to asset, as the observer’s tilt reference. Disable to keep the observer upright relative to the world.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Scale",
+          "description": "",
+          "value": "X=1.000 Y=1.000 Z=1.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Location",
+          "description": "World Location of the observer.",
+          "value": "X=117.240 Y=2.648 Z=1.115",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Relative location",
+          "description": "Relative location of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "X=3.000 Y=3.000 Z=0.800",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Rotation",
+          "description": "World Rotation of the observer. Only enabled when not attached to an asset.",
+          "value": "R=0.000005 P=4.470367 Y=-148.609415",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Relative rotation",
+          "description": "Relative rotation of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "P=4.592814 Y=-146.670611 R=0.080700",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Motion Blur",
+          "description": "",
+          "value": "Off",
+          "type": "String",
+          "isReadOnly": false,
+          "range": "Off, High, Mid, Low"
+        },
+        {
+          "name": "Attach to asset",
+          "description": "Name of the asset that the observer shall be following.",
+          "value": "<ego_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        },
+        {
+          "name": "Look at asset",
+          "description": "Name of the asset that the obeserver shall be always looking at.",
+          "value": "<ego_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        }
+      ],
+      "datastreams": [],
+      "boundingBoxMin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "boundingBoxMax": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "childs": [],
+      "id": "5DAB896972AD4764A5900298DA708085"
+    },
+    {
+      "name": "Left",
+      "type": "Observer",
+      "assetPath": "/Observers/Camera_Observer",
+      "properties": [
+        {
+          "name": "Parent",
+          "description": "Sets the parent asset ID this asset is attached to.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Lock movement",
+          "description": "If enabled the observer does not move anymore.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Align with asset tilt",
+          "description": "Uses the Look at asset, or otherwise the Attach to asset, as the observer’s tilt reference. Disable to keep the observer upright relative to the world.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Scale",
+          "description": "",
+          "value": "X=1.000 Y=1.000 Z=1.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Location",
+          "description": "World Location of the observer.",
+          "value": "X=113.044 Y=5.791 Z=1.326",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Relative location",
+          "description": "Relative location of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "X=-1.300 Y=6.000 Z=1.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Rotation",
+          "description": "World Rotation of the observer. Only enabled when not attached to an asset.",
+          "value": "R=360.000005 P=6.063207 Y=-94.447954",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Relative rotation",
+          "description": "Relative rotation of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "P=6.069676 Y=-92.499971 R=0.147193",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Motion Blur",
+          "description": "",
+          "value": "Off",
+          "type": "String",
+          "isReadOnly": false,
+          "range": "Off, High, Mid, Low"
+        },
+        {
+          "name": "Attach to asset",
+          "description": "Name of the asset that the observer shall be following.",
+          "value": "<ego_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        },
+        {
+          "name": "Look at asset",
+          "description": "Name of the asset that the obeserver shall be always looking at.",
+          "value": "<ego_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        }
+      ],
+      "datastreams": [],
+      "boundingBoxMin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "boundingBoxMax": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "childs": [],
+      "id": "0FE17414DA414EFCAFCF0F49EB2C847D"
+    },
+    {
+      "name": "Near",
+      "type": "Observer",
+      "assetPath": "/Observers/Camera_Observer",
+      "properties": [
+        {
+          "name": "Parent",
+          "description": "Sets the parent asset ID this asset is attached to.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Lock movement",
+          "description": "If enabled the observer does not move anymore.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Align with asset tilt",
+          "description": "Uses the Look at asset, or otherwise the Attach to asset, as the observer’s tilt reference. Disable to keep the observer upright relative to the world.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Scale",
+          "description": "",
+          "value": "X=1.000 Y=1.000 Z=1.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Location",
+          "description": "World Location of the observer.",
+          "value": "X=119.275 Y=3.580 Z=2.060",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Relative location",
+          "description": "Relative location of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "X=5.000 Y=4.000 Z=1.750",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Rotation",
+          "description": "World Rotation of the observer. Only enabled when not attached to an asset.",
+          "value": "R=360.000005 P=10.117176 Y=-150.580720",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Relative rotation",
+          "description": "Relative rotation of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "P=10.242313 Y=-148.634611 R=0.077414",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Motion Blur",
+          "description": "",
+          "value": "Off",
+          "type": "String",
+          "isReadOnly": false,
+          "range": "Off, High, Mid, Low"
+        },
+        {
+          "name": "Attach to asset",
+          "description": "Name of the asset that the observer shall be following.",
+          "value": "<ego_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        },
+        {
+          "name": "Look at asset",
+          "description": "Name of the asset that the obeserver shall be always looking at.",
+          "value": "<ego_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        }
+      ],
+      "datastreams": [],
+      "boundingBoxMin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "boundingBoxMax": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "childs": [],
+      "id": "19D8FE5B246F418DBB8316CDC6024695"
+    },
+    {
+      "name": "Overview",
+      "type": "Observer",
+      "assetPath": "/Observers/Camera_Observer",
+      "properties": [
+        {
+          "name": "Parent",
+          "description": "Sets the parent asset ID this asset is attached to.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Lock movement",
+          "description": "If enabled the observer does not move anymore.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Align with asset tilt",
+          "description": "Uses the Look at asset, or otherwise the Attach to asset, as the observer’s tilt reference. Disable to keep the observer upright relative to the world.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Scale",
+          "description": "",
+          "value": "X=1.000 Y=1.000 Z=1.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Location",
+          "description": "World Location of the observer.",
+          "value": "X=98.173 Y=0.289 Z=10.363",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Relative location",
+          "description": "Relative location of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "X=-16.000 Y=-0.000 Z=10.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Rotation",
+          "description": "World Rotation of the observer. Only enabled when not attached to an asset.",
+          "value": "R=0.000000 P=33.872970 Y=-1.932465",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Relative rotation",
+          "description": "Relative rotation of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "P=33.726463 Y=0.000000 R=0.000076",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Motion Blur",
+          "description": "",
+          "value": "Off",
+          "type": "String",
+          "isReadOnly": false,
+          "range": "Off, High, Mid, Low"
+        },
+        {
+          "name": "Attach to asset",
+          "description": "Name of the asset that the observer shall be following.",
+          "value": "<ego_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        },
+        {
+          "name": "Look at asset",
+          "description": "Name of the asset that the obeserver shall be always looking at.",
+          "value": "<ego_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        }
+      ],
+      "datastreams": [],
+      "boundingBoxMin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "boundingBoxMax": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "childs": [],
+      "id": "DF4BC9A5E96A40CE96518463BA69BCED"
+    },
+    {
+      "name": "Rear",
+      "type": "Observer",
+      "assetPath": "/Observers/Camera_Observer",
+      "properties": [
+        {
+          "name": "Parent",
+          "description": "Sets the parent asset ID this asset is attached to.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Lock movement",
+          "description": "If enabled the observer does not move anymore.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Align with asset tilt",
+          "description": "Uses the Look at asset, or otherwise the Attach to asset, as the observer’s tilt reference. Disable to keep the observer upright relative to the world.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Scale",
+          "description": "",
+          "value": "X=1.000 Y=1.000 Z=1.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Location",
+          "description": "World Location of the observer.",
+          "value": "X=97.687 Y=0.292 Z=5.363",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Relative location",
+          "description": "Relative location of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "X=-16.473 Y=-0.014 Z=4.999",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Rotation",
+          "description": "World Rotation of the observer. Only enabled when not attached to an asset.",
+          "value": "R=0.000000 P=10.234498 Y=-7.767344",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Relative rotation",
+          "description": "Relative rotation of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "P=10.088756 Y=-5.832236 R=0.015193",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Motion Blur",
+          "description": "",
+          "value": "Off",
+          "type": "String",
+          "isReadOnly": false,
+          "range": "Off, High, Mid, Low"
+        },
+        {
+          "name": "Attach to asset",
+          "description": "Name of the asset that the observer shall be following.",
+          "value": "<ego_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        },
+        {
+          "name": "Look at asset",
+          "description": "Name of the asset that the obeserver shall be always looking at.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        }
+      ],
+      "datastreams": [],
+      "boundingBoxMin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "boundingBoxMax": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "childs": [],
+      "id": "5E095CD68BDE4FD3A20EECD75E8931DD"
+    },
+    {
+      "name": "Right",
+      "type": "Observer",
+      "assetPath": "/Observers/Camera_Observer",
+      "properties": [
+        {
+          "name": "Parent",
+          "description": "Sets the parent asset ID this asset is attached to.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Lock movement",
+          "description": "If enabled the observer does not move anymore.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Align with asset tilt",
+          "description": "Uses the Look at asset, or otherwise the Attach to asset, as the observer’s tilt reference. Disable to keep the observer upright relative to the world.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Scale",
+          "description": "",
+          "value": "X=1.000 Y=1.000 Z=1.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Location",
+          "description": "World Location of the observer.",
+          "value": "X=112.639 Y=-6.202 Z=1.326",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Relative location",
+          "description": "Relative location of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "X=-1.300 Y=-6.000 Z=1.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Rotation",
+          "description": "World Rotation of the observer. Only enabled when not attached to an asset.",
+          "value": "R=360.000005 P=6.063325 Y=90.583101",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Relative rotation",
+          "description": "Relative rotation of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "P=6.069676 Y=92.499973 R=-0.147189",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Motion Blur",
+          "description": "",
+          "value": "Off",
+          "type": "String",
+          "isReadOnly": false,
+          "range": "Off, High, Mid, Low"
+        },
+        {
+          "name": "Attach to asset",
+          "description": "Name of the asset that the observer shall be following.",
+          "value": "<ego_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        },
+        {
+          "name": "Look at asset",
+          "description": "Name of the asset that the obeserver shall be always looking at.",
+          "value": "<ego_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        }
+      ],
+      "datastreams": [],
+      "boundingBoxMin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "boundingBoxMax": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "childs": [],
+      "id": "DCACD899CEB1497485FA7A6F12796F1D"
+    },
+    {
+      "name": "Static origin",
+      "type": "Observer",
+      "assetPath": "/Observers/Camera_Observer",
+      "properties": [
+        {
+          "name": "Parent",
+          "description": "Sets the parent asset ID this asset is attached to.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Lock movement",
+          "description": "If enabled the observer does not move anymore.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Align with asset tilt",
+          "description": "Uses the Look at asset, or otherwise the Attach to asset, as the observer’s tilt reference. Disable to keep the observer upright relative to the world.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Scale",
+          "description": "",
+          "value": "X=1.000 Y=1.000 Z=1.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Location",
+          "description": "World Location of the observer.",
+          "value": "X=0.000 Y=-0.000 Z=50.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Relative location",
+          "description": "Relative location of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "X=0.000 Y=0.000 Z=0.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Rotation",
+          "description": "World Rotation of the observer. Only enabled when not attached to an asset.",
+          "value": "R=0.000000 P=0.000000 Y=0.000000",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Relative rotation",
+          "description": "Relative rotation of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "P=0.000000 Y=0.000000 R=0.000000",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Motion Blur",
+          "description": "",
+          "value": "Off",
+          "type": "String",
+          "isReadOnly": false,
+          "range": "Off, High, Mid, Low"
+        },
+        {
+          "name": "Attach to asset",
+          "description": "Name of the asset that the observer shall be following.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        },
+        {
+          "name": "Look at asset",
+          "description": "Name of the asset that the obeserver shall be always looking at.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        }
+      ],
+      "datastreams": [],
+      "boundingBoxMin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "boundingBoxMax": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "childs": [],
+      "id": "3643239172AB430095A9F50730E4600F"
+    },
+    {
+      "name": "Top",
+      "type": "Observer",
+      "assetPath": "/Observers/Camera_Observer",
+      "properties": [
+        {
+          "name": "Parent",
+          "description": "Sets the parent asset ID this asset is attached to.",
+          "value": "",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Lock movement",
+          "description": "If enabled the observer does not move anymore.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Align with asset tilt",
+          "description": "Uses the Look at asset, or otherwise the Attach to asset, as the observer’s tilt reference. Disable to keep the observer upright relative to the world.",
+          "value": "0",
+          "type": "Bool",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Scale",
+          "description": "",
+          "value": "X=1.000 Y=1.000 Z=1.000",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Location",
+          "description": "World Location of the observer.",
+          "value": "X=112.578 Y=-0.197 Z=25.332",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Relative location",
+          "description": "Relative location of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "X=-1.625 Y=-0.000 Z=25.006",
+          "type": "Vector",
+          "isReadOnly": false,
+          "range": ""
+        },
+        {
+          "name": "Rotation",
+          "description": "World Rotation of the observer. Only enabled when not attached to an asset.",
+          "value": "R=174.415972 P=90.000000 Y=172.071570",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Relative rotation",
+          "description": "Relative rotation of the observer to the attached asset. Only enabled when attached to an asset.",
+          "value": "P=90.146486 Y=180.023038 R=180.435013",
+          "type": "Rotator",
+          "isReadOnly": false,
+          "range": "-359.9999 - 360"
+        },
+        {
+          "name": "Motion Blur",
+          "description": "",
+          "value": "Off",
+          "type": "String",
+          "isReadOnly": false,
+          "range": "Off, High, Mid, Low"
+        },
+        {
+          "name": "Attach to asset",
+          "description": "Name of the asset that the observer shall be following.",
+          "value": "<ego_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        },
+        {
+          "name": "Look at asset",
+          "description": "Name of the asset that the obeserver shall be always looking at.",
+          "value": "<ego_1>",
+          "type": "String",
+          "isReadOnly": false,
+          "range": ", Family1, Family1.terrain, Family1.procedural.Vegetation, Mid size car - Car, Fellow1, Fellow2, BoundingBox, BoundingBox_1, BoundingBox_2"
+        }
+      ],
+      "datastreams": [],
+      "boundingBoxMin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "boundingBoxMax": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "childs": [],
+      "id": "1A967C3C9CE5445CAE20FF133FF562D2"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ade84645-4809-40b6-a242-94f45fb15421",
+  "version": 7,
+  "name": "KOR_CityStraight",
+  "description": "",
+  "modifiedOn": 1793741104,
+  "type": "ModelDesk",
+  "imageFile": "./Scenarios/ade84645-4809-40b6-a242-94f45fb15421/Preview.png",
+  "scenery": {
+    "selection": "aur",
+    "scene": {
+      "name": "KOR_CityStraight",
+      "path": "/AUR_MapsBasic/Scenes/KOR_CityStraight/KOR_CityStraight"
+    },
+    "isAvailable": true
+  }
+}

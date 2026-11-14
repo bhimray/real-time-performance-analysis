@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Drivetrain</MainComponent>
+	  <RecordType>TransferGearbox</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.TRANSFER_GEARBOX.Const_GearRatio</ParameterAddress>
+			      <ValueV>0.33333</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.TRANSFER_GEARBOX.Const_Inertia_Input_Gear</ParameterAddress>
+			      <ValueV>0.01</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.TRANSFER_GEARBOX.Const_Inertia_Output_Gear</ParameterAddress>
+			      <ValueV>0.01</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

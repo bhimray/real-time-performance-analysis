@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>SoftECU</MainComponent>
+	  <RecordType>SoftECUTrmSetup</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.SOFTECU_TRANSMISSION_SETUP.Const_Max_num_Gear</ParameterAddress>
+			      <ValueV>5</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

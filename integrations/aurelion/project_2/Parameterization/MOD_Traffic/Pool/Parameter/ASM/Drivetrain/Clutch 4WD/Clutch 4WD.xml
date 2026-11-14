@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Drivetrain</MainComponent>
+	  <RecordType>Clutch 4WD</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.CLUTCH_4WD.Const_Coef_DynamicClutchTrq</ParameterAddress>
+			      <ValueV>70</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.CLUTCH_4WD.Const_Inertia_InputSide</ParameterAddress>
+			      <ValueV>0.11</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.CLUTCH_4WD.Const_Inertia_OutputSide</ParameterAddress>
+			      <ValueV>0.05</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.CLUTCH_4WD.Const_Torque_Max</ParameterAddress>
+			      <ValueV>1000</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.CLUTCH_4WD.Map_Trq_Clutch_Red</ParameterAddress>
+			      <DimView>[1,21]</DimView>
+			      <ValueX>0    5   10   15   20   25   30   35   40   45   50   55   60   65   70   75   80   85   90   95  100</ValueX>
+			      <ValueV>0        0.05         0.1        0.15         0.2        0.25         0.3        0.35         0.4        0.45         0.5        0.55         0.6        0.65         0.7        0.75         0.8        0.85         0.9        0.95           1</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

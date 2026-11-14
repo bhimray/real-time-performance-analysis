@@ -1,0 +1,60 @@
+﻿<MeasurementSignals>
+  <Info>
+    <Version>1.0.0</Version>
+  </Info>
+  <Platforms>
+    <Platform>
+      <Id>79a9a21b-69e9-44fe-93a1-921e46f3adbb</Id>
+      <Rasters>
+        <Raster>
+          <Name>Periodic Task 1</Name>
+          <StartTrigger>
+            <IsEnabled>false</IsEnabled>
+            <AssignedTrigger>0ca1f5bf-c50d-440b-bb1c-319a0c2aef0e</AssignedTrigger>
+          </StartTrigger>
+          <StopTrigger>
+            <IsEnabled>false</IsEnabled>
+            <AssignedTrigger>396a77db-a707-4d2c-9a17-d5e881d82f34</AssignedTrigger>
+          </StopTrigger>
+        </Raster>
+        <Raster>
+          <Name>OnChange</Name>
+        </Raster>
+      </Rasters>
+    </Platform>
+  </Platforms>
+  <DataLoggers>
+    <Platforms>
+      <Platform>
+        <Id>79a9a21b-69e9-44fe-93a1-921e46f3adbb</Id>
+        <DataLoggers />
+      </Platform>
+    </Platforms>
+  </DataLoggers>
+  <DurationTriggers>
+    <DurationTrigger>
+      <Id>396a77db-a707-4d2c-9a17-d5e881d82f34</Id>
+      <Name>Duration Trigger 1</Name>
+      <Duration>1</Duration>
+    </DurationTrigger>
+  </DurationTriggers>
+  <SampleCountTriggers />
+  <PlatformTriggers>
+    <Platforms>
+      <Platform>
+        <Id>79a9a21b-69e9-44fe-93a1-921e46f3adbb</Id>
+        <PlatformTriggers>
+          <PlatformTrigger>
+            <Id>0ca1f5bf-c50d-440b-bb1c-319a0c2aef0e</Id>
+            <Name>Platform Trigger 1</Name>
+            <Delay>0</Delay>
+            <Condition></Condition>
+            <Timeout>1</Timeout>
+            <TimeoutEnabled>false</TimeoutEnabled>
+            <SymbolAssignments />
+          </PlatformTrigger>
+        </PlatformTriggers>
+      </Platform>
+    </Platforms>
+  </PlatformTriggers>
+</MeasurementSignals>

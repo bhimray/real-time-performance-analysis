@@ -1,0 +1,17 @@
+{
+  "id": "83ca4305-f050-4fd3-bbd5-13ca2a66fddb",
+  "version": 7,
+  "name": "StraightLong",
+  "description": "",
+  "modifiedOn": 1793741104,
+  "type": "ModelDesk",
+  "imageFile": "./Scenarios/83ca4305-f050-4fd3-bbd5-13ca2a66fddb/Preview.png",
+  "scenery": {
+    "selection": "aur",
+    "scene": {
+      "name": "StraightLong",
+      "path": "/AUR_MapsBasic/Scenes/StraightLong/StraightLong"
+    },
+    "isAvailable": true
+  }
+}

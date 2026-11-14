@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>VehicleDynamics</MainComponent>
+	  <RecordType>Body Geometry and Mass</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_Inertia_Tensor_Vehicle</ParameterAddress>
+			      <ValueV>415 0 0;
+0 1450 0;
+0 0 1600</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_m_Vehicle</ParameterAddress>
+			      <ValueV>1050</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_PosVec_CoG_Vehicle</ParameterAddress>
+			      <ValueV>-1.142 0 0.26</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

@@ -1,0 +1,4970 @@
+{
+  "version": 1,
+  "mappings": [
+    {
+      "from": {
+        "country": "fr",
+        "type": "AB6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Priority road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.238
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AB7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of priority road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.339
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AB4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Stop",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AB4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Stop small",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AB3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Yield",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.265
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B14",
+        "subtype": "30"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Speed limit 30",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B14",
+        "subtype": "50"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Speed limit 50",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B14",
+        "subtype": "70"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Speed limit 70",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B14",
+        "subtype": "80"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Speed limit 80",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B14",
+        "subtype": "90"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Speed limit 90",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B14",
+        "subtype": "110"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Speed limit 110",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B14",
+        "subtype": "130"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Speed limit 130",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B14"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Town Entry",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.114
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B15"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Town Exit",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.114
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No overtaking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B3a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No overtaking by lorries",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B6a1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No parking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B6d"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No stopping",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B6d"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No stopping 2",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B34"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of no overtaking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A34a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of no overtaking by lorries",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B31"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of restriction",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B39"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of restrictions to motorists",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B2a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No left turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B2b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No right turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B21b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Ahead only",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B21c2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Turn left ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B21c1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Turn right ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B21d2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Go ahead or turn left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B21d1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Go ahead or turn right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B27a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Bus lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B45"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of bus lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B22a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Bicycle lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B40"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of bicycle lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C207"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "residential road with 20 Limit",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C208"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of residential road with 20 limit",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C20a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Pedestrian crossing info",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C113"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Cycle route",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C114"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of cycle route",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C115"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Pedestrian and cycle route",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C116"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of pedestrian and cycle route",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C13a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Dead end street",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C13b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Dead end street ahead - right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C26b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Escape lane on the left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AB1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Crossroads with right of way from the right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A13b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Pedestrian crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A1a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Bend to right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A1b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Bend to left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A1c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Double bend first to right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A1d"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Double bend first to left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B30"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "30 kmh zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B51"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of 30 kmh zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A21"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Cyclists",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE15a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Petrol",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C207"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Motorway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C208"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of motorway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C12"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "One-way traffic",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C24b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Slip road to left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C24b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Slip road to right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C29a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Overtaking lanes 2 - 2",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C29c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Overtaking lanes 2 - 1",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C29b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Overtaking lanes 1 - 2",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C30"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of overtaking lanes",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C28"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Lanes merge 1",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C28"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Lanes merge 2",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C28"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Lanes merge 3",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C24b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Single lane slip road to right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C24a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Lane forbidden for use by lorries",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C24a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Contra-flow bus lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C24c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Contra-flow cycle lane ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C24a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Contra-flow cycle lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C24c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Level crossing with gates on side road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C18"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Priority over oncoming vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B54"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Pedestrian precinct",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B55"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of pedestrian precinct",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Breakdown bay",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C1a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Parking zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C1c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Meter parking zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C1b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Disc parking zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C50"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Parking allowed on pavement",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C107"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Fast traffic highway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C108"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of fast traffic highway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Taxi rank",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE12"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Toilets",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C62"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Toll ticket marking point",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C64b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Toll payment by debit or credit card",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C64c1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Toll payment by cash - machine",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C64d"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Toll payment by suscription",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE3a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Information",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE21"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Viewpoint",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE22"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Local radio station",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE28"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Repairs",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C27"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Speed humps",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Motorail services",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C111"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Tunnel",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C112"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of tunnel",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE5a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Youth hostel",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Picnic site",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "J5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Arrow right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE19"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Dock for canoes and boats",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C20b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Bus crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE24"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Dump station",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE4b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Motorhomes",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C13d"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Dead end street open for pedestrians and cyclists",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C13c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Dead end street open for pedestrians",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE29"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Fire extinguisher",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "ID4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Hospital",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE14b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Services for the disabled blue",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE6b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Cross-country ski",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B6b4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No meter parking zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B6b5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No disc parking zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B6b2a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No parking zone beginning of the month",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B6b2b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No parking zone end of the month",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B6b1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No parking zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C1b",
+        "subtype": "ancien"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Disc parking zone - until 2008 ",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE9"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Parking monitored with cameras",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B50b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of no parking zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B50e"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of no disc parking zone with date restrictions",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B50c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of no disc parking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B50d"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of no parking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE27"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Recreation area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C24a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Lanes without oncoming traffic",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE50"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Various facilities and services",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Car ferry",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE20b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Chairlift or cable car",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C51a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Section with regulated speed",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C51b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of speed-regulated section",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AB5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Stop ahead in 150m",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE26"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Inflation station",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C64c2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Toll payment by cash",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE6a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Walking route",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C20c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Tram crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C117",
+        "subtype": "b21b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Tunnel ahead barred from vehicles carrying dangerous goods",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.6
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C117",
+        "subtype": "b21c2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Tunnel left barred from vehicles carrying dangerous goods",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.6
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C117",
+        "subtype": "b21c1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Tunnel right barred from vehicles carrying dangerous goods",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.6
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C117",
+        "subtype": "b21d2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Tunnel ahead and left barred from vehicles carrying dangerous goods",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.6
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C117",
+        "subtype": "b21d1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Tunnel ahead and right barred from vehicles carrying dangerous goods",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.6
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C117",
+        "subtype": "b21e"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Tunnel left or right barred from vehicles carrying dangerous goods",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.6
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B22c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Bridleway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B42"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of bridleway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B21e"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Turn left or right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B21",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Turn left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B21",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Turn right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B25"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Minimum speed 30",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B43"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of minimum speed 30",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B33"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of 50 kmh zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B35"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of no sounding of horns",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B22b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Pedestrian lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B41"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of pedestrian lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B29"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Switch on headlights",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B49"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of compulsory headlight use zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B49"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of slow-vehicle lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B29"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Slow-vehicle lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B58"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Snow chains zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B26"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End of snow chains zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B27b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Tram lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B17"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Minimum distance between vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B12"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Height limit 2m",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B12"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Height limit 3m",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B12"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Height limit 4m",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B12"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Height limit 3.5m",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B10a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Length limit 10m",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B9c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No horse-drawn vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B9h"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No motorcycles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B9f"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No buses",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B7a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No motor vehicles except mopeds",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B7b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No motor vehicles including mopeds",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B9b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No cycling",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No entry",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B0"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B18a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No vehicles carrying explosives",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B9d"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No tractors",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B9e"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No handcarts",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B16"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No sounding of horns",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B9g"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No mopeds",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B6a2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Parking restrictions beginning of the month",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B6a3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Parking restrictions end of the month",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B9a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No pedestrians",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B9i"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No vehicles towing caravans",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No lorries",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B18c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No vehicles carrying dangerous goods",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B18b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No vehicles carrying water pollutants",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B2c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "No U-turns",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B15"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Give priority to oncoming vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Stop - customs",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B5a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Stop - gendarmerie",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B5b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Stop - police",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B5c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Stop - toll",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B13 ",
+        "subtype": " 5.5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Weight limit 5.5t",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B13 ",
+        "subtype": " 7.5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Weight limit 7.5t",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B13a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Axle weight limit 2t",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B11"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Width limit 2.5m",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.2
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A23"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Low-flying aircraft",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A15a1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Cattle",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A15a2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Sheep",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A15b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Wild animals",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Opening bridge ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AK31"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Accident",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AK5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Road works",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AK22"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Loose chippings",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AK2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Temporary uneven road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AK30"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Queues likely",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AK32"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Reduced visibility",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AK3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Temporary road narrows",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AK4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Temporary slippery road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AK17"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Temporary traffic signals",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AK14"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Temporary other danger",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A16"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Steep hill downwards",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A15c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Equestrians",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A2a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Uneven road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Road narrows",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A3a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Road narrows on right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A3b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Road narrows on left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A13a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Children crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A18"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Two-way traffic ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AB2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Crossroads with priority",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A20"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "River bank",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A19"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Risk of rock falling",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "AB25"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Roundabout",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Slippery road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A2b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Bumps in road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A17"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Traffic light",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Level crossing with gates",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Level crossing without gates",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A9"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Trams crossing ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A14"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Other danger",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "A24"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Side winds",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.174
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Bus stop",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE18"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Cafe",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE4a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Campsite",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "C64a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Manned tollbooth",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE5b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Self-catering accommmodation",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE17"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Hotel",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE14"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Services for the disabled",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE23"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Playground",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE2a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Emergency telephone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE2b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Telephone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "CE16"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Restaurant",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B21",
+        "subtype": "4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Roundabout info",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B33",
+        "subtype": "30"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End speed limit 30",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.325
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B33",
+        "subtype": "70"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End speed limit 70",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.425
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B33",
+        "subtype": "90"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End speed limit 90",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.425
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "B33",
+        "subtype": "110"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "End speed limit 110",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.425
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "E43",
+        "subtype": "28"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "D 28",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.075
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "E43",
+        "subtype": "906"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "D 906",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.075
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "EB10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Entry urban area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.208
+      }
+    },
+    {
+      "from": {
+        "country": "fr",
+        "type": "EB20"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "FR",
+          "Signs": "Exit urban area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.208
+      }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>VehicleDynamics</MainComponent>
+	  <RecordType>Additional Loads</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_Inertia_Tensor_AddLoad1</ParameterAddress>
+			      <ValueV>0 0 0;
+0 0 0;
+0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_Inertia_Tensor_AddLoad2</ParameterAddress>
+			      <ValueV>0 0 0;
+0 0 0;
+0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_Inertia_Tensor_AddLoad3</ParameterAddress>
+			      <ValueV>0 0 0;
+0 0 0;
+0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_Inertia_Tensor_AddLoad4</ParameterAddress>
+			      <ValueV>0 0 0;
+0 0 0;
+0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_Inertia_Tensor_AddLoad5</ParameterAddress>
+			      <ValueV>0 0 0;
+0 0 0;
+0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_Inertia_Tensor_AddLoad6</ParameterAddress>
+			      <ValueV>0 0 0;
+0 0 0;
+0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_m_AddLoad1</ParameterAddress>
+			      <ValueV>100</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_m_AddLoad2</ParameterAddress>
+			      <ValueV>50</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_m_AddLoad3</ParameterAddress>
+			      <ValueV>70</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_m_AddLoad4</ParameterAddress>
+			      <ValueV>70</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_m_AddLoad5</ParameterAddress>
+			      <ValueV>70</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_m_AddLoad6</ParameterAddress>
+			      <ValueV>70</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_PosVec_CoG_AddLoad1</ParameterAddress>
+			      <ValueV>-1.3 0 1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_PosVec_CoG_AddLoad2</ParameterAddress>
+			      <ValueV>-3 0 0.4</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_PosVec_CoG_AddLoad3</ParameterAddress>
+			      <ValueV>-1 0.3 0.3</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_PosVec_CoG_AddLoad4</ParameterAddress>
+			      <ValueV>-1 -0.3 0.3</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_PosVec_CoG_AddLoad5</ParameterAddress>
+			      <ValueV>-2 0.3 0.3</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Const_PosVec_CoG_AddLoad6</ParameterAddress>
+			      <ValueV>-2 -0.3 0.3</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Sw_AddLoad1</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Sw_AddLoad2</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Sw_AddLoad3</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Sw_AddLoad4</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Sw_AddLoad5</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.VEHICLE_MASS_AND_ADDITIONAL_LOADS.Sw_AddLoad6</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

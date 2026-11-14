@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>VehicleDynamics</MainComponent>
+	  <RecordType>SusForces Rear</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SUSFORCES_REAR_ANC_SPRING.Map_Force_Left_Spring</ParameterAddress>
+			      <DimView>[1,2]</DimView>
+			      <ValueX>-0.1 0.1 0.101 0.102 0.103 0.104 0.105 0.106 0.107 0.108 0.109 0.11 0.111 0.112 0.113 0.114 0.115 0.116 0.117 0.118 0.119 0.12 0.121 0.122 0.123</ValueX>
+			      <ValueV>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SUSFORCES_REAR_ANC_SPRING.Map_Force_Right_Spring</ParameterAddress>
+			      <DimView>[1,2]</DimView>
+			      <ValueX>-0.1 0.1 0.101 0.102 0.103 0.104 0.105 0.106 0.107 0.108 0.109 0.11 0.111 0.112 0.113 0.114 0.115 0.116 0.117 0.118 0.119 0.12 0.121 0.122 0.123</ValueX>
+			      <ValueV>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SUSPENSION_FORCES_REAR.Map_Force_Left_Damper</ParameterAddress>
+			      <DimView>[1,13]</DimView>
+			      <ValueX>-1 -0.5 -0.4 -0.25 -0.15 -0.05 0 0.05 0.15 0.25 0.4 0.5 1 1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1 1.11 1.12</ValueX>
+			      <ValueV>-3088.8 -2239.2 -2034 -1796.4 -1213.2 -405.6 0 155.232 374.976 689.472 852.768 1010.02 1693.44 1707.11 1720.77 1734.45 1748.12 1761.78 1775.45 1789.11 1802.79 1816.46 1830.12 1843.79 1857.46</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SUSPENSION_FORCES_REAR.Map_Force_Left_Spring</ParameterAddress>
+			      <DimView>[1,5]</DimView>
+			      <ValueX>-0.11 -0.1 0 0.1 0.11 0.1111 0.1122 0.1133 0.1144 0.1155 0.1166 0.1177 0.1188 0.1199 0.121 0.1221 0.1232 0.1243 0.1254 0.1265 0.1276 0.1287 0.1298 0.1309 0.132</ValueX>
+			      <ValueV>-17115 -7115 5185 17485 30485 31915 33345 34775 36205 37635 39065 40495 41925 43355 44785 46215 47645 49075 50505 51935 53365 54795 56225 57655 59085</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SUSPENSION_FORCES_REAR.Map_Force_Right_Damper</ParameterAddress>
+			      <DimView>[1,13]</DimView>
+			      <ValueX>-1 -0.5 -0.4 -0.25 -0.15 -0.05 0 0.05 0.15 0.25 0.4 0.5 1 1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1 1.11 1.12</ValueX>
+			      <ValueV>-3088.8 -2239.2 -2034 -1796.4 -1213.2 -405.6 0 155.232 374.976 689.472 852.768 1010.02 1693.44 1707.11 1720.77 1734.45 1748.12 1761.78 1775.45 1789.11 1802.79 1816.46 1830.12 1843.79 1857.46</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SUSPENSION_FORCES_REAR.Map_Force_Right_Spring</ParameterAddress>
+			      <DimView>[1,5]</DimView>
+			      <ValueX>-0.11 -0.1 0 0.1 0.11 0.1111 0.1122 0.1133 0.1144 0.1155 0.1166 0.1177 0.1188 0.1199 0.121 0.1221 0.1232 0.1243 0.1254 0.1265 0.1276 0.1287 0.1298 0.1309 0.132</ValueX>
+			      <ValueV>-17115 -7115 5185 17485 30485 31915 33345 34775 36205 37635 39065 40495 41925 43355 44785 46215 47645 49075 50505 51935 53365 54795 56225 57655 59085</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SUSPENSION_FORCES_REAR.Map_Force_Stabilizer</ParameterAddress>
+			      <DimView>[1,3]</DimView>
+			      <ValueX>-1 0 1 1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1 1.11 1.12 1.13 1.14 1.15 1.16 1.17 1.18 1.19 1.2 1.21 1.22</ValueX>
+			      <ValueV>-11356 0 11356 11469.6 11583.1 11696.7 11810.2 11923.8 12037.4 12150.9 12264.5 12378 12491.6 12605.2 12718.7 12832.3 12945.8 13059.4 13173 13286.5 13400.1 13513.6 13627.2 13740.8 13854.3</ValueV>
+		    </Parameter>
+	  </Parameters>
+	  <Processing>
+		    <Priority>0</Priority>
+	  </Processing>
+</ParameterFile>

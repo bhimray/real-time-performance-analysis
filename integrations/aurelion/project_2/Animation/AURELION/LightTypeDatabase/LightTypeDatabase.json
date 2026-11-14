@@ -1,0 +1,147 @@
+{
+    "comment": "Database of light types.",
+    "version": "1",
+    "lightTypes": [
+        {
+            "id": 0,
+            "name": "Default, flat profile",
+            "frequency": 1.0,
+            "profilePath": "LightProfiles/flat.csv",
+            "description": "No flickering, constant light source. Used as a reference for non-flickering light sources."
+        },
+        {
+            "id": 1,
+            "name": "Incandescent Light Source 100Hz",
+            "frequency": 100.0,
+            "profilePath": "LightProfiles/rectified_sinus.csv",
+            "description": "Flickering driven by power grid frequency (Europe, Asia). Used for incandescent light sources, halogen lamps, and some fluorescent lamps."
+        },
+        {
+            "id": 2,
+            "name": "Incandescent Light Source 120Hz",
+            "frequency": 120.0,
+            "profilePath": "LightProfiles/rectified_sinus.csv",
+            "description": "Flickering driven by power grid frequency (USA, Canada). Used for incandescent light sources, halogen lamps, and some fluorescent lamps."
+        },
+        {
+            "id": 3,
+            "name": "LED 75% Duty Cycle",
+            "frequency": 40.0,
+            "profilePath": "LightProfiles/pwm_75_front.csv",
+            "description": "Flickering driven by PWM dimming. Used for LEDs at Daytime."
+
+        },
+        {
+            "id": 4,
+            "name": "LED 25% Duty Cycle",
+            "frequency": 40.0,
+            "profilePath": "LightProfiles/pwm_25_front.csv",
+            "description": "Flickering driven by PWM dimming. Used for LEDs at Nighttime."
+        },
+		{
+            "id": 5,
+            "name": "Halogen headlight",
+            "frequency": 1.0,
+            "profilePath": "LightProfiles/flat.csv",
+            "description": "No flickering, constant halogen light source. Can be used for low and high beam head lights, very commonly used for vehicle headlighs."
+        },
+		{
+            "id": 6,
+            "name": "HID Xenon headlight",
+            "frequency": 1.0,
+            "profilePath": "LightProfiles/flat.csv",
+            "description": "Very high operating frequency due to HID ballast. Can be used for low and high beam head lights, typically seen on newer or luxury vehicles."
+        },
+		{
+            "id": 7,
+            "name": "Matrix LED headlight",
+            "frequency": 215.0,
+            "profilePath": "LightProfiles/pwm_25_front.csv",
+            "description": "Flickering driven by PWM dimming. Can be used for low and high beam head lights, typically seen on new high spec vehicles."
+        },
+		{
+            "id": 8,
+            "name": "DRL and indicator LEDs",
+            "frequency": 350.0,
+            "profilePath": "LightProfiles/flat.csv",
+            "description": "Flickering driven by PWM dimming. Used for LED lights that are used as both DRL and indicator lights."
+        },
+		{
+            "id": 9,
+            "name": "Halogen indicator",
+            "frequency": 1.0,
+            "profilePath": "LightProfiles/flat.csv",
+            "description": "No flickering, constant halogen light source. Most common type of indicator light."
+        },
+		{
+            "id": 10,
+            "name": "Halogen tail light",
+            "frequency": 1.0,
+            "profilePath": "LightProfiles/flat.csv",
+            "description": "No flickering, constant halogen light source. Most common type of tail light."
+        },
+		{
+            "id": 11,
+            "name": "LED tail light",
+            "frequency": 200.0,
+            "profilePath": "LightProfiles/flat.csv",
+            "description": "Flickering driven by PWM dimming. Used for LED tail lights, typically seen on newer or luxury vehicles."
+        },
+		{
+            "id": 12,
+            "name": "Halogen brake light",
+            "frequency": 1.0,
+            "profilePath": "LightProfiles/flat.csv",
+            "description": "No flickering, constant halogen light source. Most common type of brake light."
+        },
+		{
+            "id": 13,
+            "name": "LED brake light",
+            "frequency": 200.0,
+            "profilePath": "LightProfiles/flat.csv",
+            "description": "Flickering driven by PWM dimming. Used for LED brake lights, typically seen on newer or luxury vehicles."
+        },
+		{
+            "id": 14,
+            "name": "Halogen front fog light",
+            "frequency": 1.0,
+            "profilePath": "LightProfiles/flat.csv",
+            "description": "No flickering, constant halogen light source. Most common type of front fog light."
+        },
+		{
+            "id": 15,
+            "name": "LED front fog light",
+            "frequency": 200.0,
+            "profilePath": "LightProfiles/flat.csv",
+            "description": "Flickering driven by PWM dimming. Used for LED front fog lights, typically seen on newer or luxury vehicles."
+        },
+		{
+            "id": 16,
+            "name": "Halogen rear fog light",
+            "frequency": 1.0,
+            "profilePath": "LightProfiles/flat.csv",
+            "description": "No flickering, constant halogen light source. Most common type of rear fog light."
+        },
+		{
+            "id": 17,
+            "name": "LED rear fog light",
+            "frequency": 200.0,
+            "profilePath": "LightProfiles/flat.csv",
+            "description": "Flickering driven by PWM dimming. Used for LED rear fog lights, typically seen on newer or luxury vehicles."
+        },
+		{
+            "id": 18,
+            "name": "Halogen reverse light",
+            "frequency": 1.0,
+            "profilePath": "LightProfiles/flat.csv",
+            "description": "No flickering, constant halogen light source. Most common type of reverse light."
+        },
+		{
+            "id": 19,
+            "name": "LED reverse light",
+            "frequency": 200.0,
+            "profilePath": "LightProfiles/flat.csv",
+            "description": "Flickering driven by PWM dimming. Used for LED reverse lights, typically seen on newer or luxury vehicles."
+        }
+    ]
+}

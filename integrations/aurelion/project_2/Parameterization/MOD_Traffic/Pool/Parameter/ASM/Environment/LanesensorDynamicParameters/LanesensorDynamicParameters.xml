@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>LanesensorDynamicParameters</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.LANESENSOR_DYNAMIC_PARAMETERS.Const_Dist_LaneSensor</ParameterAddress>
+			      <ValueV>10 0 0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LANESENSOR_DYNAMIC_PARAMETERS.Const_NumLanes_Left</ParameterAddress>
+			      <ValueV>2</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LANESENSOR_DYNAMIC_PARAMETERS.Const_NumLanes_Right</ParameterAddress>
+			      <ValueV>2</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LANESENSOR_DYNAMIC_PARAMETERS.Const_Pos_MeasPoint_1</ParameterAddress>
+			      <ValueV>0 0.86</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LANESENSOR_DYNAMIC_PARAMETERS.Const_Pos_MeasPoint_2</ParameterAddress>
+			      <ValueV>0 -0.86</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LANESENSOR_DYNAMIC_PARAMETERS.Const_Pos_MeasPoint_3</ParameterAddress>
+			      <ValueV>0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LANESENSOR_DYNAMIC_PARAMETERS.Const_Pos_MeasPoint_4</ParameterAddress>
+			      <ValueV>0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LANESENSOR_DYNAMIC_PARAMETERS.Sw_LaneSensor_Border_Mode</ParameterAddress>
+			      <ValueV>0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LANESENSOR_DYNAMIC_PARAMETERS.Sw_LaneSensor_Enable</ParameterAddress>
+			      <ValueV>1 0 0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LANESENSOR_DYNAMIC_PARAMETERS.Sw_LaneSensor_Junction_Enable</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.LANESENSOR_DYNAMIC_PARAMETERS.Sw_LaneSensor_MeasPoint_Enable</ParameterAddress>
+			      <ValueV>1 1 0 0</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

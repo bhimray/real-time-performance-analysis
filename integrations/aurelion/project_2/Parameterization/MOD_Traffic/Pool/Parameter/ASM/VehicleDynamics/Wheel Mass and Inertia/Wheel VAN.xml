@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>VehicleDynamics</MainComponent>
+	  <RecordType>Wheel Mass and Inertia</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.COMMON_VEHICLE_PARAMETERS.Const_Coef_DynamicBrakeTrq_FL</ParameterAddress>
+			      <ValueV>50</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.COMMON_VEHICLE_PARAMETERS.Const_Coef_DynamicBrakeTrq_FR</ParameterAddress>
+			      <ValueV>50</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.COMMON_VEHICLE_PARAMETERS.Const_Coef_DynamicBrakeTrq_RL</ParameterAddress>
+			      <ValueV>50</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.COMMON_VEHICLE_PARAMETERS.Const_Coef_DynamicBrakeTrq_RR</ParameterAddress>
+			      <ValueV>50</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.COMMON_VEHICLE_PARAMETERS.Const_Inertia_Tensor_FL_Wheel</ParameterAddress>
+			      <ValueV>0.96 0 0;
+0 1.06 0;
+0 0 0.96</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.COMMON_VEHICLE_PARAMETERS.Const_Inertia_Tensor_FR_Wheel</ParameterAddress>
+			      <ValueV>0.96 0 0;
+0 1.06 0;
+0 0 0.96</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.COMMON_VEHICLE_PARAMETERS.Const_Inertia_Tensor_RL_Wheel</ParameterAddress>
+			      <ValueV>0.96 0 0;
+0 1.06 0;
+0 0 0.96</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.COMMON_VEHICLE_PARAMETERS.Const_Inertia_Tensor_RR_Wheel</ParameterAddress>
+			      <ValueV>0.96 0 0;
+0 1.06 0;
+0 0 0.96</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.COMMON_VEHICLE_PARAMETERS.Const_Inertia_y_FL_Wheel</ParameterAddress>
+			      <ValueV>1.5</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.COMMON_VEHICLE_PARAMETERS.Const_Inertia_y_FR_Wheel</ParameterAddress>
+			      <ValueV>1.5</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.COMMON_VEHICLE_PARAMETERS.Const_Inertia_y_RL_Wheel</ParameterAddress>
+			      <ValueV>1.5</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.COMMON_VEHICLE_PARAMETERS.Const_Inertia_y_RR_Wheel</ParameterAddress>
+			      <ValueV>1.5</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.COMMON_VEHICLE_PARAMETERS.Const_m_FL_Wheel</ParameterAddress>
+			      <ValueV>38</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.COMMON_VEHICLE_PARAMETERS.Const_m_FR_Wheel</ParameterAddress>
+			      <ValueV>38</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.COMMON_VEHICLE_PARAMETERS.Const_m_RL_Wheel</ParameterAddress>
+			      <ValueV>35</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.COMMON_VEHICLE_PARAMETERS.Const_m_RR_Wheel</ParameterAddress>
+			      <ValueV>35</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

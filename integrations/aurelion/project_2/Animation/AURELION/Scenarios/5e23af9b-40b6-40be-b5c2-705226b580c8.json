@@ -1,0 +1,24 @@
+{
+  "id": "5e23af9b-40b6-40be-b5c2-705226b580c8",
+  "version": 7,
+  "name": "Active road from ModelDesk",
+  "description": "",
+  "modifiedOn": 1793741104,
+  "type": "ModelDesk",
+  "imageFile": "./Scenarios/5e23af9b-40b6-40be-b5c2-705226b580c8/Preview.png",
+  "scenery": {
+    "selection": "rsg",
+    "vegetationGeneration": {
+      "enabled": true,
+      "density": 30,
+      "generationCorridorMin": 3,
+      "generationCorridorMax": 400,
+      "grassGeneration": true
+    },
+    "materialDamage": {
+      "enabled": true,
+      "roadMarkingDamage": 0,
+      "roadMarkingBrightness": 100
+    }
+  }
+}

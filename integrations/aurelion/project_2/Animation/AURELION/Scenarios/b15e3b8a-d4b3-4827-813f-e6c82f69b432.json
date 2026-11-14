@@ -1,0 +1,17 @@
+{
+  "id": "b15e3b8a-d4b3-4827-813f-e6c82f69b432",
+  "version": 7,
+  "name": "Village Road Straight",
+  "description": "",
+  "modifiedOn": 1793741104,
+  "type": "ModelDesk",
+  "imageFile": "./Scenarios/b15e3b8a-d4b3-4827-813f-e6c82f69b432/Preview.png",
+  "scenery": {
+    "selection": "aur",
+    "scene": {
+      "name": "Village_Road_Straight",
+      "path": "/AUR_MapsBasic/Scenes/Village_Road_Straight/Village_Road_Straight"
+    },
+    "isAvailable": true
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>VehicleDynamics</MainComponent>
+	  <RecordType>Brake Hydraulics Basic</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.BRAKING_CIRCUIT_BASIC.Const_TimeConst</ParameterAddress>
+			      <ValueV>0.2</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

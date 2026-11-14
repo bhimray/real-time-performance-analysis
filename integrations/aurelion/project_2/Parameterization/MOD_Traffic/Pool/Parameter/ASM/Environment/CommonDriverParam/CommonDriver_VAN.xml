@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>CommonDriverParam</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.COMMON_DRIVER_PARAMETERS.Const_Angle_Max_SteeringWheel</ParameterAddress>
+			      <ValueV>700</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

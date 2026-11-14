@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TrafficDriver xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="dSPACE.ModelDesk.TrafficDriver.Data">
+  <Author i:nil="true" />
+  <CreatedIn>5.2</CreatedIn>
+  <CreationDate>2019-08-26T00:00:00+02:00</CreationDate>
+  <Description i:nil="true" />
+  <DrivingStyle z:Id="i2">
+    <ComfortableDeceleration z:Id="i3">
+      <Unit>Acceleration</Unit>
+      <MaxValue>20</MaxValue>
+      <MinValue>0.1</MinValue>
+      <Value>2</Value>
+    </ComfortableDeceleration>
+    <DetectionRange z:Id="i4">
+      <Unit>Length</Unit>
+      <MaxValue>1000</MaxValue>
+      <MinValue>10</MinValue>
+      <Value>100</Value>
+    </DetectionRange>
+    <DistanceAtStandstill z:Id="i5">
+      <Unit>Length</Unit>
+      <MaxValue>100</MaxValue>
+      <MinValue>0.1</MinValue>
+      <Value>2</Value>
+    </DistanceAtStandstill>
+    <DistanceTime z:Id="i6">
+      <Unit>Time</Unit>
+      <MaxValue>60</MaxValue>
+      <MinValue>0.1</MinValue>
+      <Value>4</Value>
+    </DistanceTime>
+    <MaximumLateralAcceleration z:Id="i7">
+      <Unit>Acceleration</Unit>
+      <MaxValue>20</MaxValue>
+      <MinValue>0.1</MinValue>
+      <Value>2</Value>
+    </MaximumLateralAcceleration>
+    <MaximumLongitudinalAcceleration z:Id="i8">
+      <Unit>Acceleration</Unit>
+      <MaxValue>20</MaxValue>
+      <MinValue>0.1</MinValue>
+      <Value>1.5</Value>
+    </MaximumLongitudinalAcceleration>
+  </DrivingStyle>
+  <FileVersion>1.0</FileVersion>
+  <LastSavedIn>5.2</LastSavedIn>
+  <Name>TrafficDriverSlow</Name>
+  <RuleCompliantDriving z:Id="i9">
+    <DistanceAtStandstill z:Id="i10">
+      <Unit>Length</Unit>
+      <MaxValue>100</MaxValue>
+      <MinValue>-100</MinValue>
+      <Value>0</Value>
+    </DistanceAtStandstill>
+    <SignCompliantDrivingEnd z:Id="i11">
+      <Unit>Length</Unit>
+      <MaxValue>100</MaxValue>
+      <MinValue>-100</MinValue>
+      <Value>0</Value>
+    </SignCompliantDrivingEnd>
+    <SignCompliantDrivingStart z:Id="i12">
+      <Unit>Length</Unit>
+      <MaxValue>100</MaxValue>
+      <MinValue>-100</MinValue>
+      <Value>0</Value>
+    </SignCompliantDrivingStart>
+    <SpeedLimitMode z:Id="i13">
+      <Unit>None</Unit>
+      <Value>UseScenery</Value>
+    </SpeedLimitMode>
+    <SpeedLimitOffset z:Id="i14">
+      <Unit>Velocity</Unit>
+      <MaxValue>100</MaxValue>
+      <MinValue>-100</MinValue>
+      <Value>-5</Value>
+    </SpeedLimitOffset>
+    <YieldSpeedFactor z:Id="i15">
+      <Unit>Percent</Unit>
+      <MaxValue>100</MaxValue>
+      <MinValue>0</MinValue>
+      <Value>70</Value>
+    </YieldSpeedFactor>
+  </RuleCompliantDriving>
+  <TrafficSignRecognition z:Id="i16">
+    <DistanceFront z:Id="i17">
+      <Unit>Length</Unit>
+      <MaxValue>1000</MaxValue>
+      <MinValue>1</MinValue>
+      <Value>60</Value>
+    </DistanceFront>
+    <DistanceLeft z:Id="i18">
+      <Unit>Length</Unit>
+      <MaxValue>100</MaxValue>
+      <MinValue>1</MinValue>
+      <Value>5</Value>
+    </DistanceLeft>
+    <DistanceRight z:Id="i19">
+      <Unit>Length</Unit>
+      <MaxValue>100</MaxValue>
+      <MinValue>1</MinValue>
+      <Value>20</Value>
+    </DistanceRight>
+    <DistanceVertical z:Id="i20">
+      <Unit>Length</Unit>
+      <MaxValue>100</MaxValue>
+      <MinValue>1</MinValue>
+      <Value>5</Value>
+    </DistanceVertical>
+    <RelativeSignAngle z:Id="i21">
+      <Unit>Angle</Unit>
+      <MaxValue>180</MaxValue>
+      <MinValue>0</MinValue>
+      <Value>90</Value>
+    </RelativeSignAngle>
+  </TrafficSignRecognition>
+</TrafficDriver>

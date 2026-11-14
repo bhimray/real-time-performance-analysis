@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>SoftECU</MainComponent>
+	  <RecordType>TargetSelectionACC</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.TARGET_SELECTION_ACC.Const_Dist_SafetyBound</ParameterAddress>
+			      <ValueV>0.35</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.TARGET_SELECTION_ACC.Sw_LaneCrossingCheck</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

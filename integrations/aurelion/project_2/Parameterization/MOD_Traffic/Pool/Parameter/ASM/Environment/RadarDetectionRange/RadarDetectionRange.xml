@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>RadarDetectionRange</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADAR_DETECTION_RANGE.Const_Attenuation</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADAR_DETECTION_RANGE.Const_Signal_Strength_Threshold</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADAR_DETECTION_RANGE.Map_Antenna_Gain</ParameterAddress>
+			      <DimView>[25,11]</DimView>
+			      <ValueX>-60 -55 -50 -45 -40 -35 -30 -25 -20 -15 -10 -5 0 5 10 15 20 25 30 35 40 45 50 55 60</ValueX>
+			      <ValueY>-10 -8 -6 -4 -2 0 2 4 6 8 10</ValueY>
+			      <ValueV>1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1;
+1 1 1 1 1 1 1 1 1 1 1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.RADAR_DETECTION_RANGE.Sw_Detection_Range_Enable</ParameterAddress>
+			      <ValueV>0</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Environment</MainComponent>
+	  <RecordType>CustomSensorGeometry</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Environment.CUSTOM_SENSOR_GEOMETRY_PARAMETERS.Angle_ScopeZone_Horizontal</ParameterAddress>
+			      <ValueV>120</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.CUSTOM_SENSOR_GEOMETRY_PARAMETERS.Angle_ScopeZone_Vertical</ParameterAddress>
+			      <ValueV>120</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.CUSTOM_SENSOR_GEOMETRY_PARAMETERS.Length_ScopeZone</ParameterAddress>
+			      <ValueV>130</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.CUSTOM_SENSOR_GEOMETRY_PARAMETERS.Pos_Sensor</ParameterAddress>
+			      <ValueV>0.5 0 0.2</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.CUSTOM_SENSOR_GEOMETRY_PARAMETERS.Angle_Orientation_Sensor</ParameterAddress>
+			      <ValueV>0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Environment.CUSTOM_SENSOR_GEOMETRY_PARAMETERS.Sensor_Enable</ParameterAddress>
+			      <ValueV>1</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

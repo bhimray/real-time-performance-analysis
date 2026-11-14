@@ -1,0 +1,10 @@
+{
+  "id": "24b853de-eacf-4826-8eda-733d8206a17c",
+  "description": "Infrared sensor with default parameters",
+  "modifiedOn": 1793741104,
+  "name": "Default Infrared",
+  "type": "INFRARED",
+  "configFile": "./Sensors/24b853de-eacf-4826-8eda-733d8206a17c/SensorConfig.json",
+  "additionalFilesDirectory": "./Sensors/24b853de-eacf-4826-8eda-733d8206a17c/AdditionalFiles",
+  "version": 2
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Drivetrain</MainComponent>
+	  <RecordType>Shafts Front Wheel Drive</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_CF.Const_Damping_FrontWheelDrive</ParameterAddress>
+			      <ValueV>10</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_CF.Const_Stiffenss_FrontWheelDrive</ParameterAddress>
+			      <ValueV>65050</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_FL.Const_Damping_FrontWheelDrive</ParameterAddress>
+			      <ValueV>10</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_FL.Const_Stiffenss_FrontWheelDrive</ParameterAddress>
+			      <ValueV>12030</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_FR.Const_Damping_FrontWheelDrive</ParameterAddress>
+			      <ValueV>10</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.SHAFT_FR.Const_Stiffenss_FrontWheelDrive</ParameterAddress>
+			      <ValueV>12030</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

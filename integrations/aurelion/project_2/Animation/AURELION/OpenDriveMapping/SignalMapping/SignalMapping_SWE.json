@@ -1,0 +1,3285 @@
+{
+  "version": 1,
+  "mappings": [
+    {
+      "from": {
+        "country": "se",
+        "type": "B4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Priority road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.355
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "B5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "End of priority road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.355
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "B2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Stop",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.328
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "B2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Stop small",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "B1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Yield",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.408
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C27"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No overtaking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C29"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No overtaking by trucks",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C35"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No parking or waiting",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C39"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No stopping or standing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C28"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "End of overtaking prohibition",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C30"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "End of overtaking prohibition by trucks",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Entry into a built-up area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "End of built-up area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E9"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Residential area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "End of residential area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C31",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum speed 5",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C31",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum speed 10",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C31",
+        "subtype": "15"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum speed 15",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C31",
+        "subtype": "20"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum speed 20",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C31",
+        "subtype": "30"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum speed 30",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C31",
+        "subtype": "40"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum speed 40",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C31",
+        "subtype": "50"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum speed 50",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C31",
+        "subtype": "60"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum speed 60",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C31",
+        "subtype": "70"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum speed 70",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C31",
+        "subtype": "80"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum speed 80",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C31",
+        "subtype": "90"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum speed 90",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C31",
+        "subtype": "100"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum speed 100",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C31",
+        "subtype": "110"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum speed 110",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C31",
+        "subtype": "120"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum speed 120",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "B3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Pedestrian crossing info",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "B8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Bicycle crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E19"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Parking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E20"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No parking zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E21"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "End of no parking zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "D1",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Direction to be followed - left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "D1",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Direction to be followed - right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "D1",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Direction to be followed - straight",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E17"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Dead end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Motorway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "End of motorway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E15"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Lane merge",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Expressway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "End of expressway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "715"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Exit",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.32
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Rough road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A20"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Roadworks",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A13"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Pedestrian crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A28"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Unmarked crossroad",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A1",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Curve to left ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A1",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Curve to right ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A2",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Double curves ahead - first to left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A2",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Double curves ahead - first to right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "D10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Bus lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "D11"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "End of bus lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "D4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Bicycle path",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "D8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Path for rider on horseback",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "D5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Foot path",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "D6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Compulsory path for pedestrians and cyclists",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "D7",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Compulsory paths for pedestrians and cyclists 1",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "D7",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Compulsory paths for pedestrians and cyclists 2",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "D3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Roundabout info",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "D9"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Track for off-road vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "D2",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Keep right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "D2",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Keep left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C2",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Pass either side",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C33",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Stop at customs - Danish",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C33",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Stop at customs - Norwegian",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C33",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Stop at customs - Finnish",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C33",
+        "subtype": "4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Stop at customs - German",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C19"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Minimum distance 50m",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C17"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum height 3.5m",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No motorcycles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No motor vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No motor vehicles with more than two wheels",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No bicycles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Do not enter",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Closed to all motor vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C12"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No horse-drawn vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C14"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No horse-riding",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C11"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No mopeds",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C15"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No pedestrians",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C13"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No snowmobiles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C44"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No motor vehicles with studded tires",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No tractors",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No towed trailers",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No trucks",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C9"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No vehicles transporting dangerous goods",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C26"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No U-turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "B6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Priority for oncoming vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C34",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Stop for police control",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C34",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Stop at the sign if the signal shows red",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C18"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum length 20m",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C20"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum weight 12t",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C24"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum tandem axle weight 10t",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C23"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum axle weight 6t",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C21"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "No vehicles or combination of vehicles exceeding 30t",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "C16"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum width 2.2m",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.244
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A41"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Accident",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A23"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Low-flying aircraft",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A18"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Equestrian horses crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A19",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Moose crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A19",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Deer crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A19",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Cattle crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A19",
+        "subtype": "4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Wild horses crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A19",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Reindeer crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A19",
+        "subtype": "6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Sheep crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A19",
+        "subtype": "7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Wild boars crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Lift bridge ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A16"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Cyclists and moped riders",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A40"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Other danger",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Steep descent",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A11"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Loose gravel",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A29"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Crossroad",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A15"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Children",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Road narrows",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A25"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Two-way traffic ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Riverbank",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A12"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Falling rocks",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A30"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Roundabout",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A17"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Skiers crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Slippery road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A22"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Traffic light",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A35"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Level crossing with barrier or gate",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A36"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Level crossing without barrier or gate",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A37"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Tramway",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A26"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Tunnel",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Steep ascent",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "A24"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Crosswind",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.252
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H21"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Fishing licences on sale here",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Petrol station",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H11"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Camping site",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H12"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Caravan site",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H13"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Picnic area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Cafe",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H20"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Golf course",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H17"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Hiking trail",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Holiday chalets",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Hotel",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "G5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Industrial zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Information",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "I3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Landmark",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H16"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Open-air recreation",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E18"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Passing place",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Pedestrian area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "End of pedestrian area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "B7"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Priority over oncoming vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "T15",
+        "subtype": "1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Direction of priority road at intersection",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E11"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Low-speed road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E12"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "End of low-speed road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E13"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Maximum recommended speed 50",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E14"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "End of maximum recommended speed",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Workshop area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Restaurant",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H18"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Chair lift",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H19"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Tow lift",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H15"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Bathing beach",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H14"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Toilet",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "E25"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Toll road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "I2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Tourist attraction area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "I1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Tourist route",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "F32"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Recommended route for vehicles carrying dangerous goods",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    },
+    {
+      "from": {
+        "country": "se",
+        "type": "H8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "SWE",
+          "Signs": "Hostel",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.269
+      }
+    }
+  ]
+}

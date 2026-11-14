@@ -1,0 +1,17 @@
+{
+  "id": "35b25a77-e173-4a3c-8984-208074dbaaaa",
+  "version": 7,
+  "name": "JPN_CityStreets",
+  "description": "",
+  "modifiedOn": 1793741104,
+  "type": "ModelDesk",
+  "imageFile": "./Scenarios/35b25a77-e173-4a3c-8984-208074dbaaaa/Preview.png",
+  "scenery": {
+    "selection": "aur",
+    "scene": {
+      "name": "JPN_CityStreets",
+      "path": "/AUR_MapsBasic/Scenes/JPN_CityStreets/JPN_CityStreets"
+    },
+    "isAvailable": true
+  }
+}

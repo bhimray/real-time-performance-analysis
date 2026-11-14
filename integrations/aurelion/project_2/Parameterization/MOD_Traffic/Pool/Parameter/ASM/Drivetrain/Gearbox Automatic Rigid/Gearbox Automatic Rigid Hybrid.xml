@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>Drivetrain</MainComponent>
+	  <RecordType>Gearbox Automatic Rigid</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.GEARBOX_AT_RIGID.Const_Damping_InputGear</ParameterAddress>
+			      <ValueV>0.005</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.GEARBOX_AT_RIGID.Const_Inertia_InputGear</ParameterAddress>
+			      <ValueV>0.1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.GEARBOX_AT_RIGID.Const_SyncTime</ParameterAddress>
+			      <ValueV>0.1</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.GEARBOX_AT_RIGID.Map_Forward_Efficiency</ParameterAddress>
+			      <DimView>[1,7]</DimView>
+			      <ValueX>-1 0 1 2 3 4 5 5.05 5.1 5.15 5.2 5.25 5.3 5.35 5.4 5.45 5.5 5.55 5.6 5.65 5.7 5.75 5.8 5.85 5.9</ValueX>
+			      <ValueV>0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.GEARBOX_AT_RIGID.Map_GearRatio</ParameterAddress>
+			      <DimView>[1,7]</DimView>
+			      <ValueX>-1 0 1 2 3 4 5 5.05 5.1 5.15 5.2 5.25 5.3 5.35 5.4 5.45 5.5 5.55 5.6 5.65 5.7 5.75 5.8 5.85 5.9</ValueX>
+			      <ValueV>-3 0 3.75 2.235 1.518 1.13 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>Drivetrain.GEARBOX_AT_RIGID.Map_Reverse_Efficiency</ParameterAddress>
+			      <DimView>[1,7]</DimView>
+			      <ValueX>-1 0 1 2 3 4 5 5.05 5.1 5.15 5.2 5.25 5.3 5.35 5.4 5.45 5.5 5.55 5.6 5.65 5.7 5.75 5.8 5.85 5.9</ValueX>
+			      <ValueV>0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91 0.91</ValueV>
+		    </Parameter>
+	  </Parameters>
+	  <Processing>
+		    <Priority>0</Priority>
+	  </Processing>
+</ParameterFile>

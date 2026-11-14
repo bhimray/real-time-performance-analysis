@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "mappings": [
+    {
+      "from": {
+        "country": "cn",
+        "type": "1000001"
+      },
+      "to": {
+        "assetPath": "/AUR_Asia_Assets/3DContent/Traffic/TrafficLights/CHN_TrafficLights/BP_CHN_TrafficLight_V_ryg",
+        "assetId": "B55C9B6F41317CF6B0B287B06C3D6E68",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "1000012"
+      },
+      "to": {
+        "assetPath": "/AUR_Asia_Assets/3DContent/Traffic/TrafficLights/CHN_TrafficLights/BP_CHN_TrafficLight_V_g",
+        "assetId": "32B9A46144D4E20C4B7B4083EAE597E7",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "cn",
+        "type": "1000009",
+        "subtype": "30"
+      },
+      "to": {
+        "assetPath": "/AUR_Asia_Assets/3DContent/Traffic/TrafficLights/CHN_TrafficLights/BP_CHN_TrafficLight_V_rg",
+        "assetId": "368BDBF04C52DD8B46522898BB2570D6",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ]
+}

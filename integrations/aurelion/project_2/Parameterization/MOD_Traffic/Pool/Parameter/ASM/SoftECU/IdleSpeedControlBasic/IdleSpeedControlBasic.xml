@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>SoftECU</MainComponent>
+	  <RecordType>IdleSpeedControlBasic</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.IDLE_SPEED_CONTROL_ENGINE_BASIC.Const_I_Idle</ParameterAddress>
+			      <ValueV>0.65</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.IDLE_SPEED_CONTROL_ENGINE_BASIC.Const_n_EngineIdle_Set</ParameterAddress>
+			      <ValueV>600</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.IDLE_SPEED_CONTROL_ENGINE_BASIC.Const_P_Idle</ParameterAddress>
+			      <ValueV>0.21</ValueV>
+		    </Parameter>
+	  </Parameters>
+	  <Processing>
+		    <Priority>0</Priority>
+	  </Processing>
+</ParameterFile>

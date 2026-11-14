@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerRule>
+  <Header>
+    <TriggerType>StopTrigger</TriggerType>
+    <Version>2.0</Version>
+    <TriggerState>Enabled</TriggerState>
+    <CreationDate>07/07/2010 09:31:24</CreationDate>
+    <ModifiedDate>08/20/2020 11:47:36</ModifiedDate>
+    <Comment />
+    <Author />
+  </Header>
+  <TriggerConditions>
+    <Condition>
+      <ConditionType>Trigger</ConditionType>
+      <TimeValue>10</TimeValue>
+      <SignalValue>4.5</SignalValue>
+      <DelayValue>0</DelayValue>
+      <TriggerOperandItem>POS_EDGE</TriggerOperandItem>
+      <SignalName>Maneuver.ManeuverScheduler.Info.ManeuverState[]</SignalName>
+      <RTPath>ASM_Traffic/Environment/SignalInterface/ASMSignalInterface</RTPath>
+    </Condition>
+  </TriggerConditions>
+</TriggerRule>

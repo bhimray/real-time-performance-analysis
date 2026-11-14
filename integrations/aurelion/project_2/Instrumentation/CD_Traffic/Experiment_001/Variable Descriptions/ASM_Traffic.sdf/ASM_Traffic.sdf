@@ -1,0 +1,16 @@
+[System]
+Version=2.1
+SystemType=SingleProcessorSystem
+Status=Start
+DAQService=DsDAQ
+File=ASM_Traffic.osa
+RTP=ASM_Traffic
+[ASM_Traffic]
+ID=AFe29El7cnSbPKjxcXUrcB3MPgZ5Kc0rnCpYjT3EGsIFQotQUbTHn4kGlyJEtfX+Y+mS6L9I1QCOnwSVh02qKBNQATuGvJsZOnJa4r243xPP2XqFKttsGZ3hNqKjxGtjFMIaqlDRBqQDGvbbCqNCjVhQ8lv4V+z+wWxmjSEEOLagQhAk
+Type=Offline
+BoardName=Offline
+State=Enabled
+ServiceID=1
+TraceFile=ASM_Traffic.trc
+
+

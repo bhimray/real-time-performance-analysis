@@ -1,0 +1,90 @@
+{
+  "id": "476e6be6-4724-4c1f-8035-08b5e6080d3c",
+  "name": "System",
+  "description": "System for local use-case",
+  "type": "ASM",
+  "modifiedOn": 1793741131,
+  "vehicle": {
+    "id": "ce608600-d5b0-405c-b99b-b9301e10bcdb",
+    "name": ""
+  },
+  "modelSimulator": {
+    "host": "127.0.0.1",
+    "motionData": {
+      "host": "127.0.0.1",
+      "port": 2017
+    },
+    "type": "VEOS",
+    "modelConfiguration": {
+      "pathScenarioStart": "Model Root/Environment/ScenarioEngine/UserInterface/PAR_Plant/ScenarioControl/SCENARIO_START/MDLDCtrl_ScenarioStart",
+      "pathScenarioStop": "Model Root/Environment/ScenarioEngine/UserInterface/PAR_Plant/ScenarioControl/SCENARIO_STOP/MDLDCtrl_ScenarioStop",
+      "pathScenarioState": "Model Root/Environment/ScenarioEngine/UserInterface/DISP_Plant/Info/ScenarioState/ScenarioState[1Wait|2Init|3Init_Ready|4Run|5Stop|6Brake]",
+      "pathScenarioTime": "Model Root/Environment/ScenarioEngine/UserInterface/DISP_Plant/Info/ScenarioTime/ScenarioTime[s]",
+      "pathScenarioReset": "Model Root/Environment/ScenarioEngine/UserInterface/PAR_Plant/ScenarioControl/RESET/MDLDCtrl_Reset"
+    }
+  },
+  "sdBroker": {
+    "api": {
+      "host": "127.0.0.1",
+      "port": 8587
+    },
+    "registerPort": 5555,
+    "publisherPort": 5563,
+    "ip": "127.0.0.1"
+  },
+  "aurelionInstances": [
+    {
+      "id": "65deb7ce-ed17-4286-9065-f202920eb154",
+      "name": "Local instance",
+      "connection": {
+        "host": "127.0.0.1",
+        "port": 8585
+      },
+      "mappings": [],
+      "sampleTime": 20,
+      "enableSceneView": true,
+      "vEsiSetting": {
+        "customDataChannelPort": 33334,
+        "enableCustomDataChannel": true,
+        "enableManeuverTsSync": false,
+        "enableOsiGT": true,
+        "enableRestbusSimulation": true,
+        "osiGTPort": 33333,
+        "restbusSimulationPort": 54321,
+        "saveFrameAsPng": false,
+        "simulateHeader": true,
+        "simulateHeaderSensorId": 1,
+        "streamingVersion": "2.0.0",
+        "streamingIp": "127.0.0.1",
+        "streamingPortRangeLower": 49152,
+        "streamingPortRangeUpper": 65535,
+        "spsIp": "{ip}",
+        "spsPort": 55678
+      },
+      "enableGpuIndex": false,
+      "gpuIndex": 0,
+      "frameSyncMode": "Default",
+      "renderOffScreen": false,
+      "compositeView": {
+        "displayInUse": -1,
+        "enableCompositeView": false,
+        "frameSyncMode": "Default",
+        "isTopMostWindow": false,
+        "renderExclusively": true,
+        "saveFrameAsPng": false,
+        "screenResolution": "1920*1081",
+        "showHeader": true,
+        "usePredefinedResolution": false,
+        "windowMode": "Windowed",
+        "windowPosition": "0*0"
+      },
+      "enabled": true
+    }
+  ],
+  "sutControlSimFrequency": 20,
+  "enableSuts": false,
+  "numSuts": 1,
+  "version": 14,
+  "hideEgoFromSensors": false,
+  "timeStampSource": "SimulationTime"
+}

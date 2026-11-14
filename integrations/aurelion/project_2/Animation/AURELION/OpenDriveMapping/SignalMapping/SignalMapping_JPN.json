@@ -1,0 +1,3526 @@
+{
+  "version": 1,
+  "mappings": [
+    {
+      "from": {
+        "country": "jp",
+        "type": "201",
+        "subtype": "D"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Y-Intersection",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "201",
+        "subtype": "C"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "T-Intersection C",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "201",
+        "subtype": "B"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "T-Intersection B",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "201",
+        "subtype": "A"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "T-Intersection A",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "201",
+        "subtype": "A"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "X-Intersection",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "201",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Roundabout Square",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "202",
+        "subtype": "R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Bend Right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "202",
+        "subtype": "L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Bend Left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "203",
+        "subtype": "R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Turn Right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "203",
+        "subtype": "L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Turn Left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "204",
+        "subtype": "R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Chicane Right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "204",
+        "subtype": "L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Chicane Left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "205",
+        "subtype": "R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Chicane Hard Right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "205",
+        "subtype": "L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Chicane Hard Left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "206",
+        "subtype": "R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Curvy Road Right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "206",
+        "subtype": "L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Curvy Road Left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "207",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Railroad Crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "207",
+        "subtype": "B"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Tramway Crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "208",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Stoplight",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "208"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "School",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "209",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Rockfall",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "209",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Bumpy Road",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "209"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Slippery",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "210",
+        "subtype": "L"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Merging Traffic Left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "210",
+        "subtype": "R"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Merging Traffic Right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "211"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Decrease in Lanes",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "212",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Two Way Traffic",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "212",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Uphill 10",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "212",
+        "subtype": "4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Downhill 10",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "212"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Decrease In Width",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "213"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Construction",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "214",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Wildlife",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "214"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Crosswind Caution",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "215"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Danger",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.424
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "301"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Road Closed",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "302"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Road Closed to Motor Vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "303"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Entry",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "304"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Cars",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "305"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Freight Vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "306"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Busses",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "307"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Motorbikes",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "308"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Light Vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "309"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Bicycles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "310"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "310",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Two-Seater Motorbikes",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "310",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Snow Chains",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "311",
+        "subtype": "A"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Arrow Turn Straight Left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "311",
+        "subtype": "B"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Arrow Turn Left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "311",
+        "subtype": "C"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Arrow Straight",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "311",
+        "subtype": "D"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Arrow Turn Left Right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "311",
+        "subtype": "E"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Arrow Turn Left Right Straight",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "311",
+        "subtype": "E2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Arrow Turn Right Left Straight",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "311",
+        "subtype": "F"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Arrow Side L",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "311",
+        "subtype": "G"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Arrow Side R",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "311",
+        "subtype": "H"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Arrow Turn Straight Right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "311",
+        "subtype": "I"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Arrow Turn Right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "312"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Vehicle Crossing Prohibited",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "313"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No U-Turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "314"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Overtaking On Right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "315"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Parking 8am - 8pm",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "315"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Parking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "316"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Halting 8am - 8pm",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "316"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Halting",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "318"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Parking 8am - 8pm",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "318"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Parking 60min",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "319"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Dangerous Goods Loading",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "320"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Weight Limit",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "321"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Height Limit",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "322"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Width Limit",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "323",
+        "subtype": "20"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Speed Limit 20",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "323",
+        "subtype": "30"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Speed Limit 30",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "323",
+        "subtype": "40"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Speed Limit 40",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "323",
+        "subtype": "50"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Speed Limit 50",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "323",
+        "subtype": "60"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Speed Limit 60",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "323",
+        "subtype": "70"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Speed Limit 70",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "323",
+        "subtype": "80"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Speed Limit 80",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "323",
+        "subtype": "90"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Speed Limit 90",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "323",
+        "subtype": "100"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Speed Limit 100",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "323",
+        "subtype": "110"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Speed Limit 110",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "323",
+        "subtype": "120"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Speed Limit 120",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "324",
+        "subtype": "20"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Minimum Speed 20",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "324",
+        "subtype": "30"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Minimum Speed 30",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "324",
+        "subtype": "40"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Minimum Speed 40",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "324",
+        "subtype": "50"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Minimum Speed 50",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "325",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Only Bicycles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "325",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Only Bicycles and Pedestrians",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "325",
+        "subtype": "4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Only Pedestrians",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "325",
+        "subtype": "5-A"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Only Busses",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "325",
+        "subtype": "5-B"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Only Taxies",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "325",
+        "subtype": "5-C"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Only Trucks",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "325",
+        "subtype": "6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Only Bus and Taxi",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "325"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Only Automobiles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "326",
+        "subtype": "2-A"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Bicycle One-Way Left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "326",
+        "subtype": "2-A"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Bicycle One-Way Right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "326",
+        "subtype": "A"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "One-Way L",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "326",
+        "subtype": "B"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "One-Way R",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.175
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "327",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Roundabout Circle",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "327",
+        "subtype": "11"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Parallel Parking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "327",
+        "subtype": "12"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Perpendicular Parking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "327",
+        "subtype": "13"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Diagonal Parking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "327",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "National Expressway Towing Vehicle Lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "327",
+        "subtype": "4-2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Bicycle Lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "327",
+        "subtype": "4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Bus Lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "327",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Bus Priority",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "327",
+        "subtype": "6"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Transport Priority",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "327",
+        "subtype": "7-A"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Straight and Right Traffic",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "327",
+        "subtype": "7-B"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Straight and Left Traffic",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "327",
+        "subtype": "7-C"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Left Traffic",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "327",
+        "subtype": "7-D"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Straight Traffic",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "327",
+        "subtype": "7-E"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Right Traffic",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "327",
+        "subtype": "8"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Motorbike Right Turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "327",
+        "subtype": "9"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Motorbike Right Turn",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "328"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Horn Section",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "329",
+        "subtype": "A"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Slow English",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.274
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "329",
+        "subtype": "B"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Slow",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.274
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "330",
+        "subtype": "A"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Stop English",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.274
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "330",
+        "subtype": "B"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Stop",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.274
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "331"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Pedestrians",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "332"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Pedestrian Crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "401"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Cyclist Parallel",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "402"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Car Rail Cross",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "403"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Parking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "404"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Elderly Parking",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "405"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Priority Road Pictogram",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "406",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Stop Line",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "406"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Centre Lane",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "407",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Bicycle Crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.133
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "407",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Bicycle And Pedestrian Crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.133
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "407",
+        "subtype": "A"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Pedestrian Crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.133
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "407",
+        "subtype": "B"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Children Crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.133
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "408"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Safe Area",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.3
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "507",
+        "subtype": "C"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "End",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.21
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "501",
+        "subtype": "a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "100m ahead",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.063
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "501",
+        "subtype": "b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "50m from here",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.063
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "501",
+        "subtype": "c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "All over the city",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.063
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "502",
+        "subtype": "a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Excluding sundays and holidays",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.076
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "502",
+        "subtype": "b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "8am to 8pm",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.076
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "503",
+        "subtype": "A1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Large Size Vehicles",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.063
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "503",
+        "subtype": "A2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Excluding mopeds",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.093
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "503",
+        "subtype": "B1"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Trucks",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.103
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "503",
+        "subtype": "B2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Busses",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.085
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "503",
+        "subtype": "C"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Vehicles with 3t load or more",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.123
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "503",
+        "subtype": "D"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Only Vehicles displaying signs",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.063
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "504"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Space to be left open on the right side",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.076
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "504",
+        "subtype": "2a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Up to the time shown on parking meter",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.066
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "504",
+        "subtype": "2b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Up to the time shown on parking ticket",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.066
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "505",
+        "subtype": "A"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Start of marked section arrow right",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.064
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "507",
+        "subtype": "A"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "End of marked section arrow left",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.064
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "507",
+        "subtype": "B"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "End of marked section",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.051
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "507",
+        "subtype": "D"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "End of marked section 2",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.106
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "505",
+        "subtype": "B"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Start of marked section arrow",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.051
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "505",
+        "subtype": "C"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Start of marked section",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.106
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "506"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "within the marked section arrow",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.064
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "506",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "within the marked section",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.051
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "508"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "School route",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.076
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "508",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "No Passing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.063
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "509"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Priority road Text",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.051
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "509",
+        "subtype": "2"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Railraod crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.076
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "509",
+        "subtype": "3"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Crosswind",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.076
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "509",
+        "subtype": "4"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Beware of animals",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.076
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "509",
+        "subtype": "5"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Attention",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.076
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "510",
+        "subtype": "a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Safe speed 30",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.206
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "510",
+        "subtype": "b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Possible roadside collapse",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.069
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "510",
+        "subtype": "2a"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Noise free zone",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.051
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "510",
+        "subtype": "2b"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Many pedestrians crossing",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.051
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "510",
+        "subtype": "2c"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Many oncoming cars",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.063
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "511"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Directions",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.149
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "512"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Place name",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.115
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "513"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Road start",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.051
+      }
+    },
+    {
+      "from": {
+        "country": "jp",
+        "type": "514"
+      },
+      "to": {
+        "assetPath": "/Signs/TrafficSigns/BP_Sign",
+        "assetId": "F12D83B6422301D344BCD7BC749CBEDA",
+        "properties": {
+          "Country": "JPN",
+          "Signs": "Road end",
+          "Show pole": "0"
+        }
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0.051
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "a4691bdb-87f8-4b49-b88c-09faad454eea",
+  "name": "Luxury car",
+  "description": "Luxury car with front camera",
+  "imageFile": "./Vehicles/a4691bdb-87f8-4b49-b88c-09faad454eea/Preview.png",
+  "modifiedOn": 1793741104,
+  "sensorInstances": [
+    {
+      "id": "83d7b82b-7456-4c2f-b025-f61873aea1da",
+      "name": "Front camera",
+      "sensorId": "b755c148-5a05-48fc-9003-f64d38739937",
+      "enable": true,
+      "position": [
+        -1.174898076944521, -0.0031545418696012906, 0.9900916513705977
+      ],
+      "rotation": [0, 0, 0],
+      "isValid": true,
+      "vehicleComponentId": "92eea9f1-8fb4-4456-89ca-40dd69faffbc",
+      "sensorNumber": 1
+    }
+  ],
+  "components": [
+    {
+      "id": "92eea9f1-8fb4-4456-89ca-40dd69faffbc",
+      "name": "Car",
+      "assetPath": "/Vehicles/Cars/BP_GER_Sedan_A",
+      "model3d": "./Vehicles/a4691bdb-87f8-4b49-b88c-09faad454eea/Model3D.glb",
+      "baseDataStream": "chassis",
+      "assetType": "aurelion-asset",
+      "occupantMonitoring": {
+        "driver": {
+          "assetId": "",
+          "gazeLocationDataStream": "",
+          "lizardOwlRatioDataStream": "",
+          "driverAnimationDataStream": "",
+          "seatbeltDataStream": "",
+          "accessory":  "",
+          "gazeLocations": [
+              { "id": 0, "x": 5, "y": 0, "z": 1, "name": "Straight" },
+              { "id": 1, "x": -0.96, "y": 0.38, "z": 0.63, "name": "Dashboard" },
+              { "id": 2, "x": -1.25, "y": 0, "z": 0.935, "name": "RearViewMirror" },
+              { "id": 3, "x": -1.06, "y": 0.9, "z": 0.72, "name": "LeftMirror" },
+              { "id": 4, "x": -1.06, "y": -0.9, "z": 0.72, "name": "RightMirror" },
+              { "id": 5, "x": -1.36, "y": 1.5, "z": 0.82, "name": "Left" },
+              { "id": 6, "x": -1.36, "y": -1.5, "z": 0.82, "name": "Right" },
+              { "id": 7, "x": -0.96, "y": 0, "z": 0.6, "name": "Infotainment" },
+              { "id": 8, "x": -1.71, "y": -0.38, "z": 0.78, "name": "Passenger" },
+              { "id": 9, "x": -1.22, "y": 0, "z": 0.36, "name": "CompartmentNearGearShift" },
+              { "id": 10, "x": -2.44, "y": -0.26, "z": 0.665, "name": "RearPassenger" },
+              { "id": 11, "x": -1.03, "y": -0.29, "z": 0.49, "name": "Glovebox" },
+              { "id": 12, "x": -0.9, "y": -0.44, "z": 0.075, "name": "Down" }
+            ]
+          }
+      }
+    }
+  ],
+  "version": 6
+}

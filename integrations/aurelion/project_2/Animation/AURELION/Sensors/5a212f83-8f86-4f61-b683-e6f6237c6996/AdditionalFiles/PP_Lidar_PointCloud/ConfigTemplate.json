@@ -1,0 +1,17 @@
+{
+    "outputWidth": 960,
+    "outputHeight": 512,
+    "outputModeNormal": true,
+    "outputModeAzimuth": true,
+    "outputModeElevation": true,
+    "outputModeDistance": true,
+    "outputModeRelativeVelocity": true,
+    "outputModeReflectivity": false,
+    "outputModeOpticalPower": true,
+    "outputModeTimeOffset": false,
+    "outputModeRayID": false,
+    "outputModeMaterialID": false,
+    "outputModeClassID": false,
+    "outputModeInstanceID": false,
+    "enableCrc32": false
+}

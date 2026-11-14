@@ -1,0 +1,17 @@
+{
+  "id": "11ffe6c9-4a46-4811-b284-a245123a4caf",
+  "version": 7,
+  "name": "FourWayJunction_4Lanes",
+  "description": "",
+  "modifiedOn": 1793741104,
+  "type": "ModelDesk",
+  "imageFile": "./Scenarios/11ffe6c9-4a46-4811-b284-a245123a4caf/Preview.png",
+  "scenery": {
+    "selection": "aur",
+    "scene": {
+      "name": "FourWayJunction_4Lanes",
+      "path": "/AUR_MapsBasic/Scenes/FourWayJunction_4Lanes/FourWayJunction_4Lanes"
+    },
+    "isAvailable": true
+  }
+}

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LayoutConfiguration>
+	<Header>
+		<Version>2.0</Version>
+		<CreationDate>07/08/2010 13:58:15</CreationDate>
+		<ModifiedDate>07/08/2010 13:58:15</ModifiedDate>
+		<Author>dSPACE</Author>
+		<Comment />
+	</Header>
+	<DataRecording>
+		<Downsampling>1</Downsampling>
+		<SignalBufferSize>1000000</SignalBufferSize>
+	</DataRecording>
+	<Measurements />
+	<Layouts>
+		<Layout>Env_DriverOverview.lay</Layout>
+		<Layout>Vehicle_VehicleState.lay</Layout>
+	</Layouts>
+	<TriggerRules>
+		<StartTriggerRules />
+		<StopTriggerRules />
+	</TriggerRules>
+</LayoutConfiguration>

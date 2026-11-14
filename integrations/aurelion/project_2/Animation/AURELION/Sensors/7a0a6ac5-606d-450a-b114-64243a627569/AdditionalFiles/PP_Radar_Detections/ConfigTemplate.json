@@ -1,0 +1,45 @@
+{
+  "UsedRxAntennaId": 0,
+  "MaxReceivedPathsPerAntenna": 4096,
+  "MaxDetectedTargets": 100,
+  "AssumedSensorTemperature_Kelvin": 293.0,
+  "ReceiverBandwith_Hz": 5e6,
+  "SendingPower_dBm": 20.0,
+
+  "Accuracy": {
+    "Distance": 0.1,
+    "Velocity": 0.1,
+    "Azimuth": 0.5,
+    "Elevation": 0.5,
+    "NoiseEnabled": true,
+    "NoiseRandSeed": 1234
+  },
+
+  "Resolution": {
+    "EnableDetectionAmbiguity": true,
+    "AzMin": -45.0,
+    "AzMax": 45.0,
+    "AzStep": 1.0,
+    "ElMin": -15.0,
+    "ElMax": 15.0,
+    "ElStep": 1.0,
+    "DistMin": 0.2,
+    "DistMax": 300.0,
+    "DistStep": 1.0,
+    "VeloMin": -100.0,
+    "VeloMax": 100.0,
+    "VeloStep": 1.0,
+    "UseIndividualAzimuthCellAngles": false,
+    "IndividualAzimuthCellAngles": [],
+    "UseIndividualElevationCellAngles": false,
+    "IndividualElevationCellAngles": []
+  },
+
+  "EthernetUdpOutput": {
+    "Enabled": false,
+    "SendingIp": "auto",
+    "SendingPort": 1337,
+    "TargetIp": "127.0.0.1",
+    "TargetPort": 1338
+  }
+}

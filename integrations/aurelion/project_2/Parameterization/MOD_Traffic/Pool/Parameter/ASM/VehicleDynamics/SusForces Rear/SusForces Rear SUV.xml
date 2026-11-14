@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>VehicleDynamics</MainComponent>
+	  <RecordType>SusForces Rear</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SUSFORCES_REAR_ANC_SPRING.Map_Force_Left_Spring</ParameterAddress>
+			      <DimView>[1,2]</DimView>
+			      <ValueX>-0.1 0.1 0.101 0.102 0.103 0.104 0.105 0.106 0.107 0.108 0.109 0.11 0.111 0.112 0.113 0.114 0.115 0.116 0.117 0.118 0.119 0.12 0.121 0.122 0.123</ValueX>
+			      <ValueV>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SUSFORCES_REAR_ANC_SPRING.Map_Force_Right_Spring</ParameterAddress>
+			      <DimView>[1,2]</DimView>
+			      <ValueX>-0.1 0.1 0.101 0.102 0.103 0.104 0.105 0.106 0.107 0.108 0.109 0.11 0.111 0.112 0.113 0.114 0.115 0.116 0.117 0.118 0.119 0.12 0.121 0.122 0.123</ValueX>
+			      <ValueV>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SUSPENSION_FORCES_REAR.Map_Force_Left_Damper</ParameterAddress>
+			      <DimView>[1,25]</DimView>
+			      <ValueX>-1.047 -0.95975 -0.8725 -0.78525 -0.698 -0.61075 -0.5235 -0.43625 -0.349 -0.26175 -0.1745 -0.08725 0 0.095975 0.19195 0.287925 0.3839 0.479875 0.57585 0.671825 0.7678 0.863775 0.95975 1.05573 1.1517</ValueX>
+			      <ValueV>-2207.8 -2069.33 -1937.19 -1805.05 -1674.07 -1543.09 -1417.43 -1293.69 -1168.51 -991.739 -701.283 -348.659 0 257.863 485.468 683.726 766.552 837.957 911.428 986.872 1062.22 1143.58 1226.26 1306.88 1386.04</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SUSPENSION_FORCES_REAR.Map_Force_Left_Spring</ParameterAddress>
+			      <DimView>[1,25]</DimView>
+			      <ValueX>-0.0775 -0.071042 -0.064583 -0.058125 -0.051667 -0.045208 -0.03875 -0.032292 -0.025833 -0.019375 -0.012917 -0.006458 0 0.00782 0.01564 0.02346 0.03128 0.0391 0.04692 0.05474 0.06256 0.07038 0.0782 0.08602 0.09384</ValueX>
+			      <ValueV>-175.86 1126.52 1420.53 1614.48 1809.21 2008.02 2210.17 2416.07 2624.89 2835.93 3048.61 3262.92 3479.67 3763.46 4048.89 4337.28 4626.3 4925.49 5227.94 5542.45 5873.31 6286.32 6764.04 8655.67 15403.2</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SUSPENSION_FORCES_REAR.Map_Force_Right_Damper</ParameterAddress>
+			      <DimView>[1,25]</DimView>
+			      <ValueX>-1.047 -0.95975 -0.8725 -0.78525 -0.698 -0.61075 -0.5235 -0.43625 -0.349 -0.26175 -0.1745 -0.08725 0 0.095975 0.19195 0.287925 0.3839 0.479875 0.57585 0.671825 0.7678 0.863775 0.95975 1.05573 1.1517</ValueX>
+			      <ValueV>-2207.8 -2069.33 -1937.19 -1805.05 -1674.07 -1543.09 -1417.43 -1293.69 -1168.51 -991.739 -701.283 -348.659 0 257.863 485.468 683.726 766.552 837.957 911.428 986.872 1062.22 1143.58 1226.26 1306.88 1386.04</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SUSPENSION_FORCES_REAR.Map_Force_Right_Spring</ParameterAddress>
+			      <DimView>[1,25]</DimView>
+			      <ValueX>-0.0775 -0.071042 -0.064583 -0.058125 -0.051667 -0.045208 -0.03875 -0.032292 -0.025833 -0.019375 -0.012917 -0.006458 0 0.00782 0.01564 0.02346 0.03128 0.0391 0.04692 0.05474 0.06256 0.07038 0.0782 0.08602 0.09384</ValueX>
+			      <ValueV>-175.86 1126.52 1420.53 1614.48 1809.21 2008.02 2210.17 2416.07 2624.89 2835.93 3048.61 3262.92 3479.67 3763.46 4048.89 4337.28 4626.3 4925.49 5227.94 5542.45 5873.31 6286.32 6764.04 8655.67 15403.2</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>VehicleDynamics.SUSPENSION_FORCES_REAR.Map_Force_Stabilizer</ParameterAddress>
+			      <DimView>[1,25]</DimView>
+			      <ValueX>-0.1 -0.091667 -0.083333 -0.075 -0.066667 -0.058333 -0.05 -0.041667 -0.033333 -0.025 -0.016667 -0.008333 0 0.008333 0.016667 0.025 0.033333 0.041667 0.05 0.058333 0.066667 0.075 0.083333 0.091667 0.1</ValueX>
+			      <ValueV>-572.479 -524.773 -477.066 -429.359 -381.652 -333.945 -286.238 -238.531 -190.824 -143.117 -95.4106 -47.7037 0.0032 47.7101 95.4144 143.216 191.023 238.831 286.638 334.445 382.253 430.06 477.867 525.675 573.482</ValueV>
+		    </Parameter>
+	  </Parameters>
+	  <Processing>
+		    <Priority>0</Priority>
+	  </Processing>
+</ParameterFile>

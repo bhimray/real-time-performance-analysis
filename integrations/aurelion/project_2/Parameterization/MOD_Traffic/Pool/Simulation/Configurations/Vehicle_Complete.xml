@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LayoutConfiguration>
+	<Header>
+		<Version>2.0</Version>
+		<CreationDate>07/07/2010 08:59:57</CreationDate>
+		<ModifiedDate>07/08/2010 14:01:26</ModifiedDate>
+		<Author>dSPACE</Author>
+		<Comment />
+	</Header>
+	<DataRecording>
+		<Downsampling>1</Downsampling>
+		<SignalBufferSize>1000000</SignalBufferSize>
+	</DataRecording>
+	<Measurements />
+	<Layouts>
+		<Layout>Drivetrain_Overview.lay</Layout>
+		<Layout>Env_RoadPosition.lay</Layout>
+		<Layout>Env_DriverOverview.lay</Layout>
+		<Layout>Env_Maneuver_SimInfo.lay</Layout>
+		<Layout>Vehicle_BrakeOverview.lay</Layout>
+		<Layout>Vehicle_VehicleState.lay</Layout>
+		<Layout>Vehicle_Suspension.lay</Layout>
+	</Layouts>
+	<TriggerRules>
+		<StartTriggerRules />
+		<StopTriggerRules />
+	</TriggerRules>
+</LayoutConfiguration>

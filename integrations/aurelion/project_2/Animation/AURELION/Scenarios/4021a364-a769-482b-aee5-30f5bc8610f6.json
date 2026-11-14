@@ -1,0 +1,17 @@
+{
+  "id": "4021a364-a769-482b-aee5-30f5bc8610f6",
+  "version": 7,
+  "name": "ParkingGarage",
+  "description": "",
+  "modifiedOn": 1793741104,
+  "type": "ModelDesk",
+  "imageFile": "./Scenarios/4021a364-a769-482b-aee5-30f5bc8610f6/Preview.png",
+  "scenery": {
+    "selection": "aur",
+    "scene": {
+      "name": "ParkingGarage",
+      "path": "/AUR_MapsBasic/Scenes/UndergroundParkingGarage/UndergroundParkingGarage"
+    },
+    "isAvailable": true
+  }
+}

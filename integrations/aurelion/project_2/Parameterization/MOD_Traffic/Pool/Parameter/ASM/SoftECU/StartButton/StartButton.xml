@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile>
+	  <Version>26.1</Version>
+	  <MainComponent>SoftECU</MainComponent>
+	  <RecordType>StartButton</RecordType>
+	  <MultiPageSupport>No</MultiPageSupport>
+	  <Parameters>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.START_BUTTON.Const_Post_BrakePedal_LowLim</ParameterAddress>
+			      <ValueV>10</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.START_BUTTON.Const_Post_ClutchPedal_LowLim</ParameterAddress>
+			      <ValueV>80</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.START_BUTTON.Const_t_Min_Active</ParameterAddress>
+			      <ValueV>0.5</ValueV>
+		    </Parameter>
+		    <Parameter>
+			      <ParameterAddress>SoftECU.START_BUTTON.Const_t_Min_Starter</ParameterAddress>
+			      <ValueV>2</ValueV>
+		    </Parameter>
+	  </Parameters>
+</ParameterFile>

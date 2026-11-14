@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+	<Version>1.0</Version>
+	<OutputOptions>
+		<OutputDirectory>c:/Roads</OutputDirectory>
+		<generateTerrain>1</generateTerrain>
+	</OutputOptions>
+	<AURELION_Materials>
+		<Material Name="Asphalt">
+			<ClassName>Road</ClassName>
+			<MappedMaterial>/AUR_AssetsBasic/MaterialDB/Roads/WorldAlignedAsphalt_Variants/MI_Asphalt_WA_Base.MI_Asphalt_WA_Base</MappedMaterial>
+		</Material>
+		<Material Name="AsphaltBiking">
+			<ClassName>Road</ClassName>
+			<MappedMaterial>/AUR_AssetMaster/Material_DB/MasterMaterials/RoadMaterials/Asphalt_Variants/MI_Road_WA_Red.MI_Road_WA_Red</MappedMaterial>
+		</Material>
+		<Material Name="RoadMarking">
+			<ClassName>Road_Marking</ClassName>
+			<MappedMaterial>/AUR_AssetsBasic/MaterialDB/RSG/RSG_LineMarks/M_RSG_LineMark.M_RSG_LineMark</MappedMaterial>
+			<ColorParameterName>TintColor</ColorParameterName>
+		</Material>
+		<Material Name="Terrain">
+			<ClassName>Terrain</ClassName>
+			<MappedMaterial>/AUR_AssetsBasic/MaterialDB/LayeredLandscapeMaterial/LandscapePresets/MI_Grassy_Landscape.MI_Grassy_Landscape</MappedMaterial>
+		</Material>
+		<Material Name="TunnelConcrete">
+			<ClassName>Environment</ClassName>
+			<MaterialFilePath>%Resources%/Materials/RSG_Sidewalk_Concrete.glb</MaterialFilePath>
+			<MappedMaterial>/AUR_AssetsBasic/MaterialDB/Basic_Materials/Masonry/MI_Concrete.MI_Concrete</MappedMaterial>
+		</Material>
+	</AURELION_Materials>
+	<UnitGeometries>
+		<UnitGeometry Name="YellowBarrier">%Resources%/3D_Assets/YellowGuideCurb/YellowGuideCurb.xml</UnitGeometry>
+		<UnitGeometry Name="RedWhiteBarrier">%Resources%/3D_Assets/Red_White_Barrier/RedWhiteBarrier.xml</UnitGeometry>
+		<UnitGeometry Name="ConcreteBarrier">%Resources%/3D_Assets/Small_ConcreteBarrier/Small_ConcreteBarrier.xml</UnitGeometry>
+		<UnitGeometry Name="Guardrail">%Resources%/3D_Assets/Guardrail/GER_GuardRail.xml</UnitGeometry>
+	</UnitGeometries>
+	<RdConfig>
+		<RepeatingObjectGeneration>
+			<AffectedByGround>1</AffectedByGround>
+		</RepeatingObjectGeneration>
+	</RdConfig>
+	<OpenDrive>
+		<SidewalkLaneTypes>
+			<SidewalkLaneType LaneType="sidewalk"/>
+			<SidewalkLaneType LaneType="walking"/>
+		</SidewalkLaneTypes>
+		<RepeatingObjectGeneration>
+			<GenerateAsUnitGeometry Type="railing" UnitGeometryName="Guardrail"/>
+		</RepeatingObjectGeneration>
+		<LaneTypeMaterialMapping>
+			<LaneMaterial LaneType="driving" Material="Asphalt"/>
+			<LaneMaterial LaneType="none" Material="Terrain"/>
+            <LaneMaterial LaneType="shoulder" Material="Terrain"/>
+			<LaneMaterial LaneType="biking" Material="AsphaltBiking"/>
+		</LaneTypeMaterialMapping>
+	</OpenDrive>
+	<Sidewalks>
+		<Materials>%Resources%/3D_Assets/Sidewalks/SidewalkMaterials.xml</Materials>
+		<UnitGeometry Name="Curbstone">%Resources%/3D_Assets/Sidewalks/Curbstone.xml</UnitGeometry>
+	</Sidewalks>
+	<Decals>%Resources%/3D_Assets/Decals/Decals.xml</Decals>
+    <MaterialDamage>
+        <Type Name="RoadMarkingDamage">0.0</Type>
+        <Type Name="RoadMarkingBrightness">1.0</Type>
+    </MaterialDamage>
+</Settings>

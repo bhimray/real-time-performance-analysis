@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "mappings": [
+    {
+      "from": {
+        "country": "de",
+        "type": "1000012"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/1/BP_Ger_TrafficLight_g",
+        "assetId": "B1BA93514002E982F24D848001BACF17",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000012",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/1/BP_Ger_TrafficLight_g_arrow-left",
+        "assetId": "903E87D8475AB5E63E5A7B84EB32581D",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000012",
+        "subtype": "20"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/1/BP_Ger_TrafficLight_g_arrow-right",
+        "assetId": "3410C8D34E51193013B95A93462B2E28",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000012",
+        "subtype": "30"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/1/BP_Ger_TrafficLight_g_arrow-up",
+        "assetId": "54C1BF1D40BD7DA5C84A498F194CC321",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000020"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/1/BP_Ger_TrafficLight_r",
+        "assetId": "B35F4A514CCACAACAC2ACD9DBDAB9A72",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000020",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/1/BP_Ger_TrafficLight_r_arrow-left",
+        "assetId": "B139340E40E54415D2DC3BA9A55F297C",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000020",
+        "subtype": "20"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/1/BP_Ger_TrafficLight_r_arrow-right",
+        "assetId": "861A20FA4EF5B22FAFCA588F745B9E0C",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000020",
+        "subtype": "30"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/1/BP_Ger_TrafficLight_r_arrow-up",
+        "assetId": "FD12EAD14B7AEB174BC01190D56681B5",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000008"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/1/BP_Ger_TrafficLight_y",
+        "assetId": "0E72A40F44C5BF2A32CA9197883E81F1",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000008",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/1/BP_Ger_TrafficLight_y_arrow-left",
+        "assetId": "A1C0EA4243448E26263FC29D2BAF6C86",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000008",
+        "subtype": "20"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/1/BP_Ger_TrafficLight_y_arrow-right",
+        "assetId": "AFA9B1F74A3BBEBC8C619197F5C96B95",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000008",
+        "subtype": "30"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/1/BP_Ger_TrafficLight_y_arrow-up",
+        "assetId": "34813C6F40D2DF45660B35B73A2219B2",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000002"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/2/BP_Ger_TrafficLight_2_pedestrians",
+        "assetId": "3EE24949440D213001C41CB5C66DE8A7",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000009",
+        "subtype": "20"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/2/BP_Ger_TrafficLight_gy",
+        "assetId": "9C241C6E48D9736D8DC92080633C01C2",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000009",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/2/BP_Ger_TrafficLight_ry",
+        "assetId": "9651A338414FC5857B79F8AE73C4B9D6",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000013",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/3/BP_Ger_TrafficLight_3_cyclists",
+        "assetId": "972A30A348E3E3AC79D3769A5156765E",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000001"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/3/BP_Ger_TrafficLight_ryg",
+        "assetId": "A2D30C2144DA0C96158857B404B75B29",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000011",
+        "subtype": "10"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/3/BP_Ger_TrafficLight_ryg_left",
+        "assetId": "639A20DE491565C1159655ACC3A8ADF6",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000011",
+        "subtype": "20"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/3/BP_Ger_TrafficLight_ryg_right",
+        "assetId": "7834C55742132E6F89848CB57719023C",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "from": {
+        "country": "de",
+        "type": "1000011",
+        "subtype": "30"
+      },
+      "to": {
+        "assetPath": "/AUR_EU_Assets/3DContent/Traffic/TrafficLights/GER_TrafficLights/3/BP_Ger_TrafficLight_ryg_up",
+        "assetId": "61F40F914A29362E56D5458A74FFB86C",
+        "properties": {}
+      },
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ]
+}
