@@ -1,16 +1,24 @@
 function fig = animate_prediction_horizon(recordingFile, options)
 %ANIMATE_PREDICTION_HORIZON Replay one aligned NMPC horizon per solver update.
 % The solid history and shaded dashed forecast use the same simulation clock.
+% Add "lateral", "velocity", "heading", or "yaw_rate" to Panels as needed.
+% VideoFile exports the selected window as an MP4 at PlaybackSpeed.
 arguments
     recordingFile (1,1) string
     options.PlaybackSpeed (1,1) double {mustBeFinite, mustBePositive} = 0.25
     options.HistorySeconds (1,1) double {mustBeFinite, mustBePositive} = 4
     options.TimeWindow_s (1,2) double = [-Inf, Inf]
-    options.Panels (1,:) string = ["station","lateral","velocity","heading","yaw_rate", ...
-        "fx","fy","mz","margin","slack"]
+    options.Panels (1,:) string = ["station","fx","fy","mz","margin","slack"]
     options.AutoPlay (1,1) logical = true
+    options.VideoFile (1,1) string = ""
     options.CollisionSemiAxes_m (2,1) double {mustBeFinite, mustBePositive} = collision_axes()
     options.Visible (1,1) string {mustBeMember(options.Visible, ["on","off"])} = "on"
+end
+
+if options.VideoFile ~= ""
+    [~, ~, extension] = fileparts(options.VideoFile);
+    assert(strcmpi(extension, '.mp4'), 'VideoFile must end in .mp4.');
+    assert(~isfile(options.VideoFile), 'Choose a new filename. VideoFile already exists.');
 end
 
 d = load_prediction_data(recordingFile);
@@ -49,7 +57,8 @@ for i = 1:numel(selected)
     end
 end
 
-title(layout, 'Solid lines show recorded history · Dashed lines show the shaded MPC horizon');
+legendText = 'Solid lines show recorded history · Dashed lines show the shaded MPC horizon';
+heading = title(layout, legendText);
 
 frame = 1;
 playing = false;
@@ -58,9 +67,49 @@ clock = [];
 origin = 0;
 fig.UserData = struct('SolveTime_s', h.Time_s(rows(1)));
 draw_frame();
-if options.AutoPlay
+if options.VideoFile ~= ""
+    save_video();
+elseif options.AutoPlay
     start_play();
 end
+
+    function save_video()
+        writer = VideoWriter(options.VideoFile, 'MPEG-4');
+        writer.FrameRate = 30;
+        writer.Quality = 95;
+        open(writer);
+        cleanup = onCleanup(@() close(writer)); %#ok<NASGU>
+        controls = [status, playButton, replayButton, previousButton, nextButton];
+        set(controls, 'Visible', 'off');
+        layout.OuterPosition = [0 0 1 1];
+
+        % Hold each solve until the next one on the recorded clock.
+        elapsed = (h.Time_s(rows) - h.Time_s(rows(1))) / options.PlaybackSpeed;
+        videoTime = (0:ceil(elapsed(end)*writer.FrameRate)) / writer.FrameRate;
+        lastCaptured = 0;
+        for time = videoTime
+            if ~isgraphics(fig)
+                return
+            end
+            while frame < numel(rows) && elapsed(frame+1) <= time + 8*eps(time)
+                frame = frame + 1;
+            end
+            if frame ~= lastCaptured
+                draw_frame();
+                heading.String = {legendText; status.String};
+                drawnow;
+                if ~isgraphics(fig)
+                    return
+                end
+                captured = getframe(fig);
+                lastCaptured = frame;
+            end
+            writeVideo(writer, captured);
+        end
+        heading.String = legendText;
+        layout.OuterPosition = [0 0 1 .94];
+        set(controls, 'Visible', 'on');
+    end
 
     function handle = button(label, left, callback)
         handle = uicontrol(fig, 'Style', 'pushbutton', 'String', label, ...

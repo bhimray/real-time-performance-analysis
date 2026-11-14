@@ -52,8 +52,8 @@ config.ubu = [
 %% Soft-constraint penalties
 
 % Each nonnegative slack has cost z * slack + 0.5 * Z * slack^2.
-config.slack_linear = 1e3;
-config.slack_quadratic = 1e3;
+config.slack_linear = 1e6;
+config.slack_quadratic = 1e6;
 
 %% Solver limits and tolerances
 

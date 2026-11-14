@@ -7,7 +7,7 @@ function config = scenario_config()
 %% Timing and road geometry
 
 config.schema_version = 1;
-config.instances_per_family = 300;
+config.instances_per_family = 1;
 config.duration_s = 8.0;
 config.controller_period_s = 0.05;
 config.plant_step_s = 0.001;
@@ -26,9 +26,9 @@ config.target_speed_offsets_mps = [-10, -3];
 
 %% Obstacle safety margins and collision geometry
 
-% Axis order is [lateral; longitudinal].
-config.safety_semi_axes_m = [1.3; 4.5];
-config.collision_semi_axes_m = [0.9; 2.5];
+% Semi-axis order is [lateral; longitudinal], in meters.
+config.collision_semi_axes_m = [3.0; 5.75];
+config.safety_semi_axes_m    = [3.2; 6.71];
 config.run_off_limit_m = 6.0;
 
 %% Family-specific settings

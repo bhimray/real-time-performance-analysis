@@ -1,8 +1,9 @@
 function fig = animate_trajectory(plant, obstacles, road, constraints, options)
 %ANIMATE_TRAJECTORY Replay aligned ego/obstacle samples in global X/Y.
-% No file loading or model execution. Close the figure to stop playback.
+% Replay restarts the selected samples. Close the figure to stop playback.
 % obstacles has time_s, s/e (obstacles-by-samples), safety_semi_axes_m and
-% collision_semi_axes_m. Preprocessing must align its clock to plant.time_s.
+% collision_semi_axes_m. Optional active flags hide inactive obstacles.
+% Preprocessing must align its clock to plant.time_s.
 arguments
     plant struct
     obstacles struct
@@ -11,6 +12,8 @@ arguments
     options.PlaybackSpeed (1,1) double {mustBePositive,mustBeFinite} = 1
     options.FrameRate (1,1) double {mustBePositive,mustBeFinite} = 25
     options.Visible (1,1) string {mustBeMember(options.Visible,["on","off"])} = "on"
+    options.Coordinates (1,1) string {mustBeMember(options.Coordinates,["global","road"])} = "global"
+    options.ShowReplayButton (1,1) logical = true
 end
 
 %% Validate clocks and prepare frame selection
@@ -29,19 +32,28 @@ assert(isequal(size(obstacles.s),size(obstacles.e)) && ...
     && all(isfinite(obstacles.e),'all'),'Invalid obstacle arrays.');
 assert(size(constraints.state.violated,1)==5 && ...
     size(constraints.state.violated,2)==numel(t),'Expected five state-constraint flags.');
+active=true(size(obstacles.s));
+if isfield(obstacles,'active')
+    active=obstacles.active;
+    assert(islogical(active) && isequal(size(active),size(obstacles.s)), ...
+        'Obstacle active flags must match the position arrays.');
+end
 safety=obstacles.safety_semi_axes_m(:);
 physical=obstacles.collision_semi_axes_m(:);
 assert(numel(safety)==2 && numel(physical)==2 && ...
     all(isfinite([safety;physical])) && all([safety;physical]>0),'Invalid ellipse axes.');
-collision=((x(1,:)-obstacles.e)/physical(1)).^2 ...
-    + ((x(7,:)-obstacles.s)/physical(2)).^2 <= 1;
+collision=active & (((x(1,:)-obstacles.e)/physical(1)).^2 ...
+    + ((x(7,:)-obstacles.s)/physical(2)).^2 <= 1);
 stateViolation=any(constraints.state.violated,1);
 collisionSample=any(collision,1);
 
 % Display conversion only; constraint/collision checks remain in road space.
+if options.Coordinates=="road"
+    curvature=0; % The zero-curvature transform returns station and offset.
+end
 [egoX,egoY]=ecu.animation.road_to_global(x(7,:),x(1,:),curvature);
 [obstacleX,obstacleY]=ecu.animation.road_to_global(obstacles.s,obstacles.e,curvature);
-allS=[x(7,:),obstacles.s(:).'];
+allS=[x(7,:),reshape(obstacles.s(active),1,[])];
 roadS=linspace(min(allS)-safety(2),max(allS)+safety(2),600);
 [referenceX,referenceY]=ecu.animation.road_to_global(roadS,0,curvature);
 [lowerX,lowerY]=ecu.animation.road_to_global(roadS,roadBounds(1),curvature);
@@ -79,14 +91,21 @@ for j=1:size(obstacles.s,1)
     centers(j)=plot(ax,NaN,NaN,'.','Color',colors(j,:),'MarkerSize',14,'HandleVisibility','off');
     labels(j)=text(ax,0,0,sprintf(' O%d',j),'Color',colors(j,:));
 end
-allX=[egoX,obstacleX(:).',lowerX,upperX];
-allY=[egoY,obstacleY(:).',lowerY,upperY];
+allX=[egoX,reshape(obstacleX(active),1,[]),lowerX,upperX];
+allY=[egoY,reshape(obstacleY(active),1,[]),lowerY,upperY];
 padding=max(safety)+1;
-axis(ax,'equal');
+if options.Coordinates=="global"
+    axis(ax,'equal');
+    xlabel(ax,'Global X [m]'); ylabel(ax,'Global Y [m]');
+else
+    xlabel(ax,'Road station [m]'); ylabel(ax,'Lateral offset [m]');
+end
 xlim(ax,[min(allX)-padding,max(allX)+padding]);
+if options.Coordinates=="road"
+    padding=safety(1)+0.4;
+end
 ylim(ax,[min(allY)-padding,max(allY)+padding]);
-xlabel(ax,'Global X [m]'); ylabel(ax,'Global Y [m]');
-title(ax,'Global motion: solid safety envelopes, dotted collision boundaries');
+title(ax,'Solid safety envelopes and dotted collision boundaries');
 legend(ax,'Location','eastoutside');
 status=annotation(fig,'textbox',[.02 .89 .78 .10],'String','', ...
     'EdgeColor','none','BackgroundColor','w','FontSize',10,'Interpreter','none');
@@ -101,87 +120,106 @@ yline(marginAx,0,'k--','DisplayName','Safety boundary');
 cursor=xline(marginAx,t(1),'k:','HandleVisibility','off');
 if t(end)>t(1), xlim(marginAx,[t(1),t(end)]); end
 h=constraints.state.values(4:5,:);
-ylim(marginAx,[min(-.1,min(h,[],'all')-.02),2]);
+h(~active)=NaN;
+ylim(marginAx,[min([-.1; reshape(h(isfinite(h)),[],1)-.02]),2]);
 xlabel(marginAx,'Time [s]'); ylabel(marginAx,'Safety h [dimensionless]');
 title(marginAx,'Safety margin versus time — boundary view; distant positive values clipped');
 legend(marginAx,'Location','northeast');
 set([ax,marginAx],'Color','w','XColor','k','YColor','k');
 setappdata(fig,'paused',false);
 pauseButton=uicontrol(fig,'Style','pushbutton','String','Pause','Units','normalized', ...
-    'Position',[.88 .95 .08 .035],'Callback',@(button,~) toggle_pause(button,fig));
+    'Position',[.80 .95 .08 .035],'Callback',@(button,~) toggle_pause(button,fig));
+replayButton=uicontrol(fig,'Style','pushbutton','String','Replay','Units','normalized', ...
+    'Position',[.89 .95 .08 .035],'Enable','off','BusyAction','cancel', ...
+    'Callback',@(~,~) play());
+if ~options.ShowReplayButton
+    set(replayButton,'Visible','off');
+end
+play();
 
 %% Replay using simulation timestamps and a wall clock
-clock=tic; pausedSeconds=0;
-for k=frames
-    target=(t(k)-t(1))/options.PlaybackSpeed;
-    while isgraphics(fig)
-        if getappdata(fig,'paused')
-            pauseClock=tic;
-            while isgraphics(fig) && getappdata(fig,'paused')
-                drawnow; pause(.02);
+    function play()
+        setappdata(fig,'paused',false);
+        set(replayButton,'Enable','off');
+        set(pauseButton,'String','Pause','Enable','on');
+        clock=tic; pausedSeconds=0;
+        for k=frames
+            target=(t(k)-t(1))/options.PlaybackSpeed;
+            while isgraphics(fig)
+                if getappdata(fig,'paused')
+                    pauseClock=tic;
+                    while isgraphics(fig) && getappdata(fig,'paused')
+                        drawnow; pause(.02);
+                    end
+                    pausedSeconds=pausedSeconds+toc(pauseClock);
+                else
+                    remaining=target+pausedSeconds-toc(clock);
+                    if remaining<=0, break; end
+                    pause(min(.02,remaining));
+                end
             end
-            pausedSeconds=pausedSeconds+toc(pauseClock);
-        else
-            remaining=target+pausedSeconds-toc(clock);
-            if remaining<=0, break; end
-            pause(min(.02,remaining));
+            if ~isgraphics(fig), return; end
+            set(trail,'XData',egoX(1:k),'YData',egoY(1:k));
+            mark=find(stateViolation(1:k));
+            set(badTrail,'XData',egoX(mark),'YData',egoY(mark));
+            mark=find(collisionSample(1:k));
+            set(collisionTrail,'XData',egoX(mark),'YData',egoY(mark));
+            color=[0 .35 .85];
+            if any(constraints.state.near_boundary(:,k)), color=[.9 .55 0]; end
+            if stateViolation(k), color=[.85 0 0]; end
+            if collisionSample(k), color=[.8 0 .8]; end
+            set(ego,'XData',egoX(k),'YData',egoY(k),'Color',color,'MarkerFaceColor',color);
+            for j=1:size(obstacles.s,1)
+                set(marginLines(j),'XData',t(1:k),'YData',h(j,1:k));
+                if ~active(j,k)
+                    set([envelopes(j),boundaries(j),centers(j),labels(j)],'Visible','off');
+                    continue
+                end
+                set([envelopes(j),boundaries(j),centers(j),labels(j)],'Visible','on');
+                so=obstacles.s(j,k); eo=obstacles.e(j,k);
+                envelopeColor=colors(j,:);
+                if constraints.state.violated(j+3,k), envelopeColor=[.85 0 0]; end
+                % Map every boundary point, rather than leaving ellipses axis-aligned.
+                [boundaryX,boundaryY]=ecu.animation.road_to_global( ...
+                    so+safety(2)*cos(theta),eo+safety(1)*sin(theta),curvature);
+                set(envelopes(j),'XData',boundaryX,'YData',boundaryY,'Color',envelopeColor);
+                boundaryColor=[.72 .72 .72];
+                if collision(j,k), boundaryColor=[.8 0 .8]; end
+                [boundaryX,boundaryY]=ecu.animation.road_to_global( ...
+                    so+physical(2)*cos(theta),eo+physical(1)*sin(theta),curvature);
+                set(boundaries(j),'XData',boundaryX,'YData',boundaryY,'Color',boundaryColor);
+                set(centers(j),'XData',obstacleX(j,k),'YData',obstacleY(j,k));
+                set(labels(j),'Position',[obstacleX(j,k) obstacleY(j,k) 0]);
+            end
+            set(cursor,'Value',t(k));
+            stateNames=string(constraints.state.names(constraints.state.violated(:,k)));
+            inputText="No recorded input check"; inputNames=strings(0,1);
+            inputIndex=find(constraints.input.time_s<=t(k)+1e-9,1,'last');
+            if ~isempty(inputIndex)
+                inputNames=string(constraints.input.names(constraints.input.violated(:,inputIndex)));
+                inputText=sprintf('Latest %s check at %.3f s: %s',constraints.input.kind, ...
+                    constraints.input.time_s(inputIndex),list_or_none(inputNames));
+            end
+            statusLines=[string(sprintf('t = %.3f s    vx = %.2f m/s    playback = %gx', ...
+                t(k),x(6,k),options.PlaybackSpeed)); ...
+                "Checked state violations now: "+list_or_none(stateNames);string(inputText); ...
+                string(sprintf('Physical collision now: %d    State-violation samples so far: %d', ...
+                collisionSample(k),sum(stateViolation(1:k))))];
+            statusColor=[0 0 0];
+            if stateViolation(k) || collisionSample(k) || ~isempty(inputNames)
+                statusColor=[.8 0 0];
+            end
+            set(status,'String',statusLines,'Color',statusColor);
+            drawnow;
+        end
+        if isgraphics(fig)
+            completed=string(status.String);
+            completed(1)=completed(1)+" — complete";
+            set(status,'String',completed);
+            set(pauseButton,'String','Complete','Enable','off');
+            set(replayButton,'Enable','on');
         end
     end
-    if ~isgraphics(fig), return; end
-    set(trail,'XData',egoX(1:k),'YData',egoY(1:k));
-    mark=find(stateViolation(1:k));
-    set(badTrail,'XData',egoX(mark),'YData',egoY(mark));
-    mark=find(collisionSample(1:k));
-    set(collisionTrail,'XData',egoX(mark),'YData',egoY(mark));
-    color=[0 .35 .85];
-    if any(constraints.state.near_boundary(:,k)), color=[.9 .55 0]; end
-    if stateViolation(k), color=[.85 0 0]; end
-    if collisionSample(k), color=[.8 0 .8]; end
-    set(ego,'XData',egoX(k),'YData',egoY(k),'Color',color,'MarkerFaceColor',color);
-    for j=1:size(obstacles.s,1)
-        so=obstacles.s(j,k); eo=obstacles.e(j,k);
-        envelopeColor=colors(j,:);
-        if constraints.state.violated(j+3,k), envelopeColor=[.85 0 0]; end
-        % Map every boundary point, rather than leaving ellipses axis-aligned.
-        [boundaryX,boundaryY]=ecu.animation.road_to_global( ...
-            so+safety(2)*cos(theta),eo+safety(1)*sin(theta),curvature);
-        set(envelopes(j),'XData',boundaryX,'YData',boundaryY,'Color',envelopeColor);
-        boundaryColor=[.72 .72 .72];
-        if collision(j,k), boundaryColor=[.8 0 .8]; end
-        [boundaryX,boundaryY]=ecu.animation.road_to_global( ...
-            so+physical(2)*cos(theta),eo+physical(1)*sin(theta),curvature);
-        set(boundaries(j),'XData',boundaryX,'YData',boundaryY,'Color',boundaryColor);
-        set(centers(j),'XData',obstacleX(j,k),'YData',obstacleY(j,k));
-        set(labels(j),'Position',[obstacleX(j,k) obstacleY(j,k) 0]);
-        set(marginLines(j),'XData',t(1:k),'YData',h(j,1:k));
-    end
-    set(cursor,'Value',t(k));
-    stateNames=string(constraints.state.names(constraints.state.violated(:,k)));
-    inputText="No recorded input check"; inputNames=strings(0,1);
-    inputIndex=find(constraints.input.time_s<=t(k)+1e-9,1,'last');
-    if ~isempty(inputIndex)
-        inputNames=string(constraints.input.names(constraints.input.violated(:,inputIndex)));
-        inputText=sprintf('Latest %s check at %.3f s: %s',constraints.input.kind, ...
-            constraints.input.time_s(inputIndex),list_or_none(inputNames));
-    end
-    statusLines=[string(sprintf('t = %.3f s    vx = %.2f m/s    playback = %gx', ...
-        t(k),x(6,k),options.PlaybackSpeed)); ...
-        "State violations now: "+list_or_none(stateNames);string(inputText); ...
-        string(sprintf('Physical collision now: %d    State-violation samples so far: %d', ...
-        collisionSample(k),sum(stateViolation(1:k))))];
-    statusColor=[0 0 0];
-    if stateViolation(k) || collisionSample(k) || ~isempty(inputNames)
-        statusColor=[.8 0 0];
-    end
-    set(status,'String',statusLines,'Color',statusColor);
-    drawnow;
-end
-if isgraphics(fig)
-    completed=string(status.String);
-    completed(1)=completed(1)+" — complete";
-    set(status,'String',completed);
-    set(pauseButton,'String','Complete','Enable','off');
-end
 end
 
 function text = list_or_none(names)

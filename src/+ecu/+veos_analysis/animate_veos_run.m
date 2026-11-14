@@ -2,11 +2,13 @@ function fig = animate_veos_run(recordingFile, options)
 %ANIMATE_VEOS_RUN Replay recorded ego and fellow motion in road coordinates.
 % Supply CollisionSemiAxes_m as [lateral; longitudinal], or use the project
 % scenario_config defaults. TimeWindow_s selects an optional replay interval.
+% ShowReplayButton enables replay of the selected window in the same figure.
 arguments
     recordingFile (1,1) string
     options.PlaybackSpeed (1,1) double {mustBePositive, mustBeFinite} = 1
     options.FrameRate (1,1) double {mustBePositive, mustBeFinite} = 25
     options.TimeWindow_s (1,2) double = [-Inf, Inf]
+    options.ShowReplayButton (1,1) logical = true
     options.CollisionSemiAxes_m (2,1) double {mustBePositive, mustBeFinite} = ...
         default_collision_axes()
     options.Visible (1,1) string {mustBeMember(options.Visible, ["on", "off"])} = "on"
@@ -67,7 +69,8 @@ constraints.input = struct('time_s', []);
 
 fig = ecu.animation.animate_trajectory(plant, obstacles, road, constraints, ...
     Coordinates="road", PlaybackSpeed=options.PlaybackSpeed, ...
-    FrameRate=options.FrameRate, Visible=options.Visible);
+    FrameRate=options.FrameRate, Visible=options.Visible, ...
+    ShowReplayButton=options.ShowReplayButton);
 end
 
 function axes_m = default_collision_axes()
