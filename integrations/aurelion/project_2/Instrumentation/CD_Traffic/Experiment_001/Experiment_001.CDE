@@ -585,6 +585,201 @@
 					<ItemInfoAddInfoDb type="key"/>
 					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
 				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_007.mf4</Name>
+					<DisplayName type="key">rec1_007.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">187987402</UniqueID>
+					<EntityID type="key">{AAF4BDEA-1AA5-4F9E-8B65-D8A2B661A85B}</EntityID>
+					<ItemInfoDate type="key">2026-11-13 16:13:04</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_008.mf4</Name>
+					<DisplayName type="key">rec1_008.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">20963415</UniqueID>
+					<EntityID type="key">{DE07EA89-AABB-405E-B4EF-F8C4B86F703A}</EntityID>
+					<ItemInfoDate type="key">2026-11-13 16:31:52</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_009.mf4</Name>
+					<DisplayName type="key">rec1_009.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">864493096</UniqueID>
+					<EntityID type="key">{42ED2CCF-2812-402B-87EB-D7AAE6F94ABB}</EntityID>
+					<ItemInfoDate type="key">2026-11-13 18:37:42</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_015.mf4</Name>
+					<DisplayName type="key">rec1_015.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">528928189</UniqueID>
+					<EntityID type="key">{5325DAEF-5EFD-48D6-AE35-605EE2F7B5F1}</EntityID>
+					<ItemInfoDate type="key">2026-11-16 11:56:02</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_016.mf4</Name>
+					<DisplayName type="key">rec1_016.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">221177478</UniqueID>
+					<EntityID type="key">{D7643D3D-51BB-4B4D-BC2D-5ABBFC4454D5}</EntityID>
+					<ItemInfoDate type="key">2026-11-16 11:56:45</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_017.mf4</Name>
+					<DisplayName type="key">rec1_017.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">259764954</UniqueID>
+					<EntityID type="key">{E3A94051-F0CD-44EC-897D-CD62A6F35666}</EntityID>
+					<ItemInfoDate type="key">2026-11-16 11:57:22</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_018.mf4</Name>
+					<DisplayName type="key">rec1_018.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">218432139</UniqueID>
+					<EntityID type="key">{FB5A0A1F-25AB-437F-84BC-5E0E0D547441}</EntityID>
+					<ItemInfoDate type="key">2026-11-16 11:59:13</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_019.mf4</Name>
+					<DisplayName type="key">rec1_019.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">278283796</UniqueID>
+					<EntityID type="key">{734F9F35-3B30-463D-9C82-705CC0FECC5D}</EntityID>
+					<ItemInfoDate type="key">2026-11-16 12:18:33</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_020.mf4</Name>
+					<DisplayName type="key">rec1_020.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">515311155</UniqueID>
+					<EntityID type="key">{C62D4F2D-11DA-4843-A75C-5B4CAFE83648}</EntityID>
+					<ItemInfoDate type="key">2026-11-16 12:22:49</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_021.mf4</Name>
+					<DisplayName type="key">rec1_021.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">907753664</UniqueID>
+					<EntityID type="key">{69C9D140-2770-4552-981F-DC32CDDAA3E8}</EntityID>
+					<ItemInfoDate type="key">2026-11-16 12:24:05</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_022.mf4</Name>
+					<DisplayName type="key">rec1_022.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">507207583</UniqueID>
+					<EntityID type="key">{4AAE91F2-C059-42AE-B20A-B37CA198477B}</EntityID>
+					<ItemInfoDate type="key">2026-11-16 12:32:44</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_023.mf4</Name>
+					<DisplayName type="key">rec1_023.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">896053608</UniqueID>
+					<EntityID type="key">{22253ECD-C807-4B47-80D5-49E14A146EC7}</EntityID>
+					<ItemInfoDate type="key">2026-11-16 13:31:44</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rec1_024.mf4</Name>
+					<DisplayName type="key">rec1_024.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">826062530</UniqueID>
+					<EntityID type="key">{C15EEA8D-27D9-412C-A32E-ED42C4446A10}</EntityID>
+					<ItemInfoDate type="key">2026-11-16 13:33:25</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">bxr240009</ItemInfoAuthor>
+				</item>
 			</item>
 			<item>
 				<Targets type="key">variablefilters,.vfex</Targets>
@@ -827,7 +1022,7 @@
 		</BookmarkTypes>
 	</MeasureDataManagement>
 	<MeasurementConfiguration>
-		<NextUniqueKey type="key">77</NextUniqueKey>
+		<NextUniqueKey type="key">80</NextUniqueKey>
 		<SortedColumn type="key">4</SortedColumn>
 		<SortAscending type="key">-1</SortAscending>
 		<SignalList>
@@ -864,11 +1059,11 @@
 				</Signal>
 			</Variable>
 			<Variable>
-				<Name type="key">wheel_angle</Name>
+				<Name type="key">steering_ratio</Name>
 				<Platform type="key">__Calculated</Platform>
 				<Active type="key">-1</Active>
 				<Signal>
-					<Raster type="key">Merged</Raster>
+					<Raster type="key">Periodic Task 1</Raster>
 				</Signal>
 			</Variable>
 			<Variable>
@@ -1445,8 +1640,8 @@
 						<AutoRepeatBehavior type="key">1</AutoRepeatBehavior>
 						<MultiCaptureHistoryEnabled type="key">0</MultiCaptureHistoryEnabled>
 						<DownsamplingFactor type="key">1</DownsamplingFactor>
-						<StartTrigger type="key">75</StartTrigger>
-						<StopTrigger type="key">76</StopTrigger>
+						<StartTrigger type="key">78</StartTrigger>
+						<StopTrigger type="key">79</StopTrigger>
 					</PlatformTriggered>
 				</Rasters>
 				<EnabledHardwarePollingRasters/>
@@ -1551,7 +1746,7 @@
 					<AutomaticExportFolder type="key"/>
 					<AutomaticNamingEnabled type="key">-1</AutomaticNamingEnabled>
 					<AutomaticNamingMinimunDigits type="key">3</AutomaticNamingMinimunDigits>
-					<AutomaticNamingStartIndex type="key">7</AutomaticNamingStartIndex>
+					<AutomaticNamingStartIndex type="key">25</AutomaticNamingStartIndex>
 					<Description type="key"/>
 					<FileNamePrefix type="key">rec1_</FileNamePrefix>
 					<OpenInMeasurementDataPoolEnabled type="key">0</OpenInMeasurementDataPoolEnabled>
@@ -1595,12 +1790,12 @@
 						</Signal>
 					</Variable>
 					<Variable>
-						<Name type="key">wheel_angle</Name>
+						<Name type="key">steering_ratio</Name>
 						<Platform type="key">__Calculated</Platform>
 						<PlatformDisplayName type="key">Calculated</PlatformDisplayName>
 						<Recorded type="key">-1</Recorded>
 						<Signal>
-							<Raster type="key">Merged</Raster>
+							<Raster type="key">Periodic Task 1</Raster>
 						</Signal>
 					</Variable>
 					<Variable>
@@ -2344,8 +2539,8 @@
 					<DisplayStatusInformation type="key">-1</DisplayStatusInformation>
 					<DisplayAutomaticReconnectBehavior type="key">1</DisplayAutomaticReconnectBehavior>
 					<EnablePlatform type="key">1</EnablePlatform>
-					<StartRTA type="key">1</StartRTA>
-					<EnforceStartingRTA type="key">1</EnforceStartingRTA>
+					<StartRTA type="key">0</StartRTA>
+					<EnforceStartingRTA type="key">0</EnforceStartingRTA>
 				</GeneralSettings>
 				<SubstituteFactory/>
 				<SimulationOptions>

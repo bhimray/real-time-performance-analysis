@@ -114,8 +114,8 @@
         &lt;property name="DocumentGroup.Pinned" OwnerType="DevExpress.Xpf.Docking.DocumentGroup" DependencyPropertyType="System.Boolean"&gt;false&lt;/property&gt;
         &lt;property name="Name"&gt;Instrumentatioǹ7c̀950adb6d̀2d̀3039̀2d̀4a0à2d̀8c8f̀2d̀7677992d450à2f̀3&lt;/property&gt;
         &lt;property name="SerializableMDIBounds"&gt;0,0,NaN,NaN&lt;/property&gt;
-        &lt;property name="TabCaption" type="System.String"&gt;brake_torque*&lt;/property&gt;
-        &lt;property name="Caption" type="System.String"&gt;brake_torque*&lt;/property&gt;
+        &lt;property name="TabCaption" type="System.String"&gt;brake_torque&lt;/property&gt;
+        &lt;property name="Caption" type="System.String"&gt;brake_torque&lt;/property&gt;
       &lt;/property&gt;
       &lt;property name="Item7" isnull="true" iskey="true"&gt;
         &lt;property name="MDILocation"&gt;0,0&lt;/property&gt;
@@ -178,6 +178,8 @@
         &lt;property name="Caption" type="System.String"&gt;Fellow*&lt;/property&gt;
       &lt;/property&gt;
       &lt;property name="Item10" isnull="true" iskey="true"&gt;
+        &lt;property name="MDILocation"&gt;0,0&lt;/property&gt;
+        &lt;property name="MDISize"&gt;NaN,NaN&lt;/property&gt;
         &lt;property name="SerializableFloatingBounds"&gt;0,0,0,0&lt;/property&gt;
         &lt;property name="SerializableFloatingOffset"&gt;0,0&lt;/property&gt;
         &lt;property name="AllowClose"&gt;true&lt;/property&gt;
@@ -192,8 +194,8 @@
         &lt;property name="DocumentGroup.Pinned" OwnerType="DevExpress.Xpf.Docking.DocumentGroup" DependencyPropertyType="System.Boolean"&gt;false&lt;/property&gt;
         &lt;property name="Name"&gt;Instrumentatioǹ7c̀abb1887d̀2d̀dcd2̀2d̀4a45̀2d̀9e00̀2d̀8c249727f5b5̀2f̀8&lt;/property&gt;
         &lt;property name="SerializableMDIBounds"&gt;0,0,NaN,NaN&lt;/property&gt;
-        &lt;property name="TabCaption" type="System.String"&gt;switch*&lt;/property&gt;
-        &lt;property name="Caption" type="System.String"&gt;switch*&lt;/property&gt;
+        &lt;property name="TabCaption" type="System.String"&gt;switch&lt;/property&gt;
+        &lt;property name="Caption" type="System.String"&gt;switch&lt;/property&gt;
       &lt;/property&gt;
       &lt;property name="Item11" isnull="true" iskey="true"&gt;
         &lt;property name="MDILocation"&gt;0,0&lt;/property&gt;
@@ -281,10 +283,14 @@
 					<ViewFlags type="key">1</ViewFlags>
 					<item>
 						<Name type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Name>
-						<ViewFlags type="key">1</ViewFlags>
+						<ViewFlags type="key">65</ViewFlags>
 						<item>
 							<Name type="key">ASM_Traffic.sdf</Name>
-							<ViewFlags type="key">5</ViewFlags>
+							<ViewFlags type="key">1</ViewFlags>
+							<item>
+								<Name type="key">ASM_Traffic.vdp</Name>
+								<ViewFlags type="key">1</ViewFlags>
+							</item>
 							<item>
 								<Name type="key">.metadata</Name>
 								<ViewFlags type="key">1</ViewFlags>
@@ -316,7 +322,7 @@
 						<ViewFlags type="key">1</ViewFlags>
 						<item>
 							<Name type="key">79a9a21b-69e9-44fe-93a1-921e46f3adbb</Name>
-							<ViewFlags type="key">1</ViewFlags>
+							<ViewFlags type="key">65</ViewFlags>
 						</item>
 					</item>
 				</item>
@@ -371,6 +377,58 @@
 						<Name type="key">rec1_006.mf4</Name>
 						<ViewFlags type="key">1</ViewFlags>
 					</item>
+					<item>
+						<Name type="key">rec1_007.mf4</Name>
+						<ViewFlags type="key">1</ViewFlags>
+					</item>
+					<item>
+						<Name type="key">rec1_008.mf4</Name>
+						<ViewFlags type="key">1</ViewFlags>
+					</item>
+					<item>
+						<Name type="key">rec1_009.mf4</Name>
+						<ViewFlags type="key">1</ViewFlags>
+					</item>
+					<item>
+						<Name type="key">rec1_015.mf4</Name>
+						<ViewFlags type="key">1</ViewFlags>
+					</item>
+					<item>
+						<Name type="key">rec1_016.mf4</Name>
+						<ViewFlags type="key">1</ViewFlags>
+					</item>
+					<item>
+						<Name type="key">rec1_017.mf4</Name>
+						<ViewFlags type="key">1</ViewFlags>
+					</item>
+					<item>
+						<Name type="key">rec1_018.mf4</Name>
+						<ViewFlags type="key">1</ViewFlags>
+					</item>
+					<item>
+						<Name type="key">rec1_019.mf4</Name>
+						<ViewFlags type="key">1</ViewFlags>
+					</item>
+					<item>
+						<Name type="key">rec1_020.mf4</Name>
+						<ViewFlags type="key">1</ViewFlags>
+					</item>
+					<item>
+						<Name type="key">rec1_021.mf4</Name>
+						<ViewFlags type="key">1</ViewFlags>
+					</item>
+					<item>
+						<Name type="key">rec1_022.mf4</Name>
+						<ViewFlags type="key">1</ViewFlags>
+					</item>
+					<item>
+						<Name type="key">rec1_023.mf4</Name>
+						<ViewFlags type="key">1</ViewFlags>
+					</item>
+					<item>
+						<Name type="key">rec1_024.mf4</Name>
+						<ViewFlags type="key">5</ViewFlags>
+					</item>
 				</item>
 				<item>
 					<Name type="key">Variable Filters</Name>
@@ -423,7 +481,6 @@
 		<OpenSignalGenerators Version="1"/>
 		<Documents Version="1"/>
 	</SignalEditor>
-	<PythonScriptComponent/>
 	<Instrumentation>
 		<Layouts Version="3">
 			<Layout1>
@@ -455,4 +512,8 @@
 			</Layout9>
 		</Layouts>
 	</Instrumentation>
+	<XILAPIEESPort>
+		<ErrorConfigurationDocuments Version="1"/>
+	</XILAPIEESPort>
+	<PythonScriptComponent/>
 </Root>

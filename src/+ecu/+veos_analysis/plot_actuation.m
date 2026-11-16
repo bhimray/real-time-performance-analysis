@@ -21,8 +21,8 @@ panels = {
         "Drive torque [N m]", "stairs", "", wheelOrder
     "Brake torque commands", "act_brake_" + wheelOrder + "_Nm", ...
         "Brake torque [N m]", "stairs", "", wheelOrder
-    "Measured shaft torque", "shaft_torque_" + wheelOrder + "_Nm", ...
-        "Shaft torque [N m]", "line", "", wheelOrder
+    % "Measured shaft torque", "shaft_torque_" + wheelOrder + "_Nm", ...
+    %     "Shaft torque [N m]", "line", "", wheelOrder
 };
 
 [fig, axesList] = render_panels(signals, panels, "Steering and wheel torque", 2, options);

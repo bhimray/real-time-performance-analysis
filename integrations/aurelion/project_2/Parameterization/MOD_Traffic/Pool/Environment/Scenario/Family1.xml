@@ -62,7 +62,7 @@
                           <Description></Description>
                           <ID>a49297b1-9187-4ea4-894c-eb52f1de95c9</ID>
                           <Type>Time</Type>
-                          <Time>10</Time>
+                          <Time>12</Time>
                         </Condition>
                       </ConditionList>
                       <Delay>0</Delay>
@@ -1527,7 +1527,7 @@
     </TriggerManager>
   </ListManager>
   <Road>Family1.rd</Road>
-  <Version>12779</Version>
+  <Version>13080</Version>
   <Comment></Comment>
   <AliasListTraffic z:Id="i234">
     <AliasType xmlns="http://www.dspace.com/XMLSchema/ScenarioAccess/Scenario/Common">Traffic</AliasType>
