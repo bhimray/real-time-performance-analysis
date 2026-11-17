@@ -1,0 +1,166 @@
+{
+  "target": "SCALEXIO_LNX64",
+  "processing_unit": "HCP P04-004",
+  "compiler": "C:/Program Files/Common Files/dSPACE/CFD Compiler 26.1/target/x86_64-linux-gnu/bin/x86_64-linux-gnu-gcc.exe",
+  "compiler_version": "15.2.0",
+  "acados_commit": "d9d0ba2e8f127855119d38874af8a9570df1d8e5",
+  "build_dir": "C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\buildSCALEXIO",
+  "sfunction": "C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\buildSCALEXIO\\c_generated_code\\acados_solver_sfunction_ecu_vehicle_nmpc.mexw64",
+  "config": {
+    "schema_version": 1,
+    "vehicle": {
+      "m": 1723,
+      "Iz": 1960,
+      "lf": 1.232,
+      "lr": 1.468,
+      "Cy": 62700,
+      "track": 1.539,
+      "Rw": 0.31,
+      "g": 9.81
+    },
+    "Ts": 0.05,
+    "N": 40,
+    "nx": 5,
+    "nu": 3,
+    "np": 19,
+    "W": [
+      [
+        20,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0.1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0.1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1E-6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1E-6,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1E-7
+      ]
+    ],
+    "We": [
+      [
+        200,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        500,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        20,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "lbu": [
+      -9000,
+      -9000,
+      -6000
+    ],
+    "ubu": [
+      4500,
+      9000,
+      6000
+    ],
+    "slack_linear": 1.0E+6,
+    "slack_quadratic": 1.0E+6,
+    "max_iter": 200,
+    "tolerance": 1E-6,
+    "qp_max_iter": 100,
+    "cond_N": 10,
+    "model_name": "ecu_vehicle_nmpc",
+    "required_acados_tag": "v0.5.4",
+    "required_acados_commit": "d9d0ba2e8f127855119d38874af8a9570df1d8e5"
+  },
+  "created_utc": "17-Nov-2026 18:34:28"
+}

@@ -20,14 +20,17 @@ assert(~any(contains(loadedMex,[sfunctionName '.'])), 'ecu:VEOSLoadedMex', ...
 if ~isfolder(buildDirectory)
     mkdir(buildDirectory);
 end
+
 addpath(fullfile(root,'src'),fullfile(root,'config'), ...
     fullfile(root,'scripts','build'),'-begin');
 localConfig = jsondecode(fileread(fullfile(root,'config','local.json')));
 acadosRoot = char(localConfig.acados_root);
 assert(isfile(fullfile(acadosRoot,'bin','t_renderer.exe')), ...
     'Install the pinned acados template renderer before building.');
+
 addpath(fullfile(acadosRoot,'interfaces','acados_matlab_octave'), ...
     char(localConfig.casadi_root),fullfile(acadosRoot,'external','jsonlab'));
+
 % Prefer the Windows renderer and project S-function templates.
 addpath(fullfile(root, 'dependencies', 'acados_v054_compat'), '-begin');
 previousAcados = getenv('ACADOS_INSTALL_DIR');
@@ -47,6 +50,7 @@ fprintf('    Library build log: %s\n', logFile);
 [status, output] = system(command);
 assert(status == 0,'ecu:VEOSLibraries','Library build failed. See %s\n%s',logFile,output);
 installDirectory = fullfile(buildDirectory,'install');
+
 % Metadata is from the same pinned source as the freshly built libraries.
 copyfile(fullfile(acadosRoot,'lib','link_libs.json'),fullfile(installDirectory,'lib','link_libs.json'),'f');
 copyfile(fullfile(acadosRoot,'lib','git_commit_hash'),fullfile(installDirectory,'lib','git_commit_hash'),'f');

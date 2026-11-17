@@ -3,7 +3,7 @@ function go(varargin)
 % GO starts ASM project. 
 % 
 %       go (varargin)
-%
+%       go('simmode', 'CPT', 'platform', 'SCALEXIO'); for scalexio
 %       Arguments:
 %
 %           parameter:  'simmode'

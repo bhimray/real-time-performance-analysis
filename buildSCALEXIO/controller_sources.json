@@ -1,0 +1,17 @@
+[
+  "ecu_vehicle_nmpc_model/ecu_vehicle_nmpc_expl_ode_fun.c",
+  "ecu_vehicle_nmpc_model/ecu_vehicle_nmpc_expl_vde_forw.c",
+  "ecu_vehicle_nmpc_model/ecu_vehicle_nmpc_expl_vde_adj.c",
+  "ecu_vehicle_nmpc_cost/ecu_vehicle_nmpc_cost_y_0_fun.c",
+  "ecu_vehicle_nmpc_cost/ecu_vehicle_nmpc_cost_y_0_fun_jac_ut_xt.c",
+  "ecu_vehicle_nmpc_cost/ecu_vehicle_nmpc_cost_y_fun.c",
+  "ecu_vehicle_nmpc_cost/ecu_vehicle_nmpc_cost_y_fun_jac_ut_xt.c",
+  "ecu_vehicle_nmpc_cost/ecu_vehicle_nmpc_cost_y_e_fun.c",
+  "ecu_vehicle_nmpc_cost/ecu_vehicle_nmpc_cost_y_e_fun_jac_ut_xt.c",
+  "ecu_vehicle_nmpc_constraints/ecu_vehicle_nmpc_constr_h_0_fun.c",
+  "ecu_vehicle_nmpc_constraints/ecu_vehicle_nmpc_constr_h_0_fun_jac_uxt_zt.c",
+  "ecu_vehicle_nmpc_constraints/ecu_vehicle_nmpc_constr_h_fun.c",
+  "ecu_vehicle_nmpc_constraints/ecu_vehicle_nmpc_constr_h_fun_jac_uxt_zt.c",
+  "acados_solver_sfunction_ecu_vehicle_nmpc.c",
+  "acados_solver_ecu_vehicle_nmpc.c"
+]
