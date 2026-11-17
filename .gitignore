@@ -3,6 +3,8 @@
 # Generated artifacts and run outputs
 /build/*
 !/build/README.md
+!/build/SCALEXIO_ASM
+/build/SCALEXIO_ASM/ASM_Traffic_dsrt/
 /results/*
 !/results/README.md
 # MATLAB caches and local editor files
@@ -18,3 +20,5 @@ slprj/
 Thumbs.db
 .DS_Store
 # Preserve .prj, resources/project, .slx and .sldd source files.
+
+/build/SCALEXIO_ASM/ASM_Traffic_dsrt/
