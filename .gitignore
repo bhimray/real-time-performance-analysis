@@ -24,3 +24,10 @@ Thumbs.db
 
 # Fresh ASM generation folders are local build artifacts.
 /build/SCALEXIO_ASM/*/
+
+# Keep CasADi's shipped MATLAB binary trackable.
+!/dependencies/casadi-3.7.0/casadiMEX.mexw64
+
+# Keep local dependency checkouts and unrelated tools outside the project index.
+/dependencies/acados-v054/
+/dependencies/openjdk21/

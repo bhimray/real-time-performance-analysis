@@ -37,7 +37,10 @@ source = char(local.acados_root);
 sourceLock = acquire_acados_build_lock(root); %#ok<NASGU>
 cmake = fullfile(root, 'dependencies', 'cmake', ...
     'cmake-3.31.8-windows-x86_64', 'bin', 'cmake.exe');
-toolchain = fullfile(source, 'cmake', 'Toolchain-dSpaceSCALEXIO-Linux64.cmake');
+compatibility = fullfile(root, 'dependencies', 'acados_v054_compat');
+toolchain = fullfile(compatibility, 'Toolchain-dSpaceSCALEXIO-Linux64.cmake');
+renderer = fullfile(source, 'bin', 't_renderer.exe');
+bundledRenderer = fullfile(compatibility, 'bin', 't_renderer.exe');
 compiler = ['C:/Program Files/Common Files/dSPACE/CFD Compiler 26.1/' ...
     'target/x86_64-linux-gnu/bin/x86_64-linux-gnu-gcc.exe'];
 make = 'C:/Program Files/Common Files/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe';
@@ -47,8 +50,7 @@ hostBuild = fullfile(output, 'host', 'acados');
 hostToolchain = fullfile(root,'scripts','build','Toolchain-dSpaceVEOS-Windows.cmake');
 hostCompiler = 'C:/Program Files/Common Files/dSPACE/GCC/14.2/x86_64/bin/gcc.exe';
 hookTemplate = fullfile(root, 'scripts', 'build', 'rtwmakecfg_scalexio.m');
-required = {cmake, toolchain, compiler, make, hookTemplate, hostToolchain, hostCompiler, ...
-    fullfile(source, 'bin', 't_renderer.exe')};
+required = {cmake, toolchain, compiler, make, hookTemplate, hostToolchain, hostCompiler};
 assert(all(cellfun(@isfile, required)), 'ecu:SCALEXIOPrerequisite', ...
     'Missing prerequisite. Check CMake, CFD Compiler 26.1, the Linux64 toolchain, and Windows GCC.');
 
@@ -60,6 +62,15 @@ assert(strcmp(commit, config.required_acados_commit), 'ecu:SCALEXIOVersion', ...
 triple = strtrim(run_command(sprintf('"%s" -dumpmachine', compiler)));
 assert(strcmp(triple, 'x86_64-linux-gnu'), 'ecu:SCALEXIOCompiler', ...
     'Expected x86_64-linux-gnu, received %s.', triple);
+if ~isfile(renderer)
+    assert(isfile(bundledRenderer), 'ecu:SCALEXIORenderer', ...
+        'Install t_renderer.exe or add the bundled renderer at %s.', bundledRenderer);
+    rendererFolder = fileparts(renderer);
+    if ~isfolder(rendererFolder)
+        mkdir(rendererFolder);
+    end
+    copyfile(bundledRenderer, renderer);
+end
 
 addpath(fullfile(source, 'interfaces', 'acados_matlab_octave'), ...
     fullfile(source, 'external', 'jsonlab'), char(local.casadi_root));
