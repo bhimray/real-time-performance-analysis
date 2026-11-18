@@ -35,14 +35,8 @@ CMake Warning at CMakeLists.txt:57 (message):
 -- OpenMP parallelization is OFF
 --  
 -- Git commit is d9d0ba2e8
--- Configuring done (1.6s)
--- Generating done (0.5s)
-CMake Warning:
-  Manually-specified variables were not used by the project:
-
-    CMAKE_TOOLCHAIN_FILE
-
-
+-- Configuring done (1.5s)
+-- Generating done (0.3s)
 -- Build files have been written to: C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados
 [ 30%] Built target blasfeo
 [ 77%] Built target hpipm

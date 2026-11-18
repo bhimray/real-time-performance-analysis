@@ -1,6 +1,7 @@
 function makeInfo = rtwmakecfg_veos()
 % Controller build dependencies, published by build_veos_windows.
 out = fileparts(fileparts(mfilename('fullpath')));
+select_controller_target('VEOS',Root=fileparts(out),CheckOnly=true);
 file = fullfile(out,'registration_manifest.json');
 assert(isfile(file),'ecu:VEOSRegistration','Run build_veos_windows first.');
 r = jsondecode(fileread(file));
@@ -21,19 +22,19 @@ makeInfo.sourcePath = unique(cellfun(@fileparts,sources,'UniformOutput',false),'
 [~,names,exts] = cellfun(@fileparts,sources,'UniformOutput',false);
 makeInfo.sources = strcat(names,exts).';
 makeInfo.linkLibsObjs = libraries.';
-if exist('dsrt_addfiles','file') ~= 0
-    % DSRT explicitly compiles SrcFile entries and links platform binaries.
-    %dsrt_addfiles(sources,'FileType','SrcFile','Platform',r.target);
-    dsrt_addfiles(flat,'FileType','HeaderFile');
-    destinations = unique(folders,'stable');
-    for k = 1:numel(destinations)
-        if ~isempty(destinations{k})
-            dsrt_addfiles(tree(strcmp(folders,destinations{k})), ...
-                'Destination',destinations{k});
-        end
+assert(exist('dsrt_addfiles','file') ~= 0,'ecu:VEOSDSRT', ...
+    'The VEOS hook requires the installed dSPACE DSRT interface.');
+% Solver C sources are supplied once through makeInfo above. DSRT owns the
+% header packaging and platform-specific binary registration below.
+dsrt_addfiles(flat,'FileType','HeaderFile');
+destinations = unique(folders,'stable');
+for k = 1:numel(destinations)
+    if ~isempty(destinations{k})
+        dsrt_addfiles(tree(strcmp(folders,destinations{k})), ...
+            'Destination',destinations{k});
     end
-    dsrt_addfiles(libraries,'FileType','Binary','Platform',r.target);
 end
+dsrt_addfiles(libraries,'FileType','Binary','Platform',r.target);
 fprintf('[buildVEOS] %s: %d generated sources, %d headers, %d libraries.\n', ...
     r.target,numel(sources),numel(flat),numel(libraries));
 end

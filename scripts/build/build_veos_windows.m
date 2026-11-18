@@ -11,6 +11,8 @@ end
 
 assert(ispc,'ecu:VEOSPlatform','This workflow requires a Windows host.');
 root = char(options.Root);
+assert_controller_mex_unlocked(fullfile(root,'buildVEOS','c_generated_code', ...
+    ['acados_solver_sfunction_ecu_vehicle_nmpc.' mexext]));
 buildDirectory = fullfile(root,'buildVEOS');
 generatedDirectory = fullfile(buildDirectory,'c_generated_code');
 sfunctionName = 'acados_solver_sfunction_ecu_vehicle_nmpc';
@@ -23,8 +25,11 @@ end
 
 addpath(fullfile(root,'src'),fullfile(root,'config'), ...
     fullfile(root,'scripts','build'),'-begin');
+select_controller_target('NONE',Root=root);
 localConfig = jsondecode(fileread(fullfile(root,'config','local.json')));
 acadosRoot = char(localConfig.acados_root);
+% Hold until this function returns, including on errors.
+sourceLock = acquire_acados_build_lock(root); %#ok<NASGU>
 assert(isfile(fullfile(acadosRoot,'bin','t_renderer.exe')), ...
     'Install the pinned acados template renderer before building.');
 
@@ -181,6 +186,7 @@ result = struct('target','VEOS_WIN64_GCC','build_dir',buildDirectory, ...
     'header_count',numel(headers),'config',config, ...
     'created_utc',char(datetime('now','TimeZone','UTC')));
 write_json(fullfile(buildDirectory,'windows_workflow_manifest.json'),result);
+select_controller_target('VEOS',Root=root);
 fprintf('Windows controller ready: %d sources, %d headers, 3 libraries.\n', ...
     numel(sourceFiles),numel(headers));
 end

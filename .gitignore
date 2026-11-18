@@ -4,7 +4,6 @@
 /build/*
 !/build/README.md
 !/build/SCALEXIO_ASM
-/build/SCALEXIO_ASM/ASM_Traffic_dsrt/
 /results/*
 !/results/README.md
 # MATLAB caches and local editor files
@@ -22,3 +21,6 @@ Thumbs.db
 # Preserve .prj, resources/project, .slx and .sldd source files.
 
 /build/SCALEXIO_ASM/ASM_Traffic_dsrt/
+
+# Fresh ASM generation folders are local build artifacts.
+/build/SCALEXIO_ASM/*/

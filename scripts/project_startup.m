@@ -1,20 +1,18 @@
-% Restore compiled Simulink artifacts without rebuilding or editing models.
+% Add source folders without choosing a deployment target or rebuilding.
+% Select VEOS or SCALEXIO explicitly after startup. Never infer a target from
+% whichever MEX happens to exist on disk.
 project = currentProject();
-sfunctionDirectory = fullfile(char(project.RootFolder), 'buildVEOS', 'c_generated_code');
-sfunctionFile = fullfile(sfunctionDirectory, ...
-    ['acados_solver_sfunction_ecu_vehicle_nmpc.' mexext]);
-assert(isfile(sfunctionFile), 'ecu:MissingVeosController', ...
-    'VEOS controller is missing: %s. Run build_veos_windows, then reopen the project.', ...
-    sfunctionFile);
-% Add the project tree after the configured Project Path entries.
-addpath(genpath(char(project.RootFolder)), '-end');
-
-% Give the canonical VEOS controller priority before loading any model.
-addpath(sfunctionDirectory, '-begin');
-resolvedSfunction = which('acados_solver_sfunction_ecu_vehicle_nmpc');
-assert(strcmpi(resolvedSfunction, sfunctionFile), 'ecu:VeosControllerShadowed', ...
-    'Expected the VEOS S-function at %s, but MATLAB resolves %s.', ...
-    sfunctionFile, resolvedSfunction);
+% Configure explicit source roots; do not add the entire checkout recursively.
+% Only maintained sources and model entry points belong on the session path.
+% Builders own dependency paths; generated and archived trees are excluded.
+root = char(project.RootFolder);
+addpath(root,fullfile(root,'src'),fullfile(root,'config'),'-begin');
+addpath(genpath(fullfile(root,'scripts')),'-end');
+addpath(genpath(fullfile(root,'models')),'-end');
+simulationFolder = fullfile(root,'integrations','aurelion','project_2','Simulation');
+addpath(simulationFolder,fullfile(simulationFolder,'Models'),'-end');
+addpath(fullfile(char(project.RootFolder),'scripts','build'),'-begin');
+select_controller_target('NONE',Root=project.RootFolder);
 
 % Prefer this project's controller code before preparing its parameters.
 addpath(fullfile(char(project.RootFolder), 'src'), '-begin');
@@ -38,6 +36,7 @@ end
 initialize_controller(prepared);
 fprintf('\nECU Real-Time Control Performance\n');
 fprintf('Foundation ready. Begin with check_environment and docs/STATUS.md.\n');
+fprintf('No controller target selected. Use select_controller_target(''VEOS'') or (''SCALEXIO'').\n');
 
 
 

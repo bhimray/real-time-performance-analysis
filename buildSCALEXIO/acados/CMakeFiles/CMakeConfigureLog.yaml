@@ -648,3 +648,299 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "external/blasfeo/cmake/isa_tests/isa_test.cmake:48 (try_compile)"
+      - "external/blasfeo/cmake/TestSingleTarget.cmake:9 (TestISA)"
+      - "external/blasfeo/CMakeLists.txt:433 (TestSingleTarget)"
+    directories:
+      source: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -Wall -fdiagnostics-show-option -Wno-error -w -DLA_HIGH_PERFORMANCE -DBLASFEO_REF_API -DMF_PANELMAJ -DDP_ROUTINES -DSP_ROUTINES -DK_MAX_STACK=300 -DUSE_C99_MATH -DEXT_DEP_MALLOC -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/dependencies/acados-v054/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      DSPACE_CFD_ROOT: "C:/Program Files/Common Files/dSPACE/CFD Compiler 26.1"
+    buildResult:
+      variable: "CHKISA_TARGET_BUILD_GENERIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/dependencies/cmake/cmake-3.31.8-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~1/COMMON~1/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe -f Makefile cmTC_51b83/fast
+        C:/PROGRA~1/COMMON~1/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_51b83.dir\\build.make CMakeFiles/cmTC_51b83.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_51b83.dir/isa_test.c.o
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X8F679~1.EXE   -std=c99 -Wall -fdiagnostics-show-option -Wno-error -w -DLA_HIGH_PERFORMANCE -DBLASFEO_REF_API -DMF_PANELMAJ -DDP_ROUTINES -DSP_ROUTINES -DK_MAX_STACK=300 -DUSE_C99_MATH -DEXT_DEP_MALLOC -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC   -fPIC -o CMakeFiles\\cmTC_51b83.dir\\isa_test.c.o -c C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\acados-v054\\external\\blasfeo\\cmake\\isa_tests\\isa_test.c
+        Linking C static library libcmTC_51b83.a
+        C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe -P CMakeFiles\\cmTC_51b83.dir\\cmake_clean_target.cmake
+        C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_51b83.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X86_64~2.EXE qc libcmTC_51b83.a CMakeFiles/cmTC_51b83.dir/isa_test.c.o
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X818DC~1.EXE libcmTC_51b83.a
+        mingw32-make[1]: Leaving directory 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "external/blasfeo/cmake/intrinsic_tests/intrinsic_test.cmake:48 (try_compile)"
+      - "external/blasfeo/cmake/TestSingleTarget.cmake:30 (TestIntrinsics)"
+      - "external/blasfeo/CMakeLists.txt:433 (TestSingleTarget)"
+    directories:
+      source: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -Wall -fdiagnostics-show-option -Wno-error -w -DLA_HIGH_PERFORMANCE -DBLASFEO_REF_API -DMF_PANELMAJ -DDP_ROUTINES -DSP_ROUTINES -DK_MAX_STACK=300 -DUSE_C99_MATH -DEXT_DEP_MALLOC -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/dependencies/acados-v054/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      DSPACE_CFD_ROOT: "C:/Program Files/Common Files/dSPACE/CFD Compiler 26.1"
+    buildResult:
+      variable: "CHKINTRINSIC_TARGET_BUILD_GENERIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/dependencies/cmake/cmake-3.31.8-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~1/COMMON~1/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe -f Makefile cmTC_324f6/fast
+        C:/PROGRA~1/COMMON~1/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_324f6.dir\\build.make CMakeFiles/cmTC_324f6.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_324f6.dir/intrinsic_test.c.o
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X8F679~1.EXE   -std=c99 -Wall -fdiagnostics-show-option -Wno-error -w -DLA_HIGH_PERFORMANCE -DBLASFEO_REF_API -DMF_PANELMAJ -DDP_ROUTINES -DSP_ROUTINES -DK_MAX_STACK=300 -DUSE_C99_MATH -DEXT_DEP_MALLOC -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC   -fPIC -o CMakeFiles\\cmTC_324f6.dir\\intrinsic_test.c.o -c C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\acados-v054\\external\\blasfeo\\cmake\\intrinsic_tests\\intrinsic_test.c
+        Linking C static library libcmTC_324f6.a
+        C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe -P CMakeFiles\\cmTC_324f6.dir\\cmake_clean_target.cmake
+        C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_324f6.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X86_64~2.EXE qc libcmTC_324f6.a CMakeFiles/cmTC_324f6.dir/intrinsic_test.c.o
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X818DC~1.EXE libcmTC_324f6.a
+        mingw32-make[1]: Leaving directory 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "external/blasfeo/cmake/isa_tests/isa_test.cmake:48 (try_compile)"
+      - "external/blasfeo/cmake/TestSingleTarget.cmake:9 (TestISA)"
+      - "external/blasfeo/CMakeLists.txt:433 (TestSingleTarget)"
+    directories:
+      source: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -Wall -fdiagnostics-show-option -Wno-error -w -DLA_HIGH_PERFORMANCE -DBLASFEO_REF_API -DMF_PANELMAJ -DDP_ROUTINES -DSP_ROUTINES -DK_MAX_STACK=300 -DUSE_C99_MATH -DEXT_DEP_MALLOC -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/dependencies/acados-v054/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      DSPACE_CFD_ROOT: "C:/Program Files/Common Files/dSPACE/CFD Compiler 26.1"
+    buildResult:
+      variable: "CHKISA_TARGET_BUILD_GENERIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/dependencies/cmake/cmake-3.31.8-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~1/COMMON~1/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe -f Makefile cmTC_e74fa/fast
+        C:/PROGRA~1/COMMON~1/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e74fa.dir\\build.make CMakeFiles/cmTC_e74fa.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_e74fa.dir/isa_test.c.o
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X8F679~1.EXE   -std=c99 -Wall -fdiagnostics-show-option -Wno-error -w -DLA_HIGH_PERFORMANCE -DBLASFEO_REF_API -DMF_PANELMAJ -DDP_ROUTINES -DSP_ROUTINES -DK_MAX_STACK=300 -DUSE_C99_MATH -DEXT_DEP_MALLOC -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC   -fPIC -o CMakeFiles\\cmTC_e74fa.dir\\isa_test.c.o -c C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\acados-v054\\external\\blasfeo\\cmake\\isa_tests\\isa_test.c
+        Linking C static library libcmTC_e74fa.a
+        C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe -P CMakeFiles\\cmTC_e74fa.dir\\cmake_clean_target.cmake
+        C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_e74fa.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X86_64~2.EXE qc libcmTC_e74fa.a CMakeFiles/cmTC_e74fa.dir/isa_test.c.o
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X818DC~1.EXE libcmTC_e74fa.a
+        mingw32-make[1]: Leaving directory 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "external/blasfeo/cmake/intrinsic_tests/intrinsic_test.cmake:48 (try_compile)"
+      - "external/blasfeo/cmake/TestSingleTarget.cmake:30 (TestIntrinsics)"
+      - "external/blasfeo/CMakeLists.txt:433 (TestSingleTarget)"
+    directories:
+      source: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -Wall -fdiagnostics-show-option -Wno-error -w -DLA_HIGH_PERFORMANCE -DBLASFEO_REF_API -DMF_PANELMAJ -DDP_ROUTINES -DSP_ROUTINES -DK_MAX_STACK=300 -DUSE_C99_MATH -DEXT_DEP_MALLOC -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/dependencies/acados-v054/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      DSPACE_CFD_ROOT: "C:/Program Files/Common Files/dSPACE/CFD Compiler 26.1"
+    buildResult:
+      variable: "CHKINTRINSIC_TARGET_BUILD_GENERIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/dependencies/cmake/cmake-3.31.8-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~1/COMMON~1/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe -f Makefile cmTC_a3067/fast
+        C:/PROGRA~1/COMMON~1/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a3067.dir\\build.make CMakeFiles/cmTC_a3067.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_a3067.dir/intrinsic_test.c.o
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X8F679~1.EXE   -std=c99 -Wall -fdiagnostics-show-option -Wno-error -w -DLA_HIGH_PERFORMANCE -DBLASFEO_REF_API -DMF_PANELMAJ -DDP_ROUTINES -DSP_ROUTINES -DK_MAX_STACK=300 -DUSE_C99_MATH -DEXT_DEP_MALLOC -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC   -fPIC -o CMakeFiles\\cmTC_a3067.dir\\intrinsic_test.c.o -c C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\acados-v054\\external\\blasfeo\\cmake\\intrinsic_tests\\intrinsic_test.c
+        Linking C static library libcmTC_a3067.a
+        C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe -P CMakeFiles\\cmTC_a3067.dir\\cmake_clean_target.cmake
+        C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_a3067.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X86_64~2.EXE qc libcmTC_a3067.a CMakeFiles/cmTC_a3067.dir/intrinsic_test.c.o
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X818DC~1.EXE libcmTC_a3067.a
+        mingw32-make[1]: Leaving directory 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "external/blasfeo/cmake/isa_tests/isa_test.cmake:48 (try_compile)"
+      - "external/blasfeo/cmake/TestSingleTarget.cmake:9 (TestISA)"
+      - "external/blasfeo/CMakeLists.txt:433 (TestSingleTarget)"
+    directories:
+      source: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -Wall -fdiagnostics-show-option -Wno-error -w -DLA_HIGH_PERFORMANCE -DBLASFEO_REF_API -DMF_PANELMAJ -DDP_ROUTINES -DSP_ROUTINES -DK_MAX_STACK=300 -DUSE_C99_MATH -DEXT_DEP_MALLOC -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/dependencies/acados-v054/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      DSPACE_CFD_ROOT: "C:/Program Files/Common Files/dSPACE/CFD Compiler 26.1"
+    buildResult:
+      variable: "CHKISA_TARGET_BUILD_GENERIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/dependencies/cmake/cmake-3.31.8-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~1/COMMON~1/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe -f Makefile cmTC_7f940/fast
+        C:/PROGRA~1/COMMON~1/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7f940.dir\\build.make CMakeFiles/cmTC_7f940.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_7f940.dir/isa_test.c.o
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X8F679~1.EXE   -std=c99 -Wall -fdiagnostics-show-option -Wno-error -w -DLA_HIGH_PERFORMANCE -DBLASFEO_REF_API -DMF_PANELMAJ -DDP_ROUTINES -DSP_ROUTINES -DK_MAX_STACK=300 -DUSE_C99_MATH -DEXT_DEP_MALLOC -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC   -fPIC -o CMakeFiles\\cmTC_7f940.dir\\isa_test.c.o -c C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\acados-v054\\external\\blasfeo\\cmake\\isa_tests\\isa_test.c
+        Linking C static library libcmTC_7f940.a
+        C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe -P CMakeFiles\\cmTC_7f940.dir\\cmake_clean_target.cmake
+        C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_7f940.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X86_64~2.EXE qc libcmTC_7f940.a CMakeFiles/cmTC_7f940.dir/isa_test.c.o
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X818DC~1.EXE libcmTC_7f940.a
+        mingw32-make[1]: Leaving directory 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "external/blasfeo/cmake/intrinsic_tests/intrinsic_test.cmake:48 (try_compile)"
+      - "external/blasfeo/cmake/TestSingleTarget.cmake:30 (TestIntrinsics)"
+      - "external/blasfeo/CMakeLists.txt:433 (TestSingleTarget)"
+    directories:
+      source: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -Wall -fdiagnostics-show-option -Wno-error -w -DLA_HIGH_PERFORMANCE -DBLASFEO_REF_API -DMF_PANELMAJ -DDP_ROUTINES -DSP_ROUTINES -DK_MAX_STACK=300 -DUSE_C99_MATH -DEXT_DEP_MALLOC -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/dependencies/acados-v054/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      DSPACE_CFD_ROOT: "C:/Program Files/Common Files/dSPACE/CFD Compiler 26.1"
+    buildResult:
+      variable: "CHKINTRINSIC_TARGET_BUILD_GENERIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/dependencies/cmake/cmake-3.31.8-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~1/COMMON~1/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe -f Makefile cmTC_6bb08/fast
+        C:/PROGRA~1/COMMON~1/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6bb08.dir\\build.make CMakeFiles/cmTC_6bb08.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_6bb08.dir/intrinsic_test.c.o
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X8F679~1.EXE   -std=c99 -Wall -fdiagnostics-show-option -Wno-error -w -DLA_HIGH_PERFORMANCE -DBLASFEO_REF_API -DMF_PANELMAJ -DDP_ROUTINES -DSP_ROUTINES -DK_MAX_STACK=300 -DUSE_C99_MATH -DEXT_DEP_MALLOC -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC   -fPIC -o CMakeFiles\\cmTC_6bb08.dir\\intrinsic_test.c.o -c C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\acados-v054\\external\\blasfeo\\cmake\\intrinsic_tests\\intrinsic_test.c
+        Linking C static library libcmTC_6bb08.a
+        C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe -P CMakeFiles\\cmTC_6bb08.dir\\cmake_clean_target.cmake
+        C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_6bb08.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X86_64~2.EXE qc libcmTC_6bb08.a CMakeFiles/cmTC_6bb08.dir/intrinsic_test.c.o
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X818DC~1.EXE libcmTC_6bb08.a
+        mingw32-make[1]: Leaving directory 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "external/blasfeo/cmake/isa_tests/isa_test.cmake:48 (try_compile)"
+      - "external/blasfeo/cmake/TestSingleTarget.cmake:9 (TestISA)"
+      - "external/blasfeo/CMakeLists.txt:433 (TestSingleTarget)"
+    directories:
+      source: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -Wall -fdiagnostics-show-option -Wno-error -w -DLA_HIGH_PERFORMANCE -DBLASFEO_REF_API -DMF_PANELMAJ -DDP_ROUTINES -DSP_ROUTINES -DK_MAX_STACK=300 -DUSE_C99_MATH -DEXT_DEP_MALLOC -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/dependencies/acados-v054/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      DSPACE_CFD_ROOT: "C:/Program Files/Common Files/dSPACE/CFD Compiler 26.1"
+    buildResult:
+      variable: "CHKISA_TARGET_BUILD_GENERIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/dependencies/cmake/cmake-3.31.8-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~1/COMMON~1/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe -f Makefile cmTC_82ecd/fast
+        C:/PROGRA~1/COMMON~1/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_82ecd.dir\\build.make CMakeFiles/cmTC_82ecd.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_82ecd.dir/isa_test.c.o
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X8F679~1.EXE   -std=c99 -Wall -fdiagnostics-show-option -Wno-error -w -DLA_HIGH_PERFORMANCE -DBLASFEO_REF_API -DMF_PANELMAJ -DDP_ROUTINES -DSP_ROUTINES -DK_MAX_STACK=300 -DUSE_C99_MATH -DEXT_DEP_MALLOC -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC   -fPIC -o CMakeFiles\\cmTC_82ecd.dir\\isa_test.c.o -c C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\acados-v054\\external\\blasfeo\\cmake\\isa_tests\\isa_test.c
+        Linking C static library libcmTC_82ecd.a
+        C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe -P CMakeFiles\\cmTC_82ecd.dir\\cmake_clean_target.cmake
+        C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_82ecd.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X86_64~2.EXE qc libcmTC_82ecd.a CMakeFiles/cmTC_82ecd.dir/isa_test.c.o
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X818DC~1.EXE libcmTC_82ecd.a
+        mingw32-make[1]: Leaving directory 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "external/blasfeo/cmake/intrinsic_tests/intrinsic_test.cmake:48 (try_compile)"
+      - "external/blasfeo/cmake/TestSingleTarget.cmake:30 (TestIntrinsics)"
+      - "external/blasfeo/CMakeLists.txt:433 (TestSingleTarget)"
+    directories:
+      source: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c99 -Wall -fdiagnostics-show-option -Wno-error -w -DLA_HIGH_PERFORMANCE -DBLASFEO_REF_API -DMF_PANELMAJ -DDP_ROUTINES -DSP_ROUTINES -DK_MAX_STACK=300 -DUSE_C99_MATH -DEXT_DEP_MALLOC -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/dependencies/acados-v054/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      DSPACE_CFD_ROOT: "C:/Program Files/Common Files/dSPACE/CFD Compiler 26.1"
+    buildResult:
+      variable: "CHKINTRINSIC_TARGET_BUILD_GENERIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/dependencies/cmake/cmake-3.31.8-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~1/COMMON~1/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe -f Makefile cmTC_2ea47/fast
+        C:/PROGRA~1/COMMON~1/dSPACE/GCC/14.2/x86_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2ea47.dir\\build.make CMakeFiles/cmTC_2ea47.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_2ea47.dir/intrinsic_test.c.o
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X8F679~1.EXE   -std=c99 -Wall -fdiagnostics-show-option -Wno-error -w -DLA_HIGH_PERFORMANCE -DBLASFEO_REF_API -DMF_PANELMAJ -DDP_ROUTINES -DSP_ROUTINES -DK_MAX_STACK=300 -DUSE_C99_MATH -DEXT_DEP_MALLOC -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC   -fPIC -o CMakeFiles\\cmTC_2ea47.dir\\intrinsic_test.c.o -c C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\acados-v054\\external\\blasfeo\\cmake\\intrinsic_tests\\intrinsic_test.c
+        Linking C static library libcmTC_2ea47.a
+        C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe -P CMakeFiles\\cmTC_2ea47.dir\\cmake_clean_target.cmake
+        C:\\Users\\bxr240009\\Downloads\\bim\\real-time-performance-analysis\\dependencies\\cmake\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_2ea47.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X86_64~2.EXE qc libcmTC_2ea47.a CMakeFiles/cmTC_2ea47.dir/intrinsic_test.c.o
+        C:\\PROGRA~1\\COMMON~1\\dSPACE\\CFDCOM~1.1\\target\\X86_64~1\\bin\\X818DC~1.EXE libcmTC_2ea47.a
+        mingw32-make[1]: Leaving directory 'C:/Users/bxr240009/Downloads/bim/real-time-performance-analysis/buildSCALEXIO/acados/compilerTest/GENERIC/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...

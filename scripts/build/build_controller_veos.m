@@ -33,6 +33,6 @@ mex('-f',fullfile(matlabroot,'bin','win64','mexopts','mingw64.xml'), ...
     '-O',includes{:},sources{:},libraries{:},'-outdir',generated,'-output',name);
 sfunctionFile = fullfile(generated,[name '.' mexext]);
 assert(isfile(sfunctionFile));
-activate_controller_veos(root);
+% Target selection follows publication of the registration manifest in build_veos_windows.
 fprintf('Built Windows S-function: %s\n',sfunctionFile);
 end

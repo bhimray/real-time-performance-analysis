@@ -5,6 +5,8 @@ function makeInfo = rtwmakecfg()
 % Call the installed hook during DSRT/SIC code generation.
 
 output = fileparts(fileparts(mfilename('fullpath')));
+% Recheck at hook execution time: model callbacks may have changed the path.
+select_controller_target('SCALEXIO',Root=fileparts(output),CheckOnly=true);
 manifestFile = fullfile(output, 'registration_manifest.json');
 assert(isfile(manifestFile), 'ecu:SCALEXIORegistration', ...
     'Registration is missing or the build failed. Run build_scalexio.');
@@ -15,6 +17,9 @@ sources = cellstr(string(registration.sources));
 headers = cellstr(string(registration.headers));
 destinations = cellstr(string(registration.header_destinations));
 libraries = cellstr(string(registration.libraries));
+assert(numel(libraries) == 3 && all(endsWith(string(libraries),'.a')) && ...
+    ~any(contains(lower(string(libraries)),["buildveos","/host/","\host\"]),'all'), ...
+    'ecu:SCALEXIOTargetLibraries','Only the three SCALEXIO Linux archives may be registered.');
 includeDirs = cellstr(string(registration.include_dirs));
 assert(all(cellfun(@isfile, [sources(:); headers(:); libraries(:)])) && ...
     all(cellfun(@isfolder, includeDirs)), 'ecu:SCALEXIORegistration', ...
