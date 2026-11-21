@@ -90,9 +90,9 @@ J&=\frac12 x_N^\top Q_Nx_N+\sum_{k=0}^{N-1}\ell_k,\\
 ```
 
 | Setting | Configuration |
-|---|---|
-| State weights | $`Q=\operatorname{diag}(20,50,2,0.1,0.1)`$ and $`Q_N=10Q`$ |
-| Input weights | $`R=\operatorname{diag}(10^{-6},10^{-6},10^{-7})`$ |
+| --- | --- |
+| State weights | `Q = diag(20, 50, 2, 0.1, 0.1)` and `Q_N = 10Q` |
+| Input weights | `R = diag(1e-6, 1e-6, 1e-7)` |
 | Hard input bounds | $`F_x\in[-9000,4500]`$ N, $`F_y\in[-9000,9000]`$ N, $`M_z\in[-6000,6000]`$ N m |
 | Soft constraints | Lateral velocity, yaw rate, road bounds, and one safety margin per fellow |
 | Slack weights in the checked solver build | $`z=Z=10^6`$. Earlier recordings can use different weights. |
@@ -111,16 +111,21 @@ The boundary is $`h=0`$ and negative values require slack. The current scenario 
 
 ### Steering conversion
 
-The adapter uses lateral force and measured motion to form an equivalent front road-wheel request. With $`C_f=2C_y`$, blend speed $`v_b=1`$ m/s and steering ratio $`i_{\mathrm{SW}}`$:
+The adapter uses lateral force and measured motion to form an equivalent front road-wheel request. Here `Cf = 2Cy`, blend speed `vb = 1` m/s, and `iSW` is the steering ratio.
 
 ```math
 \begin{aligned}
-\delta_{\mathrm{raw}}&=\frac{F_y^{\mathrm{cmd}}}{C_f}
- +(v_y+l_f r)\frac{v_x}{v_x^2+v_b^2},\\
-\delta_f&=\operatorname{clip}(\delta_{\mathrm{raw}},-\pi/6,\pi/6),\\
-\theta_{\mathrm{SW,cmd}}[\mathrm{deg}]&=i_{\mathrm{SW}}\delta_f\,180/\pi .
+\delta_{\mathrm{raw}}
+&= \frac{F_y^{\mathrm{cmd}}}{C_f}
+ + (v_y+l_f r)\frac{v_x}{v_x^2+v_b^2},\\
+\delta_f
+&= \min\left(\max\left(\delta_{\mathrm{raw}},-\frac{\pi}{6}\right),\frac{\pi}{6}\right),\\
+\theta_{\mathrm{SW,cmd}}
+&= i_{\mathrm{SW}}\delta_f\frac{180}{\pi}.
 \end{aligned}
 ```
+
+The steering-wheel command is in degrees. The road-wheel command is limited to ±30 degrees.
 
 The road-wheel command is limited to $`\pm30^\circ`$. The current NMPC formulation has no steering-rate constraint.
 
@@ -135,7 +140,7 @@ B_i&=\begin{bmatrix}-s_i\\c_i\\x_i c_i+y_i s_i\end{bmatrix}.
 \end{aligned}
 ```
 
-The baseline subtracts the forward contribution of the supplied lateral tire forces $`\mathbf f_y`$ and accounts for the steering projection. Write $`\mathbf w_{\mathrm{cmd}}=[F_x^{\mathrm{cmd}},F_y^{\mathrm{cmd}},M_z^{\mathrm{cmd}}]^\top`$ and $`S=\operatorname{diag}(1,1,1/(t/2))`$ for track width $`t`$.
+The baseline subtracts the forward contribution of the supplied lateral tire forces $`\mathbf f_y`$ and accounts for the steering projection. Write $`\mathbf w_{\mathrm{cmd}}=[F_x^{\mathrm{cmd}},F_y^{\mathrm{cmd}},M_z^{\mathrm{cmd}}]^\top`$ and $`S=\mathrm{diag}(1,1,1/(t/2))`$ for track width $`t`$.
 
 ```math
 f_{0,i}=\frac{F_x^{\mathrm{cmd}}-(B\mathbf f_y)_1}{\sum_j c_j},
