@@ -114,12 +114,23 @@ elseif endsWith(path,"/V_XY") && numel(idx)==1
     labels=["ego_x_controller_m","ego_y_controller_m"];
     name=labels(idx(1)+1); group="Controller position snapshot"; unit="m";
 elseif contains(path,"Simulation and RTOS/Task Information Variables/")
-    task=regexp(char(path),'Periodic Task (\d+)$','tokens','once');
+    task=regexp(char(path),'Task Information Variables/Periodic Task (\d+)(?:/|$)','tokens','once');
     if isempty(task), return; end
     if raw=="Overrun Count", label="overrun_count"; unit="1";
     elseif raw=="Task Call Counter", label="call_counter"; unit="1";
     elseif raw=="Task Turnaround Time", label="turnaround_time_s"; unit="s";
-    else, return; end
+    elseif ismember(raw,["Max Task Turnaround Time","Maximum Task Turnaround Time"])
+        label="max_turnaround_time_s"; unit="s";
+    else
+        runnable=regexp(char(raw), ...
+            '^(?:(Max|Maximum) )?Turnaround Time - Runnable Function (\d+)(?: \[Periodic Task \d+\])?$', ...
+            'tokens','once');
+        if isempty(runnable), return; end
+        % The enclosing path identifies the task; the bracketed label can be stale.
+        label="runnable"+string(runnable{end})+"_";
+        if numel(runnable)>1 && ~isempty(runnable{1}), label=label+"max_"; end
+        label=label+"turnaround_time_s"; unit="s";
+    end
     name="task"+string(task{1})+"_"+label; group="RTOS diagnostics";
 elseif raw=="Out1"
     if endsWith(path,"/Pos_x_Vehicle_CoorSys_E[m]"), name="ego_x_m"; unit="m";
