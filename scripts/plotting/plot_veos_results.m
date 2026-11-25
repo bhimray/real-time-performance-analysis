@@ -4,9 +4,9 @@ addpath(fullfile(projectRoot, 'scripts'), ...
         fullfile(projectRoot, 'src'), ...
         fullfile(projectRoot, 'config'));
 
-recordingFolder = fullfile(projectRoot, 'results', 'VEOS');
-sourceFile = fullfile(recordingFolder, 'rec1_022.mat');
-convertedFile = fullfile(recordingFolder, 'rec1_024_readable.mat');
+recordingFolder = fullfile(projectRoot, 'results', 'SCALEXIO'); % 'VEOS', 'SCALEXIO'
+sourceFile = fullfile(recordingFolder, 'rec1_008.mat');
+convertedFile = fullfile(recordingFolder, 'rec1_008_readable.mat');
 croppedFile = fullfile(recordingFolder, 'rec1_024_cropped.mat');
 
 if ~isfile(convertedFile)
