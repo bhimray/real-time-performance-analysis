@@ -1,0 +1,57 @@
+name: Platform isolation
+
+on:
+  pull_request:
+    branches:
+      - WEEK4_SYS/SCALEXIO
+      - WEEK4_SYS/VEOS
+    types: [opened, reopened, synchronize, edited]
+
+permissions:
+  contents: read
+
+jobs:
+  platform-file-guard:
+    name: Platform file guard
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+      - name: Check platform ownership
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import subprocess
+
+          with open(os.environ["GITHUB_EVENT_PATH"], encoding="utf-8") as event:
+              pr = json.load(event)["pull_request"]
+          base = pr["base"]["ref"]
+          head = pr["head"]["ref"]
+          platform_branches = {"WEEK4_SYS/SCALEXIO", "WEEK4_SYS/VEOS"}
+          if head in platform_branches - {base}:
+              raise SystemExit("Cross-platform branch merges are blocked. Cherry-pick shared commits.")
+
+          # Inspect the result against its base parent, including both sides of renames.
+          changed = subprocess.check_output([
+              "git", "diff", "--name-only", "--no-renames", "-z", "HEAD^1", "HEAD"
+          ]).decode("utf-8", errors="surrogateescape").split("\0")
+          protected = [
+              p for p in changed
+              if p.lower().startswith(("integrations/aurelion/", "resources/project/"))
+              or p.lower().endswith((".slx", ".mdl", ".sldd", ".prj"))
+          ]
+          prefix = "platform/" + base.rsplit("/", 1)[1].lower() + "/"
+          source_repo = (pr["head"].get("repo") or {}).get("full_name")
+          target_repo = pr["base"]["repo"]["full_name"]
+          dedicated = source_repo == target_repo and head.startswith(prefix)
+          if protected and not dedicated:
+              print("Protected files changed (up to 20 shown):")
+              for path in protected[:20]:
+                  print(repr(path))
+              raise SystemExit(f"Use a same-repository branch starting with {prefix} for deliberate platform edits.")
+          print("Platform file policy passed.")
+          PY
