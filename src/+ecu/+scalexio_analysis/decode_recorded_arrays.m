@@ -1,7 +1,11 @@
-function record=decode_recorded_arrays(record,step)
+function record=decode_recorded_arrays(record,step,controllerPeriod)
 %DECODE_RECORDED_ARRAYS Restore project arrays by their explicit source indices.
 % Native tables remain authoritative. These views do not resample signals.
 % Current model: nx=5, nu=3, np=19, N=40, five nonlinear constraints.
+if nargin<3, controllerPeriod=NaN; end
+assert(isscalar(controllerPeriod) && isreal(controllerPeriod) && ...
+    (isnan(controllerPeriod) || (isfinite(controllerPeriod) && controllerPeriod>0)), ...
+    'ecu:RecordingControllerPeriod','Controller period must be positive and finite, or NaN.');
 d=record.channelDictionary;
 record.horizon=struct('Available',false,'Reason',"Complete prediction channels were not recorded.");
 record.traffic=struct('Available',false);
@@ -41,9 +45,15 @@ end
 if any(d.SignalName=="solver_time_s")
     [solverTime,clock]=scalar_signal("solver_time_s");
     t=native_time(clock);
-    timing=timetable(seconds(t),t,[NaN;diff(t)],solverTime,t-solverTime,solverTime>step, ...
+    % Unknown period produces unknown comparisons, rather than false flags.
+    exceedsPeriod=NaN(size(solverTime));
+    if isfinite(controllerPeriod)
+        valid=isfinite(solverTime);
+        exceedsPeriod(valid)=double(solverTime(valid)>controllerPeriod);
+    end
+    timing=timetable(seconds(t),t,[NaN;diff(t)],solverTime,t-solverTime,exceedsPeriod, ...
         'VariableNames',{'recorded_time_s','sample_interval_s','solver_time_s', ...
-        'estimated_input_time_s','solver_exceeds_nominal_period'});
+        'estimated_input_time_s','solver_exceeds_controller_period'});
     timing.Properties.DimensionNames{1}='Time';
     timing.Properties.VariableUnits={'s','s','s','s','1'};
     native=record.signals.(d.Timetable(find(d.XIndex==clock,1)));
@@ -57,10 +67,10 @@ if any(d.SignalName=="solver_time_s")
     overrunRow=find(rtos & endsWith(d.SignalName,"_overrun_count"));
     if ~isempty(callRow)
         assert(isscalar(callRow),'ecu:RecordingTaskCounter','Ambiguous controller task counter.');
-        delta=[NaN;diff(native.(d.SignalName(callRow)))];
-        skipped=max(0,delta-1); skipped(1)=0; skipped(delta<0)=NaN;
+        delta=[NaN;diff(double(native.(d.SignalName(callRow))))];
+        unsaved=max(0,delta-1); unsaved(1)=0; unsaved(delta<0)=NaN;
         timing.task_call_increment=delta;
-        timing.skipped_scheduled_slots=skipped;
+        timing.unsaved_task_calls=unsaved;
         timing.task_counter_reset=delta<0;
         timing.gap_detected=delta>1;
     end
@@ -68,7 +78,9 @@ if any(d.SignalName=="solver_time_s")
         assert(isscalar(overrunRow),'ecu:RecordingOverrunCounter','Ambiguous controller overrun counter.');
         timing.overrun_increment=[0;diff(native.(d.SignalName(overrunRow)))];
     end
-    timing.Properties.UserData=struct('NominalPeriod_s',step, ...
+    timing.Properties.UserData=struct('PredictionStep_s',step,'ControllerPeriod_s',controllerPeriod, ...
+        'PeriodComparisonNote',"solver_exceeds_controller_period is NaN when the period or duration is unknown; it is not an RTOS overrun flag.", ...
+        'TaskCallNote',"unsaved_task_calls counts additional calls between saved samples, not skipped executions; the first sample is the baseline.", ...
         'InputTimeNote',"recorded_time_s - solver_time_s is an estimate, excluding other task overhead.", ...
         'RtosNote',"RTOS turnaround can describe the previous invocation; values are not automatically shifted.");
     record.timing=timing;

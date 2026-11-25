@@ -19,11 +19,16 @@ function record = convert_scalexio_recording(inputFile, outputFile, options)
 % No interpolation, clock rebasing, failed-solve deletion or unit conversion
 % is applied to the native timetables. Unknown channels are retained by name.
 % PredictionStep_s describes the model grid, NOT the irregular recorder clock.
+% ControllerPeriod_s must be confirmed from the RTOS configuration; NaN is unknown.
 arguments
     inputFile (1,1) string
     outputFile (1,1) string = ""
     options.PredictionStep_s (1,1) double {mustBePositive,mustBeFinite} = 0.05
+    options.ControllerPeriod_s (1,1) double = NaN
 end
+assert(isreal(options.ControllerPeriod_s) && (isnan(options.ControllerPeriod_s) || ...
+    (isfinite(options.ControllerPeriod_s) && options.ControllerPeriod_s>0)), ...
+    'ecu:RecordingControllerPeriod','ControllerPeriod_s must be positive and finite, or NaN.');
 assert(isfile(inputFile),'ecu:RecordingMissing','Missing recording: %s.',inputFile);
 inputFile = string(java.io.File(char(inputFile)).getCanonicalPath());
 if outputFile == ""
@@ -139,6 +144,7 @@ record.metadata.Channels=rmfield(source.Y,'Data');
 record.metadata.SourceVariable=string(sourceName);
 record.metadata.ConvertedUTC=string(datetime('now','TimeZone','UTC','Format','yyyy-MM-dd HH:mm:ss'));
 record.metadata.PredictionStep_s=options.PredictionStep_s;
+record.metadata.ControllerPeriod_s=options.ControllerPeriod_s;
 record.metadata.TimeNote="Empty clock Unit fields are interpreted as seconds; clocks retain their original offsets.";
 record.metadata.TimestampNote="Controller inputs and outputs can describe different physical instants despite sharing a recorder timestamp.";
 for k=1:channelCount
@@ -150,7 +156,7 @@ end
 record.states=group_table(record,"Measured state");
 record.commands=group_table(record,["Controller wrench request","Actuator command"]);
 record.solver=group_table(record,["Solver diagnostics","KKT residuals"]);
-record=ecu.scalexio_analysis.decode_recorded_arrays(record,options.PredictionStep_s);
+record=ecu.scalexio_analysis.decode_recorded_arrays(record,options.PredictionStep_s,options.ControllerPeriod_s);
 
 %% 5. Write a new file only after all checks succeeded
 record.verification=struct('AllOriginalSamplesVerified',true,'ChannelCount',channelCount, ...
