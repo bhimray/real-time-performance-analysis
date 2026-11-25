@@ -1,0 +1,31 @@
+function fig = plot_overruns(record,visible)
+%PLOT_OVERRUNS Show recorded RTOS counters and sampling gaps.
+if nargin < 2, visible = "on"; end
+timing = record.timing;
+time = seconds(timing.Time);
+[fig,layout] = plot_layout('SCALEXIO task timing and overruns',3,1,visible);
+axesList = gobjects(3,1);
+axesList(1) = nexttile(layout);
+ax = axesList(1);
+hold(ax,'on');
+plot(ax,time,1000*timing.solver_time_s,'.','DisplayName','Solver duration');
+plot(ax,time,1000*timing.task2_turnaround_time_s,'x','DisplayName','Task 2 turnaround as logged');
+yline(ax,1000*timing.Properties.UserData.NominalPeriod_s,'k--','DisplayName','Nominal period');
+set(ax,'YScale','log'); grid(ax,'on'); ylabel(ax,'Duration [ms]');
+title(ax,'RTOS turnaround can describe the previous invocation');
+legend(ax,'Location','best');
+axesList(2) = nexttile(layout);
+ax = axesList(2);
+hold(ax,'on');
+stairs(ax,time,timing.task2_overrun_count-timing.task2_overrun_count(1), ...
+    'DisplayName','Additional Task 2 overruns');
+stairs(ax,time,cumsum(timing.skipped_scheduled_slots),'--','DisplayName','Skipped scheduled slots');
+grid(ax,'on'); ylabel(ax,'Count since recording start'); legend(ax,'Location','best');
+axesList(3) = nexttile(layout);
+ax = axesList(3);
+plot(ax,time,1000*timing.sample_interval_s,'.');
+yline(ax,1000*timing.Properties.UserData.NominalPeriod_s,'k--');
+grid(ax,'on'); ylabel(ax,'Sample interval [ms]');
+xlabel(ax,'Recorded time [s]');
+linkaxes(axesList,'x');
+end

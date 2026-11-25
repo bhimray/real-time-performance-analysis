@@ -1,37 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Root>
-	<Interpreter>
-		<PythonScript1>
-			<ScriptName type="key">Pool\Testing\Functions\EuroNCAP_AEB_CCR_Validation.py</ScriptName>
-			<DocumentPlacement type="key"/>
-			<IsOpen type="key">0</IsOpen>
-			<IsActive type="key">0</IsActive>
-		</PythonScript1>
-		<PythonScript2>
-			<ScriptName type="key">Pool\Testing\Functions\ISO7401_ManeuverTesting.py</ScriptName>
-			<DocumentPlacement type="key"/>
-			<IsOpen type="key">0</IsOpen>
-			<IsActive type="key">0</IsActive>
-		</PythonScript2>
-		<PythonScript3>
-			<ScriptName type="key">Python Scripts\CreateIndependentParameterXml.py</ScriptName>
-			<DocumentPlacement type="key"/>
-			<IsOpen type="key">0</IsOpen>
-			<IsActive type="key">0</IsActive>
-		</PythonScript3>
-		<PythonScript4>
-			<ScriptName type="key">Python Scripts\ScenarioPreview.py</ScriptName>
-			<DocumentPlacement type="key"/>
-			<IsOpen type="key">0</IsOpen>
-			<IsActive type="key">0</IsActive>
-		</PythonScript4>
-		<PythonScript5>
-			<ScriptName type="key">Python Scripts\VehicleConfigurator.py</ScriptName>
-			<DocumentPlacement type="key"/>
-			<IsOpen type="key">0</IsOpen>
-			<IsActive type="key">0</IsActive>
-		</PythonScript5>
-	</Interpreter>
 	<ProjectExperiment>
 		<viewflags>
 			<Name type="key">MOD_Traffic.CDP</Name>
